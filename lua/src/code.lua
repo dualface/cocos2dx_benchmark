@@ -13,7 +13,7 @@ function HelloWorldLayer:ctor()
 
     self.pos = {}
     self.stars = {}
-    for i = 0, 1499 do
+    for i = 0, 4799 do
         local star = cc.Sprite:create("res/star.png")
         local pos = {
             x = math.random() * display.width,

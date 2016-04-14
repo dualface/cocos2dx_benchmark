@@ -19,7 +19,7 @@ var HelloWorldLayer = cc.Layer.extend({
 
         this.pos = [];
         this.stars = [];
-        for (var i = 0; i < 1500; i++) {
+        for (var i = 0; i < 3000; i++) {
             var star = new cc.Sprite("res/star.png");
             var pos = {
                 x: Math.random() * size.width,
