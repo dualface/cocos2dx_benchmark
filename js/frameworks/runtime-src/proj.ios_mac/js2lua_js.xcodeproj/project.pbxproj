@@ -487,6 +487,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
+				TargetAttributes = {
+					A922753C1517C094001B78AA = {
+						DevelopmentTeam = 73D5UVY728;
+					};
+				};
 			};
 			buildConfigurationList = A92275371517C094001B78AA /* Build configuration list for PBXProject "js2lua_js" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -645,10 +650,7 @@
 					"/Applications/Cocos/Cocos2d-x/cocos2d-x-3.10/tools/simulator/libsimulator/lib/protobuf-lite",
 				);
 				INFOPLIST_FILE = mac/Info.plist;
-				LIBRARY_SEARCH_PATHS = (
-					"",
-					"/Applications/Cocos/Cocos2d-x/cocos2d-x-3.10/prebuilt/mac",
-				);
+				LIBRARY_SEARCH_PATHS = " /Applications/Cocos/Cocos2d-x/cocos2d-x-3.10/prebuilt/mac";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				OTHER_LDFLAGS = "";
 				SDKROOT = macosx;
@@ -678,10 +680,7 @@
 					"/Applications/Cocos/Cocos2d-x/cocos2d-x-3.10/tools/simulator/libsimulator/lib/protobuf-lite",
 				);
 				INFOPLIST_FILE = mac/Info.plist;
-				LIBRARY_SEARCH_PATHS = (
-					"",
-					"/Applications/Cocos/Cocos2d-x/cocos2d-x-3.10/prebuilt/mac",
-				);
+				LIBRARY_SEARCH_PATHS = " /Applications/Cocos/Cocos2d-x/cocos2d-x-3.10/prebuilt/mac";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				OTHER_LDFLAGS = "";
 				SDKROOT = macosx;
@@ -744,6 +743,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
 				ENABLE_BITCODE = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -761,11 +761,10 @@
 				);
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LIBRARY_SEARCH_PATHS = (
-					"",
-					"/Applications/Cocos/Cocos2d-x/cocos2d-x-3.10/prebuilt/ios",
-				);
+				LIBRARY_SEARCH_PATHS = " /Applications/Cocos/Cocos2d-x/cocos2d-x-3.10/prebuilt/ios";
 				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = cocos2dx.benchmark.js;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(inherited) /Applications/Cocos/Cocos2d-x/cocos2d-x-3.10/cocos /Applications/Cocos/Cocos2d-x/cocos2d-x-3.10/cocos/platform/ios /Applications/Cocos/Cocos2d-x/cocos2d-x-3.10/external/spidermonkey/include/ios /Applications/Cocos/Cocos2d-x/cocos2d-x-3.10/plugin/jsbindings/auto /Applications/Cocos/Cocos2d-x/cocos2d-x-3.10/plugin/jsbindings/manual /Applications/Cocos/Cocos2d-x/cocos2d-x-3.10/external/curl/include/ios";
@@ -778,6 +777,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
 				ENABLE_BITCODE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -795,11 +795,10 @@
 				);
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LIBRARY_SEARCH_PATHS = (
-					"",
-					"/Applications/Cocos/Cocos2d-x/cocos2d-x-3.10/prebuilt/ios",
-				);
+				LIBRARY_SEARCH_PATHS = " /Applications/Cocos/Cocos2d-x/cocos2d-x-3.10/prebuilt/ios";
 				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = cocos2dx.benchmark.js;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(inherited) /Applications/Cocos/Cocos2d-x/cocos2d-x-3.10/cocos /Applications/Cocos/Cocos2d-x/cocos2d-x-3.10/cocos/platform/ios /Applications/Cocos/Cocos2d-x/cocos2d-x-3.10/external/spidermonkey/include/ios /Applications/Cocos/Cocos2d-x/cocos2d-x-3.10/plugin/jsbindings/auto /Applications/Cocos/Cocos2d-x/cocos2d-x-3.10/plugin/jsbindings/manual /Applications/Cocos/Cocos2d-x/cocos2d-x-3.10/external/curl/include/ios";
