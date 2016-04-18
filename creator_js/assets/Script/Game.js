@@ -36,8 +36,8 @@ cc.Class({
             };
         }
 
-        this.maxStars = 3000;
-        this.starsCountOffset = 100;
+        this.maxStars = 1000;
+        this.starsCountOffset = 200;
         this.stars = [];
         this.stepsCount = 120;
         this.steps = this.stepsCount;
