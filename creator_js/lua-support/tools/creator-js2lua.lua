@@ -191,7 +191,7 @@ mkdir(outdir)
 -- step 1
 -- convert settings.js to settings.lua
 local contents = readfile(builddir .. "/src/settings.js")
-local settings = json.parse(string.gsub(contents, "_CCSettings = {", "{"))
+local settings = json.parse(string.gsub(contents, "_CCSettings[ ]*=[ ]*{", "{"))
 dumpToLuaFile(outdir .. "/src/assets/settings.lua", "settings", settings)
 
 -- step 2
@@ -200,14 +200,16 @@ local rawAssets = settings.rawAssets
 local assetsdb = {}
 local filesdb = {}
 for _, key in pairs({"assets", "internal"}) do
-    for uuid, asset in pairs(rawAssets[key]) do
-        if asset.raw == false then
-            assetsdb[uuid] = loadAssets(builddir, uuid)
-        else
-            if key == "internal" then
-                filesdb[uuid] = "raw-internal/" .. asset.url
+    if rawAssets[key] then
+        for uuid, asset in pairs(rawAssets[key]) do
+            if asset.raw == false then
+                assetsdb[uuid] = loadAssets(builddir, uuid)
             else
-                filesdb[uuid] = "raw-assets/" .. asset.url
+                if key == "internal" then
+                    filesdb[uuid] = "raw-internal/" .. asset.url
+                else
+                    filesdb[uuid] = "raw-assets/" .. asset.url
+                end
             end
         end
     end

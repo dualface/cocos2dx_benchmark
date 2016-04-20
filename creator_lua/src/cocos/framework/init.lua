@@ -61,7 +61,7 @@ cc.DEBUG_ERROR   = 0
 cc.DEBUG_WARN    = 1
 cc.DEBUG_INFO    = 2
 cc.DEBUG_VERBOSE = 3
-cc.DEBUG         = cc.DEBUG_DEBUG
+cc.DEBUG         = cc.DEBUG_WARN
 
 local _loaded = {}
 -- loader
@@ -100,11 +100,12 @@ function cc.import(name, current)
 end
 
 -- load basics modules
-require("framework.class")
-require("framework.table")
-require("framework.string")
-require("framework.debug")
-require("framework.math")
-require("framework.ctype")
-require("framework.os")
-require("framework.io")
+local __CURRENT = ...
+cc.import(".class", __CURRENT)
+cc.import(".table", __CURRENT)
+cc.import(".string", __CURRENT)
+cc.import(".debug", __CURRENT)
+cc.import(".math", __CURRENT)
+cc.import(".ctype", __CURRENT)
+cc.import(".os", __CURRENT)
+cc.import(".io", __CURRENT)
