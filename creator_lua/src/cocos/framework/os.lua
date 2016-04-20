@@ -1,6 +1,6 @@
 --[[
 
-Copyright (c) 2011-2014 chukong-inc.com
+Copyright (c) 2015 gameboxcloud.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -22,10 +22,24 @@ THE SOFTWARE.
 
 ]]
 
-local Menu = cc.Menu
-local MenuItem = cc.MenuItem
+function os.gettimezone()
+    local now = os.time()
+    return os.difftime(now, os.time(os.date("!*t", now))) / 3600
+end
 
-function MenuItem:onClicked(callback)
-    self:registerScriptTapHandler(callback)
-    return self
+function os.gettime(date, utc)
+    local time = os.time({
+        year  = date[1],
+        month = date[2],
+        day   = date[3],
+        hour  = date[4],
+        min   = date[5],
+        sec   = date[6],
+    })
+    if utc ~= false then
+        local now = os.time()
+        local offset = os.difftime(now, os.time(os.date("!*t", now)))
+        time = time + offset
+    end
+    return time
 end

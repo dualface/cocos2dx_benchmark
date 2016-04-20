@@ -1,6 +1,6 @@
 --[[
 
-Copyright (c) 2011-2015 chukong-incc.com
+Copyright (c) 2015 gameboxcloud.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -22,61 +22,89 @@ THE SOFTWARE.
 
 ]]
 
-if type(DEBUG) ~= "number" then DEBUG = 0 end
+local debug_getlocal = debug.getlocal
+local string_byte    = string.byte
+local string_find    = string.find
+local string_format  = string.format
+local string_lower   = string.lower
+local string_sub     = string.sub
+local table_concat   = table.concat
 
--- load framework
-printInfo("")
-printInfo("# DEBUG                        = " .. DEBUG)
-printInfo("#")
+cc = cc or {}
 
-device     = require("cocos.framework.device")
-display    = require("cocos.framework.display")
-audio      = require("cocos.framework.audio")
-transition = require("cocos.framework.transition")
-
-require("cocos.framework.extends.NodeEx")
-require("cocos.framework.extends.SpriteEx")
-require("cocos.framework.extends.LayerEx")
-require("cocos.framework.extends.MenuEx")
-
-if ccui then
-require("cocos.framework.extends.UIWidget")
-require("cocos.framework.extends.UICheckBox")
-require("cocos.framework.extends.UIEditBox")
-require("cocos.framework.extends.UIListView")
-require("cocos.framework.extends.UIPageView")
-require("cocos.framework.extends.UIScrollView")
-require("cocos.framework.extends.UISlider")
-require("cocos.framework.extends.UITextField")
-end
-
-require("cocos.framework.package_support")
-
--- register the build-in packages
-cc.register("event", require("cocos.framework.components.event"))
-
+socket = {} -- avoid require("socket") warning
 -- export global variable
-local __g = _G
+local _g = _G
 cc.exports = {}
 setmetatable(cc.exports, {
     __newindex = function(_, name, value)
-        rawset(__g, name, value)
+        rawset(_g, name, value)
     end,
 
     __index = function(_, name)
-        return rawget(__g, name)
+        return rawget(_g, name)
     end
 })
 
 -- disable create unexpected global variable
-function cc.disable_global()
-    setmetatable(__g, {
-        __newindex = function(_, name, value)
-            error(string.format("USE \" cc.exports.%s = value \" INSTEAD OF SET GLOBAL VARIABLE", name), 0)
+setmetatable(_g, {
+    __newindex = function(_, name, value)
+        local msg = string_format("USE \"cc.exports.%s = <value>\" INSTEAD OF SET GLOBAL VARIABLE", name)
+        print(debug.traceback(msg, 2))
+        if not ngx then print("") end
+    end
+})
+
+--
+
+cc.DEBUG_ERROR   = 0
+cc.DEBUG_WARN    = 1
+cc.DEBUG_INFO    = 2
+cc.DEBUG_VERBOSE = 3
+cc.DEBUG         = cc.DEBUG_DEBUG
+
+local _loaded = {}
+-- loader
+function cc.import(name, current)
+    local _name = name
+    local first = string_byte(name)
+    if first ~= 46 and _loaded[name] then
+        return _loaded[name]
+    end
+
+    if first == 35 --[[ "#" ]] then
+        name = string_sub(name, 2)
+        name = string_format("packages.%s.%s", name, name)
+    end
+
+    if first ~= 46 --[[ "." ]] then
+        _loaded[_name] = require(name)
+        return _loaded[_name]
+    end
+
+    if not current then
+        local _, v = debug_getlocal(3, 1)
+        current = v
+    end
+
+    _name = current .. name
+    if not _loaded[_name] then
+        local pos = string_find(current, "%.[^%.]*$")
+        if pos then
+            current = string_sub(current, 1, pos - 1)
         end
-    })
+
+        _loaded[_name] = require(current .. name)
+    end
+    return _loaded[_name]
 end
 
-if CC_DISABLE_GLOBAL then
-    cc.disable_global()
-end
+-- load basics modules
+require("framework.class")
+require("framework.table")
+require("framework.string")
+require("framework.debug")
+require("framework.math")
+require("framework.ctype")
+require("framework.os")
+require("framework.io")

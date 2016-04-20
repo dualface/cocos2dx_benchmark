@@ -1,7 +1,6 @@
-
 --[[
 
-Copyright (c) 2011-2014 chukong-inc.com
+Copyright (c) 2015 gameboxcloud.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -23,19 +22,22 @@ THE SOFTWARE.
 
 ]]
 
-local EditBox = ccui.EditBox
+local math_floor = math.floor
 
-function EditBox:onEditHandler(callback)
-    self:registerScriptEditBoxHandler(function(name, sender)
-        local event = {}
-        event.name = name
-        event.target = sender
-        callback(event)
-    end)
-    return self
+function cc.checknumber(value, base)
+    return tonumber(value, base) or 0
 end
 
-function EditBox:removeEditHandler()
-    self:unregisterScriptEditBoxHandler()
-    return self
+function cc.checkint(value)
+    value = tonumber(value) or 0
+    return math_floor(value + 0.5)
+end
+
+function cc.checkbool(value)
+    return (value ~= nil and value ~= false)
+end
+
+function cc.checktable(value)
+    if type(value) ~= "table" then value = {} end
+    return value
 end

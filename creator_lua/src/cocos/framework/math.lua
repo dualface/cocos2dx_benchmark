@@ -1,7 +1,6 @@
-
 --[[
 
-Copyright (c) 2011-2014 chukong-inc.com
+Copyright (c) 2015 gameboxcloud.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -23,18 +22,38 @@ THE SOFTWARE.
 
 ]]
 
-local CheckBox = ccui.CheckBox
+local math_ceil  = math.ceil
+local math_floor = math.floor
+local ok, socket = pcall(function()
+    return require("socket")
+end)
 
-function CheckBox:onEvent(callback)
-    self:addEventListener(function(sender, eventType)
-        local event = {}
-        if eventType == 0 then
-            event.name = "selected"
-        else
-            event.name = "unselected"
-        end
-        event.target = sender
-        callback(event)
-    end)
-    return self
+function math.round(value)
+    value = tonumber(value) or 0
+    return math_floor(value + 0.5)
+end
+
+function math.trunc(x)
+    if x <= 0 then
+        return math_ceil(x)
+    end
+    if math_ceil(x) == x then
+        x = math_ceil(x)
+    else
+        x = math_ceil(x) - 1
+    end
+    return x
+end
+
+function math.newrandomseed()
+    if socket then
+        math.randomseed(socket.gettime() * 1000)
+    else
+        math.randomseed(os.time())
+    end
+
+    math.random()
+    math.random()
+    math.random()
+    math.random()
 end
