@@ -19,12 +19,19 @@ end
 local function readfile(filename)
     local file, err = io.open(filename, "rb")
     if not file then
-        print(string.format("Open file %s failed", tostring(filename)))
+        print(string.format("Open file %s failed", filename))
         return nil
     end
 
     local contents = file:read("*a")
     io.close(file)
+
+    if not contents then
+        print(string.format("Read file %s failed", filename))
+        return nil
+    end
+
+    print(string.format("Read file %s", filename))
     return contents
 end
 
@@ -32,18 +39,19 @@ local function writefile(filename, contents)
     mode = "w+b"
     local file = io.open(filename, mode)
     if not file or not file:write(contents) then
-        print(string.format("Write file %s failed", tostring(filename)))
+        print(string.format("Write file %s failed", filename))
         return nil
     end
 
     io.close(file)
+    print(string.format("Write file %s", filename))
     return true
 end
 
 local function checkdir(dir)
     local lastchar = dir[#dir]
-    if lastchar ~= "/" then
-        return dir .. "/"
+    if lastchar == "/" or lastchar == "\\" then
+        return string.sub(dir, 1, -2)
     else
         return dir
     end
@@ -102,7 +110,7 @@ end
 
 -- step 1
 -- convert settings.js to settings.lua
-local contents = readfile(builddir .. "src/settings.js")
+local contents = readfile(builddir .. "/src/settings.js")
 local settings = json.parse(string.gsub(contents, "_CCSettings = {", "{"))
 local lines = dumpval.dumpval(settings, "local settings =", "", true)
 table.insert(lines, 1, "")
@@ -133,4 +141,3 @@ lines[#lines + 1] = "return assetsdb"
 lines[#lines + 1] = ""
 contents = table.concat(lines, "\n")
 writefile(outdir .. "/src/assets/assetsdb.lua", contents)
-
