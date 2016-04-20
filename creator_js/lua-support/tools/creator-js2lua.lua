@@ -15,6 +15,10 @@ options:
     js-build-dir The directory of Creator project build
     out-dir Lua Project directory
 
+examples:
+
+    lua creator-js2lua.lua my-game-js/build/web-mobile my-game-lua
+
 ]]
 end
 
