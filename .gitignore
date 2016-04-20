@@ -2,6 +2,11 @@
 xcuserdata/
 project.xcworkspace/
 
+creator_js/build/
+creator_js/temp/
+creator_js/local/
+creator_js/library/
+
 js/frameworks/runtime-src/proj.ios_mac/build/
 js/frameworks/runtime-src/proj.android/local.properties
 js/frameworks/runtime-src/proj.android/assets/
@@ -9,7 +14,7 @@ js/frameworks/runtime-src/proj.android/bin/
 js/frameworks/runtime-src/proj.android/gen/
 js/frameworks/runtime-src/proj.android/obj/
 js/frameworks/runtime-src/proj.android/libs/
-js/simulator
+js/simulator/
 
 lua/frameworks/runtime-src/proj.ios_mac/build/
 lua/frameworks/runtime-src/proj.android/local.properties
@@ -18,8 +23,8 @@ lua/frameworks/runtime-src/proj.android/bin/
 lua/frameworks/runtime-src/proj.android/gen/
 lua/frameworks/runtime-src/proj.android/obj/
 lua/frameworks/runtime-src/proj.android/libs/
-lua/simulator
 lua/frameworks/runtime-src/proj.ios_mac/build/
+lua/simulator/
 
 creator_lua/frameworks/runtime-src/proj.ios_mac/build/
 creator_lua/frameworks/runtime-src/proj.android/local.properties
@@ -28,5 +33,5 @@ creator_lua/frameworks/runtime-src/proj.android/bin/
 creator_lua/frameworks/runtime-src/proj.android/gen/
 creator_lua/frameworks/runtime-src/proj.android/obj/
 creator_lua/frameworks/runtime-src/proj.android/libs/
-creator_lua/simulator
 creator_lua/frameworks/runtime-src/proj.ios_mac/build/
+creator_lua/simulator/
