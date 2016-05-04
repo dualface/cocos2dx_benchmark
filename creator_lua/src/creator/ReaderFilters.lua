@@ -51,34 +51,55 @@ for name, mname in pairs(_directProps) do
     end
 end
 
-local _ignoredProps = {}
-local _ignored = {
-    "__type__",
+local _ignoreProps = {}
+local _ignore = {
     "_children",
-    "_components",
-    "_id",
-    "_objFlags",
     "_parent",
-    "_reorderChildDirty",
-    "_rotationX",
-    "_rotationY",
-    "content",
-    "node",
-    "_spriteFrame",
+    -- "_reorderChildDirty",
+    -- "_rotationX",
+    -- "_rotationY",
+    -- "content",
+    -- "_spriteFrame",
 }
-for _, name in ipairs(_ignored) do
-    _ignoredProps[name] = true
+
+local _copyProps = {}
+local _copy = {
+    "_id",
+    "_components",
+    "__type__",
+    "_type_",
+    "_objFlags",
+    "_enabled",
+    "node",
+}
+
+local function _makeHash(dst, src)
+    for _, name in ipairs(src) do
+        dst[name] = true
+    end
 end
 
+_makeHash(_ignoreProps, _ignore)
+_makeHash(_copyProps, _copy)
+
 local function _setProps(obj, props, objtype)
+    cc.printinfo("[_setProps] objtype", objtype)
     for name, v in pairs(props) do
-        if not _ignoredProps[name] then
+        while true do
+            if _ignoreProps[name] then break end
+            if _copyProps[name] then
+                obj[name] = v
+                break
+            end
+
             local m = _setPropMethods[name]
             if m then
                 m(obj, v)
             else
-                cc.printwarn("ReaderFilters.setProps - not support prop '%s' for '%s'", name, objtype)
+                cc.printwarn("    not support prop '%s'", name)
             end
+
+            break
         end
     end
     return obj
@@ -89,7 +110,7 @@ end
 local factory = {}
 
 factory["cc.SceneAsset"] = function(aval)
-    return SceneAsset:new(aval)
+    return _setProps(SceneAsset:new(aval), aval, "cc.SceneAsset")
 end
 
 factory["cc.Scene"] = function(aval)
@@ -127,21 +148,32 @@ end
 
 local connector = {}
 
-connector["cc.SceneAsset"] = function(obj, index, objs, refs)
-    local aval = refs[index]
-    obj.scene = objs[aval["scene"]["__id__"]]
+connector["cc.SceneAsset"] = function(objs, refs, current)
+    local obj = objs[current]
+    local id = refs[current]["scene"]["__id__"]
+    obj.scene = objs[id]
+    obj.__children = {id}
 end
 
-connector["cc.Canvas"] = function(obj, index, objs, refs)
-    obj.node = objs[refs[index]["node"]["__id__"]]
+connector["cc.Canvas"] = function(objs, refs, current)
+    local obj = objs[current]
+    local id = refs[current]["node"]["__id__"]
+    obj.node = objs[id]
+    obj.__children = {id}
 end
 
-connector["cc.Node"] = function(obj, index, objs, refs)
-    local _children = refs[index]["_children"]
+connector["cc.Node"] = function(objs, refs, current)
+    local obj = objs[current]
+    local _children = refs[current]["_children"]
     if not _children then return end
+
+    obj.__children = {}
+    local __children = obj.__children
     for _, child in ipairs(_children) do
-        local childobj = objs[child["__id__"]]
-        obj:addChild(childobj)
+        local id = child["__id__"]
+        __children[#__children + 1] = id
+        obj:addChild(objs[id])
+        cc.printinfo("[connector] %s [%d] : addChild %s [%d]", obj.__type__, current, refs[id].__type__, id)
     end
 end
 
