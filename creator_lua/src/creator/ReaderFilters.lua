@@ -10,6 +10,7 @@ local SceneAsset = cc.import(".assets.SceneAsset")
 -- component
 local CanvasComponent = cc.import(".components.CanvasComponent")
 local SpriteComponent = cc.import(".components.SpriteComponent")
+local WidgetComponent = cc.import(".components.WidgetComponent")
 
 -- set properties
 local _setPropMethods = {}
@@ -82,8 +83,8 @@ end
 _makeHash(_ignoreProps, _ignore)
 _makeHash(_copyProps, _copy)
 
-local function _setProps(obj, props, objtype)
-    cc.printinfo("[_setProps] objtype", objtype)
+local function _setProps(obj, props, objtype, id)
+    cc.printinfo("[_setProps] %s[%s]", objtype, tostring(id))
     for name, v in pairs(props) do
         while true do
             if _ignoreProps[name] then break end
@@ -96,7 +97,7 @@ local function _setProps(obj, props, objtype)
             if m then
                 m(obj, v)
             else
-                cc.printwarn("    not support prop '%s'", name)
+                -- cc.printwarn("    not support prop '%s'", name)
             end
 
             break
@@ -109,31 +110,48 @@ end
 
 local factory = {}
 
-factory["cc.SceneAsset"] = function(aval)
-    return _setProps(SceneAsset:new(aval), aval, "cc.SceneAsset")
+factory["cc.SceneAsset"] = function(aval, id)
+    return _setProps(SceneAsset:new(aval), aval, "cc.SceneAsset", id)
 end
 
-factory["cc.Scene"] = function(aval)
-    return _setProps(cc.Scene:create(), aval, "cc.Scene")
+factory["cc.Scene"] = function(aval, id)
+    return _setProps(cc.Scene:create(), aval, "cc.Scene", id)
 end
 
-factory["cc.Node"] = function(aval)
-    return _setProps(cc.Node:create(), aval, "cc.Node")
+factory["cc.Node"] = function(aval, id, refs, reader)
+    -- check sprite
+    local _components = aval._components
+    if _components then
+        for _, c in ipairs(_components) do
+            local cid = c.__id__
+            if refs[cid].__type__ == "cc.Sprite" then
+                -- set flag
+                refs[cid].__created__ = true
+                -- this node should as a Sprite
+                local sprite = factory["cc.Sprite"](refs[cid], cid, refs, reader)
+                _setProps(sprite, aval, "cc.Node -> cc.Sprite", id)
+                sprite.__type__ = "cc.Node -> cc.Sprite"
+                return sprite
+            end
+        end
+    end
+
+    return _setProps(cc.Node:create(), aval, "cc.Node", id)
 end
 
-factory["cc.Sprite"] = function(aval, reader)
+factory["cc.Sprite"] = function(aval, id, refs, reader)
     local uuid = aval["_spriteFrame"]["__uuid__"]
     local asset = reader.assetsdb[uuid]
     local spriteFrame = reader:createObject(asset)
     local sprite = cc.Sprite:createWithSpriteFrame(spriteFrame)
-    _setProps(sprite, aval, "cc.Sprite")
-    return SpriteComponent:new(sprite)
+    return _setProps(sprite, aval, "cc.Sprite", id)
 end
 
-factory["cc.SpriteFrame"] = function(aval, reader)
+factory["cc.SpriteFrame"] = function(aval, id, refs, reader)
     local c = aval["content"]
     return cc.SpriteFrame:create(
         reader.filesdb[c.texture],
+        -- x, y, width, height
         ccrect(c.rect[1], c.rect[2], c.rect[3], c.rect[4]),
         c.rotated ~= 0,
         ccp(c.offset[1], c.offset[2]),
@@ -144,36 +162,46 @@ factory["cc.Canvas"] = function(aval)
     return CanvasComponent:new(aval)
 end
 
+factory["cc.Widget"] = function(aval)
+    return WidgetComponent:new(aval)
+end
+
 -- connector
 
 local connector = {}
 
-connector["cc.SceneAsset"] = function(objs, refs, current)
+connector["cc.SceneAsset"] = function(objs, current, refs)
     local obj = objs[current]
     local id = refs[current]["scene"]["__id__"]
     obj.scene = objs[id]
-    obj.__children = {id}
+    obj.children = {objs[id]}
 end
 
-connector["cc.Canvas"] = function(objs, refs, current)
+connector["cc.Canvas"] = function(objs, current, refs)
     local obj = objs[current]
     local id = refs[current]["node"]["__id__"]
     obj.node = objs[id]
-    obj.__children = {id}
 end
 
-connector["cc.Node"] = function(objs, refs, current)
+connector["cc.Widget"] = function(objs, current, refs)
+    local obj = objs[current]
+    local id = refs[current]["node"]["__id__"]
+    obj.node = objs[id]
+end
+
+connector["cc.Node"] = function(objs, current, refs)
     local obj = objs[current]
     local _children = refs[current]["_children"]
     if not _children then return end
 
-    obj.__children = {}
-    local __children = obj.__children
+    obj.children = {}
+    local children = obj.children
     for _, child in ipairs(_children) do
         local id = child["__id__"]
-        __children[#__children + 1] = id
-        obj:addChild(objs[id])
         cc.printinfo("[connector] %s [%d] : addChild %s [%d]", obj.__type__, current, refs[id].__type__, id)
+
+        obj:addChild(objs[id])
+        children[#children + 1] = objs[id]
     end
 end
 
