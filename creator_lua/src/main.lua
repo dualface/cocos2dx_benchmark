@@ -12,21 +12,15 @@ local function main()
     local director = cc.Director:getInstance()
     director:setDisplayStats(true)
 
-    local view = director:getOpenGLView()
-    local size = view:getFrameSize()
-    view:setDesignResolutionSize(size.width, size.height, cc.ResolutionPolicy.NO_BORDER)
-
     local creator = require "creator.init"
-    local sceneAsset = creator.createLaunchScene()
+    local scene = creator.createLaunchScene()
 
     print("")
     print("--- Scene Graph ---")
-    creator.dumpSceneHierarchy(sceneAsset)
+    creator.dumpSceneHierarchy(scene)
     print("")
 
-    local scene = sceneAsset:getScene()
-    director:runWithScene(scene)
-
+    scene:run()
 end
 
 local status, msg = xpcall(main, __G__TRACKBACK__)

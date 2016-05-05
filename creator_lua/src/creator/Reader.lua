@@ -4,7 +4,8 @@ local Reader = cc.class("cc.creator.Reader")
 local _assert = assert
 local _error = error
 
-local _filters = cc.import(".ReaderFilters")
+local _factory = cc.import(".filters.Factory")
+local _connector = cc.import(".filters.Connector")
 
 function Reader:ctor(base)
     self.base = base or ""
@@ -16,26 +17,32 @@ function Reader:ctor(base)
     self.filesdb  = {}
 end
 
-function Reader:load()
+function Reader:loadAssetsDb()
     self.settings = require(self.base .. "assets.settings")
     self.assetsdb = require(self.base .. "assets.assetsdb")
     self.filesdb  = require(self.base .. "assets.filesdb")
 end
 
-function Reader:createLaunchScene()
-    local uuid = self:findScene(self.settings.launchScene)
+function Reader:createScene(url)
+    local uuid = self:findScene(url)
     local aval = self:getAsset(uuid)
-    return self:createObject(aval)
+    return self:createObject(aval), url
+end
+
+function Reader:createLaunchScene()
+    return self:createScene(self.settings.launchScene)
 end
 
 function Reader:createObject(aval, id, refs)
     local objtype = aval.__type__
     if objtype ~= "__js_array__" then
-        local factory = _filters.factory[objtype]
+        local factory = _factory[objtype]
         if not factory then
             cc.printwarn("Reader:createObject() - not support create type '%s'", objtype)
             return nil
         end
+
+        -- cc.printinfo("[Reader] create object %s[%s]", objtype, tostring(id or ""))
         local obj = factory(aval, id, refs, self)
         obj.__id__ = id
         return obj
@@ -47,7 +54,7 @@ function Reader:createObject(aval, id, refs)
 
     for id, val in ipairs(refs) do
         if val.__created__ then
-            cc.printinfo("[create] skip obj %s", id)
+            -- cc.printinfo("[create] skip obj %s", id)
             objs[id] = false
         else
             objs[id] = self:createObject(val, id, refs)
@@ -75,21 +82,16 @@ function Reader:assmebleObjects(objs, current, refs)
             local component = objs[id]
             if component then
                 component.__id__ = id
-                if component then
-                    obj.components[ctype] = component
-                    component:bind(obj)
-                end
+                component:bind(obj)
+                obj.components[ctype] = component
             end
         end
     end
 
-    -- set children
+    -- connect
     local objtype = refs[current].__type__
-    local connector = _filters.connector[objtype]
-    if not connector then
-        cc.printwarn("Reader:createObject() - not support connect type '%s'", objtype)
-        return nil
-    end
+    local connector = _connector[objtype]
+    if not connector then return end
 
     connector(objs, current, refs)
 end

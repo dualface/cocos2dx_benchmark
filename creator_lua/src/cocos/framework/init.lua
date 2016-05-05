@@ -74,7 +74,7 @@ function cc.import(name, current)
 
     if first == 35 --[[ "#" ]] then
         name = string_sub(name, 2)
-        name = string_format("packages.%s.%s", name, name)
+        name = string_format("package.%s.%s", name, name)
     end
 
     if first ~= 46 --[[ "." ]] then
@@ -87,14 +87,17 @@ function cc.import(name, current)
         current = v
     end
 
-    _name = current .. name
-    if not _loaded[_name] then
-        local pos = string_find(current, "%.[^%.]*$")
-        if pos then
-            current = string_sub(current, 1, pos - 1)
+    while string_byte(name) == 46 do
+        local index = string_find(current, "[^.]*$")
+        if index then
+            current = string_sub(current, 1, index - 2)
         end
+        name = string_sub(name, 2)
+    end
 
-        _loaded[_name] = require(current .. name)
+    _name = current .. "." .. name
+    if not _loaded[_name] then
+        _loaded[_name] = require(_name)
     end
     return _loaded[_name]
 end

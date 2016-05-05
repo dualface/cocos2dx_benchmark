@@ -118,3 +118,18 @@ function table.readonly(t, name)
     })
     return t
 end
+
+local _weakmetak = {__mode = "k"}
+local _weakmetav = {__mode = "v"}
+local _weakmetakv = {__mode = "kv"}
+
+function table.makeweak(t, m)
+    if m == "kv" then
+        setmetatable(t, _weakmetakv)
+    elseif m == "k" then
+        setmetatable(t, _weakmetak)
+    else
+        setmetatable(t, _weakmetav)
+    end
+    return t
+end

@@ -14,8 +14,13 @@ function SceneAsset:getScene()
     return self.scene
 end
 
-function SceneAsset:findCanvas()
-
+function SceneAsset:run()
+    local director = cc.Director:getInstance()
+    if director:getRunningScene() then
+        director:replaceScene(self.scene)
+    else
+        director:runWithScene(self.scene)
+    end
 end
 
 return SceneAsset
