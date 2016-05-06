@@ -37,9 +37,9 @@ cc.Class({
         }
 
         this.maxStars = 1000;
-        this.starsCountOffset = 200;
+        this.starsCountOffset = 100;
         this.stars = [];
-        this.stepsCount = 120;
+        this.stepsCount = 600;
         this.steps = this.stepsCount;
         
         console.log("START");

@@ -1,5 +1,7 @@
 {
-  "excludeScenes": [],
+  "excludeScenes": [
+    "9a19ee30-3d17-4fe1-881a-6a7494753d15"
+  ],
   "orientation": {
     "landscapeLeft": true,
     "landscapeRight": true,
@@ -7,7 +9,7 @@
     "upsideDown": false
   },
   "packageName": "org.cocos2d.creator.js",
-  "startScene": "9a19ee30-3d17-4fe1-881a-6a7494753d15",
+  "startScene": "d3df46b8-f3ef-4632-ad6c-b2b9dad1a9f0",
   "title": "creator_js",
   "webOrientation": "landscape"
 }
