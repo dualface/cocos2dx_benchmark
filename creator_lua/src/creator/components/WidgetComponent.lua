@@ -63,19 +63,19 @@ function WidgetComponent:align(target)
     local ptop    = cy + hh
     local pbottom = cy - hh
 
-    -- if parent.__type__ == "cc.Scene" then
-    --     local rect = _glview:getVisibleRect()
-    --     left   = rect.x
-    --     right  = left + rect.width
-    --     bottom = rect.y
-    --     top    = bottom + rect.height
-    --     pw     = right - left
-    --     ph     = top - bottom
-    --     hw     = pw / 2
-    --     hh     = ph / 2
-    --     cx     = left + pw / 2
-    --     cy     = bottom + ph / 2
-    -- end
+    if parent.__type__ == "cc.Scene" then
+        local rect = _glview:getVisibleRect()
+        pleft   = rect.x
+        pright  = pleft + rect.width
+        pbottom = rect.y
+        ptop    = pbottom + rect.height
+        pw      = pright - pleft
+        ph      = ptop - pbottom
+        hw      = pw / 2
+        hh      = ph / 2
+        cx      = pleft + pw / 2
+        cy      = pbottom + ph / 2
+    end
 
     -- get target size
     local ap   = target:getAnchorPoint()

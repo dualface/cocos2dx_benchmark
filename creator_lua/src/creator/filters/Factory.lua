@@ -15,6 +15,7 @@ local SceneAsset = cc.import("..assets.SceneAsset")
 -- component
 local CanvasComponent = cc.import("..components.CanvasComponent")
 local SpriteComponent = cc.import("..components.SpriteComponent")
+local LabelComponent  = cc.import("..components.LabelComponent")
 local WidgetComponent = cc.import("..components.WidgetComponent")
 
 local Factory = {}
@@ -73,6 +74,20 @@ Factory["cc.SpriteFrame"] = function(aval, id, refs, reader)
         c.rotated ~= 0,
         ccp(c.offset[1], c.offset[2]),
         ccsize(c.originalSize[1], c.originalSize[2]))
+end
+
+Factory["cc.Label"] = function(aval, id, refs, reader)
+    local label = cc.Label:createWithSystemFont(aval["_N$string"], "sans", aval["_fontSize"])
+    _setProps(label, aval, "cc.Label", id)
+
+    if cc.CREATOR_DISABLE_NODE_WRAPPER then
+        return label
+    else
+        local naval = refs[aval.node.__id__]
+        label:setAnchorPoint(naval._anchorPoint)
+        label:setColor(naval._color)
+        return LabelComponent.new(label)
+    end
 end
 
 Factory["cc.Canvas"] = function(aval)

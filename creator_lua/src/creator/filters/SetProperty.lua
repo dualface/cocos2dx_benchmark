@@ -32,6 +32,7 @@ local _directProps = {
     ["_skewY"]                 = "setSkewY",
     ["_tag"]                   = "setTag",
     ["_name"]                  = "setName",
+    ["_enableWrapText"]        = "enableWrap",
 }
 
 for name, mname in pairs(_directProps) do
