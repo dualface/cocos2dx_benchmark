@@ -59,6 +59,7 @@ Factory["cc.Sprite"] = function(aval, id, refs, reader)
     else
         local naval = refs[aval.node.__id__]
         sprite:setAnchorPoint(naval._anchorPoint)
+        sprite:setColor(naval._color)
         return SpriteComponent.new(sprite)
     end
 end
