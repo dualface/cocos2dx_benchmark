@@ -33,8 +33,8 @@ function WidgetComponent:onEnter(target)
 end
 
 function WidgetComponent:align(target)
-    -- cc.printinfo("[WidgetComponent] align target %s [%s] %s", target.__type__, target.__id__, target:getName())
-
+    cc.printinfo("[WidgetComponent] align target %s [%s] %s",
+            target.__type__, target.__id__, target:getName())
 
     if self.props._alignFlags == 0
             or not target.parentref
@@ -48,15 +48,15 @@ function WidgetComponent:align(target)
 
     -- get parent content size
     local pap    = parent:getAnchorPoint()
-    local pw, ph = parent.contentSize.width, parent.contentSize.height
+    local pw     = parent.contentSize.width
+    local ph     = parent.contentSize.height
     local hw, hh = pw / 2, ph / 2
-    -- cc.dump(parent.contentSize, "parent content size")
-    -- cc.dump(pap, "parent anchor point")
+    -- cc.printinfo("  parent content size: width = %0.2f, height = %0.2f", pw, ph)
 
     -- local cx, cy = 0, 0
     local cx     = hw - pw * pap.x
     local cy     = hh - ph * pap.y
-    -- cc.dump({cx = cx, cy = cy}, "parent center position")
+    -- cc.printinfo("  parent cetner: x = %0.2f, y = %0.2f", cx, cy)
 
     local pleft   = cx - hw
     local pright  = cx + hw
@@ -79,8 +79,12 @@ function WidgetComponent:align(target)
 
     -- get target size
     local ap   = target:getAnchorPoint()
-    local w, h = target.contentSize.width, target.contentSize.height
+    local sx   = target:getScaleX()
+    local sy   = target:getScaleY()
+    local w    = target.contentSize.width * sx
+    local h    = target.contentSize.height * sy
     local x, y = target:getPosition()
+    -- cc.printinfo("  target content size: width = %0.2f, height = %0.2f", w, h)
 
     -- calc offsets
     local left = props._left
@@ -106,9 +110,9 @@ function WidgetComponent:align(target)
     -- calc position
     if bit_and(flags, _CENTER) ~= 0 then
         x = cx + w * (ap.x - 0.5)
-    -- elseif bit_and(flags, _LEFT_RIGHT) == _LEFT_RIGHT then
-    --     cw = width - (pleft + pright)
-    --     x = left + pleft + cw * ap.x
+    elseif bit_and(flags, _LEFT_RIGHT) == _LEFT_RIGHT then
+        cc.printwarn("[WidgetComponent] not support LEFT_RIGHT align in cocos2d-x")
+        return
     elseif bit_and(flags, _LEFT) ~= 0 then
         x = pleft + left + w * ap.x
     elseif bit_and(flags, _RIGHT) ~= 0 then
@@ -117,16 +121,16 @@ function WidgetComponent:align(target)
 
     if bit_and(flags, _MID) ~= 0 then
         y = cy + h * (ap.y - 0.5)
-    -- elseif bit_and(flags, _TOP_BOTTOM) == _TOP_BOTTOM then
-    --     ch = height - (pbottom + ptop)
-    --     y = _bottom + pbottom + ch * ap.y
+    elseif bit_and(flags, _TOP_BOTTOM) == _TOP_BOTTOM then
+        cc.printwarn("[WidgetComponent] not support TOP_BOTTOM align in cocos2d-x")
+        return
     elseif bit_and(flags, _TOP) ~= 0 then
         y = ptop - top - h * (1.0 - ap.y)
     elseif bit_and(flags, _BOTTOM) ~= 0 then
         y = pbottom + bottom + h * ap.y
     end
 
-    -- cc.printinfo("target [%s] pos: %0.2f, %0.2f", target.__id__, x, y)
+    -- cc.printinfo("  target pos: x = %0.2f, y = %0.2f", x, y)
     target:setPosition(x, y)
 end
 
