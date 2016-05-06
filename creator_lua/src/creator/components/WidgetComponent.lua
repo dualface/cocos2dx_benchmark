@@ -33,7 +33,7 @@ function WidgetComponent:onEnter(target)
 end
 
 function WidgetComponent:align(target)
-    cc.printinfo("[WidgetComponent] align target %s [%s] %s", target.__type__, target.__id__, target:getName())
+    -- cc.printinfo("[WidgetComponent] align target %s [%s] %s", target.__type__, target.__id__, target:getName())
 
 
     if self.props._alignFlags == 0
@@ -53,15 +53,15 @@ function WidgetComponent:align(target)
     -- cc.dump(parent.contentSize, "parent content size")
     -- cc.dump(pap, "parent anchor point")
 
-    -- local cx     = pw * (1 - pap.x) - hw
-    -- local cy     = ph * (1 - pap.y) - hh
-    local cx, cy = 0, 0
+    -- local cx, cy = 0, 0
+    local cx     = hw - pw * pap.x
+    local cy     = hh - ph * pap.y
     -- cc.dump({cx = cx, cy = cy}, "parent center position")
 
-    local pleft   = -hw
-    local pright  = hw
-    local ptop    = hh
-    local pbottom = -hh
+    local pleft   = cx - hw
+    local pright  = cx + hw
+    local ptop    = cy + hh
+    local pbottom = cy - hh
 
     -- if parent.__type__ == "cc.Scene" then
     --     local rect = _glview:getVisibleRect()
@@ -79,8 +79,6 @@ function WidgetComponent:align(target)
 
     -- get target size
     local ap   = target:getAnchorPoint()
-    cc.printinfo("target ap: %0.2f, %0.2f", ap.x, ap.y)
-
     local w, h = target.contentSize.width, target.contentSize.height
     local x, y = target:getPosition()
 
@@ -128,7 +126,7 @@ function WidgetComponent:align(target)
         y = pbottom + bottom + h * ap.y
     end
 
-    cc.printinfo("target [%s] pos: %0.2f, %0.2f", target.__id__, x, y)
+    -- cc.printinfo("target [%s] pos: %0.2f, %0.2f", target.__id__, x, y)
     target:setPosition(x, y)
 end
 
