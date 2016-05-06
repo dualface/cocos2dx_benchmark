@@ -5,7 +5,9 @@ local ccp = cc.p
 local ccsize = cc.size
 local ccrect = cc.rect
 
-local _setProps = cc.import(".SetProperty").setProps
+local SetProperty = cc.import(".SetProperty")
+local _setProps = SetProperty.setProps
+local _setSpriteProps = SetProperty.setSpriteProps
 
 -- asset
 local SceneAsset = cc.import("..assets.SceneAsset")
@@ -27,9 +29,8 @@ end
 
 Factory["cc.Node"] = function(aval, id, refs, reader)
     -- check sprite
-    local _components = aval._components
-    if _components then
-        for _, c in ipairs(_components) do
+    if cc.CREATOR_DISABLE_NODE_WRAPPER and aval._components then
+        for _, c in ipairs(aval._components) do
             local cid = c.__id__
             if refs[cid].__type__ == "cc.Sprite" then
                 -- set flag
@@ -37,13 +38,13 @@ Factory["cc.Node"] = function(aval, id, refs, reader)
                 -- this node should as a Sprite
                 local sprite = Factory["cc.Sprite"](refs[cid], cid, refs, reader)
                 _setProps(sprite, aval, "cc.Node -> cc.Sprite", id)
-                sprite.__type__ = "cc.Node -> cc.Sprite"
+                sprite.__type__ = "cc.Sprite"
                 return sprite
             end
         end
     end
 
-    return _setProps(cc.Node:create(), aval, "cc.Node", id)
+    return _setProps(cc.Node:create(), aval, "cc.Node", id, {})
 end
 
 Factory["cc.Sprite"] = function(aval, id, refs, reader)
@@ -51,7 +52,15 @@ Factory["cc.Sprite"] = function(aval, id, refs, reader)
     local asset = reader.assetsdb[uuid]
     local spriteFrame = reader:createObject(asset)
     local sprite = cc.Sprite:createWithSpriteFrame(spriteFrame)
-    return _setProps(sprite, aval, "cc.Sprite", id)
+    _setProps(sprite, aval, "cc.Sprite", id)
+
+    if cc.CREATOR_DISABLE_NODE_WRAPPER then
+        return sprite
+    else
+        local naval = refs[aval.node.__id__]
+        sprite:setAnchorPoint(naval._anchorPoint)
+        return SpriteComponent.new(sprite)
+    end
 end
 
 Factory["cc.SpriteFrame"] = function(aval, id, refs, reader)

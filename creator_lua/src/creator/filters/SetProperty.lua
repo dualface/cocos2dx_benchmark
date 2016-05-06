@@ -5,11 +5,11 @@ local SetProperty = {}
 local _setPropMethods = {}
 
 _setPropMethods["_anchorPoint"] = function(obj, v)
-    obj:setAnchorPoint(cc.p(v.x, v.y))
+    obj:setAnchorPoint(v)
 end
 
 _setPropMethods["_color"] = function(obj, v)
-    obj:setColor(cc.color(v.r, v.g, v.b, v.a))
+    obj:setColor(v)
 end
 
 _setPropMethods["_contentSize"] = function(obj, v)
