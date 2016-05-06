@@ -487,11 +487,6 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
-				TargetAttributes = {
-					A922753C1517C094001B78AA = {
-						DevelopmentTeam = 73D5UVY728;
-					};
-				};
 			};
 			buildConfigurationList = A92275371517C094001B78AA /* Build configuration list for PBXProject "js2lua_js" */;
 			compatibilityVersion = "Xcode 3.2";

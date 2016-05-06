@@ -1,9 +1,119 @@
 
 local assetsdb = {
-    ["013bc80e-4f18-4bdc-8164-49af7b6a5030"] = {
+    ["0325257e-1804-47fd-9213-bc43cf88da6c"] = {
         ["__type__"] = "cc.SpriteFrame",
         ["content"] = {
-            ["name"] = "ShipWaveA0014",
+            ["name"] = "IncreaseHp0019",
+            ["offset"] = {
+                [1] = 0,
+                [2] = -1,
+            },
+            ["originalSize"] = {
+                [1] = 72,
+                [2] = 90,
+            },
+            ["rect"] = {
+                [1] = 429,
+                [2] = 197,
+                [3] = 70,
+                [4] = 82,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["03fd2bf1-ccf7-46c6-bc70-4a164c63e44e"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "Building01Destroyed",
+            ["offset"] = {
+                [1] = 14,
+                [2] = 2,
+            },
+            ["originalSize"] = {
+                [1] = 180,
+                [2] = 160,
+            },
+            ["rect"] = {
+                [1] = 1,
+                [2] = 158,
+                [3] = 142,
+                [4] = 154,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["04a3ba06-5170-48f9-857f-1856bbb5844e"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipExplode0002",
+            ["offset"] = {
+                [1] = -7,
+                [2] = -1,
+            },
+            ["originalSize"] = {
+                [1] = 148,
+                [2] = 120,
+            },
+            ["rect"] = {
+                [1] = 226,
+                [2] = 687,
+                [3] = 76,
+                [4] = 56,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["04be648d-a63f-4b72-9028-e684f6f232f5"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "PlayerTower0101",
+            ["offset"] = {
+                [1] = -2,
+                [2] = -3,
+            },
+            ["originalSize"] = {
+                [1] = 120,
+                [2] = 80,
+            },
+            ["rect"] = {
+                [1] = 334,
+                [2] = 418,
+                [3] = 94,
+                [4] = 64,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["05fd8927-d27e-4920-8861-1371a814d53f"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "CannonBoom0009",
+            ["offset"] = {
+                [1] = -1,
+                [2] = 1,
+            },
+            ["originalSize"] = {
+                [1] = 56,
+                [2] = 52,
+            },
+            ["rect"] = {
+                [1] = 171,
+                [2] = 892,
+                [3] = 54,
+                [4] = 48,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["0da4e26c-ed9b-4fb0-b523-de677539644e"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipWaveA0013",
             ["offset"] = {
                 [1] = 3,
                 [2] = 1,
@@ -19,233 +129,13 @@ local assetsdb = {
                 [4] = 14,
             },
             ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
         },
     },
-    ["0360bfd5-d0a9-43f3-8a54-7490f8c910c6"] = {
+    ["0edbf272-4389-4e1a-96ea-061d3abb4b35"] = {
         ["__type__"] = "cc.SpriteFrame",
         ["content"] = {
-            ["name"] = "IncreaseHp0027",
-            ["offset"] = {
-                [1] = -1,
-                [2] = 1,
-            },
-            ["originalSize"] = {
-                [1] = 72,
-                [2] = 90,
-            },
-            ["rect"] = {
-                [1] = 283,
-                [2] = 757,
-                [3] = 68,
-                [4] = 68,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["03bda17d-8ca0-48ee-84fa-50b7e6e2ec80"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "CannonBoom0006",
-            ["offset"] = {
-                [1] = 1,
-                [2] = 0,
-            },
-            ["originalSize"] = {
-                [1] = 56,
-                [2] = 52,
-            },
-            ["rect"] = {
-                [1] = 171,
-                [2] = 941,
-                [3] = 50,
-                [4] = 48,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["09e64bdd-1daf-4106-a4d6-bc3fecec16d7"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "CannonBall01",
-            ["offset"] = {
-                [1] = 0,
-                [2] = 0,
-            },
-            ["originalSize"] = {
-                [1] = 12,
-                [2] = 12,
-            },
-            ["rect"] = {
-                [1] = 472,
-                [2] = 605,
-                [3] = 12,
-                [4] = 12,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["0bd5f118-d3cd-46d9-8b9c-730b3fb9e941"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipExplode0003",
-            ["offset"] = {
-                [1] = 4,
-                [2] = -2,
-            },
-            ["originalSize"] = {
-                [1] = 148,
-                [2] = 120,
-            },
-            ["rect"] = {
-                [1] = 1,
-                [2] = 313,
-                [3] = 140,
-                [4] = 108,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["0d87585a-01ab-4260-a7ef-6cbefefa7474"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "IncreaseHp0017",
-            ["offset"] = {
-                [1] = 0,
-                [2] = -2,
-            },
-            ["originalSize"] = {
-                [1] = 72,
-                [2] = 90,
-            },
-            ["rect"] = {
-                [1] = 431,
-                [2] = 410,
-                [3] = 70,
-                [4] = 80,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["0f1841ff-6102-484d-91ce-27b1c27269c1"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipWaveA0004",
-            ["offset"] = {
-                [1] = -4,
-                [2] = 0,
-            },
-            ["originalSize"] = {
-                [1] = 92,
-                [2] = 16,
-            },
-            ["rect"] = {
-                [1] = 94,
-                [2] = 924,
-                [3] = 76,
-                [4] = 14,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["0f6847b8-8f7e-4193-8b83-720990b9c245"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "IncreaseHp0009",
-            ["offset"] = {
-                [1] = -1,
-                [2] = 3,
-            },
-            ["originalSize"] = {
-                [1] = 72,
-                [2] = 90,
-            },
-            ["rect"] = {
-                [1] = 1,
-                [2] = 955,
-                [3] = 68,
-                [4] = 84,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["0f9ca905-a29b-4936-b2c7-abebe0f4211a"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "CannonBoom0017",
-            ["offset"] = {
-                [1] = -2,
-                [2] = -10,
-            },
-            ["originalSize"] = {
-                [1] = 56,
-                [2] = 52,
-            },
-            ["rect"] = {
-                [1] = 472,
-                [2] = 552,
-                [3] = 52,
-                [4] = 22,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["0fbdbe0e-0751-49ac-ac7d-7b7cd83f4ce7"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "CannonBoom0008",
-            ["offset"] = {
-                [1] = -1,
-                [2] = 0,
-            },
-            ["originalSize"] = {
-                [1] = 56,
-                [2] = 52,
-            },
-            ["rect"] = {
-                [1] = 109,
-                [2] = 820,
-                [3] = 54,
-                [4] = 46,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["11445d61-7ac4-4c9a-a8b5-3ada9963059d"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "IncreaseHp0024",
-            ["offset"] = {
-                [1] = -1,
-                [2] = 4,
-            },
-            ["originalSize"] = {
-                [1] = 72,
-                [2] = 90,
-            },
-            ["rect"] = {
-                [1] = 314,
-                [2] = 483,
-                [3] = 68,
-                [4] = 82,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["122ec60a-4433-43fa-9553-0cd56cf764fa"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipExplode0011",
+            ["name"] = "ShipExplode0012",
             ["offset"] = {
                 [1] = -1,
                 [2] = 2,
@@ -255,35 +145,596 @@ local assetsdb = {
                 [2] = 120,
             },
             ["rect"] = {
-                [1] = 221,
-                [2] = 440,
-                [3] = 92,
-                [4] = 86,
+                [1] = 124,
+                [2] = 430,
+                [3] = 96,
+                [4] = 90,
             },
             ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
         },
     },
-    ["12c9499e-bf0c-455d-b79b-2f4077a979a9"] = {
+    ["106260a3-9f30-4137-92d2-23abb8f11190"] = {
         ["__type__"] = "cc.SpriteFrame",
         ["content"] = {
-            ["name"] = "PlayerTower0202",
+            ["name"] = "IncreaseHp0016",
+            ["offset"] = {
+                [1] = -1,
+                [2] = -3,
+            },
+            ["originalSize"] = {
+                [1] = 72,
+                [2] = 90,
+            },
+            ["rect"] = {
+                [1] = 131,
+                [2] = 616,
+                [3] = 70,
+                [4] = 80,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["1176f35c-4145-43ee-846c-48c8329f64ec"] = {
+        ["__js_array__"] = {
+            [1] = {
+                ["__type__"] = "cc.Prefab",
+                ["_name"] = "Ship",
+                ["_objFlags"] = 0,
+                ["data"] = {
+                    ["__id__"] = 2,
+                },
+            },
+            [2] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                    [1] = {
+                        ["__id__"] = 3,
+                    },
+                    [2] = {
+                        ["__id__"] = 6,
+                    },
+                    [3] = {
+                        ["__id__"] = 8,
+                    },
+                    [4] = {
+                        ["__id__"] = 10,
+                    },
+                    [5] = {
+                        ["__id__"] = 12,
+                    },
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 0,
+                    ["width"] = 0,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "Ship",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [3] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 4,
+                    },
+                    [2] = {
+                        ["__id__"] = 5,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 16,
+                    ["width"] = 92,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "Wave",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 2,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = -35,
+                    ["y"] = -37,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 0.5,
+                ["_scaleY"] = 0.5,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [4] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = false,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 2,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "5b331ee3-d62c-4765-b43a-efdb91bb481d",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 3,
+                },
+            },
+            [5] = {
+                ["__type__"] = "cc.Animation",
+                ["_clips"] = {
+                    [1] = {
+                        ["__uuid__"] = "8d19dfd8-620d-46ad-ac5c-49463d19db2e",
+                    },
+                },
+                ["_defaultClip"] = {
+                    ["__uuid__"] = "8d19dfd8-620d-46ad-ac5c-49463d19db2e",
+                },
+                ["_enabled"] = true,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["node"] = {
+                    ["__id__"] = 3,
+                },
+                ["playOnLoad"] = true,
+            },
+            [6] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 7,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 96,
+                    ["width"] = 100,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "EnemyShip01",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 2,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [7] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = false,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 2,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "22a2f143-47db-4f79-8c13-fd141b7d8d29",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 6,
+                },
+            },
+            [8] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 9,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 4,
+                    ["width"] = 48,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "ObjectHpOutline",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 2,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 50,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [9] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = false,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 2,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "73ddc5be-12b0-49aa-814d-7bde7d7e6fcd",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 8,
+                },
+            },
+            [10] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 11,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 4,
+                    ["width"] = 48,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "EnemyHp",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 2,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 50,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [11] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = false,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 2,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "d4bec6fb-0383-4067-bcb7-15761e864021",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 10,
+                },
+            },
+            [12] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 13,
+                    },
+                    [2] = {
+                        ["__id__"] = 14,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 12,
+                    ["width"] = 80,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "WaveUp",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 180,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 2,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = -37,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [13] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = false,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 2,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "193f9a9d-d236-4174-a9d9-0a3801342cc7",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 12,
+                },
+            },
+            [14] = {
+                ["__type__"] = "cc.Animation",
+                ["_clips"] = {
+                    [1] = {
+                        ["__uuid__"] = "92378ee1-8c25-4f7e-98fe-d77ae6cb3268",
+                    },
+                },
+                ["_defaultClip"] = {
+                    ["__uuid__"] = "92378ee1-8c25-4f7e-98fe-d77ae6cb3268",
+                },
+                ["_enabled"] = true,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["node"] = {
+                    ["__id__"] = 12,
+                },
+                ["playOnLoad"] = true,
+            },
+        },
+        ["__type__"] = "__js_array__",
+    },
+    ["1323f59f-149c-438d-b624-d109c33833be"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipWaveUpA0007",
             ["offset"] = {
                 [1] = 0,
                 [2] = 0,
             },
             ["originalSize"] = {
-                [1] = 112,
-                [2] = 84,
+                [1] = 80,
+                [2] = 12,
             },
             ["rect"] = {
-                [1] = 178,
-                [2] = 114,
-                [3] = 112,
-                [4] = 82,
+                [1] = 330,
+                [2] = 197,
+                [3] = 74,
+                [4] = 8,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["1403945a-4016-451c-895b-c084ee61b533"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipWaveUpA0004",
+            ["offset"] = {
+                [1] = 2,
+                [2] = -1,
+            },
+            ["originalSize"] = {
+                [1] = 80,
+                [2] = 12,
+            },
+            ["rect"] = {
+                [1] = 476,
+                [2] = 828,
+                [3] = 72,
+                [4] = 8,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["14632310-dc12-4107-8ca5-54617bb57050"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "PlayerTower0102",
+            ["offset"] = {
+                [1] = 0,
+                [2] = -2,
+            },
+            ["originalSize"] = {
+                [1] = 120,
+                [2] = 80,
+            },
+            ["rect"] = {
+                [1] = 144,
+                [2] = 274,
+                [3] = 110,
+                [4] = 74,
             },
             ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
         },
     },
     ["19234774-2b4c-4f39-9c80-5e966a6e73e3"] = {
@@ -308,934 +759,56 @@ local assetsdb = {
             ["texture"] = "b40edf3a-784a-4edd-965e-16cc14bb106b",
         },
     },
-    ["1ccdc23c-9bcf-436c-bede-4e1e28d16370"] = {
+    ["193f9a9d-d236-4174-a9d9-0a3801342cc7"] = {
         ["__type__"] = "cc.SpriteFrame",
         ["content"] = {
-            ["name"] = "PlayerTower0201",
-            ["offset"] = {
-                [1] = -4,
-                [2] = -11,
-            },
-            ["originalSize"] = {
-                [1] = 160,
-                [2] = 92,
-            },
-            ["rect"] = {
-                [1] = 96,
-                [2] = 719,
-                [3] = 100,
-                [4] = 60,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["20b41c2b-1570-4649-b42d-2bbf6e2744fd"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "EnemyShip01",
-            ["offset"] = {
-                [1] = 1,
-                [2] = 0,
-            },
-            ["originalSize"] = {
-                [1] = 100,
-                [2] = 96,
-            },
-            ["rect"] = {
-                [1] = 142,
-                [2] = 349,
-                [3] = 96,
-                [4] = 80,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["22001eeb-b730-466a-b57c-bfedf2f6cf19"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "CannonBoom0007",
-            ["offset"] = {
-                [1] = 1,
-                [2] = 0,
-            },
-            ["originalSize"] = {
-                [1] = 56,
-                [2] = 52,
-            },
-            ["rect"] = {
-                [1] = 222,
-                [2] = 941,
-                [3] = 48,
-                [4] = 48,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["22f78de4-3baa-404a-9e01-36424f840d29"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "CannonBoom0004",
-            ["offset"] = {
-                [1] = -1,
-                [2] = -2,
-            },
-            ["originalSize"] = {
-                [1] = 56,
-                [2] = 52,
-            },
-            ["rect"] = {
-                [1] = 109,
-                [2] = 875,
-                [3] = 52,
-                [4] = 48,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["2411c915-9373-4377-944c-d9715fe2ce8a"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "PlayerTower02Fire0001",
+            ["name"] = "ShipWaveUpA0001",
             ["offset"] = {
                 [1] = 0,
-                [2] = -3,
-            },
-            ["originalSize"] = {
-                [1] = 28,
-                [2] = 28,
-            },
-            ["rect"] = {
-                [1] = 393,
-                [2] = 928,
-                [3] = 26,
-                [4] = 22,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["26f1bff4-9c11-4d53-9f71-1d36e8c1b21b"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipWaveUpA0014",
-            ["offset"] = {
-                [1] = 1,
-                [2] = -1,
+                [2] = 0,
             },
             ["originalSize"] = {
                 [1] = 80,
                 [2] = 12,
             },
             ["rect"] = {
-                [1] = 162,
-                [2] = 847,
-                [3] = 72,
-                [4] = 8,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["2a260587-e902-4431-9dad-96a93557b587"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipExplode0012",
-            ["offset"] = {
-                [1] = -1,
-                [2] = 2,
-            },
-            ["originalSize"] = {
-                [1] = 148,
-                [2] = 120,
-            },
-            ["rect"] = {
-                [1] = 124,
-                [2] = 430,
-                [3] = 96,
-                [4] = 90,
+                [1] = 94,
+                [2] = 939,
+                [3] = 76,
+                [4] = 10,
             },
             ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
         },
     },
-    ["2d05bc75-44f0-43ef-afab-3478fb43ad51"] = {
+    ["1df0076f-a068-47f4-9a99-40879337703c"] = {
         ["__type__"] = "cc.SpriteFrame",
         ["content"] = {
-            ["name"] = "IncreaseHp0022",
+            ["name"] = "ShipExplodeSmall010002",
             ["offset"] = {
                 [1] = 0,
-                [2] = 2,
-            },
-            ["originalSize"] = {
-                [1] = 72,
-                [2] = 90,
-            },
-            ["rect"] = {
-                [1] = 389,
-                [2] = 552,
-                [3] = 68,
-                [4] = 82,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["3142cdfb-f533-4d68-a1eb-a1a556e2c609"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "CannonBoom0016",
-            ["offset"] = {
-                [1] = -1,
-                [2] = -1,
-            },
-            ["originalSize"] = {
-                [1] = 56,
-                [2] = 52,
-            },
-            ["rect"] = {
-                [1] = 338,
-                [2] = 897,
-                [3] = 54,
-                [4] = 40,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["31d3a7da-82c9-4bf5-818a-e01de18681a4"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipExplodeSmall020001",
-            ["offset"] = {
-                [1] = 1,
                 [2] = 0,
-            },
-            ["originalSize"] = {
-                [1] = 120,
-                [2] = 120,
-            },
-            ["rect"] = {
-                [1] = 217,
-                [2] = 614,
-                [3] = 68,
-                [4] = 72,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["329ba651-c528-479f-b0a4-d1f3a49037b0"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipWaveA0005",
-            ["offset"] = {
-                [1] = -6,
-                [2] = 0,
-            },
-            ["originalSize"] = {
-                [1] = 92,
-                [2] = 16,
-            },
-            ["rect"] = {
-                [1] = 494,
-                [2] = 690,
-                [3] = 74,
-                [4] = 14,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["3519f4c5-e97a-4a5d-82e7-46872d497560"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipExplodeSmall020006",
-            ["offset"] = {
-                [1] = 1,
-                [2] = 0,
-            },
-            ["originalSize"] = {
-                [1] = 120,
-                [2] = 120,
-            },
-            ["rect"] = {
-                [1] = 429,
-                [2] = 112,
-                [3] = 82,
-                [4] = 84,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["36489c5d-8a68-4e5e-87cc-e5c73e7a8d6d"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "IncreaseHp0004",
-            ["offset"] = {
-                [1] = 0,
-                [2] = -1,
-            },
-            ["originalSize"] = {
-                [1] = 72,
-                [2] = 90,
-            },
-            ["rect"] = {
-                [1] = 429,
-                [2] = 481,
-                [3] = 70,
-                [4] = 82,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["364fbb5a-835b-414d-8423-343d9e22701e"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipExplodeSmall020004",
-            ["offset"] = {
-                [1] = 1,
-                [2] = -1,
-            },
-            ["originalSize"] = {
-                [1] = 120,
-                [2] = 120,
-            },
-            ["rect"] = {
-                [1] = 122,
-                [2] = 521,
-                [3] = 90,
-                [4] = 94,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["373304f0-f69d-4411-98d9-9044b0cbce31"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "IncreaseHp0003",
-            ["offset"] = {
-                [1] = 0,
-                [2] = -2,
-            },
-            ["originalSize"] = {
-                [1] = 72,
-                [2] = 90,
-            },
-            ["rect"] = {
-                [1] = 257,
-                [2] = 197,
-                [3] = 72,
-                [4] = 82,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["38073d26-6753-4414-ba31-664fca720c85"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "CannonBoom0010",
-            ["offset"] = {
-                [1] = -1,
-                [2] = 1,
-            },
-            ["originalSize"] = {
-                [1] = 56,
-                [2] = 52,
-            },
-            ["rect"] = {
-                [1] = 421,
-                [2] = 828,
-                [3] = 54,
-                [4] = 50,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["38a2ef98-357d-4ea3-b747-45367e20a468"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipExplode0008",
-            ["offset"] = {
-                [1] = -4,
-                [2] = 3,
-            },
-            ["originalSize"] = {
-                [1] = 148,
-                [2] = 120,
-            },
-            ["rect"] = {
-                [1] = 317,
-                [2] = 1,
-                [3] = 118,
-                [4] = 104,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["38d5de77-d56a-4fcf-b05f-b4812dbdd4ec"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipExplodeSmall010003",
-            ["offset"] = {
-                [1] = 0,
-                [2] = 1,
             },
             ["originalSize"] = {
                 [1] = 36,
                 [2] = 36,
-            },
-            ["rect"] = {
-                [1] = 144,
-                [2] = 158,
-                [3] = 32,
-                [4] = 30,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["39cbaf8a-c48a-46dd-a52e-5b2c4314b643"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipWaveA0006",
-            ["offset"] = {
-                [1] = -6,
-                [2] = 0,
-            },
-            ["originalSize"] = {
-                [1] = 92,
-                [2] = 16,
-            },
-            ["rect"] = {
-                [1] = 494,
-                [2] = 690,
-                [3] = 74,
-                [4] = 14,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["3aa91b5b-3753-4f77-a2d9-74689da5afed"] = {
-        ["__type__"] = "cc.SpriteAtlas",
-        ["_name"] = "SheetMapBattle.plist",
-        ["_objFlags"] = 0,
-        ["_spriteFrames"] = {
-            ["Arrow01.png"] = {
-                ["__uuid__"] = "7eb75424-fb3f-4338-99f8-a494b57c49db",
-            },
-            ["BrokenArrow01.png"] = {
-                ["__uuid__"] = "c428a53a-8673-4278-80b8-07e9fb26e33e",
-            },
-            ["Building01.png"] = {
-                ["__uuid__"] = "447f53df-d2f2-4486-9fdf-0e8e903bf62f",
-            },
-            ["Building01Destroyed.png"] = {
-                ["__uuid__"] = "b3cc0efb-c8e0-42e2-9ec8-c3c2586c9f13",
-            },
-            ["CannonBall01.png"] = {
-                ["__uuid__"] = "09e64bdd-1daf-4106-a4d6-bc3fecec16d7",
-            },
-            ["CannonBoom0001.png"] = {
-                ["__uuid__"] = "cb6c74ce-126c-45b1-ab02-ef4ca1a6a337",
-            },
-            ["CannonBoom0002.png"] = {
-                ["__uuid__"] = "54435ee8-57ee-41ef-9a28-dff653505095",
-            },
-            ["CannonBoom0003.png"] = {
-                ["__uuid__"] = "48267307-5cd1-4dfd-be2d-577ec9552177",
-            },
-            ["CannonBoom0004.png"] = {
-                ["__uuid__"] = "22f78de4-3baa-404a-9e01-36424f840d29",
-            },
-            ["CannonBoom0005.png"] = {
-                ["__uuid__"] = "8bcefbe7-88b1-4c4f-8839-31377804e5a0",
-            },
-            ["CannonBoom0006.png"] = {
-                ["__uuid__"] = "03bda17d-8ca0-48ee-84fa-50b7e6e2ec80",
-            },
-            ["CannonBoom0007.png"] = {
-                ["__uuid__"] = "22001eeb-b730-466a-b57c-bfedf2f6cf19",
-            },
-            ["CannonBoom0008.png"] = {
-                ["__uuid__"] = "0fbdbe0e-0751-49ac-ac7d-7b7cd83f4ce7",
-            },
-            ["CannonBoom0009.png"] = {
-                ["__uuid__"] = "5fa7b22d-19a3-4489-bb3a-9dd15dfcff45",
-            },
-            ["CannonBoom0010.png"] = {
-                ["__uuid__"] = "38073d26-6753-4414-ba31-664fca720c85",
-            },
-            ["CannonBoom0011.png"] = {
-                ["__uuid__"] = "659d7701-9f08-4dd6-aa1f-ef1f3ac75ee2",
-            },
-            ["CannonBoom0012.png"] = {
-                ["__uuid__"] = "5795899e-b31b-4697-bc0c-9baeaecfd42e",
-            },
-            ["CannonBoom0013.png"] = {
-                ["__uuid__"] = "6151a987-c3ed-402c-bd8e-56f9acec8284",
-            },
-            ["CannonBoom0014.png"] = {
-                ["__uuid__"] = "d78e7620-898b-4cfb-ae1b-3e5e62e03b76",
-            },
-            ["CannonBoom0015.png"] = {
-                ["__uuid__"] = "65ac6ff0-45ac-4685-b6ad-fdc34d1da876",
-            },
-            ["CannonBoom0016.png"] = {
-                ["__uuid__"] = "3142cdfb-f533-4d68-a1eb-a1a556e2c609",
-            },
-            ["CannonBoom0017.png"] = {
-                ["__uuid__"] = "0f9ca905-a29b-4936-b2c7-abebe0f4211a",
-            },
-            ["CannonBoom0018.png"] = {
-                ["__uuid__"] = "81d7af5d-dc50-4877-891c-fc999576b131",
-            },
-            ["EnemyHp.png"] = {
-                ["__uuid__"] = "ba94ac3b-463c-483e-b95b-0a464d752187",
-            },
-            ["EnemyShip01.png"] = {
-                ["__uuid__"] = "20b41c2b-1570-4649-b42d-2bbf6e2744fd",
-            },
-            ["FriendlyHp.png"] = {
-                ["__uuid__"] = "4faec81c-bf59-4f83-923a-102be25c7c6e",
-            },
-            ["IncreaseHp0001.png"] = {
-                ["__uuid__"] = "6ecfe585-ccba-447d-b7ea-2fb1f12ea14b",
-            },
-            ["IncreaseHp0002.png"] = {
-                ["__uuid__"] = "89f0d0d5-78e7-499c-9203-65eeaafdda25",
-            },
-            ["IncreaseHp0003.png"] = {
-                ["__uuid__"] = "373304f0-f69d-4411-98d9-9044b0cbce31",
-            },
-            ["IncreaseHp0004.png"] = {
-                ["__uuid__"] = "36489c5d-8a68-4e5e-87cc-e5c73e7a8d6d",
-            },
-            ["IncreaseHp0005.png"] = {
-                ["__uuid__"] = "b9de1a02-38d7-48da-8b35-00d4d2fb55dd",
-            },
-            ["IncreaseHp0006.png"] = {
-                ["__uuid__"] = "874a6923-8282-48b3-aeaa-d44935641b49",
-            },
-            ["IncreaseHp0007.png"] = {
-                ["__uuid__"] = "907edcc2-8081-44e4-85ef-f0dfb0704a3e",
-            },
-            ["IncreaseHp0008.png"] = {
-                ["__uuid__"] = "50a5325a-2531-4418-9dd8-626fa1bcac75",
-            },
-            ["IncreaseHp0009.png"] = {
-                ["__uuid__"] = "0f6847b8-8f7e-4193-8b83-720990b9c245",
-            },
-            ["IncreaseHp0010.png"] = {
-                ["__uuid__"] = "6b7cee20-5f48-47cb-8747-43c5b8c67edf",
-            },
-            ["IncreaseHp0011.png"] = {
-                ["__uuid__"] = "e823de79-57b6-4129-b305-aef7f9d48622",
-            },
-            ["IncreaseHp0012.png"] = {
-                ["__uuid__"] = "d3de2b64-393b-4dc2-ad79-4752a2a88c66",
-            },
-            ["IncreaseHp0013.png"] = {
-                ["__uuid__"] = "7dbcf745-95e6-4d51-b895-45a810c3a6d2",
-            },
-            ["IncreaseHp0014.png"] = {
-                ["__uuid__"] = "7504690e-9cf1-417b-ba71-2a7b706c5db3",
-            },
-            ["IncreaseHp0015.png"] = {
-                ["__uuid__"] = "d914f222-01c2-45e4-a9d9-ba64050b996d",
-            },
-            ["IncreaseHp0016.png"] = {
-                ["__uuid__"] = "5a9eb84c-9d2f-42e1-9257-62cf7ca5c017",
-            },
-            ["IncreaseHp0017.png"] = {
-                ["__uuid__"] = "0d87585a-01ab-4260-a7ef-6cbefefa7474",
-            },
-            ["IncreaseHp0018.png"] = {
-                ["__uuid__"] = "d274bad5-25b7-47ad-bd0e-22d472dbb45c",
-            },
-            ["IncreaseHp0019.png"] = {
-                ["__uuid__"] = "5e277475-0ffa-4b51-b6c3-5c54563a9aa4",
-            },
-            ["IncreaseHp0020.png"] = {
-                ["__uuid__"] = "eca1c8d0-854e-41dd-9ed6-41b2efc9916c",
-            },
-            ["IncreaseHp0021.png"] = {
-                ["__uuid__"] = "e360ed0d-c723-433c-8eba-dac3d59eaa35",
-            },
-            ["IncreaseHp0022.png"] = {
-                ["__uuid__"] = "2d05bc75-44f0-43ef-afab-3478fb43ad51",
-            },
-            ["IncreaseHp0023.png"] = {
-                ["__uuid__"] = "e140f54d-44b9-4374-96fe-eae869dc7a0e",
-            },
-            ["IncreaseHp0024.png"] = {
-                ["__uuid__"] = "11445d61-7ac4-4c9a-a8b5-3ada9963059d",
-            },
-            ["IncreaseHp0025.png"] = {
-                ["__uuid__"] = "880f7ab0-ec73-4fbb-a8b4-3bf35e4b2c3c",
-            },
-            ["IncreaseHp0026.png"] = {
-                ["__uuid__"] = "761e3ff9-e635-42cf-b028-7bc885ae70d6",
-            },
-            ["IncreaseHp0027.png"] = {
-                ["__uuid__"] = "0360bfd5-d0a9-43f3-8a54-7490f8c910c6",
-            },
-            ["IncreaseHp0028.png"] = {
-                ["__uuid__"] = "3b8f5af6-32e4-47d4-9022-66618707ec6c",
-            },
-            ["ObjectHpOutline.png"] = {
-                ["__uuid__"] = "7c2f1e48-bf78-4728-adfa-4e8fa1748ee6",
-            },
-            ["PlayerTower0101.png"] = {
-                ["__uuid__"] = "d4584d22-fdbd-44df-a755-e714b81eabb8",
-            },
-            ["PlayerTower0101Destroyed.png"] = {
-                ["__uuid__"] = "478ad561-49dc-4126-81d6-384e803abd18",
-            },
-            ["PlayerTower0102.png"] = {
-                ["__uuid__"] = "69a2c638-9379-49ab-a5e8-aafd3da6594e",
-            },
-            ["PlayerTower0102Destroyed.png"] = {
-                ["__uuid__"] = "8f32d541-e862-44d7-9eb9-22ff892396ac",
-            },
-            ["PlayerTower0201.png"] = {
-                ["__uuid__"] = "1ccdc23c-9bcf-436c-bede-4e1e28d16370",
-            },
-            ["PlayerTower0201Destroyed.png"] = {
-                ["__uuid__"] = "98ecf5ca-1f39-494b-bccf-a34d66323641",
-            },
-            ["PlayerTower0202.png"] = {
-                ["__uuid__"] = "12c9499e-bf0c-455d-b79b-2f4077a979a9",
-            },
-            ["PlayerTower0202Destroyed.png"] = {
-                ["__uuid__"] = "d2e15b89-ff69-460c-b126-e414b65f024d",
-            },
-            ["PlayerTower02Fire0001.png"] = {
-                ["__uuid__"] = "2411c915-9373-4377-944c-d9715fe2ce8a",
-            },
-            ["PlayerTower02Fire0002.png"] = {
-                ["__uuid__"] = "accc617d-3f00-4dd2-a601-222d5b607225",
-            },
-            ["PlayerTower02Fire0003.png"] = {
-                ["__uuid__"] = "f70db660-7f1c-401c-8237-595173c0cb70",
-            },
-            ["PlayerTower02Fire0004.png"] = {
-                ["__uuid__"] = "c3147721-1172-4a5c-9e09-93fc39010488",
-            },
-            ["PlayerTower02Fire0005.png"] = {
-                ["__uuid__"] = "4fe85529-acec-4e09-b99e-4bbe4a07dd18",
-            },
-            ["PlayerTower02Fire0006.png"] = {
-                ["__uuid__"] = "e6be521d-3097-4a41-99a8-46f1e5bfff3d",
-            },
-            ["PlayerTower02Fire0007.png"] = {
-                ["__uuid__"] = "be996d90-04da-4a19-9f3e-794afb19d7fd",
-            },
-            ["PlayerTower02Fire0008.png"] = {
-                ["__uuid__"] = "b1ed3d0c-0fca-4c73-b164-98cc7dd3c46f",
-            },
-            ["ShipExplode0001.png"] = {
-                ["__uuid__"] = "7734c3a0-77e8-4ecc-8f43-b91f1cb04905",
-            },
-            ["ShipExplode0002.png"] = {
-                ["__uuid__"] = "6de2a853-a14a-41cd-9ddd-b67e8e1e7b2a",
-            },
-            ["ShipExplode0003.png"] = {
-                ["__uuid__"] = "0bd5f118-d3cd-46d9-8b9c-730b3fb9e941",
-            },
-            ["ShipExplode0004.png"] = {
-                ["__uuid__"] = "475d4978-c3a9-4c20-b7a9-7cbb9d9f7806",
-            },
-            ["ShipExplode0005.png"] = {
-                ["__uuid__"] = "40b7c714-d5a8-4dcb-b473-c08a53a57ed7",
-            },
-            ["ShipExplode0006.png"] = {
-                ["__uuid__"] = "934bdaf3-4def-47ba-a703-2dd8f48dd768",
-            },
-            ["ShipExplode0007.png"] = {
-                ["__uuid__"] = "d23bd03a-6abd-49d4-8ef5-538adadb32d1",
-            },
-            ["ShipExplode0008.png"] = {
-                ["__uuid__"] = "38a2ef98-357d-4ea3-b747-45367e20a468",
-            },
-            ["ShipExplode0009.png"] = {
-                ["__uuid__"] = "c2951cbe-8c4e-461f-860f-ce134f47f1b6",
-            },
-            ["ShipExplode0010.png"] = {
-                ["__uuid__"] = "8858c84a-2db7-40b8-85a6-667ee68e2160",
-            },
-            ["ShipExplode0011.png"] = {
-                ["__uuid__"] = "122ec60a-4433-43fa-9553-0cd56cf764fa",
-            },
-            ["ShipExplode0012.png"] = {
-                ["__uuid__"] = "2a260587-e902-4431-9dad-96a93557b587",
-            },
-            ["ShipExplodeSmall010001.png"] = {
-                ["__uuid__"] = "7a7f8593-e0fe-4a90-bf22-d6c46a71352b",
-            },
-            ["ShipExplodeSmall010002.png"] = {
-                ["__uuid__"] = "6d2a6d67-3944-453a-b895-9946e27181ec",
-            },
-            ["ShipExplodeSmall010003.png"] = {
-                ["__uuid__"] = "38d5de77-d56a-4fcf-b05f-b4812dbdd4ec",
-            },
-            ["ShipExplodeSmall010004.png"] = {
-                ["__uuid__"] = "408dd37c-f2de-49bf-95a8-0c5a76f34ddb",
-            },
-            ["ShipExplodeSmall010005.png"] = {
-                ["__uuid__"] = "6b855aa1-c000-48c2-8250-b1101d728ead",
-            },
-            ["ShipExplodeSmall010006.png"] = {
-                ["__uuid__"] = "8455873f-8706-418f-83e5-bfbe357cd7d2",
-            },
-            ["ShipExplodeSmall010007.png"] = {
-                ["__uuid__"] = "c6f43b26-b7bd-4033-833e-0b8097c953f2",
-            },
-            ["ShipExplodeSmall010008.png"] = {
-                ["__uuid__"] = "f367c0dc-a60d-4d6e-83c9-08f38136017b",
-            },
-            ["ShipExplodeSmall020001.png"] = {
-                ["__uuid__"] = "31d3a7da-82c9-4bf5-818a-e01de18681a4",
-            },
-            ["ShipExplodeSmall020002.png"] = {
-                ["__uuid__"] = "66166968-5747-4665-b22f-d9c74310446d",
-            },
-            ["ShipExplodeSmall020003.png"] = {
-                ["__uuid__"] = "eba18d4a-f0ae-4817-b933-cc965046314e",
-            },
-            ["ShipExplodeSmall020004.png"] = {
-                ["__uuid__"] = "364fbb5a-835b-414d-8423-343d9e22701e",
-            },
-            ["ShipExplodeSmall020005.png"] = {
-                ["__uuid__"] = "42ecdfa7-1b75-4422-8a1d-53f14f6d775e",
-            },
-            ["ShipExplodeSmall020006.png"] = {
-                ["__uuid__"] = "3519f4c5-e97a-4a5d-82e7-46872d497560",
-            },
-            ["ShipWaveA0001.png"] = {
-                ["__uuid__"] = "853b6ee5-4a1d-48a2-a4a3-7162d5759e84",
-            },
-            ["ShipWaveA0002.png"] = {
-                ["__uuid__"] = "99c91f82-22c5-4829-a9e2-bc349d38241a",
-            },
-            ["ShipWaveA0003.png"] = {
-                ["__uuid__"] = "78ff0d1d-cb99-4764-936a-23e5cbe4e89f",
-            },
-            ["ShipWaveA0004.png"] = {
-                ["__uuid__"] = "0f1841ff-6102-484d-91ce-27b1c27269c1",
-            },
-            ["ShipWaveA0005.png"] = {
-                ["__uuid__"] = "329ba651-c528-479f-b0a4-d1f3a49037b0",
-            },
-            ["ShipWaveA0006.png"] = {
-                ["__uuid__"] = "39cbaf8a-c48a-46dd-a52e-5b2c4314b643",
-            },
-            ["ShipWaveA0007.png"] = {
-                ["__uuid__"] = "bf37b342-2b04-4cdb-9e74-e68b71353068",
-            },
-            ["ShipWaveA0008.png"] = {
-                ["__uuid__"] = "dc7b0335-18d8-4800-aeec-513cf3b79371",
-            },
-            ["ShipWaveA0009.png"] = {
-                ["__uuid__"] = "64049c3a-e198-481b-9a8f-1d391d1b76d5",
-            },
-            ["ShipWaveA0010.png"] = {
-                ["__uuid__"] = "a9f8a282-f11f-4ede-86ef-9b53b109a173",
-            },
-            ["ShipWaveA0011.png"] = {
-                ["__uuid__"] = "456c7080-a8fb-4c05-b977-cf71baa38859",
-            },
-            ["ShipWaveA0012.png"] = {
-                ["__uuid__"] = "6d39865e-bf48-4014-8e44-11eda3c2624d",
-            },
-            ["ShipWaveA0013.png"] = {
-                ["__uuid__"] = "e7b66eec-b696-4496-b4d5-8bfa0c6e18f5",
-            },
-            ["ShipWaveA0014.png"] = {
-                ["__uuid__"] = "013bc80e-4f18-4bdc-8164-49af7b6a5030",
-            },
-            ["ShipWaveA0015.png"] = {
-                ["__uuid__"] = "ed43baa5-6b1b-48fc-a77c-7577145e3240",
-            },
-            ["ShipWaveA0016.png"] = {
-                ["__uuid__"] = "60d7d153-fb50-4ff5-ad4d-431c6aa3eaae",
-            },
-            ["ShipWaveUpA0001.png"] = {
-                ["__uuid__"] = "5aa59e87-9a01-4450-b82f-10676da8218e",
-            },
-            ["ShipWaveUpA0002.png"] = {
-                ["__uuid__"] = "653514b6-95ae-4c85-a031-ebbbfe0fea31",
-            },
-            ["ShipWaveUpA0003.png"] = {
-                ["__uuid__"] = "d0368375-4de1-4aff-a2ba-4c669e2be971",
-            },
-            ["ShipWaveUpA0004.png"] = {
-                ["__uuid__"] = "63925005-92ca-48ac-961d-9a3a8344f914",
-            },
-            ["ShipWaveUpA0005.png"] = {
-                ["__uuid__"] = "a748c78c-e1f6-45c8-b438-e6dbe847239f",
-            },
-            ["ShipWaveUpA0006.png"] = {
-                ["__uuid__"] = "baf7ec38-e531-422c-98c8-ff54b5a3044f",
-            },
-            ["ShipWaveUpA0007.png"] = {
-                ["__uuid__"] = "bcf74412-ec41-455a-8f45-d67566daabb2",
-            },
-            ["ShipWaveUpA0008.png"] = {
-                ["__uuid__"] = "c4a99d40-eedd-4dd4-9fe9-7f692cf9c378",
-            },
-            ["ShipWaveUpA0009.png"] = {
-                ["__uuid__"] = "b34d082d-7954-4010-aa58-66842c60fcf6",
-            },
-            ["ShipWaveUpA0010.png"] = {
-                ["__uuid__"] = "b34915eb-6dbd-4105-9988-3ec2f7754747",
-            },
-            ["ShipWaveUpA0011.png"] = {
-                ["__uuid__"] = "dce978bd-39b5-4259-86a5-8d97740ac71a",
-            },
-            ["ShipWaveUpA0012.png"] = {
-                ["__uuid__"] = "639557df-57b4-4cbc-8139-044ef0754fc2",
-            },
-            ["ShipWaveUpA0013.png"] = {
-                ["__uuid__"] = "d69cf250-1c29-4583-a652-22a172e0e32b",
-            },
-            ["ShipWaveUpA0014.png"] = {
-                ["__uuid__"] = "26f1bff4-9c11-4d53-9f71-1d36e8c1b21b",
-            },
-            ["ShipWaveUpA0015.png"] = {
-                ["__uuid__"] = "df1a31a0-71f1-44ef-9139-20bed45b3652",
-            },
-            ["ShipWaveUpA0016.png"] = {
-                ["__uuid__"] = "d19e7b3a-e49d-4c8b-b0a6-a8050e5bba36",
-            },
-        },
-    },
-    ["3b8f5af6-32e4-47d4-9022-66618707ec6c"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "IncreaseHp0028",
-            ["offset"] = {
-                [1] = -1,
-                [2] = 2,
-            },
-            ["originalSize"] = {
-                [1] = 72,
-                [2] = 90,
             },
             ["rect"] = {
                 [1] = 359,
-                [2] = 621,
-                [3] = 70,
-                [4] = 68,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["408dd37c-f2de-49bf-95a8-0c5a76f34ddb"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipExplodeSmall010004",
-            ["offset"] = {
-                [1] = 0,
-                [2] = 2,
-            },
-            ["originalSize"] = {
-                [1] = 36,
-                [2] = 36,
-            },
-            ["rect"] = {
-                [1] = 393,
-                [2] = 897,
+                [2] = 938,
                 [3] = 30,
-                [4] = 26,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["40b7c714-d5a8-4dcb-b473-c08a53a57ed7"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipExplode0005",
-            ["offset"] = {
-                [1] = 4,
-                [2] = 0,
-            },
-            ["originalSize"] = {
-                [1] = 148,
-                [2] = 120,
-            },
-            ["rect"] = {
-                [1] = 1,
-                [2] = 719,
-                [3] = 118,
-                [4] = 94,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["42ecdfa7-1b75-4422-8a1d-53f14f6d775e"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipExplodeSmall020005",
-            ["offset"] = {
-                [1] = 2,
-                [2] = 0,
-            },
-            ["originalSize"] = {
-                [1] = 120,
-                [2] = 120,
-            },
-            ["rect"] = {
-                [1] = 213,
-                [2] = 527,
-                [3] = 86,
-                [4] = 92,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["447f53df-d2f2-4486-9fdf-0e8e903bf62f"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "Building01",
-            ["offset"] = {
-                [1] = -2,
-                [2] = 2,
-            },
-            ["originalSize"] = {
-                [1] = 180,
-                [2] = 160,
-            },
-            ["rect"] = {
-                [1] = 1,
-                [2] = 1,
-                [3] = 176,
-                [4] = 156,
+                [4] = 30,
             },
             ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
         },
     },
-    ["456c7080-a8fb-4c05-b977-cf71baa38859"] = {
+    ["1e778c5c-5118-4655-985d-89d803821f64"] = {
         ["__type__"] = "cc.SpriteFrame",
         ["content"] = {
-            ["name"] = "ShipWaveA0011",
+            ["name"] = "ShipWaveA0016",
             ["offset"] = {
-                [1] = 0,
+                [1] = 1,
                 [2] = 1,
             },
             ["originalSize"] = {
@@ -1243,152 +816,64 @@ local assetsdb = {
                 [2] = 16,
             },
             ["rect"] = {
-                [1] = 116,
-                [2] = 618,
-                [3] = 88,
+                [1] = 202,
+                [2] = 616,
+                [3] = 78,
                 [4] = 14,
             },
             ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
         },
     },
-    ["475d4978-c3a9-4c20-b7a9-7cbb9d9f7806"] = {
+    ["1f3de62e-4a93-401c-867e-28c4c014315d"] = {
         ["__type__"] = "cc.SpriteFrame",
         ["content"] = {
-            ["name"] = "ShipExplode0004",
+            ["name"] = "IncreaseHp0009",
             ["offset"] = {
-                [1] = 1,
-                [2] = -2,
-            },
-            ["originalSize"] = {
-                [1] = 148,
-                [2] = 120,
-            },
-            ["rect"] = {
-                [1] = 178,
-                [2] = 1,
-                [3] = 138,
-                [4] = 112,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["478ad561-49dc-4126-81d6-384e803abd18"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "PlayerTower0101Destroyed",
-            ["offset"] = {
-                [1] = -2,
-                [2] = -4,
-            },
-            ["originalSize"] = {
-                [1] = 120,
-                [2] = 80,
-            },
-            ["rect"] = {
-                [1] = 362,
-                [2] = 106,
-                [3] = 94,
-                [4] = 66,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["48267307-5cd1-4dfd-be2d-577ec9552177"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "CannonBoom0003",
-            ["offset"] = {
-                [1] = 1,
-                [2] = -5,
-            },
-            ["originalSize"] = {
-                [1] = 56,
-                [2] = 52,
-            },
-            ["rect"] = {
-                [1] = 322,
-                [2] = 940,
-                [3] = 36,
-                [4] = 36,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["4faec81c-bf59-4f83-923a-102be25c7c6e"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "FriendlyHp",
-            ["offset"] = {
-                [1] = 0,
-                [2] = 0,
-            },
-            ["originalSize"] = {
-                [1] = 48,
-                [2] = 4,
-            },
-            ["rect"] = {
-                [1] = 495,
-                [2] = 552,
-                [3] = 48,
-                [4] = 4,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["4fe85529-acec-4e09-b99e-4bbe4a07dd18"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "PlayerTower02Fire0005",
-            ["offset"] = {
-                [1] = 0,
-                [2] = -2,
-            },
-            ["originalSize"] = {
-                [1] = 28,
-                [2] = 28,
-            },
-            ["rect"] = {
-                [1] = 329,
-                [2] = 977,
-                [3] = 26,
-                [4] = 24,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["50a5325a-2531-4418-9dd8-626fa1bcac75"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "IncreaseHp0008",
-            ["offset"] = {
-                [1] = 0,
-                [2] = 2,
+                [1] = -1,
+                [2] = 3,
             },
             ["originalSize"] = {
                 [1] = 72,
                 [2] = 90,
             },
             ["rect"] = {
-                [1] = 86,
+                [1] = 1,
                 [2] = 955,
                 [3] = 68,
                 [4] = 84,
             },
             ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
         },
     },
-    ["5257eba5-4c83-4cf5-8808-db9b0c4513cf"] = {
+    ["20ef3159-54d2-47f2-9f72-70fe4b91536b"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipExplodeSmall010007",
+            ["offset"] = {
+                [1] = -1,
+                [2] = 2,
+            },
+            ["originalSize"] = {
+                [1] = 36,
+                [2] = 36,
+            },
+            ["rect"] = {
+                [1] = 198,
+                [2] = 1005,
+                [3] = 24,
+                [4] = 18,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["219ef42b-c7ef-4313-ae22-8f1e8d6b18d9"] = {
         ["__js_array__"] = {
             [1] = {
                 ["__type__"] = "cc.SceneAsset",
-                ["_name"] = "HelloScene",
+                ["_name"] = "BattleScene",
                 ["_objFlags"] = 0,
                 ["scene"] = {
                     ["__id__"] = 2,
@@ -1405,12 +890,6 @@ local assetsdb = {
                 ["_children"] = {
                     [1] = {
                         ["__id__"] = 3,
-                    },
-                    [2] = {
-                        ["__id__"] = 18,
-                    },
-                    [3] = {
-                        ["__id__"] = 20,
                     },
                 },
                 ["_color"] = {
@@ -1468,7 +947,7 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 17,
+                        ["__id__"] = 65,
                     },
                 },
                 ["_contentSize"] = {
@@ -1477,7 +956,7 @@ local assetsdb = {
                     ["width"] = 960,
                 },
                 ["_globalZOrder"] = 0,
-                ["_id"] = "4ce93d025FC46DqWkkygiEP",
+                ["_id"] = "6c61dIOl79AYYOIUxfQsoRk",
                 ["_localZOrder"] = 0,
                 ["_name"] = "Canvas",
                 ["_objFlags"] = 0,
@@ -1505,8 +984,8 @@ local assetsdb = {
                 ["_active"] = true,
                 ["_anchorPoint"] = {
                     ["__type__"] = "cc.Vec2",
-                    ["x"] = 0.5,
-                    ["y"] = 0.5,
+                    ["x"] = 0,
+                    ["y"] = 0,
                 },
                 ["_cascadeOpacityEnabled"] = true,
                 ["_children"] = {
@@ -1517,16 +996,19 @@ local assetsdb = {
                         ["__id__"] = 7,
                     },
                     [3] = {
-                        ["__id__"] = 9,
+                        ["__id__"] = 10,
                     },
                     [4] = {
-                        ["__id__"] = 11,
+                        ["__id__"] = 12,
                     },
                     [5] = {
-                        ["__id__"] = 13,
+                        ["__id__"] = 25,
                     },
                     [6] = {
-                        ["__id__"] = 15,
+                        ["__id__"] = 38,
+                    },
+                    [7] = {
+                        ["__id__"] = 51,
                     },
                 },
                 ["_color"] = {
@@ -1537,6 +1019,9 @@ local assetsdb = {
                     ["r"] = 255,
                 },
                 ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 64,
+                    },
                 },
                 ["_contentSize"] = {
                     ["__type__"] = "cc.Size",
@@ -1545,7 +1030,7 @@ local assetsdb = {
                 },
                 ["_globalZOrder"] = 0,
                 ["_localZOrder"] = 0,
-                ["_name"] = "New Node",
+                ["_name"] = "Map",
                 ["_objFlags"] = 0,
                 ["_opacity"] = 255,
                 ["_opacityModifyRGB"] = false,
@@ -1554,8 +1039,8 @@ local assetsdb = {
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
-                    ["x"] = 189,
-                    ["y"] = 93,
+                    ["x"] = -480,
+                    ["y"] = -320,
                 },
                 ["_reorderChildDirty"] = false,
                 ["_rotationX"] = 0,
@@ -1571,8 +1056,8 @@ local assetsdb = {
                 ["_active"] = true,
                 ["_anchorPoint"] = {
                     ["__type__"] = "cc.Vec2",
-                    ["x"] = 0.5,
-                    ["y"] = 0.5,
+                    ["x"] = 0,
+                    ["y"] = 0,
                 },
                 ["_cascadeOpacityEnabled"] = true,
                 ["_children"] = {
@@ -1629,7 +1114,7 @@ local assetsdb = {
                 ["_fillRange"] = 0,
                 ["_fillStart"] = 0,
                 ["_fillType"] = 0,
-                ["_isTrimmedMode"] = true,
+                ["_isTrimmedMode"] = false,
                 ["_name"] = "",
                 ["_objFlags"] = 0,
                 ["_sizeMode"] = 2,
@@ -1657,22 +1142,25 @@ local assetsdb = {
                     ["__type__"] = "cc.Color",
                     ["a"] = 255,
                     ["b"] = 255,
-                    ["g"] = 255,
-                    ["r"] = 255,
+                    ["g"] = 240,
+                    ["r"] = 0,
                 },
                 ["_components"] = {
                     [1] = {
                         ["__id__"] = 8,
                     },
+                    [2] = {
+                        ["__id__"] = 9,
+                    },
                 },
                 ["_contentSize"] = {
                     ["__type__"] = "cc.Size",
-                    ["height"] = 80,
-                    ["width"] = 120,
+                    ["height"] = 160,
+                    ["width"] = 208.91,
                 },
                 ["_globalZOrder"] = 0,
                 ["_localZOrder"] = 0,
-                ["_name"] = "PlayerTower0101",
+                ["_name"] = "left_bottom_label",
                 ["_objFlags"] = 0,
                 ["_opacity"] = 255,
                 ["_opacityModifyRGB"] = false,
@@ -1681,8 +1169,8 @@ local assetsdb = {
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
-                    ["x"] = -156,
-                    ["y"] = -14,
+                    ["x"] = 124.455,
+                    ["y"] = 100,
                 },
                 ["_reorderChildDirty"] = false,
                 ["_rotationX"] = 0,
@@ -1694,107 +1182,45 @@ local assetsdb = {
                 ["_tag"] = -1,
             },
             [8] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
+                ["_N$horizontalAlign"] = 1,
+                ["_N$overflow"] = 0,
+                ["_N$string"] = "Hello\nWorld",
+                ["_N$verticalAlign"] = 1,
+                ["__type__"] = "cc.Label",
+                ["_enableWrapText"] = true,
                 ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = true,
+                ["_fontSize"] = 80,
+                ["_isSystemFontUsed"] = true,
+                ["_lineHeight"] = 80,
                 ["_name"] = "",
                 ["_objFlags"] = 0,
-                ["_sizeMode"] = 2,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "d4584d22-fdbd-44df-a755-e714b81eabb8",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
+                ["_useOriginalSize"] = false,
                 ["node"] = {
                     ["__id__"] = 7,
                 },
             },
             [9] = {
-                ["__type__"] = "cc.Node",
-                ["_active"] = true,
-                ["_anchorPoint"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0.5,
-                    ["y"] = 0.5,
-                },
-                ["_cascadeOpacityEnabled"] = true,
-                ["_children"] = {
-                },
-                ["_color"] = {
-                    ["__type__"] = "cc.Color",
-                    ["a"] = 255,
-                    ["b"] = 255,
-                    ["g"] = 255,
-                    ["r"] = 255,
-                },
-                ["_components"] = {
-                    [1] = {
-                        ["__id__"] = 10,
-                    },
-                },
-                ["_contentSize"] = {
-                    ["__type__"] = "cc.Size",
-                    ["height"] = 80,
-                    ["width"] = 120,
-                },
-                ["_globalZOrder"] = 0,
-                ["_localZOrder"] = 0,
-                ["_name"] = "PlayerTower0102",
+                ["__type__"] = "cc.Widget",
+                ["_alignFlags"] = 12,
+                ["_bottom"] = 20,
+                ["_enabled"] = true,
+                ["_isAbsBottom"] = true,
+                ["_isAbsLeft"] = true,
+                ["_isAbsRight"] = true,
+                ["_isAbsTop"] = true,
+                ["_left"] = 20,
+                ["_name"] = "",
                 ["_objFlags"] = 0,
-                ["_opacity"] = 255,
-                ["_opacityModifyRGB"] = false,
-                ["_parent"] = {
-                    ["__id__"] = 4,
+                ["_originalHeight"] = 0,
+                ["_originalWidth"] = 0,
+                ["_right"] = 0,
+                ["_top"] = 0,
+                ["isAlignOnce"] = false,
+                ["node"] = {
+                    ["__id__"] = 7,
                 },
-                ["_position"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = -151,
-                    ["y"] = -241,
-                },
-                ["_reorderChildDirty"] = false,
-                ["_rotationX"] = 0,
-                ["_rotationY"] = 0,
-                ["_scaleX"] = 1,
-                ["_scaleY"] = 1,
-                ["_skewX"] = 0,
-                ["_skewY"] = 0,
-                ["_tag"] = -1,
             },
             [10] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 2,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "69a2c638-9379-49ab-a5e8-aafd3da6594e",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 9,
-                },
-            },
-            [11] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -1814,17 +1240,17 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 12,
+                        ["__id__"] = 11,
                     },
                 },
                 ["_contentSize"] = {
                     ["__type__"] = "cc.Size",
-                    ["height"] = 96,
-                    ["width"] = 100,
+                    ["height"] = 32,
+                    ["width"] = 286.36,
                 },
                 ["_globalZOrder"] = 0,
                 ["_localZOrder"] = 0,
-                ["_name"] = "EnemyShip01",
+                ["_name"] = "label2",
                 ["_objFlags"] = 0,
                 ["_opacity"] = 255,
                 ["_opacityModifyRGB"] = false,
@@ -1833,8 +1259,8 @@ local assetsdb = {
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
-                    ["x"] = -299,
-                    ["y"] = -118,
+                    ["x"] = 480,
+                    ["y"] = 600,
                 },
                 ["_reorderChildDirty"] = false,
                 ["_rotationX"] = 0,
@@ -1845,30 +1271,86 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [12] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
+            [11] = {
+                ["_N$horizontalAlign"] = 1,
+                ["_N$overflow"] = 0,
+                ["_N$string"] = "show me the money",
+                ["_N$verticalAlign"] = 1,
+                ["__type__"] = "cc.Label",
+                ["_enableWrapText"] = true,
                 ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = true,
+                ["_fontSize"] = 32,
+                ["_isSystemFontUsed"] = true,
+                ["_lineHeight"] = 32,
                 ["_name"] = "",
                 ["_objFlags"] = 0,
-                ["_sizeMode"] = 2,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "20b41c2b-1570-4649-b42d-2bbf6e2744fd",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
+                ["_useOriginalSize"] = false,
                 ["node"] = {
-                    ["__id__"] = 11,
+                    ["__id__"] = 10,
                 },
+            },
+            [12] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                    [1] = {
+                        ["__id__"] = 13,
+                    },
+                    [2] = {
+                        ["__id__"] = 16,
+                    },
+                    [3] = {
+                        ["__id__"] = 18,
+                    },
+                    [4] = {
+                        ["__id__"] = 20,
+                    },
+                    [5] = {
+                        ["__id__"] = 22,
+                    },
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 0,
+                    ["width"] = 0,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "Ship",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 4,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 337,
+                    ["y"] = 375,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
             },
             [13] = {
                 ["__type__"] = "cc.Node",
@@ -1892,31 +1374,34 @@ local assetsdb = {
                     [1] = {
                         ["__id__"] = 14,
                     },
+                    [2] = {
+                        ["__id__"] = 15,
+                    },
                 },
                 ["_contentSize"] = {
                     ["__type__"] = "cc.Size",
-                    ["height"] = 160,
-                    ["width"] = 180,
+                    ["height"] = 16,
+                    ["width"] = 92,
                 },
                 ["_globalZOrder"] = 0,
                 ["_localZOrder"] = 0,
-                ["_name"] = "Building01",
+                ["_name"] = "Wave",
                 ["_objFlags"] = 0,
                 ["_opacity"] = 255,
                 ["_opacityModifyRGB"] = false,
                 ["_parent"] = {
-                    ["__id__"] = 4,
+                    ["__id__"] = 12,
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
-                    ["x"] = -289,
-                    ["y"] = 4,
+                    ["x"] = -35,
+                    ["y"] = -37,
                 },
                 ["_reorderChildDirty"] = false,
                 ["_rotationX"] = 0,
                 ["_rotationY"] = 0,
-                ["_scaleX"] = 1,
-                ["_scaleY"] = 1,
+                ["_scaleX"] = 0.5,
+                ["_scaleY"] = 0.5,
                 ["_skewX"] = 0,
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
@@ -1933,12 +1418,12 @@ local assetsdb = {
                 ["_fillRange"] = 0,
                 ["_fillStart"] = 0,
                 ["_fillType"] = 0,
-                ["_isTrimmedMode"] = true,
+                ["_isTrimmedMode"] = false,
                 ["_name"] = "",
                 ["_objFlags"] = 0,
                 ["_sizeMode"] = 2,
                 ["_spriteFrame"] = {
-                    ["__uuid__"] = "447f53df-d2f2-4486-9fdf-0e8e903bf62f",
+                    ["__uuid__"] = "5b331ee3-d62c-4765-b43a-efdb91bb481d",
                 },
                 ["_srcBlendFactor"] = 770,
                 ["_type"] = 0,
@@ -1947,6 +1432,24 @@ local assetsdb = {
                 },
             },
             [15] = {
+                ["__type__"] = "cc.Animation",
+                ["_clips"] = {
+                    [1] = {
+                        ["__uuid__"] = "8d19dfd8-620d-46ad-ac5c-49463d19db2e",
+                    },
+                },
+                ["_defaultClip"] = {
+                    ["__uuid__"] = "8d19dfd8-620d-46ad-ac5c-49463d19db2e",
+                },
+                ["_enabled"] = true,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["node"] = {
+                    ["__id__"] = 13,
+                },
+                ["playOnLoad"] = true,
+            },
+            [16] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -1966,27 +1469,27 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 16,
+                        ["__id__"] = 17,
                     },
                 },
                 ["_contentSize"] = {
                     ["__type__"] = "cc.Size",
-                    ["height"] = 12,
-                    ["width"] = 80,
+                    ["height"] = 96,
+                    ["width"] = 100,
                 },
                 ["_globalZOrder"] = 0,
                 ["_localZOrder"] = 0,
-                ["_name"] = "ShipWaveUpA0001",
+                ["_name"] = "EnemyShip01",
                 ["_objFlags"] = 0,
                 ["_opacity"] = 255,
                 ["_opacityModifyRGB"] = false,
                 ["_parent"] = {
-                    ["__id__"] = 4,
+                    ["__id__"] = 12,
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
-                    ["x"] = -300,
-                    ["y"] = -164,
+                    ["x"] = 0,
+                    ["y"] = 0,
                 },
                 ["_reorderChildDirty"] = false,
                 ["_rotationX"] = 0,
@@ -1997,7 +1500,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [16] = {
+            [17] = {
                 ["__type__"] = "cc.Sprite",
                 ["_dstBlendFactor"] = 771,
                 ["_enabled"] = true,
@@ -2009,33 +1512,17 @@ local assetsdb = {
                 ["_fillRange"] = 0,
                 ["_fillStart"] = 0,
                 ["_fillType"] = 0,
-                ["_isTrimmedMode"] = true,
+                ["_isTrimmedMode"] = false,
                 ["_name"] = "",
                 ["_objFlags"] = 0,
                 ["_sizeMode"] = 2,
                 ["_spriteFrame"] = {
-                    ["__uuid__"] = "5aa59e87-9a01-4450-b82f-10676da8218e",
+                    ["__uuid__"] = "22a2f143-47db-4f79-8c13-fd141b7d8d29",
                 },
                 ["_srcBlendFactor"] = 770,
                 ["_type"] = 0,
                 ["node"] = {
-                    ["__id__"] = 15,
-                },
-            },
-            [17] = {
-                ["__type__"] = "cc.Canvas",
-                ["_designResolution"] = {
-                    ["__type__"] = "cc.Size",
-                    ["height"] = 640,
-                    ["width"] = 960,
-                },
-                ["_enabled"] = true,
-                ["_fitHeight"] = true,
-                ["_fitWidth"] = false,
-                ["_name"] = "",
-                ["_objFlags"] = 1835008,
-                ["node"] = {
-                    ["__id__"] = 3,
+                    ["__id__"] = 16,
                 },
             },
             [18] = {
@@ -2063,23 +1550,22 @@ local assetsdb = {
                 },
                 ["_contentSize"] = {
                     ["__type__"] = "cc.Size",
-                    ["height"] = 88,
-                    ["width"] = 88,
+                    ["height"] = 4,
+                    ["width"] = 48,
                 },
                 ["_globalZOrder"] = 0,
-                ["_id"] = "87187gr8M9EJ6jxrBFHM1hH",
                 ["_localZOrder"] = 0,
-                ["_name"] = "star",
+                ["_name"] = "ObjectHpOutline",
                 ["_objFlags"] = 0,
                 ["_opacity"] = 255,
                 ["_opacityModifyRGB"] = false,
                 ["_parent"] = {
-                    ["__id__"] = 2,
+                    ["__id__"] = 12,
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
-                    ["x"] = 778,
-                    ["y"] = 367,
+                    ["x"] = 0,
+                    ["y"] = 50,
                 },
                 ["_reorderChildDirty"] = false,
                 ["_rotationX"] = 0,
@@ -2102,12 +1588,12 @@ local assetsdb = {
                 ["_fillRange"] = 0,
                 ["_fillStart"] = 0,
                 ["_fillType"] = 0,
-                ["_isTrimmedMode"] = true,
+                ["_isTrimmedMode"] = false,
                 ["_name"] = "",
                 ["_objFlags"] = 0,
-                ["_sizeMode"] = 0,
+                ["_sizeMode"] = 2,
                 ["_spriteFrame"] = {
-                    ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
+                    ["__uuid__"] = "73ddc5be-12b0-49aa-814d-7bde7d7e6fcd",
                 },
                 ["_srcBlendFactor"] = 770,
                 ["_type"] = 0,
@@ -2140,23 +1626,22 @@ local assetsdb = {
                 },
                 ["_contentSize"] = {
                     ["__type__"] = "cc.Size",
-                    ["height"] = 32,
-                    ["width"] = 32,
+                    ["height"] = 4,
+                    ["width"] = 48,
                 },
                 ["_globalZOrder"] = 0,
-                ["_id"] = "9d6bewdlDNPr6cLaWL4bPPF",
                 ["_localZOrder"] = 0,
-                ["_name"] = "star",
+                ["_name"] = "EnemyHp",
                 ["_objFlags"] = 0,
                 ["_opacity"] = 255,
                 ["_opacityModifyRGB"] = false,
                 ["_parent"] = {
-                    ["__id__"] = 2,
+                    ["__id__"] = 12,
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
-                    ["x"] = 851,
-                    ["y"] = 395,
+                    ["x"] = 0,
+                    ["y"] = 50,
                 },
                 ["_reorderChildDirty"] = false,
                 ["_rotationX"] = 0,
@@ -2179,12 +1664,12 @@ local assetsdb = {
                 ["_fillRange"] = 0,
                 ["_fillStart"] = 0,
                 ["_fillType"] = 0,
-                ["_isTrimmedMode"] = true,
+                ["_isTrimmedMode"] = false,
                 ["_name"] = "",
                 ["_objFlags"] = 0,
                 ["_sizeMode"] = 2,
                 ["_spriteFrame"] = {
-                    ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
+                    ["__uuid__"] = "d4bec6fb-0383-4067-bcb7-15761e864021",
                 },
                 ["_srcBlendFactor"] = 770,
                 ["_type"] = 0,
@@ -2192,296 +1677,1665 @@ local assetsdb = {
                     ["__id__"] = 20,
                 },
             },
+            [22] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 23,
+                    },
+                    [2] = {
+                        ["__id__"] = 24,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 12,
+                    ["width"] = 80,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "WaveUp",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 180,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 12,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = -37,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [23] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = false,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 2,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "193f9a9d-d236-4174-a9d9-0a3801342cc7",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 22,
+                },
+            },
+            [24] = {
+                ["__type__"] = "cc.Animation",
+                ["_clips"] = {
+                    [1] = {
+                        ["__uuid__"] = "92378ee1-8c25-4f7e-98fe-d77ae6cb3268",
+                    },
+                },
+                ["_defaultClip"] = {
+                    ["__uuid__"] = "92378ee1-8c25-4f7e-98fe-d77ae6cb3268",
+                },
+                ["_enabled"] = true,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["node"] = {
+                    ["__id__"] = 22,
+                },
+                ["playOnLoad"] = true,
+            },
+            [25] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                    [1] = {
+                        ["__id__"] = 26,
+                    },
+                    [2] = {
+                        ["__id__"] = 29,
+                    },
+                    [3] = {
+                        ["__id__"] = 31,
+                    },
+                    [4] = {
+                        ["__id__"] = 33,
+                    },
+                    [5] = {
+                        ["__id__"] = 35,
+                    },
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 0,
+                    ["width"] = 0,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "Ship",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 4,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 494,
+                    ["y"] = 383,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [26] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 27,
+                    },
+                    [2] = {
+                        ["__id__"] = 28,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 16,
+                    ["width"] = 92,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "Wave",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 25,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = -35,
+                    ["y"] = -37,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 0.5,
+                ["_scaleY"] = 0.5,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [27] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = false,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 2,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "5b331ee3-d62c-4765-b43a-efdb91bb481d",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 26,
+                },
+            },
+            [28] = {
+                ["__type__"] = "cc.Animation",
+                ["_clips"] = {
+                    [1] = {
+                        ["__uuid__"] = "8d19dfd8-620d-46ad-ac5c-49463d19db2e",
+                    },
+                },
+                ["_defaultClip"] = {
+                    ["__uuid__"] = "8d19dfd8-620d-46ad-ac5c-49463d19db2e",
+                },
+                ["_enabled"] = true,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["node"] = {
+                    ["__id__"] = 26,
+                },
+                ["playOnLoad"] = true,
+            },
+            [29] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 30,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 96,
+                    ["width"] = 100,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "EnemyShip01",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 25,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [30] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = false,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 2,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "22a2f143-47db-4f79-8c13-fd141b7d8d29",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 29,
+                },
+            },
+            [31] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 32,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 4,
+                    ["width"] = 48,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "ObjectHpOutline",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 25,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 50,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [32] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = false,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 2,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "73ddc5be-12b0-49aa-814d-7bde7d7e6fcd",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 31,
+                },
+            },
+            [33] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 34,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 4,
+                    ["width"] = 48,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "EnemyHp",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 25,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 50,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [34] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = false,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 2,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "d4bec6fb-0383-4067-bcb7-15761e864021",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 33,
+                },
+            },
+            [35] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 36,
+                    },
+                    [2] = {
+                        ["__id__"] = 37,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 12,
+                    ["width"] = 80,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "WaveUp",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 180,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 25,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = -37,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [36] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = false,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 2,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "193f9a9d-d236-4174-a9d9-0a3801342cc7",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 35,
+                },
+            },
+            [37] = {
+                ["__type__"] = "cc.Animation",
+                ["_clips"] = {
+                    [1] = {
+                        ["__uuid__"] = "92378ee1-8c25-4f7e-98fe-d77ae6cb3268",
+                    },
+                },
+                ["_defaultClip"] = {
+                    ["__uuid__"] = "92378ee1-8c25-4f7e-98fe-d77ae6cb3268",
+                },
+                ["_enabled"] = true,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["node"] = {
+                    ["__id__"] = 35,
+                },
+                ["playOnLoad"] = true,
+            },
+            [38] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                    [1] = {
+                        ["__id__"] = 39,
+                    },
+                    [2] = {
+                        ["__id__"] = 42,
+                    },
+                    [3] = {
+                        ["__id__"] = 44,
+                    },
+                    [4] = {
+                        ["__id__"] = 46,
+                    },
+                    [5] = {
+                        ["__id__"] = 48,
+                    },
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 0,
+                    ["width"] = 0,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "Ship",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 4,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 511,
+                    ["y"] = 201,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [39] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 40,
+                    },
+                    [2] = {
+                        ["__id__"] = 41,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 16,
+                    ["width"] = 92,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "Wave",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 38,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = -35,
+                    ["y"] = -37,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 0.5,
+                ["_scaleY"] = 0.5,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [40] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = false,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 2,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "5b331ee3-d62c-4765-b43a-efdb91bb481d",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 39,
+                },
+            },
+            [41] = {
+                ["__type__"] = "cc.Animation",
+                ["_clips"] = {
+                    [1] = {
+                        ["__uuid__"] = "8d19dfd8-620d-46ad-ac5c-49463d19db2e",
+                    },
+                },
+                ["_defaultClip"] = {
+                    ["__uuid__"] = "8d19dfd8-620d-46ad-ac5c-49463d19db2e",
+                },
+                ["_enabled"] = true,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["node"] = {
+                    ["__id__"] = 39,
+                },
+                ["playOnLoad"] = true,
+            },
+            [42] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 43,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 96,
+                    ["width"] = 100,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "EnemyShip01",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 38,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [43] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = false,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 2,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "22a2f143-47db-4f79-8c13-fd141b7d8d29",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 42,
+                },
+            },
+            [44] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 45,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 4,
+                    ["width"] = 48,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "ObjectHpOutline",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 38,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 50,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [45] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = false,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 2,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "73ddc5be-12b0-49aa-814d-7bde7d7e6fcd",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 44,
+                },
+            },
+            [46] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 47,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 4,
+                    ["width"] = 48,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "EnemyHp",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 38,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 50,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [47] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = false,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 2,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "d4bec6fb-0383-4067-bcb7-15761e864021",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 46,
+                },
+            },
+            [48] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 49,
+                    },
+                    [2] = {
+                        ["__id__"] = 50,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 12,
+                    ["width"] = 80,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "WaveUp",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 180,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 38,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = -37,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [49] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = false,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 2,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "193f9a9d-d236-4174-a9d9-0a3801342cc7",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 48,
+                },
+            },
+            [50] = {
+                ["__type__"] = "cc.Animation",
+                ["_clips"] = {
+                    [1] = {
+                        ["__uuid__"] = "92378ee1-8c25-4f7e-98fe-d77ae6cb3268",
+                    },
+                },
+                ["_defaultClip"] = {
+                    ["__uuid__"] = "92378ee1-8c25-4f7e-98fe-d77ae6cb3268",
+                },
+                ["_enabled"] = true,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["node"] = {
+                    ["__id__"] = 48,
+                },
+                ["playOnLoad"] = true,
+            },
+            [51] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                    [1] = {
+                        ["__id__"] = 52,
+                    },
+                    [2] = {
+                        ["__id__"] = 55,
+                    },
+                    [3] = {
+                        ["__id__"] = 57,
+                    },
+                    [4] = {
+                        ["__id__"] = 59,
+                    },
+                    [5] = {
+                        ["__id__"] = 61,
+                    },
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 0,
+                    ["width"] = 0,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "Ship",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 4,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 800,
+                    ["y"] = 154,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [52] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 53,
+                    },
+                    [2] = {
+                        ["__id__"] = 54,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 16,
+                    ["width"] = 92,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "Wave",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 51,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = -35,
+                    ["y"] = -37,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 0.5,
+                ["_scaleY"] = 0.5,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [53] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = false,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 2,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "5b331ee3-d62c-4765-b43a-efdb91bb481d",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 52,
+                },
+            },
+            [54] = {
+                ["__type__"] = "cc.Animation",
+                ["_clips"] = {
+                    [1] = {
+                        ["__uuid__"] = "8d19dfd8-620d-46ad-ac5c-49463d19db2e",
+                    },
+                },
+                ["_defaultClip"] = {
+                    ["__uuid__"] = "8d19dfd8-620d-46ad-ac5c-49463d19db2e",
+                },
+                ["_enabled"] = true,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["node"] = {
+                    ["__id__"] = 52,
+                },
+                ["playOnLoad"] = true,
+            },
+            [55] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 56,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 96,
+                    ["width"] = 100,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "EnemyShip01",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 51,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [56] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = false,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 2,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "22a2f143-47db-4f79-8c13-fd141b7d8d29",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 55,
+                },
+            },
+            [57] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 58,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 4,
+                    ["width"] = 48,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "ObjectHpOutline",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 51,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 50,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [58] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = false,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 2,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "73ddc5be-12b0-49aa-814d-7bde7d7e6fcd",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 57,
+                },
+            },
+            [59] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 60,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 4,
+                    ["width"] = 48,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "EnemyHp",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 51,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 50,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [60] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = false,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 2,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "d4bec6fb-0383-4067-bcb7-15761e864021",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 59,
+                },
+            },
+            [61] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 62,
+                    },
+                    [2] = {
+                        ["__id__"] = 63,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 12,
+                    ["width"] = 80,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "WaveUp",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 180,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 51,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = -37,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [62] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = false,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 2,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "193f9a9d-d236-4174-a9d9-0a3801342cc7",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 61,
+                },
+            },
+            [63] = {
+                ["__type__"] = "cc.Animation",
+                ["_clips"] = {
+                    [1] = {
+                        ["__uuid__"] = "92378ee1-8c25-4f7e-98fe-d77ae6cb3268",
+                    },
+                },
+                ["_defaultClip"] = {
+                    ["__uuid__"] = "92378ee1-8c25-4f7e-98fe-d77ae6cb3268",
+                },
+                ["_enabled"] = true,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["node"] = {
+                    ["__id__"] = 61,
+                },
+                ["playOnLoad"] = true,
+            },
+            [64] = {
+                ["__type__"] = "cc.Widget",
+                ["_alignFlags"] = 12,
+                ["_bottom"] = 0,
+                ["_enabled"] = true,
+                ["_isAbsBottom"] = true,
+                ["_isAbsLeft"] = true,
+                ["_isAbsRight"] = true,
+                ["_isAbsTop"] = true,
+                ["_left"] = 0,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_originalHeight"] = 0,
+                ["_originalWidth"] = 0,
+                ["_right"] = 0,
+                ["_top"] = 0,
+                ["isAlignOnce"] = false,
+                ["node"] = {
+                    ["__id__"] = 4,
+                },
+            },
+            [65] = {
+                ["__type__"] = "cc.Canvas",
+                ["_designResolution"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 640,
+                    ["width"] = 960,
+                },
+                ["_enabled"] = true,
+                ["_fitHeight"] = true,
+                ["_fitWidth"] = false,
+                ["_name"] = "",
+                ["_objFlags"] = 1835008,
+                ["node"] = {
+                    ["__id__"] = 3,
+                },
+            },
         },
         ["__type__"] = "__js_array__",
     },
-    ["54435ee8-57ee-41ef-9a28-dff653505095"] = {
+    ["220e01da-0c42-48b3-b8f8-103847eb4594"] = {
         ["__type__"] = "cc.SpriteFrame",
         ["content"] = {
-            ["name"] = "CannonBoom0002",
-            ["offset"] = {
-                [1] = 1,
-                [2] = -10,
-            },
-            ["originalSize"] = {
-                [1] = 56,
-                [2] = 52,
-            },
-            ["rect"] = {
-                [1] = 485,
-                [2] = 838,
-                [3] = 44,
-                [4] = 26,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["5795899e-b31b-4697-bc0c-9baeaecfd42e"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "CannonBoom0012",
+            ["name"] = "BrokenArrow01",
             ["offset"] = {
                 [1] = -1,
-                [2] = -2,
+                [2] = -1,
             },
             ["originalSize"] = {
-                [1] = 56,
-                [2] = 52,
+                [1] = 48,
+                [2] = 16,
             },
             ["rect"] = {
-                [1] = 421,
-                [2] = 879,
-                [3] = 54,
-                [4] = 42,
+                [1] = 223,
+                [2] = 1005,
+                [3] = 26,
+                [4] = 10,
             },
             ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
         },
     },
-    ["5a9eb84c-9d2f-42e1-9257-62cf7ca5c017"] = {
+    ["221b9910-53a0-4864-bca2-7fb810e94ea9"] = {
         ["__type__"] = "cc.SpriteFrame",
         ["content"] = {
-            ["name"] = "IncreaseHp0016",
+            ["name"] = "ShipExplode0006",
             ["offset"] = {
-                [1] = -1,
-                [2] = -3,
+                [1] = 5,
+                [2] = 1,
             },
             ["originalSize"] = {
-                [1] = 72,
-                [2] = 90,
+                [1] = 148,
+                [2] = 120,
             },
             ["rect"] = {
-                [1] = 131,
-                [2] = 616,
-                [3] = 70,
+                [1] = 1,
+                [2] = 422,
+                [3] = 122,
+                [4] = 98,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["22a2f143-47db-4f79-8c13-fd141b7d8d29"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "EnemyShip01",
+            ["offset"] = {
+                [1] = 1,
+                [2] = 0,
+            },
+            ["originalSize"] = {
+                [1] = 100,
+                [2] = 96,
+            },
+            ["rect"] = {
+                [1] = 142,
+                [2] = 349,
+                [3] = 96,
                 [4] = 80,
             },
             ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
         },
     },
-    ["5aa59e87-9a01-4450-b82f-10676da8218e"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipWaveUpA0001",
-            ["offset"] = {
-                [1] = 0,
-                [2] = 0,
-            },
-            ["originalSize"] = {
-                [1] = 80,
-                [2] = 12,
-            },
-            ["rect"] = {
-                [1] = 94,
-                [2] = 939,
-                [3] = 76,
-                [4] = 10,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["5e277475-0ffa-4b51-b6c3-5c54563a9aa4"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "IncreaseHp0019",
-            ["offset"] = {
-                [1] = 0,
-                [2] = -1,
-            },
-            ["originalSize"] = {
-                [1] = 72,
-                [2] = 90,
-            },
-            ["rect"] = {
-                [1] = 429,
-                [2] = 197,
-                [3] = 70,
-                [4] = 82,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["5fa7b22d-19a3-4489-bb3a-9dd15dfcff45"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "CannonBoom0009",
-            ["offset"] = {
-                [1] = -1,
-                [2] = 1,
-            },
-            ["originalSize"] = {
-                [1] = 56,
-                [2] = 52,
-            },
-            ["rect"] = {
-                [1] = 171,
-                [2] = 892,
-                [3] = 54,
-                [4] = 48,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["60d7d153-fb50-4ff5-ad4d-431c6aa3eaae"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipWaveA0016",
-            ["offset"] = {
-                [1] = 1,
-                [2] = 1,
-            },
-            ["originalSize"] = {
-                [1] = 92,
-                [2] = 16,
-            },
-            ["rect"] = {
-                [1] = 202,
-                [2] = 616,
-                [3] = 78,
-                [4] = 14,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["6151a987-c3ed-402c-bd8e-56f9acec8284"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "CannonBoom0013",
-            ["offset"] = {
-                [1] = 0,
-                [2] = -1,
-            },
-            ["originalSize"] = {
-                [1] = 56,
-                [2] = 52,
-            },
-            ["rect"] = {
-                [1] = 171,
-                [2] = 847,
-                [3] = 56,
-                [4] = 44,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["63925005-92ca-48ac-961d-9a3a8344f914"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipWaveUpA0004",
-            ["offset"] = {
-                [1] = 2,
-                [2] = -1,
-            },
-            ["originalSize"] = {
-                [1] = 80,
-                [2] = 12,
-            },
-            ["rect"] = {
-                [1] = 476,
-                [2] = 828,
-                [3] = 72,
-                [4] = 8,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["639557df-57b4-4cbc-8139-044ef0754fc2"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipWaveUpA0012",
-            ["offset"] = {
-                [1] = 2,
-                [2] = -1,
-            },
-            ["originalSize"] = {
-                [1] = 80,
-                [2] = 12,
-            },
-            ["rect"] = {
-                [1] = 476,
-                [2] = 828,
-                [3] = 72,
-                [4] = 8,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["64049c3a-e198-481b-9a8f-1d391d1b76d5"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipWaveA0009",
-            ["offset"] = {
-                [1] = -11,
-                [2] = 0,
-            },
-            ["originalSize"] = {
-                [1] = 92,
-                [2] = 16,
-            },
-            ["rect"] = {
-                [1] = 397,
-                [2] = 483,
-                [3] = 66,
-                [4] = 14,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["653514b6-95ae-4c85-a031-ebbbfe0fea31"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipWaveUpA0002",
-            ["offset"] = {
-                [1] = 0,
-                [2] = 0,
-            },
-            ["originalSize"] = {
-                [1] = 80,
-                [2] = 12,
-            },
-            ["rect"] = {
-                [1] = 94,
-                [2] = 939,
-                [3] = 76,
-                [4] = 10,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["659d7701-9f08-4dd6-aa1f-ef1f3ac75ee2"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "CannonBoom0011",
-            ["offset"] = {
-                [1] = -1,
-                [2] = 1,
-            },
-            ["originalSize"] = {
-                [1] = 56,
-                [2] = 52,
-            },
-            ["rect"] = {
-                [1] = 228,
-                [2] = 837,
-                [3] = 54,
-                [4] = 50,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["65ac6ff0-45ac-4685-b6ad-fdc34d1da876"] = {
+    ["240ccef9-587e-45cd-bc16-20fd2476496f"] = {
         ["__type__"] = "cc.SpriteFrame",
         ["content"] = {
             ["name"] = "CannonBoom0015",
@@ -2500,169 +3354,37 @@ local assetsdb = {
                 [4] = 44,
             },
             ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
         },
     },
-    ["66166968-5747-4665-b22f-d9c74310446d"] = {
+    ["27878e89-ab92-48da-8346-5bf42a0b7cde"] = {
         ["__type__"] = "cc.SpriteFrame",
         ["content"] = {
-            ["name"] = "ShipExplodeSmall020002",
-            ["offset"] = {
-                [1] = 1,
-                [2] = 0,
-            },
-            ["originalSize"] = {
-                [1] = 120,
-                [2] = 120,
-            },
-            ["rect"] = {
-                [1] = 340,
-                [2] = 201,
-                [3] = 80,
-                [4] = 88,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["69a2c638-9379-49ab-a5e8-aafd3da6594e"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "PlayerTower0102",
-            ["offset"] = {
-                [1] = 0,
-                [2] = -2,
-            },
-            ["originalSize"] = {
-                [1] = 120,
-                [2] = 80,
-            },
-            ["rect"] = {
-                [1] = 144,
-                [2] = 274,
-                [3] = 110,
-                [4] = 74,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["6b7cee20-5f48-47cb-8747-43c5b8c67edf"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "IncreaseHp0010",
+            ["name"] = "IncreaseHp0027",
             ["offset"] = {
                 [1] = -1,
-                [2] = -4,
+                [2] = 1,
             },
             ["originalSize"] = {
                 [1] = 72,
                 [2] = 90,
             },
             ["rect"] = {
-                [1] = 352,
-                [2] = 828,
+                [1] = 283,
+                [2] = 757,
                 [3] = 68,
                 [4] = 68,
             },
             ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
         },
     },
-    ["6b855aa1-c000-48c2-8250-b1101d728ead"] = {
+    ["2816c3dd-573d-481f-b039-4017dfe6dc83"] = {
         ["__type__"] = "cc.SpriteFrame",
         ["content"] = {
-            ["name"] = "ShipExplodeSmall010005",
+            ["name"] = "IncreaseHp0023",
             ["offset"] = {
                 [1] = 0,
-                [2] = 2,
-            },
-            ["originalSize"] = {
-                [1] = 36,
-                [2] = 36,
-            },
-            ["rect"] = {
-                [1] = 485,
-                [2] = 883,
-                [3] = 30,
-                [4] = 26,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["6d2a6d67-3944-453a-b895-9946e27181ec"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipExplodeSmall010002",
-            ["offset"] = {
-                [1] = 0,
-                [2] = 0,
-            },
-            ["originalSize"] = {
-                [1] = 36,
-                [2] = 36,
-            },
-            ["rect"] = {
-                [1] = 359,
-                [2] = 938,
-                [3] = 30,
-                [4] = 30,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["6d39865e-bf48-4014-8e44-11eda3c2624d"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipWaveA0012",
-            ["offset"] = {
-                [1] = 0,
-                [2] = 1,
-            },
-            ["originalSize"] = {
-                [1] = 92,
-                [2] = 16,
-            },
-            ["rect"] = {
-                [1] = 116,
-                [2] = 618,
-                [3] = 88,
-                [4] = 14,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["6de2a853-a14a-41cd-9ddd-b67e8e1e7b2a"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipExplode0002",
-            ["offset"] = {
-                [1] = -7,
-                [2] = -1,
-            },
-            ["originalSize"] = {
-                [1] = 148,
-                [2] = 120,
-            },
-            ["rect"] = {
-                [1] = 226,
-                [2] = 687,
-                [3] = 76,
-                [4] = 56,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["6ecfe585-ccba-447d-b7ea-2fb1f12ea14b"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "IncreaseHp0001",
-            ["offset"] = {
-                [1] = -1,
                 [2] = 3,
             },
             ["originalSize"] = {
@@ -2670,192 +3392,60 @@ local assetsdb = {
                 [2] = 90,
             },
             ["rect"] = {
-                [1] = 157,
-                [2] = 780,
-                [3] = 70,
-                [4] = 66,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["7504690e-9cf1-417b-ba71-2a7b706c5db3"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "IncreaseHp0014",
-            ["offset"] = {
-                [1] = -1,
-                [2] = 1,
-            },
-            ["originalSize"] = {
-                [1] = 72,
-                [2] = 90,
-            },
-            ["rect"] = {
-                [1] = 354,
-                [2] = 690,
-                [3] = 70,
-                [4] = 68,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["761e3ff9-e635-42cf-b028-7bc885ae70d6"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "IncreaseHp0026",
-            ["offset"] = {
-                [1] = -1,
-                [2] = -1,
-            },
-            ["originalSize"] = {
-                [1] = 72,
-                [2] = 90,
-            },
-            ["rect"] = {
-                [1] = 352,
-                [2] = 759,
+                [1] = 306,
+                [2] = 552,
                 [3] = 68,
+                [4] = 82,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["34ed707b-4dbc-4212-be7d-1cc8d6349a9f"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "IncreaseHp0028",
+            ["offset"] = {
+                [1] = -1,
+                [2] = 2,
+            },
+            ["originalSize"] = {
+                [1] = 72,
+                [2] = 90,
+            },
+            ["rect"] = {
+                [1] = 359,
+                [2] = 621,
+                [3] = 70,
                 [4] = 68,
             },
             ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
         },
     },
-    ["7734c3a0-77e8-4ecc-8f43-b91f1cb04905"] = {
+    ["34fadee9-d715-4e92-8450-08a006b8c407"] = {
         ["__type__"] = "cc.SpriteFrame",
         ["content"] = {
-            ["name"] = "ShipExplode0001",
+            ["name"] = "ShipWaveUpA0014",
             ["offset"] = {
-                [1] = -7,
+                [1] = 1,
                 [2] = -1,
             },
             ["originalSize"] = {
-                [1] = 148,
-                [2] = 120,
+                [1] = 80,
+                [2] = 12,
             },
             ["rect"] = {
-                [1] = 228,
-                [2] = 764,
+                [1] = 162,
+                [2] = 847,
                 [3] = 72,
-                [4] = 54,
+                [4] = 8,
             },
             ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
         },
     },
-    ["78ff0d1d-cb99-4764-936a-23e5cbe4e89f"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipWaveA0003",
-            ["offset"] = {
-                [1] = -4,
-                [2] = 0,
-            },
-            ["originalSize"] = {
-                [1] = 92,
-                [2] = 16,
-            },
-            ["rect"] = {
-                [1] = 94,
-                [2] = 924,
-                [3] = 76,
-                [4] = 14,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["7a7f8593-e0fe-4a90-bf22-d6c46a71352b"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipExplodeSmall010001",
-            ["offset"] = {
-                [1] = 0,
-                [2] = 0,
-            },
-            ["originalSize"] = {
-                [1] = 36,
-                [2] = 36,
-            },
-            ["rect"] = {
-                [1] = 329,
-                [2] = 1002,
-                [3] = 22,
-                [4] = 20,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["7c2f1e48-bf78-4728-adfa-4e8fa1748ee6"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ObjectHpOutline",
-            ["offset"] = {
-                [1] = 0,
-                [2] = 0,
-            },
-            ["originalSize"] = {
-                [1] = 48,
-                [2] = 4,
-            },
-            ["rect"] = {
-                [1] = 94,
-                [2] = 950,
-                [3] = 48,
-                [4] = 4,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["7dbcf745-95e6-4d51-b895-45a810c3a6d2"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "IncreaseHp0013",
-            ["offset"] = {
-                [1] = -1,
-                [2] = -1,
-            },
-            ["originalSize"] = {
-                [1] = 72,
-                [2] = 90,
-            },
-            ["rect"] = {
-                [1] = 425,
-                [2] = 690,
-                [3] = 68,
-                [4] = 68,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["7eb75424-fb3f-4338-99f8-a494b57c49db"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "Arrow01",
-            ["offset"] = {
-                [1] = -1,
-                [2] = -1,
-            },
-            ["originalSize"] = {
-                [1] = 48,
-                [2] = 16,
-            },
-            ["rect"] = {
-                [1] = 314,
-                [2] = 440,
-                [3] = 26,
-                [4] = 10,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["81d7af5d-dc50-4877-891c-fc999576b131"] = {
+    ["35eb0c50-5887-4d46-8b13-3bc914552dcc"] = {
         ["__type__"] = "cc.SpriteFrame",
         ["content"] = {
             ["name"] = "CannonBoom0018",
@@ -2874,15 +3464,257 @@ local assetsdb = {
                 [4] = 4,
             },
             ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
         },
     },
-    ["8455873f-8706-418f-83e5-bfbe357cd7d2"] = {
+    ["37774c07-029e-470f-9114-e5a5be58f2b3"] = {
         ["__type__"] = "cc.SpriteFrame",
         ["content"] = {
-            ["name"] = "ShipExplodeSmall010006",
+            ["name"] = "IncreaseHp0012",
             ["offset"] = {
                 [1] = -1,
+                [2] = -2,
+            },
+            ["originalSize"] = {
+                [1] = 72,
+                [2] = 90,
+            },
+            ["rect"] = {
+                [1] = 421,
+                [2] = 759,
+                [3] = 68,
+                [4] = 68,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["3a8d5f02-e53c-4fed-bf3a-c76b9ceedc0b"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipWaveA0014",
+            ["offset"] = {
+                [1] = 3,
+                [2] = 1,
+            },
+            ["originalSize"] = {
+                [1] = 92,
+                [2] = 16,
+            },
+            ["rect"] = {
+                [1] = 94,
+                [2] = 838,
+                [3] = 78,
+                [4] = 14,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["3b1cb927-4c5c-47f0-a0bf-104ed5e635e4"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "PlayerTower02Fire0004",
+            ["offset"] = {
+                [1] = 0,
+                [2] = -7,
+            },
+            ["originalSize"] = {
+                [1] = 28,
+                [2] = 28,
+            },
+            ["rect"] = {
+                [1] = 412,
+                [2] = 525,
+                [3] = 26,
+                [4] = 14,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["3d197b06-7847-4fcd-a778-19eef841dc4f"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "IncreaseHp0020",
+            ["offset"] = {
+                [1] = 0,
+                [2] = 0,
+            },
+            ["originalSize"] = {
+                [1] = 72,
+                [2] = 90,
+            },
+            ["rect"] = {
+                [1] = 291,
+                [2] = 114,
+                [3] = 70,
+                [4] = 82,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["3e670b0b-5fa3-4e43-81b8-17b8bb8af382"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "PlayerTower0201",
+            ["offset"] = {
+                [1] = -4,
+                [2] = -11,
+            },
+            ["originalSize"] = {
+                [1] = 160,
+                [2] = 92,
+            },
+            ["rect"] = {
+                [1] = 96,
+                [2] = 719,
+                [3] = 100,
+                [4] = 60,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["40bc5dc5-750b-4dd9-9c34-130560bbcce1"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipExplodeSmall010001",
+            ["offset"] = {
+                [1] = 0,
+                [2] = 0,
+            },
+            ["originalSize"] = {
+                [1] = 36,
+                [2] = 36,
+            },
+            ["rect"] = {
+                [1] = 329,
+                [2] = 1002,
+                [3] = 22,
+                [4] = 20,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["41de235d-b11a-4ed0-8c01-aa511865507b"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "IncreaseHp0018",
+            ["offset"] = {
+                [1] = 0,
+                [2] = -1,
+            },
+            ["originalSize"] = {
+                [1] = 72,
+                [2] = 90,
+            },
+            ["rect"] = {
+                [1] = 431,
+                [2] = 339,
+                [3] = 70,
+                [4] = 80,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["434ed300-4f72-43fc-9b66-15bb1f870ff1"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipWaveA0003",
+            ["offset"] = {
+                [1] = -4,
+                [2] = 0,
+            },
+            ["originalSize"] = {
+                [1] = 92,
+                [2] = 16,
+            },
+            ["rect"] = {
+                [1] = 94,
+                [2] = 924,
+                [3] = 76,
+                [4] = 14,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["43cbfd19-9259-4589-baaf-058345f34340"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipExplode0010",
+            ["offset"] = {
+                [1] = 1,
+                [2] = 4,
+            },
+            ["originalSize"] = {
+                [1] = 148,
+                [2] = 120,
+            },
+            ["rect"] = {
+                [1] = 1,
+                [2] = 521,
+                [3] = 120,
+                [4] = 96,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["460c9fe4-542e-4b50-92a6-2bab193453f0"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "CannonBoom0001",
+            ["offset"] = {
+                [1] = -2,
+                [2] = -12,
+            },
+            ["originalSize"] = {
+                [1] = 56,
+                [2] = 52,
+            },
+            ["rect"] = {
+                [1] = 412,
+                [2] = 510,
+                [3] = 16,
+                [4] = 14,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["473f0cc2-c4f3-47c3-9387-1e2412b14a79"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipWaveA0015",
+            ["offset"] = {
+                [1] = 1,
+                [2] = 1,
+            },
+            ["originalSize"] = {
+                [1] = 92,
+                [2] = 16,
+            },
+            ["rect"] = {
+                [1] = 202,
+                [2] = 616,
+                [3] = 78,
+                [4] = 14,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["4aadbac7-0b49-4471-9f5d-47b09a352b91"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipExplodeSmall010004",
+            ["offset"] = {
+                [1] = 0,
                 [2] = 2,
             },
             ["originalSize"] = {
@@ -2890,13 +3722,717 @@ local assetsdb = {
                 [2] = 36,
             },
             ["rect"] = {
-                [1] = 250,
-                [2] = 990,
-                [3] = 28,
-                [4] = 24,
+                [1] = 393,
+                [2] = 897,
+                [3] = 30,
+                [4] = 26,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["4e878db8-ae53-4639-a6df-47edb69c4bdd"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipExplode0007",
+            ["offset"] = {
+                [1] = -4,
+                [2] = 3,
+            },
+            ["originalSize"] = {
+                [1] = 148,
+                [2] = 120,
+            },
+            ["rect"] = {
+                [1] = 1,
+                [2] = 618,
+                [3] = 114,
+                [4] = 100,
             },
             ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["4eac7b7c-1329-4474-8070-db849afa96e8"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipWaveUpA0005",
+            ["offset"] = {
+                [1] = 1,
+                [2] = -1,
+            },
+            ["originalSize"] = {
+                [1] = 80,
+                [2] = 12,
+            },
+            ["rect"] = {
+                [1] = 162,
+                [2] = 847,
+                [3] = 72,
+                [4] = 8,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["52286ec0-04da-47bd-a7b3-1560641f02c4"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipWaveA0004",
+            ["offset"] = {
+                [1] = -4,
+                [2] = 0,
+            },
+            ["originalSize"] = {
+                [1] = 92,
+                [2] = 16,
+            },
+            ["rect"] = {
+                [1] = 94,
+                [2] = 924,
+                [3] = 76,
+                [4] = 14,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["5305efcc-0b74-4499-a365-48ccad17b8c4"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "CannonBoom0005",
+            ["offset"] = {
+                [1] = -1,
+                [2] = 0,
+            },
+            ["originalSize"] = {
+                [1] = 56,
+                [2] = 52,
+            },
+            ["rect"] = {
+                [1] = 271,
+                [2] = 940,
+                [3] = 50,
+                [4] = 44,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["5312f0fe-441d-4f3f-9abf-69c815d61ea1"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "PlayerTower02Fire0007",
+            ["offset"] = {
+                [1] = 0,
+                [2] = -3,
+            },
+            ["originalSize"] = {
+                [1] = 28,
+                [2] = 28,
+            },
+            ["rect"] = {
+                [1] = 306,
+                [2] = 990,
+                [3] = 26,
+                [4] = 22,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["543ebdcb-66d3-45fc-b9bd-30a1a7fe07ea"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "PlayerTower02Fire0003",
+            ["offset"] = {
+                [1] = 0,
+                [2] = -6,
+            },
+            ["originalSize"] = {
+                [1] = 28,
+                [2] = 28,
+            },
+            ["rect"] = {
+                [1] = 412,
+                [2] = 483,
+                [3] = 26,
+                [4] = 16,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["55653ab6-41eb-4486-87ff-fccd1e899ff8"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipWaveA0007",
+            ["offset"] = {
+                [1] = -8,
+                [2] = 0,
+            },
+            ["originalSize"] = {
+                [1] = 92,
+                [2] = 16,
+            },
+            ["rect"] = {
+                [1] = 490,
+                [2] = 765,
+                [3] = 72,
+                [4] = 14,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["56c9e70d-60a3-4a2e-937c-bae6b0f764e4"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "IncreaseHp0001",
+            ["offset"] = {
+                [1] = -1,
+                [2] = 3,
+            },
+            ["originalSize"] = {
+                [1] = 72,
+                [2] = 90,
+            },
+            ["rect"] = {
+                [1] = 157,
+                [2] = 780,
+                [3] = 70,
+                [4] = 66,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["59547679-3807-4b02-bf61-6fa63c58d404"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipWaveA0006",
+            ["offset"] = {
+                [1] = -6,
+                [2] = 0,
+            },
+            ["originalSize"] = {
+                [1] = 92,
+                [2] = 16,
+            },
+            ["rect"] = {
+                [1] = 494,
+                [2] = 690,
+                [3] = 74,
+                [4] = 14,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["5b331ee3-d62c-4765-b43a-efdb91bb481d"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipWaveA0001",
+            ["offset"] = {
+                [1] = -2,
+                [2] = 1,
+            },
+            ["originalSize"] = {
+                [1] = 92,
+                [2] = 16,
+            },
+            ["rect"] = {
+                [1] = 171,
+                [2] = 990,
+                [3] = 78,
+                [4] = 14,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["5f85ea6d-00c6-4787-a373-37bf5ec94dae"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipWaveUpA0010",
+            ["offset"] = {
+                [1] = 0,
+                [2] = 0,
+            },
+            ["originalSize"] = {
+                [1] = 80,
+                [2] = 12,
+            },
+            ["rect"] = {
+                [1] = 94,
+                [2] = 939,
+                [3] = 76,
+                [4] = 10,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["6643344c-d8f9-40d2-9e0c-1bb0cfe3ba2c"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "IncreaseHp0006",
+            ["offset"] = {
+                [1] = 0,
+                [2] = 0,
+            },
+            ["originalSize"] = {
+                [1] = 72,
+                [2] = 90,
+            },
+            ["rect"] = {
+                [1] = 255,
+                [2] = 280,
+                [3] = 70,
+                [4] = 84,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["682ec328-4b50-4e35-9ae8-7f5a45a5d527"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "IncreaseHp0013",
+            ["offset"] = {
+                [1] = -1,
+                [2] = -1,
+            },
+            ["originalSize"] = {
+                [1] = 72,
+                [2] = 90,
+            },
+            ["rect"] = {
+                [1] = 425,
+                [2] = 690,
+                [3] = 68,
+                [4] = 68,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["697a29c9-1327-437d-b71d-94bd5b7681f5"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipWaveUpA0009",
+            ["offset"] = {
+                [1] = 0,
+                [2] = 0,
+            },
+            ["originalSize"] = {
+                [1] = 80,
+                [2] = 12,
+            },
+            ["rect"] = {
+                [1] = 94,
+                [2] = 939,
+                [3] = 76,
+                [4] = 10,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["69d7b5ef-6bb9-4a18-9f4c-838d7486ee07"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipExplodeSmall010005",
+            ["offset"] = {
+                [1] = 0,
+                [2] = 2,
+            },
+            ["originalSize"] = {
+                [1] = 36,
+                [2] = 36,
+            },
+            ["rect"] = {
+                [1] = 485,
+                [2] = 883,
+                [3] = 30,
+                [4] = 26,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["6c90ba0f-c493-46d0-ab76-d32fb664dfc2"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipWaveUpA0008",
+            ["offset"] = {
+                [1] = 0,
+                [2] = 0,
+            },
+            ["originalSize"] = {
+                [1] = 80,
+                [2] = 12,
+            },
+            ["rect"] = {
+                [1] = 330,
+                [2] = 197,
+                [3] = 74,
+                [4] = 8,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["6e4760bf-697c-4439-af16-7c13a4dff0a4"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipWaveA0005",
+            ["offset"] = {
+                [1] = -6,
+                [2] = 0,
+            },
+            ["originalSize"] = {
+                [1] = 92,
+                [2] = 16,
+            },
+            ["rect"] = {
+                [1] = 494,
+                [2] = 690,
+                [3] = 74,
+                [4] = 14,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["70acc76a-aebc-4ca4-b0b4-05dd45632096"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "IncreaseHp0025",
+            ["offset"] = {
+                [1] = -1,
+                [2] = -2,
+            },
+            ["originalSize"] = {
+                [1] = 72,
+                [2] = 90,
+            },
+            ["rect"] = {
+                [1] = 430,
+                [2] = 621,
+                [3] = 68,
+                [4] = 68,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["70f06b8a-058c-4edc-92f2-2fb70d73ced7"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "CannonBoom0013",
+            ["offset"] = {
+                [1] = 0,
+                [2] = -1,
+            },
+            ["originalSize"] = {
+                [1] = 56,
+                [2] = 52,
+            },
+            ["rect"] = {
+                [1] = 171,
+                [2] = 847,
+                [3] = 56,
+                [4] = 44,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["713ccf60-de0f-4edc-b692-a115e31c151f"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "IncreaseHp0007",
+            ["offset"] = {
+                [1] = 0,
+                [2] = 1,
+            },
+            ["originalSize"] = {
+                [1] = 72,
+                [2] = 90,
+            },
+            ["rect"] = {
+                [1] = 340,
+                [2] = 282,
+                [3] = 68,
+                [4] = 84,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["713d5a6c-21c7-456f-a795-bc3973bcb370"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipExplode0009",
+            ["offset"] = {
+                [1] = 1,
+                [2] = 4,
+            },
+            ["originalSize"] = {
+                [1] = 148,
+                [2] = 120,
+            },
+            ["rect"] = {
+                [1] = 1,
+                [2] = 838,
+                [3] = 116,
+                [4] = 92,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["732f95a2-4c41-426a-a7aa-df709298efa1"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipExplodeSmall020005",
+            ["offset"] = {
+                [1] = 2,
+                [2] = 0,
+            },
+            ["originalSize"] = {
+                [1] = 120,
+                [2] = 120,
+            },
+            ["rect"] = {
+                [1] = 213,
+                [2] = 527,
+                [3] = 86,
+                [4] = 92,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["73ddc5be-12b0-49aa-814d-7bde7d7e6fcd"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ObjectHpOutline",
+            ["offset"] = {
+                [1] = 0,
+                [2] = 0,
+            },
+            ["originalSize"] = {
+                [1] = 48,
+                [2] = 4,
+            },
+            ["rect"] = {
+                [1] = 94,
+                [2] = 950,
+                [3] = 48,
+                [4] = 4,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["76929835-9657-4f8e-ac6b-ea223f0a6c80"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "IncreaseHp0026",
+            ["offset"] = {
+                [1] = -1,
+                [2] = -1,
+            },
+            ["originalSize"] = {
+                [1] = 72,
+                [2] = 90,
+            },
+            ["rect"] = {
+                [1] = 352,
+                [2] = 759,
+                [3] = 68,
+                [4] = 68,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["7c68ab4b-452f-4589-be84-efd37bcc0034"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipWaveA0010",
+            ["offset"] = {
+                [1] = -11,
+                [2] = 0,
+            },
+            ["originalSize"] = {
+                [1] = 92,
+                [2] = 16,
+            },
+            ["rect"] = {
+                [1] = 397,
+                [2] = 483,
+                [3] = 66,
+                [4] = 14,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["7d887ac5-3abe-49e0-a514-19a05bc0c6d0"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipExplodeSmall020003",
+            ["offset"] = {
+                [1] = 2,
+                [2] = -1,
+            },
+            ["originalSize"] = {
+                [1] = 120,
+                [2] = 120,
+            },
+            ["rect"] = {
+                [1] = 239,
+                [2] = 351,
+                [3] = 88,
+                [4] = 94,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["7e8410e1-57ef-45ad-988d-22446ecce871"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipWaveA0011",
+            ["offset"] = {
+                [1] = 0,
+                [2] = 1,
+            },
+            ["originalSize"] = {
+                [1] = 92,
+                [2] = 16,
+            },
+            ["rect"] = {
+                [1] = 116,
+                [2] = 618,
+                [3] = 88,
+                [4] = 14,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["7f727f48-5167-418b-b8fd-db96ec6ae3eb"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipWaveUpA0011",
+            ["offset"] = {
+                [1] = 2,
+                [2] = -1,
+            },
+            ["originalSize"] = {
+                [1] = 80,
+                [2] = 12,
+            },
+            ["rect"] = {
+                [1] = 476,
+                [2] = 828,
+                [3] = 72,
+                [4] = 8,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["7fd2c693-36f5-4c7c-bb00-4d6338ae02ed"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "PlayerTower0202Destroyed",
+            ["offset"] = {
+                [1] = 0,
+                [2] = -2,
+            },
+            ["originalSize"] = {
+                [1] = 112,
+                [2] = 84,
+            },
+            ["rect"] = {
+                [1] = 144,
+                [2] = 197,
+                [3] = 112,
+                [4] = 76,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["810c4035-6386-4cbc-a3ec-cc09e0ea2903"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "PlayerTower02Fire0008",
+            ["offset"] = {
+                [1] = 0,
+                [2] = -3,
+            },
+            ["originalSize"] = {
+                [1] = 28,
+                [2] = 28,
+            },
+            ["rect"] = {
+                [1] = 393,
+                [2] = 928,
+                [3] = 26,
+                [4] = 22,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["82a90ce0-f447-4e27-a1a4-281e6a57d9d1"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "CannonBoom0002",
+            ["offset"] = {
+                [1] = 1,
+                [2] = -10,
+            },
+            ["originalSize"] = {
+                [1] = 56,
+                [2] = 52,
+            },
+            ["rect"] = {
+                [1] = 485,
+                [2] = 838,
+                [3] = 44,
+                [4] = 26,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["83a7883f-a7e6-483d-a3ed-0d68a29303f3"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "CannonBoom0016",
+            ["offset"] = {
+                [1] = -1,
+                [2] = -1,
+            },
+            ["originalSize"] = {
+                [1] = 56,
+                [2] = 52,
+            },
+            ["rect"] = {
+                [1] = 338,
+                [2] = 897,
+                [3] = 54,
+                [4] = 40,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
         },
     },
     ["8506b260-6e39-4782-904a-331f33d7ca8b"] = {
@@ -2921,821 +4457,73 @@ local assetsdb = {
             ["texture"] = "d96dbaa8-bf35-4d75-bc8e-66206379f718",
         },
     },
-    ["853b6ee5-4a1d-48a2-a4a3-7162d5759e84"] = {
+    ["89fd1cce-7a09-4691-84bc-f9c505c9e21b"] = {
         ["__type__"] = "cc.SpriteFrame",
         ["content"] = {
-            ["name"] = "ShipWaveA0001",
-            ["offset"] = {
-                [1] = -2,
-                [2] = 1,
-            },
-            ["originalSize"] = {
-                [1] = 92,
-                [2] = 16,
-            },
-            ["rect"] = {
-                [1] = 171,
-                [2] = 990,
-                [3] = 78,
-                [4] = 14,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["874a6923-8282-48b3-aeaa-d44935641b49"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "IncreaseHp0006",
+            ["name"] = "CannonBall01",
             ["offset"] = {
                 [1] = 0,
                 [2] = 0,
             },
             ["originalSize"] = {
-                [1] = 72,
-                [2] = 90,
+                [1] = 12,
+                [2] = 12,
             },
             ["rect"] = {
-                [1] = 255,
-                [2] = 280,
-                [3] = 70,
-                [4] = 84,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["880f7ab0-ec73-4fbb-a8b4-3bf35e4b2c3c"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "IncreaseHp0025",
-            ["offset"] = {
-                [1] = -1,
-                [2] = -2,
-            },
-            ["originalSize"] = {
-                [1] = 72,
-                [2] = 90,
-            },
-            ["rect"] = {
-                [1] = 430,
-                [2] = 621,
-                [3] = 68,
-                [4] = 68,
+                [1] = 472,
+                [2] = 605,
+                [3] = 12,
+                [4] = 12,
             },
             ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
         },
     },
-    ["8858c84a-2db7-40b8-85a6-667ee68e2160"] = {
+    ["8b12cf07-df52-4cb8-88bb-b3fbc126bc6f"] = {
         ["__type__"] = "cc.SpriteFrame",
         ["content"] = {
-            ["name"] = "ShipExplode0010",
-            ["offset"] = {
-                [1] = 1,
-                [2] = 4,
-            },
-            ["originalSize"] = {
-                [1] = 148,
-                [2] = 120,
-            },
-            ["rect"] = {
-                [1] = 1,
-                [2] = 521,
-                [3] = 120,
-                [4] = 96,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["89f0d0d5-78e7-499c-9203-65eeaafdda25"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "IncreaseHp0002",
-            ["offset"] = {
-                [1] = 0,
-                [2] = 4,
-            },
-            ["originalSize"] = {
-                [1] = 72,
-                [2] = 90,
-            },
-            ["rect"] = {
-                [1] = 286,
-                [2] = 621,
-                [3] = 72,
-                [4] = 66,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["8bcefbe7-88b1-4c4f-8839-31377804e5a0"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "CannonBoom0005",
-            ["offset"] = {
-                [1] = -1,
-                [2] = 0,
-            },
-            ["originalSize"] = {
-                [1] = 56,
-                [2] = 52,
-            },
-            ["rect"] = {
-                [1] = 271,
-                [2] = 940,
-                [3] = 50,
-                [4] = 44,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["8f32d541-e862-44d7-9eb9-22ff892396ac"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "PlayerTower0102Destroyed",
-            ["offset"] = {
-                [1] = 1,
-                [2] = -2,
-            },
-            ["originalSize"] = {
-                [1] = 120,
-                [2] = 80,
-            },
-            ["rect"] = {
-                [1] = 436,
-                [2] = 1,
-                [3] = 110,
-                [4] = 74,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["907edcc2-8081-44e4-85ef-f0dfb0704a3e"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "IncreaseHp0007",
-            ["offset"] = {
-                [1] = 0,
-                [2] = 1,
-            },
-            ["originalSize"] = {
-                [1] = 72,
-                [2] = 90,
-            },
-            ["rect"] = {
-                [1] = 340,
-                [2] = 282,
-                [3] = 68,
-                [4] = 84,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["934bdaf3-4def-47ba-a703-2dd8f48dd768"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipExplode0006",
-            ["offset"] = {
-                [1] = 5,
-                [2] = 1,
-            },
-            ["originalSize"] = {
-                [1] = 148,
-                [2] = 120,
-            },
-            ["rect"] = {
-                [1] = 1,
-                [2] = 422,
-                [3] = 122,
-                [4] = 98,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["98ecf5ca-1f39-494b-bccf-a34d66323641"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "PlayerTower0201Destroyed",
-            ["offset"] = {
-                [1] = 5,
-                [2] = -8,
-            },
-            ["originalSize"] = {
-                [1] = 112,
-                [2] = 84,
-            },
-            ["rect"] = {
-                [1] = 334,
-                [2] = 351,
-                [3] = 96,
-                [4] = 66,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["99c91f82-22c5-4829-a9e2-bc349d38241a"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipWaveA0002",
-            ["offset"] = {
-                [1] = -2,
-                [2] = 1,
-            },
-            ["originalSize"] = {
-                [1] = 92,
-                [2] = 16,
-            },
-            ["rect"] = {
-                [1] = 171,
-                [2] = 990,
-                [3] = 78,
-                [4] = 14,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["a748c78c-e1f6-45c8-b438-e6dbe847239f"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipWaveUpA0005",
+            ["name"] = "ShipExplodeSmall020004",
             ["offset"] = {
                 [1] = 1,
                 [2] = -1,
             },
             ["originalSize"] = {
-                [1] = 80,
-                [2] = 12,
+                [1] = 120,
+                [2] = 120,
             },
             ["rect"] = {
-                [1] = 162,
-                [2] = 847,
-                [3] = 72,
-                [4] = 8,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["a9f8a282-f11f-4ede-86ef-9b53b109a173"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipWaveA0010",
-            ["offset"] = {
-                [1] = -11,
-                [2] = 0,
-            },
-            ["originalSize"] = {
-                [1] = 92,
-                [2] = 16,
-            },
-            ["rect"] = {
-                [1] = 397,
-                [2] = 483,
-                [3] = 66,
-                [4] = 14,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["accc617d-3f00-4dd2-a601-222d5b607225"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "PlayerTower02Fire0002",
-            ["offset"] = {
-                [1] = 0,
-                [2] = -5,
-            },
-            ["originalSize"] = {
-                [1] = 28,
-                [2] = 28,
-            },
-            ["rect"] = {
-                [1] = 171,
-                [2] = 1005,
-                [3] = 26,
-                [4] = 18,
+                [1] = 122,
+                [2] = 521,
+                [3] = 90,
+                [4] = 94,
             },
             ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
         },
     },
-    ["b1ed3d0c-0fca-4c73-b164-98cc7dd3c46f"] = {
+    ["8bdb7171-42a2-4fa9-ae09-2ecf28201286"] = {
         ["__type__"] = "cc.SpriteFrame",
         ["content"] = {
-            ["name"] = "PlayerTower02Fire0008",
+            ["name"] = "IncreaseHp0003",
             ["offset"] = {
                 [1] = 0,
-                [2] = -3,
-            },
-            ["originalSize"] = {
-                [1] = 28,
-                [2] = 28,
-            },
-            ["rect"] = {
-                [1] = 393,
-                [2] = 928,
-                [3] = 26,
-                [4] = 22,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["b34915eb-6dbd-4105-9988-3ec2f7754747"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipWaveUpA0010",
-            ["offset"] = {
-                [1] = 0,
-                [2] = 0,
-            },
-            ["originalSize"] = {
-                [1] = 80,
-                [2] = 12,
-            },
-            ["rect"] = {
-                [1] = 94,
-                [2] = 939,
-                [3] = 76,
-                [4] = 10,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["b34d082d-7954-4010-aa58-66842c60fcf6"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipWaveUpA0009",
-            ["offset"] = {
-                [1] = 0,
-                [2] = 0,
-            },
-            ["originalSize"] = {
-                [1] = 80,
-                [2] = 12,
-            },
-            ["rect"] = {
-                [1] = 94,
-                [2] = 939,
-                [3] = 76,
-                [4] = 10,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["b3cc0efb-c8e0-42e2-9ec8-c3c2586c9f13"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "Building01Destroyed",
-            ["offset"] = {
-                [1] = 14,
-                [2] = 2,
-            },
-            ["originalSize"] = {
-                [1] = 180,
-                [2] = 160,
-            },
-            ["rect"] = {
-                [1] = 1,
-                [2] = 158,
-                [3] = 142,
-                [4] = 154,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["b9de1a02-38d7-48da-8b35-00d4d2fb55dd"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "IncreaseHp0005",
-            ["offset"] = {
-                [1] = 0,
-                [2] = 0,
+                [2] = -2,
             },
             ["originalSize"] = {
                 [1] = 72,
                 [2] = 90,
             },
             ["rect"] = {
-                [1] = 429,
-                [2] = 268,
-                [3] = 70,
+                [1] = 257,
+                [2] = 197,
+                [3] = 72,
                 [4] = 82,
             },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["ba94ac3b-463c-483e-b95b-0a464d752187"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "EnemyHp",
-            ["offset"] = {
-                [1] = 0,
-                [2] = 0,
-            },
-            ["originalSize"] = {
-                [1] = 48,
-                [2] = 4,
-            },
-            ["rect"] = {
-                [1] = 271,
-                [2] = 985,
-                [3] = 48,
-                [4] = 4,
-            },
             ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
         },
     },
-    ["baf7ec38-e531-422c-98c8-ff54b5a3044f"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipWaveUpA0006",
-            ["offset"] = {
-                [1] = 1,
-                [2] = -1,
-            },
-            ["originalSize"] = {
-                [1] = 80,
-                [2] = 12,
-            },
-            ["rect"] = {
-                [1] = 162,
-                [2] = 847,
-                [3] = 72,
-                [4] = 8,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["bcf74412-ec41-455a-8f45-d67566daabb2"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipWaveUpA0007",
-            ["offset"] = {
-                [1] = 0,
-                [2] = 0,
-            },
-            ["originalSize"] = {
-                [1] = 80,
-                [2] = 12,
-            },
-            ["rect"] = {
-                [1] = 330,
-                [2] = 197,
-                [3] = 74,
-                [4] = 8,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["be996d90-04da-4a19-9f3e-794afb19d7fd"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "PlayerTower02Fire0007",
-            ["offset"] = {
-                [1] = 0,
-                [2] = -3,
-            },
-            ["originalSize"] = {
-                [1] = 28,
-                [2] = 28,
-            },
-            ["rect"] = {
-                [1] = 306,
-                [2] = 990,
-                [3] = 26,
-                [4] = 22,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["bf37b342-2b04-4cdb-9e74-e68b71353068"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipWaveA0007",
-            ["offset"] = {
-                [1] = -8,
-                [2] = 0,
-            },
-            ["originalSize"] = {
-                [1] = 92,
-                [2] = 16,
-            },
-            ["rect"] = {
-                [1] = 490,
-                [2] = 765,
-                [3] = 72,
-                [4] = 14,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["c2951cbe-8c4e-461f-860f-ce134f47f1b6"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipExplode0009",
-            ["offset"] = {
-                [1] = 1,
-                [2] = 4,
-            },
-            ["originalSize"] = {
-                [1] = 148,
-                [2] = 120,
-            },
-            ["rect"] = {
-                [1] = 1,
-                [2] = 838,
-                [3] = 116,
-                [4] = 92,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["c3147721-1172-4a5c-9e09-93fc39010488"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "PlayerTower02Fire0004",
-            ["offset"] = {
-                [1] = 0,
-                [2] = -7,
-            },
-            ["originalSize"] = {
-                [1] = 28,
-                [2] = 28,
-            },
-            ["rect"] = {
-                [1] = 412,
-                [2] = 525,
-                [3] = 26,
-                [4] = 14,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["c428a53a-8673-4278-80b8-07e9fb26e33e"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "BrokenArrow01",
-            ["offset"] = {
-                [1] = -1,
-                [2] = -1,
-            },
-            ["originalSize"] = {
-                [1] = 48,
-                [2] = 16,
-            },
-            ["rect"] = {
-                [1] = 223,
-                [2] = 1005,
-                [3] = 26,
-                [4] = 10,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["c4a99d40-eedd-4dd4-9fe9-7f692cf9c378"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipWaveUpA0008",
-            ["offset"] = {
-                [1] = 0,
-                [2] = 0,
-            },
-            ["originalSize"] = {
-                [1] = 80,
-                [2] = 12,
-            },
-            ["rect"] = {
-                [1] = 330,
-                [2] = 197,
-                [3] = 74,
-                [4] = 8,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["c6f43b26-b7bd-4033-833e-0b8097c953f2"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipExplodeSmall010007",
-            ["offset"] = {
-                [1] = -1,
-                [2] = 2,
-            },
-            ["originalSize"] = {
-                [1] = 36,
-                [2] = 36,
-            },
-            ["rect"] = {
-                [1] = 198,
-                [2] = 1005,
-                [3] = 24,
-                [4] = 18,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["cb6c74ce-126c-45b1-ab02-ef4ca1a6a337"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "CannonBoom0001",
-            ["offset"] = {
-                [1] = -2,
-                [2] = -12,
-            },
-            ["originalSize"] = {
-                [1] = 56,
-                [2] = 52,
-            },
-            ["rect"] = {
-                [1] = 412,
-                [2] = 510,
-                [3] = 16,
-                [4] = 14,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["d0368375-4de1-4aff-a2ba-4c669e2be971"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipWaveUpA0003",
-            ["offset"] = {
-                [1] = 2,
-                [2] = -1,
-            },
-            ["originalSize"] = {
-                [1] = 80,
-                [2] = 12,
-            },
-            ["rect"] = {
-                [1] = 476,
-                [2] = 828,
-                [3] = 72,
-                [4] = 8,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["d19e7b3a-e49d-4c8b-b0a6-a8050e5bba36"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipWaveUpA0016",
-            ["offset"] = {
-                [1] = 0,
-                [2] = 0,
-            },
-            ["originalSize"] = {
-                [1] = 80,
-                [2] = 12,
-            },
-            ["rect"] = {
-                [1] = 330,
-                [2] = 197,
-                [3] = 74,
-                [4] = 8,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["d23bd03a-6abd-49d4-8ef5-538adadb32d1"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipExplode0007",
-            ["offset"] = {
-                [1] = -4,
-                [2] = 3,
-            },
-            ["originalSize"] = {
-                [1] = 148,
-                [2] = 120,
-            },
-            ["rect"] = {
-                [1] = 1,
-                [2] = 618,
-                [3] = 114,
-                [4] = 100,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["d274bad5-25b7-47ad-bd0e-22d472dbb45c"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "IncreaseHp0018",
-            ["offset"] = {
-                [1] = 0,
-                [2] = -1,
-            },
-            ["originalSize"] = {
-                [1] = 72,
-                [2] = 90,
-            },
-            ["rect"] = {
-                [1] = 431,
-                [2] = 339,
-                [3] = 70,
-                [4] = 80,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["d2e15b89-ff69-460c-b126-e414b65f024d"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "PlayerTower0202Destroyed",
-            ["offset"] = {
-                [1] = 0,
-                [2] = -2,
-            },
-            ["originalSize"] = {
-                [1] = 112,
-                [2] = 84,
-            },
-            ["rect"] = {
-                [1] = 144,
-                [2] = 197,
-                [3] = 112,
-                [4] = 76,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["d3de2b64-393b-4dc2-ad79-4752a2a88c66"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "IncreaseHp0012",
-            ["offset"] = {
-                [1] = -1,
-                [2] = -2,
-            },
-            ["originalSize"] = {
-                [1] = 72,
-                [2] = 90,
-            },
-            ["rect"] = {
-                [1] = 421,
-                [2] = 759,
-                [3] = 68,
-                [4] = 68,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["d4584d22-fdbd-44df-a755-e714b81eabb8"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "PlayerTower0101",
-            ["offset"] = {
-                [1] = -2,
-                [2] = -3,
-            },
-            ["originalSize"] = {
-                [1] = 120,
-                [2] = 80,
-            },
-            ["rect"] = {
-                [1] = 334,
-                [2] = 418,
-                [3] = 94,
-                [4] = 64,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["d69cf250-1c29-4583-a652-22a172e0e32b"] = {
+    ["8c3515bc-2460-4780-875b-e327d157bc6e"] = {
         ["__type__"] = "cc.SpriteFrame",
         ["content"] = {
             ["name"] = "ShipWaveUpA0013",
@@ -3754,98 +4542,256 @@ local assetsdb = {
                 [4] = 8,
             },
             ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
         },
     },
-    ["d78e7620-898b-4cfb-ae1b-3e5e62e03b76"] = {
+    ["8d19dfd8-620d-46ad-ac5c-49463d19db2e"] = {
+        ["__type__"] = "cc.AnimationClip",
+        ["_duration"] = 0.8,
+        ["_name"] = "ShipWave",
+        ["_objFlags"] = 0,
+        ["curveData"] = {
+            ["comps"] = {
+                ["cc.Sprite"] = {
+                    ["spriteFrame"] = {
+                        [1] = {
+                            ["frame"] = 0,
+                            ["value"] = {
+                                ["__uuid__"] = "5b331ee3-d62c-4765-b43a-efdb91bb481d",
+                            },
+                        },
+                        [2] = {
+                            ["frame"] = 0.1,
+                            ["value"] = {
+                                ["__uuid__"] = "434ed300-4f72-43fc-9b66-15bb1f870ff1",
+                            },
+                        },
+                        [3] = {
+                            ["frame"] = 0.2,
+                            ["value"] = {
+                                ["__uuid__"] = "6e4760bf-697c-4439-af16-7c13a4dff0a4",
+                            },
+                        },
+                        [4] = {
+                            ["frame"] = 0.3,
+                            ["value"] = {
+                                ["__uuid__"] = "55653ab6-41eb-4486-87ff-fccd1e899ff8",
+                            },
+                        },
+                        [5] = {
+                            ["frame"] = 0.4,
+                            ["value"] = {
+                                ["__uuid__"] = "a81589be-b631-4afd-923c-dfef47ff3c4a",
+                            },
+                        },
+                        [6] = {
+                            ["frame"] = 0.5,
+                            ["value"] = {
+                                ["__uuid__"] = "7e8410e1-57ef-45ad-988d-22446ecce871",
+                            },
+                        },
+                        [7] = {
+                            ["frame"] = 0.6,
+                            ["value"] = {
+                                ["__uuid__"] = "0da4e26c-ed9b-4fb0-b523-de677539644e",
+                            },
+                        },
+                        [8] = {
+                            ["frame"] = 0.7,
+                            ["value"] = {
+                                ["__uuid__"] = "473f0cc2-c4f3-47c3-9387-1e2412b14a79",
+                            },
+                        },
+                    },
+                },
+            },
+            ["props"] = {
+            },
+        },
+        ["events"] = {
+        },
+        ["sample"] = 10,
+        ["speed"] = 1,
+        ["wrapMode"] = 2,
+    },
+    ["8d3af619-3d49-4f88-ba67-7d73dbc81a21"] = {
         ["__type__"] = "cc.SpriteFrame",
         ["content"] = {
-            ["name"] = "CannonBoom0014",
+            ["name"] = "ShipExplodeSmall020001",
+            ["offset"] = {
+                [1] = 1,
+                [2] = 0,
+            },
+            ["originalSize"] = {
+                [1] = 120,
+                [2] = 120,
+            },
+            ["rect"] = {
+                [1] = 217,
+                [2] = 614,
+                [3] = 68,
+                [4] = 72,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["8e2a80b4-4e69-48d6-a05e-dce2c3b11606"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipExplodeSmall010003",
+            ["offset"] = {
+                [1] = 0,
+                [2] = 1,
+            },
+            ["originalSize"] = {
+                [1] = 36,
+                [2] = 36,
+            },
+            ["rect"] = {
+                [1] = 144,
+                [2] = 158,
+                [3] = 32,
+                [4] = 30,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["8f3a5ff7-d714-4f6d-9dbd-6ab272251c4f"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "CannonBoom0012",
             ["offset"] = {
                 [1] = -1,
-                [2] = -1,
+                [2] = -2,
             },
             ["originalSize"] = {
                 [1] = 56,
                 [2] = 52,
             },
             ["rect"] = {
-                [1] = 283,
-                [2] = 895,
+                [1] = 421,
+                [2] = 879,
                 [3] = 54,
-                [4] = 44,
+                [4] = 42,
             },
             ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
         },
     },
-    ["d914f222-01c2-45e4-a9d9-ba64050b996d"] = {
+    ["8f7e0f94-7ae5-4b80-b163-aa36fd734271"] = {
         ["__type__"] = "cc.SpriteFrame",
         ["content"] = {
-            ["name"] = "IncreaseHp0015",
+            ["name"] = "PlayerTower0102Destroyed",
             ["offset"] = {
-                [1] = -1,
-                [2] = 2,
+                [1] = 1,
+                [2] = -2,
             },
             ["originalSize"] = {
-                [1] = 72,
-                [2] = 90,
+                [1] = 120,
+                [2] = 80,
             },
             ["rect"] = {
-                [1] = 283,
-                [2] = 688,
-                [3] = 70,
-                [4] = 68,
+                [1] = 436,
+                [2] = 1,
+                [3] = 110,
+                [4] = 74,
             },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
         },
     },
-    ["dc7b0335-18d8-4800-aeec-513cf3b79371"] = {
+    ["92378ee1-8c25-4f7e-98fe-d77ae6cb3268"] = {
+        ["__type__"] = "cc.AnimationClip",
+        ["_duration"] = 0.8,
+        ["_name"] = "ShipWaveUp",
+        ["_objFlags"] = 0,
+        ["curveData"] = {
+            ["comps"] = {
+                ["cc.Sprite"] = {
+                    ["spriteFrame"] = {
+                        [1] = {
+                            ["frame"] = 0,
+                            ["value"] = {
+                                ["__uuid__"] = "193f9a9d-d236-4174-a9d9-0a3801342cc7",
+                            },
+                        },
+                        [2] = {
+                            ["frame"] = 0.1,
+                            ["value"] = {
+                                ["__uuid__"] = "96a4b651-2ee0-419e-900e-4345f3a2c602",
+                            },
+                        },
+                        [3] = {
+                            ["frame"] = 0.2,
+                            ["value"] = {
+                                ["__uuid__"] = "4eac7b7c-1329-4474-8070-db849afa96e8",
+                            },
+                        },
+                        [4] = {
+                            ["frame"] = 0.3,
+                            ["value"] = {
+                                ["__uuid__"] = "1323f59f-149c-438d-b624-d109c33833be",
+                            },
+                        },
+                        [5] = {
+                            ["frame"] = 0.4,
+                            ["value"] = {
+                                ["__uuid__"] = "697a29c9-1327-437d-b71d-94bd5b7681f5",
+                            },
+                        },
+                        [6] = {
+                            ["frame"] = 0.5,
+                            ["value"] = {
+                                ["__uuid__"] = "7f727f48-5167-418b-b8fd-db96ec6ae3eb",
+                            },
+                        },
+                        [7] = {
+                            ["frame"] = 0.6,
+                            ["value"] = {
+                                ["__uuid__"] = "8c3515bc-2460-4780-875b-e327d157bc6e",
+                            },
+                        },
+                        [8] = {
+                            ["frame"] = 0.7,
+                            ["value"] = {
+                                ["__uuid__"] = "93ca2a7f-ba44-4659-b313-042fa471b472",
+                            },
+                        },
+                    },
+                },
+            },
+        },
+        ["events"] = {
+        },
+        ["sample"] = 10,
+        ["speed"] = 1,
+        ["wrapMode"] = 2,
+    },
+    ["939bb859-ffd8-40c4-9521-33294d30e775"] = {
         ["__type__"] = "cc.SpriteFrame",
         ["content"] = {
-            ["name"] = "ShipWaveA0008",
+            ["name"] = "FriendlyHp",
             ["offset"] = {
-                [1] = -8,
+                [1] = 0,
                 [2] = 0,
             },
             ["originalSize"] = {
-                [1] = 92,
-                [2] = 16,
+                [1] = 48,
+                [2] = 4,
             },
             ["rect"] = {
-                [1] = 490,
-                [2] = 765,
-                [3] = 72,
-                [4] = 14,
+                [1] = 495,
+                [2] = 552,
+                [3] = 48,
+                [4] = 4,
             },
             ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
         },
     },
-    ["dce978bd-39b5-4259-86a5-8d97740ac71a"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipWaveUpA0011",
-            ["offset"] = {
-                [1] = 2,
-                [2] = -1,
-            },
-            ["originalSize"] = {
-                [1] = 80,
-                [2] = 12,
-            },
-            ["rect"] = {
-                [1] = 476,
-                [2] = 828,
-                [3] = 72,
-                [4] = 8,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["df1a31a0-71f1-44ef-9139-20bed45b3652"] = {
+    ["93ca2a7f-ba44-4659-b313-042fa471b472"] = {
         ["__type__"] = "cc.SpriteFrame",
         ["content"] = {
             ["name"] = "ShipWaveUpA0015",
@@ -3864,104 +4810,542 @@ local assetsdb = {
                 [4] = 8,
             },
             ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
         },
     },
-    ["e140f54d-44b9-4374-96fe-eae869dc7a0e"] = {
+    ["94dac1ac-e890-4519-ad20-595f8aebde4a"] = {
         ["__type__"] = "cc.SpriteFrame",
         ["content"] = {
-            ["name"] = "IncreaseHp0023",
+            ["name"] = "ShipWaveA0008",
             ["offset"] = {
-                [1] = 0,
-                [2] = 3,
-            },
-            ["originalSize"] = {
-                [1] = 72,
-                [2] = 90,
-            },
-            ["rect"] = {
-                [1] = 306,
-                [2] = 552,
-                [3] = 68,
-                [4] = 82,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["e360ed0d-c723-433c-8eba-dac3d59eaa35"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "IncreaseHp0021",
-            ["offset"] = {
-                [1] = 1,
-                [2] = 1,
-            },
-            ["originalSize"] = {
-                [1] = 72,
-                [2] = 90,
-            },
-            ["rect"] = {
-                [1] = 157,
-                [2] = 697,
-                [3] = 68,
-                [4] = 82,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["e6be521d-3097-4a41-99a8-46f1e5bfff3d"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "PlayerTower02Fire0006",
-            ["offset"] = {
-                [1] = 0,
-                [2] = -2,
-            },
-            ["originalSize"] = {
-                [1] = 28,
-                [2] = 28,
-            },
-            ["rect"] = {
-                [1] = 279,
-                [2] = 990,
-                [3] = 26,
-                [4] = 24,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["e7b66eec-b696-4496-b4d5-8bfa0c6e18f5"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipWaveA0013",
-            ["offset"] = {
-                [1] = 3,
-                [2] = 1,
+                [1] = -8,
+                [2] = 0,
             },
             ["originalSize"] = {
                 [1] = 92,
                 [2] = 16,
             },
             ["rect"] = {
-                [1] = 94,
-                [2] = 838,
-                [3] = 78,
+                [1] = 490,
+                [2] = 765,
+                [3] = 72,
                 [4] = 14,
             },
             ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
         },
     },
-    ["e823de79-57b6-4129-b305-aef7f9d48622"] = {
+    ["95832fd0-4a5a-4c18-9722-1d3f21ef9de6"] = {
         ["__type__"] = "cc.SpriteFrame",
         ["content"] = {
-            ["name"] = "IncreaseHp0011",
+            ["name"] = "CannonBoom0014",
             ["offset"] = {
-                [1] = -2,
-                [2] = -3,
+                [1] = -1,
+                [2] = -1,
+            },
+            ["originalSize"] = {
+                [1] = 56,
+                [2] = 52,
+            },
+            ["rect"] = {
+                [1] = 283,
+                [2] = 895,
+                [3] = 54,
+                [4] = 44,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["9591da79-3c05-40c0-8c50-24e7ee4136a3"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "CannonBoom0008",
+            ["offset"] = {
+                [1] = -1,
+                [2] = 0,
+            },
+            ["originalSize"] = {
+                [1] = 56,
+                [2] = 52,
+            },
+            ["rect"] = {
+                [1] = 109,
+                [2] = 820,
+                [3] = 54,
+                [4] = 46,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["96a4b651-2ee0-419e-900e-4345f3a2c602"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipWaveUpA0003",
+            ["offset"] = {
+                [1] = 2,
+                [2] = -1,
+            },
+            ["originalSize"] = {
+                [1] = 80,
+                [2] = 12,
+            },
+            ["rect"] = {
+                [1] = 476,
+                [2] = 828,
+                [3] = 72,
+                [4] = 8,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["99d49462-6249-4c46-ab73-27925cba829c"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipWaveUpA0016",
+            ["offset"] = {
+                [1] = 0,
+                [2] = 0,
+            },
+            ["originalSize"] = {
+                [1] = 80,
+                [2] = 12,
+            },
+            ["rect"] = {
+                [1] = 330,
+                [2] = 197,
+                [3] = 74,
+                [4] = 8,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["9a6e2c5c-1be9-4e60-a514-6ac5a806089a"] = {
+        ["__type__"] = "cc.SpriteAtlas",
+        ["_name"] = "SheetMapBattle.plist",
+        ["_objFlags"] = 0,
+        ["_spriteFrames"] = {
+            ["Arrow01.png"] = {
+                ["__uuid__"] = "ce9d17cc-0029-4672-a27a-8c417846fc14",
+            },
+            ["BrokenArrow01.png"] = {
+                ["__uuid__"] = "220e01da-0c42-48b3-b8f8-103847eb4594",
+            },
+            ["Building01.png"] = {
+                ["__uuid__"] = "d940bce2-7204-4e5a-ae09-ddc52543bfa2",
+            },
+            ["Building01Destroyed.png"] = {
+                ["__uuid__"] = "03fd2bf1-ccf7-46c6-bc70-4a164c63e44e",
+            },
+            ["CannonBall01.png"] = {
+                ["__uuid__"] = "89fd1cce-7a09-4691-84bc-f9c505c9e21b",
+            },
+            ["CannonBoom0001.png"] = {
+                ["__uuid__"] = "460c9fe4-542e-4b50-92a6-2bab193453f0",
+            },
+            ["CannonBoom0002.png"] = {
+                ["__uuid__"] = "82a90ce0-f447-4e27-a1a4-281e6a57d9d1",
+            },
+            ["CannonBoom0003.png"] = {
+                ["__uuid__"] = "c18907e7-166d-4bd9-a58d-7f83f622bccf",
+            },
+            ["CannonBoom0004.png"] = {
+                ["__uuid__"] = "9b64dd72-894f-442d-9291-e6d86eae721b",
+            },
+            ["CannonBoom0005.png"] = {
+                ["__uuid__"] = "5305efcc-0b74-4499-a365-48ccad17b8c4",
+            },
+            ["CannonBoom0006.png"] = {
+                ["__uuid__"] = "c14fe63b-1c83-4728-9b5e-12981b0b7394",
+            },
+            ["CannonBoom0007.png"] = {
+                ["__uuid__"] = "d829b9fa-e09b-4a91-9ac2-1f237fc6308f",
+            },
+            ["CannonBoom0008.png"] = {
+                ["__uuid__"] = "9591da79-3c05-40c0-8c50-24e7ee4136a3",
+            },
+            ["CannonBoom0009.png"] = {
+                ["__uuid__"] = "05fd8927-d27e-4920-8861-1371a814d53f",
+            },
+            ["CannonBoom0010.png"] = {
+                ["__uuid__"] = "aed8410e-7dbf-4a63-8ca3-73dc1b6907a3",
+            },
+            ["CannonBoom0011.png"] = {
+                ["__uuid__"] = "9fe4d055-720c-4c13-8c54-1e2c2e7c6bdc",
+            },
+            ["CannonBoom0012.png"] = {
+                ["__uuid__"] = "8f3a5ff7-d714-4f6d-9dbd-6ab272251c4f",
+            },
+            ["CannonBoom0013.png"] = {
+                ["__uuid__"] = "70f06b8a-058c-4edc-92f2-2fb70d73ced7",
+            },
+            ["CannonBoom0014.png"] = {
+                ["__uuid__"] = "95832fd0-4a5a-4c18-9722-1d3f21ef9de6",
+            },
+            ["CannonBoom0015.png"] = {
+                ["__uuid__"] = "240ccef9-587e-45cd-bc16-20fd2476496f",
+            },
+            ["CannonBoom0016.png"] = {
+                ["__uuid__"] = "83a7883f-a7e6-483d-a3ed-0d68a29303f3",
+            },
+            ["CannonBoom0017.png"] = {
+                ["__uuid__"] = "d94120b4-b434-450a-81bb-01f63626b6de",
+            },
+            ["CannonBoom0018.png"] = {
+                ["__uuid__"] = "35eb0c50-5887-4d46-8b13-3bc914552dcc",
+            },
+            ["EnemyHp.png"] = {
+                ["__uuid__"] = "d4bec6fb-0383-4067-bcb7-15761e864021",
+            },
+            ["EnemyShip01.png"] = {
+                ["__uuid__"] = "22a2f143-47db-4f79-8c13-fd141b7d8d29",
+            },
+            ["FriendlyHp.png"] = {
+                ["__uuid__"] = "939bb859-ffd8-40c4-9521-33294d30e775",
+            },
+            ["IncreaseHp0001.png"] = {
+                ["__uuid__"] = "56c9e70d-60a3-4a2e-937c-bae6b0f764e4",
+            },
+            ["IncreaseHp0002.png"] = {
+                ["__uuid__"] = "fcf72fad-22ad-4cc9-abcc-d23882905339",
+            },
+            ["IncreaseHp0003.png"] = {
+                ["__uuid__"] = "8bdb7171-42a2-4fa9-ae09-2ecf28201286",
+            },
+            ["IncreaseHp0004.png"] = {
+                ["__uuid__"] = "a5177baa-6ce4-4021-9b3b-bbed6a1616d5",
+            },
+            ["IncreaseHp0005.png"] = {
+                ["__uuid__"] = "c27e0e73-d717-4308-8d1c-b3561f98321a",
+            },
+            ["IncreaseHp0006.png"] = {
+                ["__uuid__"] = "6643344c-d8f9-40d2-9e0c-1bb0cfe3ba2c",
+            },
+            ["IncreaseHp0007.png"] = {
+                ["__uuid__"] = "713ccf60-de0f-4edc-b692-a115e31c151f",
+            },
+            ["IncreaseHp0008.png"] = {
+                ["__uuid__"] = "d0725108-28a5-4bcf-98aa-6718f85c257f",
+            },
+            ["IncreaseHp0009.png"] = {
+                ["__uuid__"] = "1f3de62e-4a93-401c-867e-28c4c014315d",
+            },
+            ["IncreaseHp0010.png"] = {
+                ["__uuid__"] = "9df8c79e-2667-49f3-ae87-985ceaa8f38a",
+            },
+            ["IncreaseHp0011.png"] = {
+                ["__uuid__"] = "c0c707d5-f30f-4cf0-aa1f-731ce8d408cf",
+            },
+            ["IncreaseHp0012.png"] = {
+                ["__uuid__"] = "37774c07-029e-470f-9114-e5a5be58f2b3",
+            },
+            ["IncreaseHp0013.png"] = {
+                ["__uuid__"] = "682ec328-4b50-4e35-9ae8-7f5a45a5d527",
+            },
+            ["IncreaseHp0014.png"] = {
+                ["__uuid__"] = "e06097dd-77b5-4a5f-b1f0-a5c90a3822f8",
+            },
+            ["IncreaseHp0015.png"] = {
+                ["__uuid__"] = "9bd1dc45-61ad-4665-9b3e-d00bf8190a79",
+            },
+            ["IncreaseHp0016.png"] = {
+                ["__uuid__"] = "106260a3-9f30-4137-92d2-23abb8f11190",
+            },
+            ["IncreaseHp0017.png"] = {
+                ["__uuid__"] = "c9aabfdb-7aa0-4131-9314-8204edce058c",
+            },
+            ["IncreaseHp0018.png"] = {
+                ["__uuid__"] = "41de235d-b11a-4ed0-8c01-aa511865507b",
+            },
+            ["IncreaseHp0019.png"] = {
+                ["__uuid__"] = "0325257e-1804-47fd-9213-bc43cf88da6c",
+            },
+            ["IncreaseHp0020.png"] = {
+                ["__uuid__"] = "3d197b06-7847-4fcd-a778-19eef841dc4f",
+            },
+            ["IncreaseHp0021.png"] = {
+                ["__uuid__"] = "fdd7745e-ff9e-4b30-b45b-d87368d52c2a",
+            },
+            ["IncreaseHp0022.png"] = {
+                ["__uuid__"] = "f791b3ee-0480-44ba-83ad-d24644b99d02",
+            },
+            ["IncreaseHp0023.png"] = {
+                ["__uuid__"] = "2816c3dd-573d-481f-b039-4017dfe6dc83",
+            },
+            ["IncreaseHp0024.png"] = {
+                ["__uuid__"] = "f8ddba0e-93f0-4bf0-afc7-a7d43ad29330",
+            },
+            ["IncreaseHp0025.png"] = {
+                ["__uuid__"] = "70acc76a-aebc-4ca4-b0b4-05dd45632096",
+            },
+            ["IncreaseHp0026.png"] = {
+                ["__uuid__"] = "76929835-9657-4f8e-ac6b-ea223f0a6c80",
+            },
+            ["IncreaseHp0027.png"] = {
+                ["__uuid__"] = "27878e89-ab92-48da-8346-5bf42a0b7cde",
+            },
+            ["IncreaseHp0028.png"] = {
+                ["__uuid__"] = "34ed707b-4dbc-4212-be7d-1cc8d6349a9f",
+            },
+            ["ObjectHpOutline.png"] = {
+                ["__uuid__"] = "73ddc5be-12b0-49aa-814d-7bde7d7e6fcd",
+            },
+            ["PlayerTower0101.png"] = {
+                ["__uuid__"] = "04be648d-a63f-4b72-9028-e684f6f232f5",
+            },
+            ["PlayerTower0101Destroyed.png"] = {
+                ["__uuid__"] = "bc9526e7-6e24-4f2e-83c8-078cb0ad4345",
+            },
+            ["PlayerTower0102.png"] = {
+                ["__uuid__"] = "14632310-dc12-4107-8ca5-54617bb57050",
+            },
+            ["PlayerTower0102Destroyed.png"] = {
+                ["__uuid__"] = "8f7e0f94-7ae5-4b80-b163-aa36fd734271",
+            },
+            ["PlayerTower0201.png"] = {
+                ["__uuid__"] = "3e670b0b-5fa3-4e43-81b8-17b8bb8af382",
+            },
+            ["PlayerTower0201Destroyed.png"] = {
+                ["__uuid__"] = "cf3ceca5-3406-4b22-93c1-ddeb82fbf1c3",
+            },
+            ["PlayerTower0202.png"] = {
+                ["__uuid__"] = "9fc23825-1c1a-4bf8-9ae7-b182b90c6864",
+            },
+            ["PlayerTower0202Destroyed.png"] = {
+                ["__uuid__"] = "7fd2c693-36f5-4c7c-bb00-4d6338ae02ed",
+            },
+            ["PlayerTower02Fire0001.png"] = {
+                ["__uuid__"] = "f699feef-1b04-49f1-9527-a16da9c66251",
+            },
+            ["PlayerTower02Fire0002.png"] = {
+                ["__uuid__"] = "cff832bf-bf7f-45d3-86ef-78f1e160d9cc",
+            },
+            ["PlayerTower02Fire0003.png"] = {
+                ["__uuid__"] = "543ebdcb-66d3-45fc-b9bd-30a1a7fe07ea",
+            },
+            ["PlayerTower02Fire0004.png"] = {
+                ["__uuid__"] = "3b1cb927-4c5c-47f0-a0bf-104ed5e635e4",
+            },
+            ["PlayerTower02Fire0005.png"] = {
+                ["__uuid__"] = "aa5ce9b1-cc82-4db8-8e8e-121a831262ee",
+            },
+            ["PlayerTower02Fire0006.png"] = {
+                ["__uuid__"] = "a8924cd5-680a-4451-a089-b6695e2585d1",
+            },
+            ["PlayerTower02Fire0007.png"] = {
+                ["__uuid__"] = "5312f0fe-441d-4f3f-9abf-69c815d61ea1",
+            },
+            ["PlayerTower02Fire0008.png"] = {
+                ["__uuid__"] = "810c4035-6386-4cbc-a3ec-cc09e0ea2903",
+            },
+            ["ShipExplode0001.png"] = {
+                ["__uuid__"] = "a2077575-c595-4193-b0a8-d2a5950d6d34",
+            },
+            ["ShipExplode0002.png"] = {
+                ["__uuid__"] = "04a3ba06-5170-48f9-857f-1856bbb5844e",
+            },
+            ["ShipExplode0003.png"] = {
+                ["__uuid__"] = "de91714f-52e3-4966-b418-fcd2ac7aba70",
+            },
+            ["ShipExplode0004.png"] = {
+                ["__uuid__"] = "ba801ac1-d1eb-4f30-9ea7-a0d65d3ddc37",
+            },
+            ["ShipExplode0005.png"] = {
+                ["__uuid__"] = "c158d9ef-8cb2-4497-baa6-ec98eedb4c9d",
+            },
+            ["ShipExplode0006.png"] = {
+                ["__uuid__"] = "221b9910-53a0-4864-bca2-7fb810e94ea9",
+            },
+            ["ShipExplode0007.png"] = {
+                ["__uuid__"] = "4e878db8-ae53-4639-a6df-47edb69c4bdd",
+            },
+            ["ShipExplode0008.png"] = {
+                ["__uuid__"] = "ac3f73ba-15ff-4052-9b9c-5a42e7f6a7bd",
+            },
+            ["ShipExplode0009.png"] = {
+                ["__uuid__"] = "713d5a6c-21c7-456f-a795-bc3973bcb370",
+            },
+            ["ShipExplode0010.png"] = {
+                ["__uuid__"] = "43cbfd19-9259-4589-baaf-058345f34340",
+            },
+            ["ShipExplode0011.png"] = {
+                ["__uuid__"] = "ea2561fa-4c4d-483c-b432-3076ba5bec63",
+            },
+            ["ShipExplode0012.png"] = {
+                ["__uuid__"] = "0edbf272-4389-4e1a-96ea-061d3abb4b35",
+            },
+            ["ShipExplodeSmall010001.png"] = {
+                ["__uuid__"] = "40bc5dc5-750b-4dd9-9c34-130560bbcce1",
+            },
+            ["ShipExplodeSmall010002.png"] = {
+                ["__uuid__"] = "1df0076f-a068-47f4-9a99-40879337703c",
+            },
+            ["ShipExplodeSmall010003.png"] = {
+                ["__uuid__"] = "8e2a80b4-4e69-48d6-a05e-dce2c3b11606",
+            },
+            ["ShipExplodeSmall010004.png"] = {
+                ["__uuid__"] = "4aadbac7-0b49-4471-9f5d-47b09a352b91",
+            },
+            ["ShipExplodeSmall010005.png"] = {
+                ["__uuid__"] = "69d7b5ef-6bb9-4a18-9f4c-838d7486ee07",
+            },
+            ["ShipExplodeSmall010006.png"] = {
+                ["__uuid__"] = "ce46fd39-5999-4be8-8039-06758d3feb69",
+            },
+            ["ShipExplodeSmall010007.png"] = {
+                ["__uuid__"] = "20ef3159-54d2-47f2-9f72-70fe4b91536b",
+            },
+            ["ShipExplodeSmall010008.png"] = {
+                ["__uuid__"] = "9c8566f8-a1eb-47c9-a198-09cd7153d7d6",
+            },
+            ["ShipExplodeSmall020001.png"] = {
+                ["__uuid__"] = "8d3af619-3d49-4f88-ba67-7d73dbc81a21",
+            },
+            ["ShipExplodeSmall020002.png"] = {
+                ["__uuid__"] = "c4eb0c97-9c56-4c7e-8671-ed0a1aa40c54",
+            },
+            ["ShipExplodeSmall020003.png"] = {
+                ["__uuid__"] = "7d887ac5-3abe-49e0-a514-19a05bc0c6d0",
+            },
+            ["ShipExplodeSmall020004.png"] = {
+                ["__uuid__"] = "8b12cf07-df52-4cb8-88bb-b3fbc126bc6f",
+            },
+            ["ShipExplodeSmall020005.png"] = {
+                ["__uuid__"] = "732f95a2-4c41-426a-a7aa-df709298efa1",
+            },
+            ["ShipExplodeSmall020006.png"] = {
+                ["__uuid__"] = "cfda4b0c-a904-459a-8fbb-24685610ec70",
+            },
+            ["ShipWaveA0001.png"] = {
+                ["__uuid__"] = "5b331ee3-d62c-4765-b43a-efdb91bb481d",
+            },
+            ["ShipWaveA0002.png"] = {
+                ["__uuid__"] = "ea692662-3ed6-40e9-bb52-2c1860936aed",
+            },
+            ["ShipWaveA0003.png"] = {
+                ["__uuid__"] = "434ed300-4f72-43fc-9b66-15bb1f870ff1",
+            },
+            ["ShipWaveA0004.png"] = {
+                ["__uuid__"] = "52286ec0-04da-47bd-a7b3-1560641f02c4",
+            },
+            ["ShipWaveA0005.png"] = {
+                ["__uuid__"] = "6e4760bf-697c-4439-af16-7c13a4dff0a4",
+            },
+            ["ShipWaveA0006.png"] = {
+                ["__uuid__"] = "59547679-3807-4b02-bf61-6fa63c58d404",
+            },
+            ["ShipWaveA0007.png"] = {
+                ["__uuid__"] = "55653ab6-41eb-4486-87ff-fccd1e899ff8",
+            },
+            ["ShipWaveA0008.png"] = {
+                ["__uuid__"] = "94dac1ac-e890-4519-ad20-595f8aebde4a",
+            },
+            ["ShipWaveA0009.png"] = {
+                ["__uuid__"] = "a81589be-b631-4afd-923c-dfef47ff3c4a",
+            },
+            ["ShipWaveA0010.png"] = {
+                ["__uuid__"] = "7c68ab4b-452f-4589-be84-efd37bcc0034",
+            },
+            ["ShipWaveA0011.png"] = {
+                ["__uuid__"] = "7e8410e1-57ef-45ad-988d-22446ecce871",
+            },
+            ["ShipWaveA0012.png"] = {
+                ["__uuid__"] = "bd75dd18-e3e7-462c-9b31-878b01660c32",
+            },
+            ["ShipWaveA0013.png"] = {
+                ["__uuid__"] = "0da4e26c-ed9b-4fb0-b523-de677539644e",
+            },
+            ["ShipWaveA0014.png"] = {
+                ["__uuid__"] = "3a8d5f02-e53c-4fed-bf3a-c76b9ceedc0b",
+            },
+            ["ShipWaveA0015.png"] = {
+                ["__uuid__"] = "473f0cc2-c4f3-47c3-9387-1e2412b14a79",
+            },
+            ["ShipWaveA0016.png"] = {
+                ["__uuid__"] = "1e778c5c-5118-4655-985d-89d803821f64",
+            },
+            ["ShipWaveUpA0001.png"] = {
+                ["__uuid__"] = "193f9a9d-d236-4174-a9d9-0a3801342cc7",
+            },
+            ["ShipWaveUpA0002.png"] = {
+                ["__uuid__"] = "d8242628-a86c-428e-a06a-a1004872ff53",
+            },
+            ["ShipWaveUpA0003.png"] = {
+                ["__uuid__"] = "96a4b651-2ee0-419e-900e-4345f3a2c602",
+            },
+            ["ShipWaveUpA0004.png"] = {
+                ["__uuid__"] = "1403945a-4016-451c-895b-c084ee61b533",
+            },
+            ["ShipWaveUpA0005.png"] = {
+                ["__uuid__"] = "4eac7b7c-1329-4474-8070-db849afa96e8",
+            },
+            ["ShipWaveUpA0006.png"] = {
+                ["__uuid__"] = "a35b95b8-08c9-4e7f-a075-39c271d4e285",
+            },
+            ["ShipWaveUpA0007.png"] = {
+                ["__uuid__"] = "1323f59f-149c-438d-b624-d109c33833be",
+            },
+            ["ShipWaveUpA0008.png"] = {
+                ["__uuid__"] = "6c90ba0f-c493-46d0-ab76-d32fb664dfc2",
+            },
+            ["ShipWaveUpA0009.png"] = {
+                ["__uuid__"] = "697a29c9-1327-437d-b71d-94bd5b7681f5",
+            },
+            ["ShipWaveUpA0010.png"] = {
+                ["__uuid__"] = "5f85ea6d-00c6-4787-a373-37bf5ec94dae",
+            },
+            ["ShipWaveUpA0011.png"] = {
+                ["__uuid__"] = "7f727f48-5167-418b-b8fd-db96ec6ae3eb",
+            },
+            ["ShipWaveUpA0012.png"] = {
+                ["__uuid__"] = "da4ccbab-c04e-47fc-98e2-be8b58207834",
+            },
+            ["ShipWaveUpA0013.png"] = {
+                ["__uuid__"] = "8c3515bc-2460-4780-875b-e327d157bc6e",
+            },
+            ["ShipWaveUpA0014.png"] = {
+                ["__uuid__"] = "34fadee9-d715-4e92-8450-08a006b8c407",
+            },
+            ["ShipWaveUpA0015.png"] = {
+                ["__uuid__"] = "93ca2a7f-ba44-4659-b313-042fa471b472",
+            },
+            ["ShipWaveUpA0016.png"] = {
+                ["__uuid__"] = "99d49462-6249-4c46-ab73-27925cba829c",
+            },
+        },
+    },
+    ["9b64dd72-894f-442d-9291-e6d86eae721b"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "CannonBoom0004",
+            ["offset"] = {
+                [1] = -1,
+                [2] = -2,
+            },
+            ["originalSize"] = {
+                [1] = 56,
+                [2] = 52,
+            },
+            ["rect"] = {
+                [1] = 109,
+                [2] = 875,
+                [3] = 52,
+                [4] = 48,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["9bd1dc45-61ad-4665-9b3e-d00bf8190a79"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "IncreaseHp0015",
+            ["offset"] = {
+                [1] = -1,
+                [2] = 2,
             },
             ["originalSize"] = {
                 [1] = 72,
@@ -3969,81 +5353,15 @@ local assetsdb = {
             },
             ["rect"] = {
                 [1] = 283,
-                [2] = 826,
-                [3] = 68,
+                [2] = 688,
+                [3] = 70,
                 [4] = 68,
             },
             ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
         },
     },
-    ["eba18d4a-f0ae-4817-b933-cc965046314e"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipExplodeSmall020003",
-            ["offset"] = {
-                [1] = 2,
-                [2] = -1,
-            },
-            ["originalSize"] = {
-                [1] = 120,
-                [2] = 120,
-            },
-            ["rect"] = {
-                [1] = 239,
-                [2] = 351,
-                [3] = 88,
-                [4] = 94,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["eca1c8d0-854e-41dd-9ed6-41b2efc9916c"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "IncreaseHp0020",
-            ["offset"] = {
-                [1] = 0,
-                [2] = 0,
-            },
-            ["originalSize"] = {
-                [1] = 72,
-                [2] = 90,
-            },
-            ["rect"] = {
-                [1] = 291,
-                [2] = 114,
-                [3] = 70,
-                [4] = 82,
-            },
-            ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["ed43baa5-6b1b-48fc-a77c-7577145e3240"] = {
-        ["__type__"] = "cc.SpriteFrame",
-        ["content"] = {
-            ["name"] = "ShipWaveA0015",
-            ["offset"] = {
-                [1] = 1,
-                [2] = 1,
-            },
-            ["originalSize"] = {
-                [1] = 92,
-                [2] = 16,
-            },
-            ["rect"] = {
-                [1] = 202,
-                [2] = 616,
-                [3] = 78,
-                [4] = 14,
-            },
-            ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
-        },
-    },
-    ["f367c0dc-a60d-4d6e-83c9-08f38136017b"] = {
+    ["9c8566f8-a1eb-47c9-a198-09cd7153d7d6"] = {
         ["__type__"] = "cc.SpriteFrame",
         ["content"] = {
             ["name"] = "ShipExplodeSmall010008",
@@ -4062,29 +5380,3637 @@ local assetsdb = {
                 [4] = 12,
             },
             ["rotated"] = 0,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
         },
     },
-    ["f70db660-7f1c-401c-8237-595173c0cb70"] = {
+    ["9df8c79e-2667-49f3-ae87-985ceaa8f38a"] = {
         ["__type__"] = "cc.SpriteFrame",
         ["content"] = {
-            ["name"] = "PlayerTower02Fire0003",
+            ["name"] = "IncreaseHp0010",
+            ["offset"] = {
+                [1] = -1,
+                [2] = -4,
+            },
+            ["originalSize"] = {
+                [1] = 72,
+                [2] = 90,
+            },
+            ["rect"] = {
+                [1] = 352,
+                [2] = 828,
+                [3] = 68,
+                [4] = 68,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["9fc23825-1c1a-4bf8-9ae7-b182b90c6864"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "PlayerTower0202",
             ["offset"] = {
                 [1] = 0,
-                [2] = -6,
+                [2] = 0,
+            },
+            ["originalSize"] = {
+                [1] = 112,
+                [2] = 84,
+            },
+            ["rect"] = {
+                [1] = 178,
+                [2] = 114,
+                [3] = 112,
+                [4] = 82,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["9fe4d055-720c-4c13-8c54-1e2c2e7c6bdc"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "CannonBoom0011",
+            ["offset"] = {
+                [1] = -1,
+                [2] = 1,
+            },
+            ["originalSize"] = {
+                [1] = 56,
+                [2] = 52,
+            },
+            ["rect"] = {
+                [1] = 228,
+                [2] = 837,
+                [3] = 54,
+                [4] = 50,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["a2077575-c595-4193-b0a8-d2a5950d6d34"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipExplode0001",
+            ["offset"] = {
+                [1] = -7,
+                [2] = -1,
+            },
+            ["originalSize"] = {
+                [1] = 148,
+                [2] = 120,
+            },
+            ["rect"] = {
+                [1] = 228,
+                [2] = 764,
+                [3] = 72,
+                [4] = 54,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["a35b95b8-08c9-4e7f-a075-39c271d4e285"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipWaveUpA0006",
+            ["offset"] = {
+                [1] = 1,
+                [2] = -1,
+            },
+            ["originalSize"] = {
+                [1] = 80,
+                [2] = 12,
+            },
+            ["rect"] = {
+                [1] = 162,
+                [2] = 847,
+                [3] = 72,
+                [4] = 8,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["a5177baa-6ce4-4021-9b3b-bbed6a1616d5"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "IncreaseHp0004",
+            ["offset"] = {
+                [1] = 0,
+                [2] = -1,
+            },
+            ["originalSize"] = {
+                [1] = 72,
+                [2] = 90,
+            },
+            ["rect"] = {
+                [1] = 429,
+                [2] = 481,
+                [3] = 70,
+                [4] = 82,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["a81589be-b631-4afd-923c-dfef47ff3c4a"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipWaveA0009",
+            ["offset"] = {
+                [1] = -11,
+                [2] = 0,
+            },
+            ["originalSize"] = {
+                [1] = 92,
+                [2] = 16,
+            },
+            ["rect"] = {
+                [1] = 397,
+                [2] = 483,
+                [3] = 66,
+                [4] = 14,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["a8924cd5-680a-4451-a089-b6695e2585d1"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "PlayerTower02Fire0006",
+            ["offset"] = {
+                [1] = 0,
+                [2] = -2,
             },
             ["originalSize"] = {
                 [1] = 28,
                 [2] = 28,
             },
             ["rect"] = {
-                [1] = 412,
-                [2] = 483,
+                [1] = 279,
+                [2] = 990,
                 [3] = 26,
-                [4] = 16,
+                [4] = 24,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["aa5ce9b1-cc82-4db8-8e8e-121a831262ee"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "PlayerTower02Fire0005",
+            ["offset"] = {
+                [1] = 0,
+                [2] = -2,
+            },
+            ["originalSize"] = {
+                [1] = 28,
+                [2] = 28,
+            },
+            ["rect"] = {
+                [1] = 329,
+                [2] = 977,
+                [3] = 26,
+                [4] = 24,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["ac3f73ba-15ff-4052-9b9c-5a42e7f6a7bd"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipExplode0008",
+            ["offset"] = {
+                [1] = -4,
+                [2] = 3,
+            },
+            ["originalSize"] = {
+                [1] = 148,
+                [2] = 120,
+            },
+            ["rect"] = {
+                [1] = 317,
+                [2] = 1,
+                [3] = 118,
+                [4] = 104,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["aed8410e-7dbf-4a63-8ca3-73dc1b6907a3"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "CannonBoom0010",
+            ["offset"] = {
+                [1] = -1,
+                [2] = 1,
+            },
+            ["originalSize"] = {
+                [1] = 56,
+                [2] = 52,
+            },
+            ["rect"] = {
+                [1] = 421,
+                [2] = 828,
+                [3] = 54,
+                [4] = 50,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["ba801ac1-d1eb-4f30-9ea7-a0d65d3ddc37"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipExplode0004",
+            ["offset"] = {
+                [1] = 1,
+                [2] = -2,
+            },
+            ["originalSize"] = {
+                [1] = 148,
+                [2] = 120,
+            },
+            ["rect"] = {
+                [1] = 178,
+                [2] = 1,
+                [3] = 138,
+                [4] = 112,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["bc9526e7-6e24-4f2e-83c8-078cb0ad4345"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "PlayerTower0101Destroyed",
+            ["offset"] = {
+                [1] = -2,
+                [2] = -4,
+            },
+            ["originalSize"] = {
+                [1] = 120,
+                [2] = 80,
+            },
+            ["rect"] = {
+                [1] = 362,
+                [2] = 106,
+                [3] = 94,
+                [4] = 66,
             },
             ["rotated"] = 1,
-            ["texture"] = "67384a68-929f-4456-a885-83ddbfb009b1",
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["bd75dd18-e3e7-462c-9b31-878b01660c32"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipWaveA0012",
+            ["offset"] = {
+                [1] = 0,
+                [2] = 1,
+            },
+            ["originalSize"] = {
+                [1] = 92,
+                [2] = 16,
+            },
+            ["rect"] = {
+                [1] = 116,
+                [2] = 618,
+                [3] = 88,
+                [4] = 14,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["c0c707d5-f30f-4cf0-aa1f-731ce8d408cf"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "IncreaseHp0011",
+            ["offset"] = {
+                [1] = -2,
+                [2] = -3,
+            },
+            ["originalSize"] = {
+                [1] = 72,
+                [2] = 90,
+            },
+            ["rect"] = {
+                [1] = 283,
+                [2] = 826,
+                [3] = 68,
+                [4] = 68,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["c14fe63b-1c83-4728-9b5e-12981b0b7394"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "CannonBoom0006",
+            ["offset"] = {
+                [1] = 1,
+                [2] = 0,
+            },
+            ["originalSize"] = {
+                [1] = 56,
+                [2] = 52,
+            },
+            ["rect"] = {
+                [1] = 171,
+                [2] = 941,
+                [3] = 50,
+                [4] = 48,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["c158d9ef-8cb2-4497-baa6-ec98eedb4c9d"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipExplode0005",
+            ["offset"] = {
+                [1] = 4,
+                [2] = 0,
+            },
+            ["originalSize"] = {
+                [1] = 148,
+                [2] = 120,
+            },
+            ["rect"] = {
+                [1] = 1,
+                [2] = 719,
+                [3] = 118,
+                [4] = 94,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["c18907e7-166d-4bd9-a58d-7f83f622bccf"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "CannonBoom0003",
+            ["offset"] = {
+                [1] = 1,
+                [2] = -5,
+            },
+            ["originalSize"] = {
+                [1] = 56,
+                [2] = 52,
+            },
+            ["rect"] = {
+                [1] = 322,
+                [2] = 940,
+                [3] = 36,
+                [4] = 36,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["c27e0e73-d717-4308-8d1c-b3561f98321a"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "IncreaseHp0005",
+            ["offset"] = {
+                [1] = 0,
+                [2] = 0,
+            },
+            ["originalSize"] = {
+                [1] = 72,
+                [2] = 90,
+            },
+            ["rect"] = {
+                [1] = 429,
+                [2] = 268,
+                [3] = 70,
+                [4] = 82,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["c4eb0c97-9c56-4c7e-8671-ed0a1aa40c54"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipExplodeSmall020002",
+            ["offset"] = {
+                [1] = 1,
+                [2] = 0,
+            },
+            ["originalSize"] = {
+                [1] = 120,
+                [2] = 120,
+            },
+            ["rect"] = {
+                [1] = 340,
+                [2] = 201,
+                [3] = 80,
+                [4] = 88,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["c756bb24-dccc-4449-8430-6faa806b31e8"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "box_200x200",
+            ["offset"] = {
+                [1] = 0,
+                [2] = 0,
+            },
+            ["originalSize"] = {
+                [1] = 200,
+                [2] = 200,
+            },
+            ["rect"] = {
+                [1] = 0,
+                [2] = 0,
+                [3] = 200,
+                [4] = 200,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "86b8640f-ee04-48ab-a801-a6a4aa14de90",
+        },
+    },
+    ["c9aabfdb-7aa0-4131-9314-8204edce058c"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "IncreaseHp0017",
+            ["offset"] = {
+                [1] = 0,
+                [2] = -2,
+            },
+            ["originalSize"] = {
+                [1] = 72,
+                [2] = 90,
+            },
+            ["rect"] = {
+                [1] = 431,
+                [2] = 410,
+                [3] = 70,
+                [4] = 80,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["ce46fd39-5999-4be8-8039-06758d3feb69"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipExplodeSmall010006",
+            ["offset"] = {
+                [1] = -1,
+                [2] = 2,
+            },
+            ["originalSize"] = {
+                [1] = 36,
+                [2] = 36,
+            },
+            ["rect"] = {
+                [1] = 250,
+                [2] = 990,
+                [3] = 28,
+                [4] = 24,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["ce9d17cc-0029-4672-a27a-8c417846fc14"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "Arrow01",
+            ["offset"] = {
+                [1] = -1,
+                [2] = -1,
+            },
+            ["originalSize"] = {
+                [1] = 48,
+                [2] = 16,
+            },
+            ["rect"] = {
+                [1] = 314,
+                [2] = 440,
+                [3] = 26,
+                [4] = 10,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["cf3ceca5-3406-4b22-93c1-ddeb82fbf1c3"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "PlayerTower0201Destroyed",
+            ["offset"] = {
+                [1] = 5,
+                [2] = -8,
+            },
+            ["originalSize"] = {
+                [1] = 112,
+                [2] = 84,
+            },
+            ["rect"] = {
+                [1] = 334,
+                [2] = 351,
+                [3] = 96,
+                [4] = 66,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["cfda4b0c-a904-459a-8fbb-24685610ec70"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipExplodeSmall020006",
+            ["offset"] = {
+                [1] = 1,
+                [2] = 0,
+            },
+            ["originalSize"] = {
+                [1] = 120,
+                [2] = 120,
+            },
+            ["rect"] = {
+                [1] = 429,
+                [2] = 112,
+                [3] = 82,
+                [4] = 84,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["cff832bf-bf7f-45d3-86ef-78f1e160d9cc"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "PlayerTower02Fire0002",
+            ["offset"] = {
+                [1] = 0,
+                [2] = -5,
+            },
+            ["originalSize"] = {
+                [1] = 28,
+                [2] = 28,
+            },
+            ["rect"] = {
+                [1] = 171,
+                [2] = 1005,
+                [3] = 26,
+                [4] = 18,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["d0725108-28a5-4bcf-98aa-6718f85c257f"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "IncreaseHp0008",
+            ["offset"] = {
+                [1] = 0,
+                [2] = 2,
+            },
+            ["originalSize"] = {
+                [1] = 72,
+                [2] = 90,
+            },
+            ["rect"] = {
+                [1] = 86,
+                [2] = 955,
+                [3] = 68,
+                [4] = 84,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["d3df46b8-f3ef-4632-ad6c-b2b9dad1a9f0"] = {
+        ["__js_array__"] = {
+            [1] = {
+                ["__type__"] = "cc.SceneAsset",
+                ["_name"] = "TestAnchorPointScene",
+                ["_objFlags"] = 0,
+                ["scene"] = {
+                    ["__id__"] = 2,
+                },
+            },
+            [2] = {
+                ["__type__"] = "cc.Scene",
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                    [1] = {
+                        ["__id__"] = 3,
+                    },
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 0,
+                    ["width"] = 0,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [3] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                    [1] = {
+                        ["__id__"] = 4,
+                    },
+                    [2] = {
+                        ["__id__"] = 7,
+                    },
+                    [3] = {
+                        ["__id__"] = 10,
+                    },
+                    [4] = {
+                        ["__id__"] = 13,
+                    },
+                    [5] = {
+                        ["__id__"] = 16,
+                    },
+                    [6] = {
+                        ["__id__"] = 22,
+                    },
+                    [7] = {
+                        ["__id__"] = 28,
+                    },
+                    [8] = {
+                        ["__id__"] = 37,
+                    },
+                    [9] = {
+                        ["__id__"] = 58,
+                    },
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 76,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 640,
+                    ["width"] = 960,
+                },
+                ["_globalZOrder"] = 0,
+                ["_id"] = "07ce9e2ZqRG3IoiZpfXqfQx",
+                ["_localZOrder"] = 0,
+                ["_name"] = "Canvas",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 2,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 480,
+                    ["y"] = 320,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [4] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 5,
+                    },
+                    [2] = {
+                        ["__id__"] = 6,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 200,
+                    ["width"] = 200,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "left_top",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 3,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = -480,
+                    ["y"] = 120,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [5] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = true,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 1,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 4,
+                },
+            },
+            [6] = {
+                ["__type__"] = "cc.Widget",
+                ["_alignFlags"] = 9,
+                ["_bottom"] = 0,
+                ["_enabled"] = true,
+                ["_isAbsBottom"] = true,
+                ["_isAbsLeft"] = true,
+                ["_isAbsRight"] = true,
+                ["_isAbsTop"] = true,
+                ["_left"] = 0,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_originalHeight"] = 200,
+                ["_originalWidth"] = 0,
+                ["_right"] = 0,
+                ["_top"] = 0,
+                ["isAlignOnce"] = false,
+                ["node"] = {
+                    ["__id__"] = 4,
+                },
+            },
+            [7] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 8,
+                    },
+                    [2] = {
+                        ["__id__"] = 9,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 200,
+                    ["width"] = 200,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "left_bottom",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 3,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = -480,
+                    ["y"] = -320,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [8] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = true,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 1,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 7,
+                },
+            },
+            [9] = {
+                ["__type__"] = "cc.Widget",
+                ["_alignFlags"] = 12,
+                ["_bottom"] = 0,
+                ["_enabled"] = true,
+                ["_isAbsBottom"] = true,
+                ["_isAbsLeft"] = true,
+                ["_isAbsRight"] = true,
+                ["_isAbsTop"] = true,
+                ["_left"] = 0,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_originalHeight"] = 200,
+                ["_originalWidth"] = 0,
+                ["_right"] = 0,
+                ["_top"] = 271,
+                ["isAlignOnce"] = false,
+                ["node"] = {
+                    ["__id__"] = 7,
+                },
+            },
+            [10] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 11,
+                    },
+                    [2] = {
+                        ["__id__"] = 12,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 200,
+                    ["width"] = 200,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "right_bottom",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 3,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 280,
+                    ["y"] = -320,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 0.8,
+                ["_scaleY"] = 0.8,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [11] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = true,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 1,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 10,
+                },
+            },
+            [12] = {
+                ["__type__"] = "cc.Widget",
+                ["_alignFlags"] = 36,
+                ["_bottom"] = 0,
+                ["_enabled"] = true,
+                ["_isAbsBottom"] = true,
+                ["_isAbsLeft"] = true,
+                ["_isAbsRight"] = true,
+                ["_isAbsTop"] = true,
+                ["_left"] = 0,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_originalHeight"] = 200,
+                ["_originalWidth"] = 0,
+                ["_right"] = 0,
+                ["_top"] = 271,
+                ["isAlignOnce"] = false,
+                ["node"] = {
+                    ["__id__"] = 10,
+                },
+            },
+            [13] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 14,
+                    },
+                    [2] = {
+                        ["__id__"] = 15,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 200,
+                    ["width"] = 200,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "right_top",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 3,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 280,
+                    ["y"] = 120,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [14] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = true,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 1,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 13,
+                },
+            },
+            [15] = {
+                ["__type__"] = "cc.Widget",
+                ["_alignFlags"] = 33,
+                ["_bottom"] = 440,
+                ["_enabled"] = true,
+                ["_isAbsBottom"] = true,
+                ["_isAbsLeft"] = true,
+                ["_isAbsRight"] = true,
+                ["_isAbsTop"] = true,
+                ["_left"] = 0,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_originalHeight"] = 200,
+                ["_originalWidth"] = 0,
+                ["_right"] = 0,
+                ["_top"] = 0,
+                ["isAlignOnce"] = false,
+                ["node"] = {
+                    ["__id__"] = 13,
+                },
+            },
+            [16] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 1,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                    [1] = {
+                        ["__id__"] = 17,
+                    },
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 20,
+                    },
+                    [2] = {
+                        ["__id__"] = 21,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 200,
+                    ["width"] = 200,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "bottom_mid",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 3,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = -100,
+                    ["y"] = -120,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [17] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 1,
+                    ["y"] = 0,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 41,
+                    ["g"] = 185,
+                    ["r"] = 174,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 18,
+                    },
+                    [2] = {
+                        ["__id__"] = 19,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 200,
+                    ["width"] = 200,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "box_200x200",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 16,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 200,
+                    ["y"] = -180,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 0.5,
+                ["_scaleY"] = 0.3,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [18] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = true,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 0,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 17,
+                },
+            },
+            [19] = {
+                ["__type__"] = "cc.Widget",
+                ["_alignFlags"] = 20,
+                ["_bottom"] = 20,
+                ["_enabled"] = true,
+                ["_isAbsBottom"] = true,
+                ["_isAbsLeft"] = true,
+                ["_isAbsRight"] = true,
+                ["_isAbsTop"] = true,
+                ["_left"] = 0,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_originalHeight"] = 200,
+                ["_originalWidth"] = 0,
+                ["_right"] = 0,
+                ["_top"] = -40,
+                ["isAlignOnce"] = false,
+                ["node"] = {
+                    ["__id__"] = 17,
+                },
+            },
+            [20] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = true,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 1,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 16,
+                },
+            },
+            [21] = {
+                ["__type__"] = "cc.Widget",
+                ["_alignFlags"] = 20,
+                ["_bottom"] = 0,
+                ["_enabled"] = true,
+                ["_isAbsBottom"] = true,
+                ["_isAbsLeft"] = true,
+                ["_isAbsRight"] = true,
+                ["_isAbsTop"] = true,
+                ["_left"] = 0,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_originalHeight"] = 200,
+                ["_originalWidth"] = 0,
+                ["_right"] = 0,
+                ["_top"] = 271,
+                ["isAlignOnce"] = false,
+                ["node"] = {
+                    ["__id__"] = 16,
+                },
+            },
+            [22] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                    [1] = {
+                        ["__id__"] = 23,
+                    },
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 26,
+                    },
+                    [2] = {
+                        ["__id__"] = 27,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 200,
+                    ["width"] = 200,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "right_center",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 3,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 280,
+                    ["y"] = -100,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 0.8,
+                ["_scaleY"] = 0.8,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [23] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 122,
+                    ["g"] = 236,
+                    ["r"] = 25,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 24,
+                    },
+                    [2] = {
+                        ["__id__"] = 25,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 200,
+                    ["width"] = 200,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "right_center",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 22,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 100,
+                    ["y"] = 100,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 0.3,
+                ["_scaleY"] = 0.3,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [24] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = true,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 1,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 23,
+                },
+            },
+            [25] = {
+                ["__type__"] = "cc.Widget",
+                ["_alignFlags"] = 17,
+                ["_bottom"] = 0,
+                ["_enabled"] = true,
+                ["_isAbsBottom"] = true,
+                ["_isAbsLeft"] = true,
+                ["_isAbsRight"] = true,
+                ["_isAbsTop"] = true,
+                ["_left"] = 0,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_originalHeight"] = 200,
+                ["_originalWidth"] = 200,
+                ["_right"] = 280,
+                ["_top"] = 0,
+                ["isAlignOnce"] = false,
+                ["node"] = {
+                    ["__id__"] = 23,
+                },
+            },
+            [26] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = true,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 1,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 22,
+                },
+            },
+            [27] = {
+                ["__type__"] = "cc.Widget",
+                ["_alignFlags"] = 34,
+                ["_bottom"] = 0,
+                ["_enabled"] = true,
+                ["_isAbsBottom"] = true,
+                ["_isAbsLeft"] = true,
+                ["_isAbsRight"] = true,
+                ["_isAbsTop"] = true,
+                ["_left"] = 0,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_originalHeight"] = 200,
+                ["_originalWidth"] = 0,
+                ["_right"] = 0,
+                ["_top"] = 271,
+                ["isAlignOnce"] = false,
+                ["node"] = {
+                    ["__id__"] = 22,
+                },
+            },
+            [28] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 1,
+                    ["y"] = 0,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                    [1] = {
+                        ["__id__"] = 29,
+                    },
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 35,
+                    },
+                    [2] = {
+                        ["__id__"] = 36,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 200,
+                    ["width"] = 200,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "c",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 3,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 100,
+                    ["y"] = -100,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [29] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                    [1] = {
+                        ["__id__"] = 30,
+                    },
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 122,
+                    ["g"] = 236,
+                    ["r"] = 25,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 33,
+                    },
+                    [2] = {
+                        ["__id__"] = 34,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 200,
+                    ["width"] = 200,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "right_center",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 28,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = -200,
+                    ["y"] = 0,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 0.5,
+                ["_scaleY"] = 0.5,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [30] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 1,
+                    ["y"] = 0,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 31,
+                    },
+                    [2] = {
+                        ["__id__"] = 32,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 30,
+                    ["width"] = 32,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "star",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 29,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 116,
+                    ["y"] = 85,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 2,
+                ["_scaleY"] = 3.5,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [31] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = true,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 1,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 30,
+                },
+            },
+            [32] = {
+                ["__type__"] = "cc.Widget",
+                ["_alignFlags"] = 18,
+                ["_bottom"] = 0,
+                ["_enabled"] = true,
+                ["_isAbsBottom"] = true,
+                ["_isAbsLeft"] = true,
+                ["_isAbsRight"] = true,
+                ["_isAbsTop"] = true,
+                ["_left"] = 0,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_originalHeight"] = 0,
+                ["_originalWidth"] = 0,
+                ["_right"] = 0,
+                ["_top"] = 30,
+                ["isAlignOnce"] = false,
+                ["node"] = {
+                    ["__id__"] = 30,
+                },
+            },
+            [33] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = true,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 1,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 29,
+                },
+            },
+            [34] = {
+                ["__type__"] = "cc.Widget",
+                ["_alignFlags"] = 33,
+                ["_bottom"] = 0,
+                ["_enabled"] = true,
+                ["_isAbsBottom"] = true,
+                ["_isAbsLeft"] = true,
+                ["_isAbsRight"] = true,
+                ["_isAbsTop"] = true,
+                ["_left"] = 0,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_originalHeight"] = 200,
+                ["_originalWidth"] = 200,
+                ["_right"] = 0,
+                ["_top"] = 0,
+                ["isAlignOnce"] = false,
+                ["node"] = {
+                    ["__id__"] = 29,
+                },
+            },
+            [35] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = true,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 1,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 28,
+                },
+            },
+            [36] = {
+                ["__type__"] = "cc.Widget",
+                ["_alignFlags"] = 18,
+                ["_bottom"] = 0,
+                ["_enabled"] = true,
+                ["_isAbsBottom"] = true,
+                ["_isAbsLeft"] = true,
+                ["_isAbsRight"] = true,
+                ["_isAbsTop"] = true,
+                ["_left"] = 0,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_originalHeight"] = 200,
+                ["_originalWidth"] = 0,
+                ["_right"] = 0,
+                ["_top"] = 271,
+                ["isAlignOnce"] = false,
+                ["node"] = {
+                    ["__id__"] = 28,
+                },
+            },
+            [37] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 1,
+                    ["y"] = 0,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                    [1] = {
+                        ["__id__"] = 38,
+                    },
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 56,
+                    },
+                    [2] = {
+                        ["__id__"] = 57,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 200,
+                    ["width"] = 200,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "top_mid",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 3,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 100,
+                    ["y"] = 120,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [38] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 1,
+                    ["y"] = 1,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                    [1] = {
+                        ["__id__"] = 39,
+                    },
+                    [2] = {
+                        ["__id__"] = 42,
+                    },
+                    [3] = {
+                        ["__id__"] = 45,
+                    },
+                    [4] = {
+                        ["__id__"] = 48,
+                    },
+                    [5] = {
+                        ["__id__"] = 51,
+                    },
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 2,
+                    ["g"] = 209,
+                    ["r"] = 81,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 54,
+                    },
+                    [2] = {
+                        ["__id__"] = 55,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 200,
+                    ["width"] = 200,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "child_box",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 37,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 200,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 0.3,
+                ["_scaleY"] = 0.3,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [39] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 40,
+                    },
+                    [2] = {
+                        ["__id__"] = 41,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 30,
+                    ["width"] = 32,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "star_right_top",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 38,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = -16,
+                    ["y"] = -15,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [40] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = true,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 1,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 39,
+                },
+            },
+            [41] = {
+                ["__type__"] = "cc.Widget",
+                ["_alignFlags"] = 33,
+                ["_bottom"] = 0,
+                ["_enabled"] = true,
+                ["_isAbsBottom"] = true,
+                ["_isAbsLeft"] = true,
+                ["_isAbsRight"] = true,
+                ["_isAbsTop"] = true,
+                ["_left"] = 0,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_originalHeight"] = 0,
+                ["_originalWidth"] = 0,
+                ["_right"] = 0,
+                ["_top"] = 0,
+                ["isAlignOnce"] = false,
+                ["node"] = {
+                    ["__id__"] = 39,
+                },
+            },
+            [42] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 1,
+                    ["y"] = 1,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 43,
+                    },
+                    [2] = {
+                        ["__id__"] = 44,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 30,
+                    ["width"] = 32,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "star_left_bottom",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 38,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = -168,
+                    ["y"] = -170,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 2,
+                ["_scaleY"] = 2,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [43] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = true,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 1,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 42,
+                },
+            },
+            [44] = {
+                ["__type__"] = "cc.Widget",
+                ["_alignFlags"] = 12,
+                ["_bottom"] = 0,
+                ["_enabled"] = true,
+                ["_isAbsBottom"] = true,
+                ["_isAbsLeft"] = true,
+                ["_isAbsRight"] = true,
+                ["_isAbsTop"] = true,
+                ["_left"] = 0,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_originalHeight"] = 0,
+                ["_originalWidth"] = 0,
+                ["_right"] = 145,
+                ["_top"] = 141,
+                ["isAlignOnce"] = false,
+                ["node"] = {
+                    ["__id__"] = 42,
+                },
+            },
+            [45] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 46,
+                    },
+                    [2] = {
+                        ["__id__"] = 47,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 30,
+                    ["width"] = 32,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "star_right_bottom",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 38,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = -16,
+                    ["y"] = -185,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [46] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = true,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 1,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 45,
+                },
+            },
+            [47] = {
+                ["__type__"] = "cc.Widget",
+                ["_alignFlags"] = 36,
+                ["_bottom"] = 0,
+                ["_enabled"] = true,
+                ["_isAbsBottom"] = true,
+                ["_isAbsLeft"] = true,
+                ["_isAbsRight"] = true,
+                ["_isAbsTop"] = true,
+                ["_left"] = 0,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_originalHeight"] = 0,
+                ["_originalWidth"] = 0,
+                ["_right"] = 0,
+                ["_top"] = 0,
+                ["isAlignOnce"] = false,
+                ["node"] = {
+                    ["__id__"] = 45,
+                },
+            },
+            [48] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 49,
+                    },
+                    [2] = {
+                        ["__id__"] = 50,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 30,
+                    ["width"] = 32,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "star_left_top",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 38,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = -184,
+                    ["y"] = -15,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [49] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = true,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 1,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 48,
+                },
+            },
+            [50] = {
+                ["__type__"] = "cc.Widget",
+                ["_alignFlags"] = 9,
+                ["_bottom"] = 0,
+                ["_enabled"] = true,
+                ["_isAbsBottom"] = true,
+                ["_isAbsLeft"] = true,
+                ["_isAbsRight"] = true,
+                ["_isAbsTop"] = true,
+                ["_left"] = 0,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_originalHeight"] = 0,
+                ["_originalWidth"] = 0,
+                ["_right"] = 154,
+                ["_top"] = 0,
+                ["isAlignOnce"] = false,
+                ["node"] = {
+                    ["__id__"] = 48,
+                },
+            },
+            [51] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 1,
+                    ["y"] = 0,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 52,
+                    },
+                    [2] = {
+                        ["__id__"] = 53,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 30,
+                    ["width"] = 32,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "star_right_top",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 38,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = -84,
+                    ["y"] = -115,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [52] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = true,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 1,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 51,
+                },
+            },
+            [53] = {
+                ["__type__"] = "cc.Widget",
+                ["_alignFlags"] = 18,
+                ["_bottom"] = 0,
+                ["_enabled"] = true,
+                ["_isAbsBottom"] = true,
+                ["_isAbsLeft"] = true,
+                ["_isAbsRight"] = true,
+                ["_isAbsTop"] = true,
+                ["_left"] = 0,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_originalHeight"] = 0,
+                ["_originalWidth"] = 0,
+                ["_right"] = 0,
+                ["_top"] = 0,
+                ["isAlignOnce"] = false,
+                ["node"] = {
+                    ["__id__"] = 51,
+                },
+            },
+            [54] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = true,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 1,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 38,
+                },
+            },
+            [55] = {
+                ["__type__"] = "cc.Widget",
+                ["_alignFlags"] = 12,
+                ["_bottom"] = 0,
+                ["_enabled"] = true,
+                ["_isAbsBottom"] = true,
+                ["_isAbsLeft"] = true,
+                ["_isAbsRight"] = true,
+                ["_isAbsTop"] = true,
+                ["_left"] = 0,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_originalHeight"] = 200,
+                ["_originalWidth"] = 0,
+                ["_right"] = 0,
+                ["_top"] = 271,
+                ["isAlignOnce"] = false,
+                ["node"] = {
+                    ["__id__"] = 38,
+                },
+            },
+            [56] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = true,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 1,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 37,
+                },
+            },
+            [57] = {
+                ["__type__"] = "cc.Widget",
+                ["_alignFlags"] = 17,
+                ["_bottom"] = 0,
+                ["_enabled"] = true,
+                ["_isAbsBottom"] = true,
+                ["_isAbsLeft"] = true,
+                ["_isAbsRight"] = true,
+                ["_isAbsTop"] = true,
+                ["_left"] = 0,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_originalHeight"] = 200,
+                ["_originalWidth"] = 0,
+                ["_right"] = 0,
+                ["_top"] = 0,
+                ["isAlignOnce"] = false,
+                ["node"] = {
+                    ["__id__"] = 37,
+                },
+            },
+            [58] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 1,
+                    ["y"] = 1,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                    [1] = {
+                        ["__id__"] = 59,
+                    },
+                    [2] = {
+                        ["__id__"] = 62,
+                    },
+                    [3] = {
+                        ["__id__"] = 65,
+                    },
+                    [4] = {
+                        ["__id__"] = 68,
+                    },
+                    [5] = {
+                        ["__id__"] = 71,
+                    },
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 74,
+                    },
+                    [2] = {
+                        ["__id__"] = 75,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 200,
+                    ["width"] = 200,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "left_center",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 3,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = -280,
+                    ["y"] = 100,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [59] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 60,
+                    },
+                    [2] = {
+                        ["__id__"] = 61,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 30,
+                    ["width"] = 32,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "star_right_top",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 58,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = -16,
+                    ["y"] = -15,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [60] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = true,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 1,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 59,
+                },
+            },
+            [61] = {
+                ["__type__"] = "cc.Widget",
+                ["_alignFlags"] = 33,
+                ["_bottom"] = 0,
+                ["_enabled"] = true,
+                ["_isAbsBottom"] = true,
+                ["_isAbsLeft"] = true,
+                ["_isAbsRight"] = true,
+                ["_isAbsTop"] = true,
+                ["_left"] = 0,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_originalHeight"] = 0,
+                ["_originalWidth"] = 0,
+                ["_right"] = 0,
+                ["_top"] = 0,
+                ["isAlignOnce"] = false,
+                ["node"] = {
+                    ["__id__"] = 59,
+                },
+            },
+            [62] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 63,
+                    },
+                    [2] = {
+                        ["__id__"] = 64,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 30,
+                    ["width"] = 32,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "star_left_bottom",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 58,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = -184,
+                    ["y"] = -185,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [63] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = true,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 1,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 62,
+                },
+            },
+            [64] = {
+                ["__type__"] = "cc.Widget",
+                ["_alignFlags"] = 12,
+                ["_bottom"] = 0,
+                ["_enabled"] = true,
+                ["_isAbsBottom"] = true,
+                ["_isAbsLeft"] = true,
+                ["_isAbsRight"] = true,
+                ["_isAbsTop"] = true,
+                ["_left"] = 0,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_originalHeight"] = 0,
+                ["_originalWidth"] = 0,
+                ["_right"] = 145,
+                ["_top"] = 141,
+                ["isAlignOnce"] = false,
+                ["node"] = {
+                    ["__id__"] = 62,
+                },
+            },
+            [65] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 66,
+                    },
+                    [2] = {
+                        ["__id__"] = 67,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 30,
+                    ["width"] = 32,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "star_right_bottom",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 58,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = -16,
+                    ["y"] = -185,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [66] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = true,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 1,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 65,
+                },
+            },
+            [67] = {
+                ["__type__"] = "cc.Widget",
+                ["_alignFlags"] = 36,
+                ["_bottom"] = 0,
+                ["_enabled"] = true,
+                ["_isAbsBottom"] = true,
+                ["_isAbsLeft"] = true,
+                ["_isAbsRight"] = true,
+                ["_isAbsTop"] = true,
+                ["_left"] = 0,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_originalHeight"] = 0,
+                ["_originalWidth"] = 0,
+                ["_right"] = 0,
+                ["_top"] = 0,
+                ["isAlignOnce"] = false,
+                ["node"] = {
+                    ["__id__"] = 65,
+                },
+            },
+            [68] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 69,
+                    },
+                    [2] = {
+                        ["__id__"] = 70,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 30,
+                    ["width"] = 32,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "star_left_top",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 58,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = -184,
+                    ["y"] = -15,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [69] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = true,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 1,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 68,
+                },
+            },
+            [70] = {
+                ["__type__"] = "cc.Widget",
+                ["_alignFlags"] = 9,
+                ["_bottom"] = 0,
+                ["_enabled"] = true,
+                ["_isAbsBottom"] = true,
+                ["_isAbsLeft"] = true,
+                ["_isAbsRight"] = true,
+                ["_isAbsTop"] = true,
+                ["_left"] = 0,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_originalHeight"] = 0,
+                ["_originalWidth"] = 0,
+                ["_right"] = 154,
+                ["_top"] = 0,
+                ["isAlignOnce"] = false,
+                ["node"] = {
+                    ["__id__"] = 68,
+                },
+            },
+            [71] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 1,
+                    ["y"] = 0,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 72,
+                    },
+                    [2] = {
+                        ["__id__"] = 73,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 30,
+                    ["width"] = 32,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "star_right_top",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 58,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = -84,
+                    ["y"] = -115,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [72] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = true,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 1,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 71,
+                },
+            },
+            [73] = {
+                ["__type__"] = "cc.Widget",
+                ["_alignFlags"] = 18,
+                ["_bottom"] = 0,
+                ["_enabled"] = true,
+                ["_isAbsBottom"] = true,
+                ["_isAbsLeft"] = true,
+                ["_isAbsRight"] = true,
+                ["_isAbsTop"] = true,
+                ["_left"] = 0,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_originalHeight"] = 0,
+                ["_originalWidth"] = 0,
+                ["_right"] = 0,
+                ["_top"] = 0,
+                ["isAlignOnce"] = false,
+                ["node"] = {
+                    ["__id__"] = 71,
+                },
+            },
+            [74] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = true,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 1,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 58,
+                },
+            },
+            [75] = {
+                ["__type__"] = "cc.Widget",
+                ["_alignFlags"] = 10,
+                ["_bottom"] = 0,
+                ["_enabled"] = true,
+                ["_isAbsBottom"] = true,
+                ["_isAbsLeft"] = true,
+                ["_isAbsRight"] = true,
+                ["_isAbsTop"] = true,
+                ["_left"] = 0,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_originalHeight"] = 200,
+                ["_originalWidth"] = 0,
+                ["_right"] = 0,
+                ["_top"] = 271,
+                ["isAlignOnce"] = false,
+                ["node"] = {
+                    ["__id__"] = 58,
+                },
+            },
+            [76] = {
+                ["__type__"] = "cc.Canvas",
+                ["_designResolution"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 640,
+                    ["width"] = 960,
+                },
+                ["_enabled"] = true,
+                ["_fitHeight"] = true,
+                ["_fitWidth"] = false,
+                ["_name"] = "",
+                ["_objFlags"] = 1835008,
+                ["node"] = {
+                    ["__id__"] = 3,
+                },
+            },
+        },
+        ["__type__"] = "__js_array__",
+    },
+    ["d4bec6fb-0383-4067-bcb7-15761e864021"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "EnemyHp",
+            ["offset"] = {
+                [1] = 0,
+                [2] = 0,
+            },
+            ["originalSize"] = {
+                [1] = 48,
+                [2] = 4,
+            },
+            ["rect"] = {
+                [1] = 271,
+                [2] = 985,
+                [3] = 48,
+                [4] = 4,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["d8242628-a86c-428e-a06a-a1004872ff53"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipWaveUpA0002",
+            ["offset"] = {
+                [1] = 0,
+                [2] = 0,
+            },
+            ["originalSize"] = {
+                [1] = 80,
+                [2] = 12,
+            },
+            ["rect"] = {
+                [1] = 94,
+                [2] = 939,
+                [3] = 76,
+                [4] = 10,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["d829b9fa-e09b-4a91-9ac2-1f237fc6308f"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "CannonBoom0007",
+            ["offset"] = {
+                [1] = 1,
+                [2] = 0,
+            },
+            ["originalSize"] = {
+                [1] = 56,
+                [2] = 52,
+            },
+            ["rect"] = {
+                [1] = 222,
+                [2] = 941,
+                [3] = 48,
+                [4] = 48,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["d940bce2-7204-4e5a-ae09-ddc52543bfa2"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "Building01",
+            ["offset"] = {
+                [1] = -2,
+                [2] = 2,
+            },
+            ["originalSize"] = {
+                [1] = 180,
+                [2] = 160,
+            },
+            ["rect"] = {
+                [1] = 1,
+                [2] = 1,
+                [3] = 176,
+                [4] = 156,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["d94120b4-b434-450a-81bb-01f63626b6de"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "CannonBoom0017",
+            ["offset"] = {
+                [1] = -2,
+                [2] = -10,
+            },
+            ["originalSize"] = {
+                [1] = 56,
+                [2] = 52,
+            },
+            ["rect"] = {
+                [1] = 472,
+                [2] = 552,
+                [3] = 52,
+                [4] = 22,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["da4ccbab-c04e-47fc-98e2-be8b58207834"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipWaveUpA0012",
+            ["offset"] = {
+                [1] = 2,
+                [2] = -1,
+            },
+            ["originalSize"] = {
+                [1] = 80,
+                [2] = 12,
+            },
+            ["rect"] = {
+                [1] = 476,
+                [2] = 828,
+                [3] = 72,
+                [4] = 8,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["de91714f-52e3-4966-b418-fcd2ac7aba70"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipExplode0003",
+            ["offset"] = {
+                [1] = 4,
+                [2] = -2,
+            },
+            ["originalSize"] = {
+                [1] = 148,
+                [2] = 120,
+            },
+            ["rect"] = {
+                [1] = 1,
+                [2] = 313,
+                [3] = 140,
+                [4] = 108,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["e06097dd-77b5-4a5f-b1f0-a5c90a3822f8"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "IncreaseHp0014",
+            ["offset"] = {
+                [1] = -1,
+                [2] = 1,
+            },
+            ["originalSize"] = {
+                [1] = 72,
+                [2] = 90,
+            },
+            ["rect"] = {
+                [1] = 354,
+                [2] = 690,
+                [3] = 70,
+                [4] = 68,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["e177e539-8223-45de-9e2c-62ce0b659abf"] = {
+        ["__js_array__"] = {
+            [1] = {
+                ["__type__"] = "cc.Prefab",
+                ["_name"] = "Map",
+                ["_objFlags"] = 0,
+                ["data"] = {
+                    ["__id__"] = 2,
+                },
+            },
+            [2] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 3,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 1000,
+                    ["width"] = 1600,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "MapA0002Bg",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [3] = {
+                ["__type__"] = "cc.Sprite",
+                ["_dstBlendFactor"] = 771,
+                ["_enabled"] = true,
+                ["_fillCenter"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_fillRange"] = 0,
+                ["_fillStart"] = 0,
+                ["_fillType"] = 0,
+                ["_isTrimmedMode"] = true,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_sizeMode"] = 1,
+                ["_spriteFrame"] = {
+                    ["__uuid__"] = "8506b260-6e39-4782-904a-331f33d7ca8b",
+                },
+                ["_srcBlendFactor"] = 770,
+                ["_type"] = 0,
+                ["node"] = {
+                    ["__id__"] = 2,
+                },
+            },
+        },
+        ["__type__"] = "__js_array__",
+    },
+    ["ea2561fa-4c4d-483c-b432-3076ba5bec63"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipExplode0011",
+            ["offset"] = {
+                [1] = -1,
+                [2] = 2,
+            },
+            ["originalSize"] = {
+                [1] = 148,
+                [2] = 120,
+            },
+            ["rect"] = {
+                [1] = 221,
+                [2] = 440,
+                [3] = 92,
+                [4] = 86,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["ea692662-3ed6-40e9-bb52-2c1860936aed"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "ShipWaveA0002",
+            ["offset"] = {
+                [1] = -2,
+                [2] = 1,
+            },
+            ["originalSize"] = {
+                [1] = 92,
+                [2] = 16,
+            },
+            ["rect"] = {
+                [1] = 171,
+                [2] = 990,
+                [3] = 78,
+                [4] = 14,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["f699feef-1b04-49f1-9527-a16da9c66251"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "PlayerTower02Fire0001",
+            ["offset"] = {
+                [1] = 0,
+                [2] = -3,
+            },
+            ["originalSize"] = {
+                [1] = 28,
+                [2] = 28,
+            },
+            ["rect"] = {
+                [1] = 393,
+                [2] = 928,
+                [3] = 26,
+                [4] = 22,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["f791b3ee-0480-44ba-83ad-d24644b99d02"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "IncreaseHp0022",
+            ["offset"] = {
+                [1] = 0,
+                [2] = 2,
+            },
+            ["originalSize"] = {
+                [1] = 72,
+                [2] = 90,
+            },
+            ["rect"] = {
+                [1] = 389,
+                [2] = 552,
+                [3] = 68,
+                [4] = 82,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["f8ddba0e-93f0-4bf0-afc7-a7d43ad29330"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "IncreaseHp0024",
+            ["offset"] = {
+                [1] = -1,
+                [2] = 4,
+            },
+            ["originalSize"] = {
+                [1] = 72,
+                [2] = 90,
+            },
+            ["rect"] = {
+                [1] = 314,
+                [2] = 483,
+                [3] = 68,
+                [4] = 82,
+            },
+            ["rotated"] = 1,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["fcf72fad-22ad-4cc9-abcc-d23882905339"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "IncreaseHp0002",
+            ["offset"] = {
+                [1] = 0,
+                [2] = 4,
+            },
+            ["originalSize"] = {
+                [1] = 72,
+                [2] = 90,
+            },
+            ["rect"] = {
+                [1] = 286,
+                [2] = 621,
+                [3] = 72,
+                [4] = 66,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["fdd7745e-ff9e-4b30-b45b-d87368d52c2a"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "IncreaseHp0021",
+            ["offset"] = {
+                [1] = 1,
+                [2] = 1,
+            },
+            ["originalSize"] = {
+                [1] = 72,
+                [2] = 90,
+            },
+            ["rect"] = {
+                [1] = 157,
+                [2] = 697,
+                [3] = 68,
+                [4] = 82,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
         },
     },
 }

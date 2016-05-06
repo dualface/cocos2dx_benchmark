@@ -1,560 +1,592 @@
 
 local settings = {
     ["debug"] = true,
-    ["launchScene"] = "db://assets/HelloScene.fire",
+    ["launchScene"] = "db://assets/Scene/TestAnchorPointScene.fire",
     ["platform"] = "web-mobile",
     ["rawAssets"] = {
         ["assets"] = {
-            ["013bc80e-4f18-4bdc-8164-49af7b6a5030"] = {
+            ["0325257e-1804-47fd-9213-bc43cf88da6c"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveA0014.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0019.png",
             },
-            ["0360bfd5-d0a9-43f3-8a54-7490f8c910c6"] = {
+            ["03fd2bf1-ccf7-46c6-bc70-4a164c63e44e"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0027.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/Building01Destroyed.png",
             },
-            ["03bda17d-8ca0-48ee-84fa-50b7e6e2ec80"] = {
+            ["04a3ba06-5170-48f9-857f-1856bbb5844e"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/CannonBoom0006.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplode0002.png",
             },
-            ["09e64bdd-1daf-4106-a4d6-bc3fecec16d7"] = {
+            ["04be648d-a63f-4b72-9028-e684f6f232f5"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/CannonBall01.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/PlayerTower0101.png",
             },
-            ["0bd5f118-d3cd-46d9-8b9c-730b3fb9e941"] = {
+            ["05fd8927-d27e-4920-8861-1371a814d53f"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplode0003.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/CannonBoom0009.png",
             },
-            ["0d87585a-01ab-4260-a7ef-6cbefefa7474"] = {
+            ["0da4e26c-ed9b-4fb0-b523-de677539644e"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0017.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveA0013.png",
             },
-            ["0f1841ff-6102-484d-91ce-27b1c27269c1"] = {
+            ["0edbf272-4389-4e1a-96ea-061d3abb4b35"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveA0004.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplode0012.png",
             },
-            ["0f6847b8-8f7e-4193-8b83-720990b9c245"] = {
+            ["106260a3-9f30-4137-92d2-23abb8f11190"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0009.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0016.png",
             },
-            ["0f9ca905-a29b-4936-b2c7-abebe0f4211a"] = {
+            ["1176f35c-4145-43ee-846c-48c8329f64ec"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/CannonBoom0017.png",
+                ["url"] = "Prefab/Ship.prefab",
             },
-            ["0fbdbe0e-0751-49ac-ac7d-7b7cd83f4ce7"] = {
+            ["1323f59f-149c-438d-b624-d109c33833be"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/CannonBoom0008.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveUpA0007.png",
             },
-            ["11445d61-7ac4-4c9a-a8b5-3ada9963059d"] = {
+            ["1403945a-4016-451c-895b-c084ee61b533"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0024.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveUpA0004.png",
             },
-            ["122ec60a-4433-43fa-9553-0cd56cf764fa"] = {
+            ["14632310-dc12-4107-8ca5-54617bb57050"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplode0011.png",
-            },
-            ["12c9499e-bf0c-455d-b79b-2f4077a979a9"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/PlayerTower0202.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/PlayerTower0102.png",
             },
             ["19234774-2b4c-4f39-9c80-5e966a6e73e3"] = {
                 ["raw"] = false,
                 ["url"] = "Sprite/star.png/star",
             },
-            ["1ccdc23c-9bcf-436c-bede-4e1e28d16370"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/PlayerTower0201.png",
-            },
-            ["20b41c2b-1570-4649-b42d-2bbf6e2744fd"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/EnemyShip01.png",
-            },
-            ["22001eeb-b730-466a-b57c-bfedf2f6cf19"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/CannonBoom0007.png",
-            },
-            ["22f78de4-3baa-404a-9e01-36424f840d29"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/CannonBoom0004.png",
-            },
-            ["2411c915-9373-4377-944c-d9715fe2ce8a"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/PlayerTower02Fire0001.png",
-            },
-            ["26f1bff4-9c11-4d53-9f71-1d36e8c1b21b"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveUpA0014.png",
-            },
-            ["2a260587-e902-4431-9dad-96a93557b587"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplode0012.png",
-            },
-            ["2d05bc75-44f0-43ef-afab-3478fb43ad51"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0022.png",
-            },
-            ["3142cdfb-f533-4d68-a1eb-a1a556e2c609"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/CannonBoom0016.png",
-            },
-            ["31d3a7da-82c9-4bf5-818a-e01de18681a4"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplodeSmall020001.png",
-            },
-            ["329ba651-c528-479f-b0a4-d1f3a49037b0"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveA0005.png",
-            },
-            ["3519f4c5-e97a-4a5d-82e7-46872d497560"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplodeSmall020006.png",
-            },
-            ["36489c5d-8a68-4e5e-87cc-e5c73e7a8d6d"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0004.png",
-            },
-            ["364fbb5a-835b-414d-8423-343d9e22701e"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplodeSmall020004.png",
-            },
-            ["373304f0-f69d-4411-98d9-9044b0cbce31"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0003.png",
-            },
-            ["38073d26-6753-4414-ba31-664fca720c85"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/CannonBoom0010.png",
-            },
-            ["38a2ef98-357d-4ea3-b747-45367e20a468"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplode0008.png",
-            },
-            ["38d5de77-d56a-4fcf-b05f-b4812dbdd4ec"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplodeSmall010003.png",
-            },
-            ["39cbaf8a-c48a-46dd-a52e-5b2c4314b643"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveA0006.png",
-            },
-            ["3aa91b5b-3753-4f77-a2d9-74689da5afed"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist",
-            },
-            ["3b8f5af6-32e4-47d4-9022-66618707ec6c"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0028.png",
-            },
-            ["408dd37c-f2de-49bf-95a8-0c5a76f34ddb"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplodeSmall010004.png",
-            },
-            ["40b7c714-d5a8-4dcb-b473-c08a53a57ed7"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplode0005.png",
-            },
-            ["42ecdfa7-1b75-4422-8a1d-53f14f6d775e"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplodeSmall020005.png",
-            },
-            ["447f53df-d2f2-4486-9fdf-0e8e903bf62f"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/Building01.png",
-            },
-            ["456c7080-a8fb-4c05-b977-cf71baa38859"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveA0011.png",
-            },
-            ["475d4978-c3a9-4c20-b7a9-7cbb9d9f7806"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplode0004.png",
-            },
-            ["478ad561-49dc-4126-81d6-384e803abd18"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/PlayerTower0101Destroyed.png",
-            },
-            ["48267307-5cd1-4dfd-be2d-577ec9552177"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/CannonBoom0003.png",
-            },
-            ["4faec81c-bf59-4f83-923a-102be25c7c6e"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/FriendlyHp.png",
-            },
-            ["4fe85529-acec-4e09-b99e-4bbe4a07dd18"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/PlayerTower02Fire0005.png",
-            },
-            ["50a5325a-2531-4418-9dd8-626fa1bcac75"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0008.png",
-            },
-            ["5257eba5-4c83-4cf5-8808-db9b0c4513cf"] = {
-                ["raw"] = false,
-                ["url"] = "HelloScene.fire",
-            },
-            ["54435ee8-57ee-41ef-9a28-dff653505095"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/CannonBoom0002.png",
-            },
-            ["5795899e-b31b-4697-bc0c-9baeaecfd42e"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/CannonBoom0012.png",
-            },
-            ["5a9eb84c-9d2f-42e1-9257-62cf7ca5c017"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0016.png",
-            },
-            ["5aa59e87-9a01-4450-b82f-10676da8218e"] = {
+            ["193f9a9d-d236-4174-a9d9-0a3801342cc7"] = {
                 ["raw"] = false,
                 ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveUpA0001.png",
             },
-            ["5e277475-0ffa-4b51-b6c3-5c54563a9aa4"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0019.png",
-            },
-            ["5fa7b22d-19a3-4489-bb3a-9dd15dfcff45"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/CannonBoom0009.png",
-            },
-            ["60d7d153-fb50-4ff5-ad4d-431c6aa3eaae"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveA0016.png",
-            },
-            ["6151a987-c3ed-402c-bd8e-56f9acec8284"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/CannonBoom0013.png",
-            },
-            ["63925005-92ca-48ac-961d-9a3a8344f914"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveUpA0004.png",
-            },
-            ["639557df-57b4-4cbc-8139-044ef0754fc2"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveUpA0012.png",
-            },
-            ["64049c3a-e198-481b-9a8f-1d391d1b76d5"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveA0009.png",
-            },
-            ["653514b6-95ae-4c85-a031-ebbbfe0fea31"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveUpA0002.png",
-            },
-            ["659d7701-9f08-4dd6-aa1f-ef1f3ac75ee2"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/CannonBoom0011.png",
-            },
-            ["65ac6ff0-45ac-4685-b6ad-fdc34d1da876"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/CannonBoom0015.png",
-            },
-            ["66166968-5747-4665-b22f-d9c74310446d"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplodeSmall020002.png",
-            },
-            ["67384a68-929f-4456-a885-83ddbfb009b1"] = {
-                ["raw"] = true,
-                ["url"] = "Sprite/SheetMapBattle.png",
-            },
-            ["69a2c638-9379-49ab-a5e8-aafd3da6594e"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/PlayerTower0102.png",
-            },
-            ["6b7cee20-5f48-47cb-8747-43c5b8c67edf"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0010.png",
-            },
-            ["6b855aa1-c000-48c2-8250-b1101d728ead"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplodeSmall010005.png",
-            },
-            ["6d2a6d67-3944-453a-b895-9946e27181ec"] = {
+            ["1df0076f-a068-47f4-9a99-40879337703c"] = {
                 ["raw"] = false,
                 ["url"] = "Sprite/SheetMapBattle.plist/ShipExplodeSmall010002.png",
             },
-            ["6d39865e-bf48-4014-8e44-11eda3c2624d"] = {
+            ["1e778c5c-5118-4655-985d-89d803821f64"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveA0012.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveA0016.png",
             },
-            ["6de2a853-a14a-41cd-9ddd-b67e8e1e7b2a"] = {
+            ["1f3de62e-4a93-401c-867e-28c4c014315d"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplode0002.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0009.png",
             },
-            ["6ecfe585-ccba-447d-b7ea-2fb1f12ea14b"] = {
+            ["20ef3159-54d2-47f2-9f72-70fe4b91536b"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0001.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplodeSmall010007.png",
             },
-            ["7504690e-9cf1-417b-ba71-2a7b706c5db3"] = {
+            ["219ef42b-c7ef-4313-ae22-8f1e8d6b18d9"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0014.png",
+                ["url"] = "Scene/BattleScene.fire",
             },
-            ["761e3ff9-e635-42cf-b028-7bc885ae70d6"] = {
+            ["220e01da-0c42-48b3-b8f8-103847eb4594"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0026.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/BrokenArrow01.png",
             },
-            ["7734c3a0-77e8-4ecc-8f43-b91f1cb04905"] = {
+            ["221b9910-53a0-4864-bca2-7fb810e94ea9"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplode0001.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplode0006.png",
             },
-            ["78ff0d1d-cb99-4764-936a-23e5cbe4e89f"] = {
+            ["22a2f143-47db-4f79-8c13-fd141b7d8d29"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveA0003.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/EnemyShip01.png",
             },
-            ["7a7f8593-e0fe-4a90-bf22-d6c46a71352b"] = {
+            ["240ccef9-587e-45cd-bc16-20fd2476496f"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplodeSmall010001.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/CannonBoom0015.png",
             },
-            ["7c2f1e48-bf78-4728-adfa-4e8fa1748ee6"] = {
+            ["27878e89-ab92-48da-8346-5bf42a0b7cde"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ObjectHpOutline.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0027.png",
             },
-            ["7dbcf745-95e6-4d51-b895-45a810c3a6d2"] = {
+            ["2816c3dd-573d-481f-b039-4017dfe6dc83"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0013.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0023.png",
             },
-            ["7eb75424-fb3f-4338-99f8-a494b57c49db"] = {
+            ["34ed707b-4dbc-4212-be7d-1cc8d6349a9f"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/Arrow01.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0028.png",
             },
-            ["81d7af5d-dc50-4877-891c-fc999576b131"] = {
+            ["34fadee9-d715-4e92-8450-08a006b8c407"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveUpA0014.png",
+            },
+            ["35eb0c50-5887-4d46-8b13-3bc914552dcc"] = {
                 ["raw"] = false,
                 ["url"] = "Sprite/SheetMapBattle.plist/CannonBoom0018.png",
             },
-            ["8455873f-8706-418f-83e5-bfbe357cd7d2"] = {
+            ["37774c07-029e-470f-9114-e5a5be58f2b3"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplodeSmall010006.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0012.png",
+            },
+            ["3a8d5f02-e53c-4fed-bf3a-c76b9ceedc0b"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveA0014.png",
+            },
+            ["3b1cb927-4c5c-47f0-a0bf-104ed5e635e4"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/PlayerTower02Fire0004.png",
+            },
+            ["3d197b06-7847-4fcd-a778-19eef841dc4f"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0020.png",
+            },
+            ["3e670b0b-5fa3-4e43-81b8-17b8bb8af382"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/PlayerTower0201.png",
+            },
+            ["40bc5dc5-750b-4dd9-9c34-130560bbcce1"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplodeSmall010001.png",
+            },
+            ["41de235d-b11a-4ed0-8c01-aa511865507b"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0018.png",
+            },
+            ["434ed300-4f72-43fc-9b66-15bb1f870ff1"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveA0003.png",
+            },
+            ["43cbfd19-9259-4589-baaf-058345f34340"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplode0010.png",
+            },
+            ["460c9fe4-542e-4b50-92a6-2bab193453f0"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/CannonBoom0001.png",
+            },
+            ["473f0cc2-c4f3-47c3-9387-1e2412b14a79"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveA0015.png",
+            },
+            ["4aadbac7-0b49-4471-9f5d-47b09a352b91"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplodeSmall010004.png",
+            },
+            ["4e878db8-ae53-4639-a6df-47edb69c4bdd"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplode0007.png",
+            },
+            ["4eac7b7c-1329-4474-8070-db849afa96e8"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveUpA0005.png",
+            },
+            ["52286ec0-04da-47bd-a7b3-1560641f02c4"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveA0004.png",
+            },
+            ["5305efcc-0b74-4499-a365-48ccad17b8c4"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/CannonBoom0005.png",
+            },
+            ["5312f0fe-441d-4f3f-9abf-69c815d61ea1"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/PlayerTower02Fire0007.png",
+            },
+            ["543ebdcb-66d3-45fc-b9bd-30a1a7fe07ea"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/PlayerTower02Fire0003.png",
+            },
+            ["55653ab6-41eb-4486-87ff-fccd1e899ff8"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveA0007.png",
+            },
+            ["56c9e70d-60a3-4a2e-937c-bae6b0f764e4"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0001.png",
+            },
+            ["59547679-3807-4b02-bf61-6fa63c58d404"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveA0006.png",
+            },
+            ["5b331ee3-d62c-4765-b43a-efdb91bb481d"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveA0001.png",
+            },
+            ["5f85ea6d-00c6-4787-a373-37bf5ec94dae"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveUpA0010.png",
+            },
+            ["64044f48-5480-477b-a000-81332e37b8fd"] = {
+                ["raw"] = true,
+                ["url"] = "Sprite/SheetMapBattle.png",
+            },
+            ["6643344c-d8f9-40d2-9e0c-1bb0cfe3ba2c"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0006.png",
+            },
+            ["682ec328-4b50-4e35-9ae8-7f5a45a5d527"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0013.png",
+            },
+            ["697a29c9-1327-437d-b71d-94bd5b7681f5"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveUpA0009.png",
+            },
+            ["69d7b5ef-6bb9-4a18-9f4c-838d7486ee07"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplodeSmall010005.png",
+            },
+            ["6c90ba0f-c493-46d0-ab76-d32fb664dfc2"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveUpA0008.png",
+            },
+            ["6e4760bf-697c-4439-af16-7c13a4dff0a4"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveA0005.png",
+            },
+            ["70acc76a-aebc-4ca4-b0b4-05dd45632096"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0025.png",
+            },
+            ["70f06b8a-058c-4edc-92f2-2fb70d73ced7"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/CannonBoom0013.png",
+            },
+            ["713ccf60-de0f-4edc-b692-a115e31c151f"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0007.png",
+            },
+            ["713d5a6c-21c7-456f-a795-bc3973bcb370"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplode0009.png",
+            },
+            ["732f95a2-4c41-426a-a7aa-df709298efa1"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplodeSmall020005.png",
+            },
+            ["73ddc5be-12b0-49aa-814d-7bde7d7e6fcd"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ObjectHpOutline.png",
+            },
+            ["76929835-9657-4f8e-ac6b-ea223f0a6c80"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0026.png",
+            },
+            ["7c68ab4b-452f-4589-be84-efd37bcc0034"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveA0010.png",
+            },
+            ["7d887ac5-3abe-49e0-a514-19a05bc0c6d0"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplodeSmall020003.png",
+            },
+            ["7e8410e1-57ef-45ad-988d-22446ecce871"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveA0011.png",
+            },
+            ["7f727f48-5167-418b-b8fd-db96ec6ae3eb"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveUpA0011.png",
+            },
+            ["7fd2c693-36f5-4c7c-bb00-4d6338ae02ed"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/PlayerTower0202Destroyed.png",
+            },
+            ["810c4035-6386-4cbc-a3ec-cc09e0ea2903"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/PlayerTower02Fire0008.png",
+            },
+            ["82a90ce0-f447-4e27-a1a4-281e6a57d9d1"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/CannonBoom0002.png",
+            },
+            ["83a7883f-a7e6-483d-a3ed-0d68a29303f3"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/CannonBoom0016.png",
             },
             ["8506b260-6e39-4782-904a-331f33d7ca8b"] = {
                 ["raw"] = false,
                 ["url"] = "Sprite/MapA0002Bg.png/MapA0002Bg",
             },
-            ["853b6ee5-4a1d-48a2-a4a3-7162d5759e84"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveA0001.png",
+            ["86b8640f-ee04-48ab-a801-a6a4aa14de90"] = {
+                ["raw"] = true,
+                ["url"] = "Sprite/box_200x200.png",
             },
-            ["874a6923-8282-48b3-aeaa-d44935641b49"] = {
+            ["89fd1cce-7a09-4691-84bc-f9c505c9e21b"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0006.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/CannonBall01.png",
             },
-            ["880f7ab0-ec73-4fbb-a8b4-3bf35e4b2c3c"] = {
+            ["8b12cf07-df52-4cb8-88bb-b3fbc126bc6f"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0025.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplodeSmall020004.png",
             },
-            ["8858c84a-2db7-40b8-85a6-667ee68e2160"] = {
+            ["8bdb7171-42a2-4fa9-ae09-2ecf28201286"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplode0010.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0003.png",
             },
-            ["89f0d0d5-78e7-499c-9203-65eeaafdda25"] = {
+            ["8c3515bc-2460-4780-875b-e327d157bc6e"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0002.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveUpA0013.png",
             },
-            ["8bcefbe7-88b1-4c4f-8839-31377804e5a0"] = {
+            ["8d19dfd8-620d-46ad-ac5c-49463d19db2e"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/CannonBoom0005.png",
+                ["url"] = "Sprite/ShipWave.anim",
             },
-            ["8f32d541-e862-44d7-9eb9-22ff892396ac"] = {
+            ["8d3af619-3d49-4f88-ba67-7d73dbc81a21"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplodeSmall020001.png",
+            },
+            ["8e2a80b4-4e69-48d6-a05e-dce2c3b11606"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplodeSmall010003.png",
+            },
+            ["8f3a5ff7-d714-4f6d-9dbd-6ab272251c4f"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/CannonBoom0012.png",
+            },
+            ["8f7e0f94-7ae5-4b80-b163-aa36fd734271"] = {
                 ["raw"] = false,
                 ["url"] = "Sprite/SheetMapBattle.plist/PlayerTower0102Destroyed.png",
             },
-            ["907edcc2-8081-44e4-85ef-f0dfb0704a3e"] = {
+            ["92378ee1-8c25-4f7e-98fe-d77ae6cb3268"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0007.png",
+                ["url"] = "Sprite/ShipWaveUp.anim",
             },
-            ["934bdaf3-4def-47ba-a703-2dd8f48dd768"] = {
+            ["939bb859-ffd8-40c4-9521-33294d30e775"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplode0006.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/FriendlyHp.png",
             },
-            ["98ecf5ca-1f39-494b-bccf-a34d66323641"] = {
+            ["93ca2a7f-ba44-4659-b313-042fa471b472"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/PlayerTower0201Destroyed.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveUpA0015.png",
             },
-            ["99c91f82-22c5-4829-a9e2-bc349d38241a"] = {
+            ["94dac1ac-e890-4519-ad20-595f8aebde4a"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveA0002.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveA0008.png",
             },
-            ["a748c78c-e1f6-45c8-b438-e6dbe847239f"] = {
+            ["95832fd0-4a5a-4c18-9722-1d3f21ef9de6"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveUpA0005.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/CannonBoom0014.png",
             },
-            ["a9f8a282-f11f-4ede-86ef-9b53b109a173"] = {
+            ["9591da79-3c05-40c0-8c50-24e7ee4136a3"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveA0010.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/CannonBoom0008.png",
             },
-            ["accc617d-3f00-4dd2-a601-222d5b607225"] = {
+            ["96a4b651-2ee0-419e-900e-4345f3a2c602"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/PlayerTower02Fire0002.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveUpA0003.png",
             },
-            ["b1ed3d0c-0fca-4c73-b164-98cc7dd3c46f"] = {
+            ["99d49462-6249-4c46-ab73-27925cba829c"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/PlayerTower02Fire0008.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveUpA0016.png",
             },
-            ["b34915eb-6dbd-4105-9988-3ec2f7754747"] = {
+            ["9a6e2c5c-1be9-4e60-a514-6ac5a806089a"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveUpA0010.png",
+                ["url"] = "Sprite/SheetMapBattle.plist",
             },
-            ["b34d082d-7954-4010-aa58-66842c60fcf6"] = {
+            ["9b64dd72-894f-442d-9291-e6d86eae721b"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveUpA0009.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/CannonBoom0004.png",
             },
-            ["b3cc0efb-c8e0-42e2-9ec8-c3c2586c9f13"] = {
+            ["9bd1dc45-61ad-4665-9b3e-d00bf8190a79"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/Building01Destroyed.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0015.png",
+            },
+            ["9c8566f8-a1eb-47c9-a198-09cd7153d7d6"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplodeSmall010008.png",
+            },
+            ["9df8c79e-2667-49f3-ae87-985ceaa8f38a"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0010.png",
+            },
+            ["9fc23825-1c1a-4bf8-9ae7-b182b90c6864"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/PlayerTower0202.png",
+            },
+            ["9fe4d055-720c-4c13-8c54-1e2c2e7c6bdc"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/CannonBoom0011.png",
+            },
+            ["a2077575-c595-4193-b0a8-d2a5950d6d34"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplode0001.png",
+            },
+            ["a35b95b8-08c9-4e7f-a075-39c271d4e285"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveUpA0006.png",
+            },
+            ["a5177baa-6ce4-4021-9b3b-bbed6a1616d5"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0004.png",
+            },
+            ["a81589be-b631-4afd-923c-dfef47ff3c4a"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveA0009.png",
+            },
+            ["a8924cd5-680a-4451-a089-b6695e2585d1"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/PlayerTower02Fire0006.png",
+            },
+            ["aa5ce9b1-cc82-4db8-8e8e-121a831262ee"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/PlayerTower02Fire0005.png",
+            },
+            ["ac3f73ba-15ff-4052-9b9c-5a42e7f6a7bd"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplode0008.png",
+            },
+            ["aed8410e-7dbf-4a63-8ca3-73dc1b6907a3"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/CannonBoom0010.png",
             },
             ["b40edf3a-784a-4edd-965e-16cc14bb106b"] = {
                 ["raw"] = true,
                 ["url"] = "Sprite/star.png",
             },
-            ["b9de1a02-38d7-48da-8b35-00d4d2fb55dd"] = {
+            ["ba801ac1-d1eb-4f30-9ea7-a0d65d3ddc37"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplode0004.png",
+            },
+            ["bc9526e7-6e24-4f2e-83c8-078cb0ad4345"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/PlayerTower0101Destroyed.png",
+            },
+            ["bd75dd18-e3e7-462c-9b31-878b01660c32"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveA0012.png",
+            },
+            ["c0c707d5-f30f-4cf0-aa1f-731ce8d408cf"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0011.png",
+            },
+            ["c14fe63b-1c83-4728-9b5e-12981b0b7394"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/CannonBoom0006.png",
+            },
+            ["c158d9ef-8cb2-4497-baa6-ec98eedb4c9d"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplode0005.png",
+            },
+            ["c18907e7-166d-4bd9-a58d-7f83f622bccf"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/CannonBoom0003.png",
+            },
+            ["c27e0e73-d717-4308-8d1c-b3561f98321a"] = {
                 ["raw"] = false,
                 ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0005.png",
             },
-            ["ba94ac3b-463c-483e-b95b-0a464d752187"] = {
+            ["c4eb0c97-9c56-4c7e-8671-ed0a1aa40c54"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplodeSmall020002.png",
+            },
+            ["c756bb24-dccc-4449-8430-6faa806b31e8"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/box_200x200.png/box_200x200",
+            },
+            ["c9aabfdb-7aa0-4131-9314-8204edce058c"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0017.png",
+            },
+            ["ce46fd39-5999-4be8-8039-06758d3feb69"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplodeSmall010006.png",
+            },
+            ["ce9d17cc-0029-4672-a27a-8c417846fc14"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/Arrow01.png",
+            },
+            ["cf3ceca5-3406-4b22-93c1-ddeb82fbf1c3"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/PlayerTower0201Destroyed.png",
+            },
+            ["cfda4b0c-a904-459a-8fbb-24685610ec70"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplodeSmall020006.png",
+            },
+            ["cff832bf-bf7f-45d3-86ef-78f1e160d9cc"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/PlayerTower02Fire0002.png",
+            },
+            ["d0725108-28a5-4bcf-98aa-6718f85c257f"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0008.png",
+            },
+            ["d3df46b8-f3ef-4632-ad6c-b2b9dad1a9f0"] = {
+                ["raw"] = false,
+                ["url"] = "Scene/TestAnchorPointScene.fire",
+            },
+            ["d4bec6fb-0383-4067-bcb7-15761e864021"] = {
                 ["raw"] = false,
                 ["url"] = "Sprite/SheetMapBattle.plist/EnemyHp.png",
             },
-            ["baf7ec38-e531-422c-98c8-ff54b5a3044f"] = {
+            ["d8242628-a86c-428e-a06a-a1004872ff53"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveUpA0006.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveUpA0002.png",
             },
-            ["bcf74412-ec41-455a-8f45-d67566daabb2"] = {
+            ["d829b9fa-e09b-4a91-9ac2-1f237fc6308f"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveUpA0007.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/CannonBoom0007.png",
             },
-            ["be996d90-04da-4a19-9f3e-794afb19d7fd"] = {
+            ["d940bce2-7204-4e5a-ae09-ddc52543bfa2"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/PlayerTower02Fire0007.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/Building01.png",
             },
-            ["bf37b342-2b04-4cdb-9e74-e68b71353068"] = {
+            ["d94120b4-b434-450a-81bb-01f63626b6de"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveA0007.png",
-            },
-            ["c2951cbe-8c4e-461f-860f-ce134f47f1b6"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplode0009.png",
-            },
-            ["c3147721-1172-4a5c-9e09-93fc39010488"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/PlayerTower02Fire0004.png",
-            },
-            ["c428a53a-8673-4278-80b8-07e9fb26e33e"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/BrokenArrow01.png",
-            },
-            ["c4a99d40-eedd-4dd4-9fe9-7f692cf9c378"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveUpA0008.png",
-            },
-            ["c6f43b26-b7bd-4033-833e-0b8097c953f2"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplodeSmall010007.png",
-            },
-            ["cb6c74ce-126c-45b1-ab02-ef4ca1a6a337"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/CannonBoom0001.png",
-            },
-            ["d0368375-4de1-4aff-a2ba-4c669e2be971"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveUpA0003.png",
-            },
-            ["d19e7b3a-e49d-4c8b-b0a6-a8050e5bba36"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveUpA0016.png",
-            },
-            ["d23bd03a-6abd-49d4-8ef5-538adadb32d1"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplode0007.png",
-            },
-            ["d274bad5-25b7-47ad-bd0e-22d472dbb45c"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0018.png",
-            },
-            ["d2e15b89-ff69-460c-b126-e414b65f024d"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/PlayerTower0202Destroyed.png",
-            },
-            ["d3de2b64-393b-4dc2-ad79-4752a2a88c66"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0012.png",
-            },
-            ["d4584d22-fdbd-44df-a755-e714b81eabb8"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/PlayerTower0101.png",
-            },
-            ["d69cf250-1c29-4583-a652-22a172e0e32b"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveUpA0013.png",
-            },
-            ["d78e7620-898b-4cfb-ae1b-3e5e62e03b76"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/CannonBoom0014.png",
-            },
-            ["d914f222-01c2-45e4-a9d9-ba64050b996d"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0015.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/CannonBoom0017.png",
             },
             ["d96dbaa8-bf35-4d75-bc8e-66206379f718"] = {
                 ["raw"] = true,
                 ["url"] = "Sprite/MapA0002Bg.png",
             },
-            ["dc7b0335-18d8-4800-aeec-513cf3b79371"] = {
+            ["da4ccbab-c04e-47fc-98e2-be8b58207834"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveA0008.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveUpA0012.png",
             },
-            ["dce978bd-39b5-4259-86a5-8d97740ac71a"] = {
+            ["de91714f-52e3-4966-b418-fcd2ac7aba70"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveUpA0011.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplode0003.png",
             },
-            ["df1a31a0-71f1-44ef-9139-20bed45b3652"] = {
+            ["e06097dd-77b5-4a5f-b1f0-a5c90a3822f8"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveUpA0015.png",
+                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0014.png",
             },
-            ["e140f54d-44b9-4374-96fe-eae869dc7a0e"] = {
+            ["e177e539-8223-45de-9e2c-62ce0b659abf"] = {
                 ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0023.png",
+                ["url"] = "Prefab/Map.prefab",
             },
-            ["e360ed0d-c723-433c-8eba-dac3d59eaa35"] = {
+            ["ea2561fa-4c4d-483c-b432-3076ba5bec63"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplode0011.png",
+            },
+            ["ea692662-3ed6-40e9-bb52-2c1860936aed"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveA0002.png",
+            },
+            ["f699feef-1b04-49f1-9527-a16da9c66251"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/PlayerTower02Fire0001.png",
+            },
+            ["f791b3ee-0480-44ba-83ad-d24644b99d02"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0022.png",
+            },
+            ["f8ddba0e-93f0-4bf0-afc7-a7d43ad29330"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0024.png",
+            },
+            ["fcf72fad-22ad-4cc9-abcc-d23882905339"] = {
+                ["raw"] = false,
+                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0002.png",
+            },
+            ["fdd7745e-ff9e-4b30-b45b-d87368d52c2a"] = {
                 ["raw"] = false,
                 ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0021.png",
-            },
-            ["e6be521d-3097-4a41-99a8-46f1e5bfff3d"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/PlayerTower02Fire0006.png",
-            },
-            ["e7b66eec-b696-4496-b4d5-8bfa0c6e18f5"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveA0013.png",
-            },
-            ["e823de79-57b6-4129-b305-aef7f9d48622"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0011.png",
-            },
-            ["eba18d4a-f0ae-4817-b933-cc965046314e"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplodeSmall020003.png",
-            },
-            ["eca1c8d0-854e-41dd-9ed6-41b2efc9916c"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/IncreaseHp0020.png",
-            },
-            ["ed43baa5-6b1b-48fc-a77c-7577145e3240"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipWaveA0015.png",
-            },
-            ["f367c0dc-a60d-4d6e-83c9-08f38136017b"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/ShipExplodeSmall010008.png",
-            },
-            ["f70db660-7f1c-401c-8237-595173c0cb70"] = {
-                ["raw"] = false,
-                ["url"] = "Sprite/SheetMapBattle.plist/PlayerTower02Fire0003.png",
             },
         },
     },
     ["scenes"] = {
         [1] = {
-            ["url"] = "db://assets/HelloScene.fire",
-            ["uuid"] = "5257eba5-4c83-4cf5-8808-db9b0c4513cf",
+            ["url"] = "db://assets/Scene/TestAnchorPointScene.fire",
+            ["uuid"] = "d3df46b8-f3ef-4632-ad6c-b2b9dad1a9f0",
+        },
+        [2] = {
+            ["url"] = "db://assets/Scene/BattleScene.fire",
+            ["uuid"] = "219ef42b-c7ef-4313-ae22-8f1e8d6b18d9",
         },
     },
 }
