@@ -13,17 +13,17 @@ function creator.loadAssetsDb()
     _reader:loadAssetsDb()
 end
 
-function creator.createLaunchScene()
-    creator.loadAssetsDb()
-    local scene, url = _reader:createLaunchScene()
+function creator.createScene(url)
+    local scene, url = _reader:createScene(url)
     _scenes[url] = scene
     return scene
 end
 
+function creator.createLaunchScene()
+    return creator.createScene(_reader:getLaunchSceneUrl())
+end
+
 function creator.getScene(url)
-    if string_sub(url, 1, 5) ~= "db://" then
-        url = "db://assets/" .. url
-    end
     return _scenes[url]
 end
 

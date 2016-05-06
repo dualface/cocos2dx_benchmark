@@ -15,7 +15,9 @@ local function main()
     director:setDisplayStats(true)
 
     local creator = require "creator.init"
-    local scene = creator.createLaunchScene()
+    creator.loadAssetsDb()
+
+    local scene = creator.createScene("db://assets/Scene/BattleScene.fire")
 
     print("")
     print("--- Scene Graph ---")
@@ -24,7 +26,4 @@ local function main()
     scene:run()
 end
 
-local status, msg = xpcall(main, __G__TRACKBACK__)
-if not status then
-    -- print(msg)
-end
+xpcall(main, __G__TRACKBACK__)

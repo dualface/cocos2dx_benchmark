@@ -29,8 +29,8 @@ function Reader:createScene(url)
     return self:createObject(aval), url
 end
 
-function Reader:createLaunchScene()
-    return self:createScene(self.settings.launchScene)
+function Reader:getLaunchSceneUrl()
+    return self.settings.launchScene
 end
 
 function Reader:createObject(aval, id, refs)
