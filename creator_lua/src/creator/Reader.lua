@@ -76,14 +76,14 @@ function Reader:assmebleObjects(objs, current, refs)
     local components = refs[current]["_components"]
     if components then
         obj.components = {}
-        for _, c in pairs(components) do
+        for _, c in ipairs(components) do
             local id = c["__id__"]
             local ctype = refs[id]["__type__"]
             local component = objs[id]
             if component then
                 component.__id__ = id
-                component:bind(obj)
                 obj.components[ctype] = component
+                component:bind(obj)
             end
         end
     end
