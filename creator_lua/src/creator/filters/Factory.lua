@@ -13,18 +13,19 @@ local _setSpriteProps = SetProperty.setSpriteProps
 local SceneAsset = cc.import("..assets.SceneAsset")
 
 -- component
-local CanvasComponent = cc.import("..components.CanvasComponent")
-local SpriteComponent = cc.import("..components.SpriteComponent")
-local LabelComponent  = cc.import("..components.LabelComponent")
-local WidgetComponent = cc.import("..components.WidgetComponent")
+local CanvasComponent    = cc.import("..components.CanvasComponent")
+local SpriteComponent    = cc.import("..components.SpriteComponent")
+local LabelComponent     = cc.import("..components.LabelComponent")
+local AnimationComponent = cc.import("..components.AnimationComponent")
+local WidgetComponent    = cc.import("..components.WidgetComponent")
 
 local Factory = {}
 
-Factory["cc.SceneAsset"] = function(aval, id)
+Factory["cc.SceneAsset"] = function(aval, id, refs, reader)
     return _setProps(SceneAsset.new(aval), aval, "cc.SceneAsset", id)
 end
 
-Factory["cc.Scene"] = function(aval, id)
+Factory["cc.Scene"] = function(aval, id, refs, reader)
     return _setProps(cc.Scene:create(), aval, "cc.Scene", id)
 end
 
@@ -90,11 +91,15 @@ Factory["cc.Label"] = function(aval, id, refs, reader)
     end
 end
 
-Factory["cc.Canvas"] = function(aval)
+Factory["cc.Animation"] = function(aval, id, refs, reader)
+    return AnimationComponent.new(aval, reader)
+end
+
+Factory["cc.Canvas"] = function(aval, id, refs, reader)
     return CanvasComponent.new(aval)
 end
 
-Factory["cc.Widget"] = function(aval)
+Factory["cc.Widget"] = function(aval, id, refs, reader)
     return WidgetComponent.new(aval)
 end
 
