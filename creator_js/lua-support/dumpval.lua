@@ -6,6 +6,10 @@ local string_rep = string.rep
 
 local function _dump_value(v)
     if type(v) == "string" then
+        v = tostring(v)
+
+        v = string.gsub(v, "\n", "\\n");
+
         v = "\"" .. v .. "\""
     end
     return tostring(v)

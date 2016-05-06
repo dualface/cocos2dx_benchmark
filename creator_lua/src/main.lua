@@ -22,16 +22,6 @@ local function main()
     creator.dumpSceneHierarchy(scene)
     print("")
     scene:run()
-
-    -- local scene = cc.Scene:create()
-    -- local node = cc.Node:create()
-    -- node:setAnchorPoint(cc.p(0, 0))
-    -- local sprite = cc.Sprite:create("raw-assets/Sprite/box_200x200.png")
-    -- sprite:setAnchorPoint(cc.p(0, 0))
-    -- node:addChild(sprite)
-    -- node:setPosition(0, 0)
-    -- scene:addChild(node)
-    -- director:runWithScene(scene)
 end
 
 local status, msg = xpcall(main, __G__TRACKBACK__)
