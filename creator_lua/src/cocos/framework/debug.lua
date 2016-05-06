@@ -65,8 +65,10 @@ function cc.dump(value, desciption, nesting, _print)
 
     local lookup = {}
     local result = {}
-    local traceback = string.split(debug_traceback("", 2), "\n")
-    _print("dump from: " .. string.trim(traceback[2]))
+    if not cc.DEBUG_DISABLE_DUMP_TRACEBACK then
+        local traceback = string.split(debug_traceback("", 2), "\n")
+        _print("dump from: " .. string.trim(traceback[2]))
+    end
 
     local function _dump(value, desciption, indent, nest, keylen)
         desciption = desciption or "<var>"
