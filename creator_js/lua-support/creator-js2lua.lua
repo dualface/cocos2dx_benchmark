@@ -192,8 +192,14 @@ mkdir(outdir)
 -- convert settings.js to settings.lua
 local contents = readfile(builddir .. "/src/settings.js")
 local settings = json.parse(string.gsub(contents, "_CCSettings[ ]*=[ ]*{", "{"))
-local isdebug = settings.debug
-dumpToLuaFile(outdir .. "/src/assets/settings.lua", "settings", settings)
+local scenes  = {}
+
+for _, val in pairs(settings.scenes) do
+    scenes[val.url] = val.uuid
+end
+
+scenes["__launchSceneUrl"] = settings.launchScene
+dumpToLuaFile(outdir .. "/src/assets/scenes.lua", "scenes", scenes)
 
 -- step 2
 -- load all json files form res/import, write to import.lua
@@ -211,7 +217,6 @@ local function getRefUrl(ref)
     if type(ref) ~= "table" then return ref end
     return ref.url or ref[1]
 end
-
 
 for _, key in pairs({"assets", "internal"}) do
     if rawAssets[key] then

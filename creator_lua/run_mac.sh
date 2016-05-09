@@ -5,9 +5,8 @@ lua creator-js2lua.lua ../build/web-mobile ../../creator_lua
 
 cd ../../creator_lua
 
-# ./simulator/mac/creator_lua-desktop.app/Contents/MacOS/creator_lua-desktop -resolution 1136x640 $*
-# ./simulator/mac/creator_lua-desktop.app/Contents/MacOS/creator_lua-desktop -resolution 854x480 $*
+# ./runtime/mac/creator_lua-desktop.app/Contents/MacOS/creator_lua-desktop -resolution 1136x640 $*
+# ./runtime/mac/creator_lua-desktop.app/Contents/MacOS/creator_lua-desktop -resolution 854x480 $*
 
-./simulator/mac/creator_lua-desktop.app/Contents/MacOS/creator_lua-desktop -resolution 960x640 $*
-
+./runtime/mac/creator_lua-desktop.app/Contents/MacOS/creator_lua-desktop -resolution 960x640 $*
 
