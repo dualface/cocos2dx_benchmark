@@ -38,7 +38,6 @@ local _direct = {
 }
 
 local _copy = {
-    ["__type__"]     = "__type",
     ["node"]         = "__node",
     ["_contentSize"] = "contentSize",
     ["_enabled"]     = "enabled",
@@ -134,7 +133,9 @@ function _M.create(objtype, asset, id, assets)
             cc.printdebug("[Assets]   - create %s%s", name, objtype)
         end
     end
-    return create(asset, assets)
+    local obj = create(asset, assets)
+    obj.__type = objtype
+    return obj
 end
 
 return _M

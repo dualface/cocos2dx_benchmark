@@ -4,10 +4,33 @@ local table_makeweak = table.makeweak
 
 local creator = {}
 
+-- asset
+creator.SceneAsset = cc.import(".assets.SceneAsset")
+creator.PrefabAsset = cc.import(".assets.PrefabAsset")
+
+-- component
+creator.CanvasComponent    = cc.import(".components.CanvasComponent")
+creator.SpriteComponent    = cc.import(".components.SpriteComponent")
+creator.LabelComponent     = cc.import(".components.LabelComponent")
+creator.AnimationComponent = cc.import(".components.AnimationComponent")
+creator.WidgetComponent    = cc.import(".components.WidgetComponent")
+
+-- factory and connector
+creator.Factory   = cc.import(".Factory")
+creator.Connector = cc.import(".Connector")
+
+creator.create = creator.Factory.create
+creator.connect = creator.Connector.connect
+
 local Assets = cc.import(".Assets")
 
-function creator.loadAssets(base)
-    return Assets.new(base)
+local _assets
+
+function creator.getAssets()
+    if not _assets then
+        _assets = Assets.new()
+    end
+    return _assets
 end
 
 function creator.dumpSceneHierarchy(obj, id, hierarchy, lookup)

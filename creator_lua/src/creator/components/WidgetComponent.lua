@@ -17,6 +17,13 @@ local _RIGHT      = 32
 local _TOP_BOTTOM = _TOP + _BOTTOM
 local _LEFT_RIGHT = _LEFT + _RIGHT
 
+WidgetComponent.ALIGN_TOP    = _TOP
+WidgetComponent.ALIGN_MID    = _MID
+WidgetComponent.ALIGN_BOTTOM = _BOTTOM
+WidgetComponent.ALIGN_LEFT   = _LEFT
+WidgetComponent.ALIGN_CENTER = _CENTER
+WidgetComponent.ALIGN_RIGHT  = _RIGHT
+
 local _glview
 
 function WidgetComponent:ctor(props)
@@ -43,22 +50,22 @@ function WidgetComponent:align(target)
         cc.printdebug("[Assets]   - [Widget] align %s%s[%s]", name, target.__type, target.__id)
     end
 
-    if self.props._alignFlags == 0
-            or not target.__parent
-            or not target.__parent[1] then
-        return
-    end
+    if self.props._alignFlags == 0 then return end
 
     local props  = self.props
     local flags  = props._alignFlags
-    local parent = target.__parent[1]
+    if target.node then target = target.node end
+    local parent = target:getParent()
+    if not parent then return end
+
+    print(parent.__type, parent.__id)
 
     -- get parent content size
     local pap    = parent:getAnchorPoint()
     local pw     = parent.contentSize.width
     local ph     = parent.contentSize.height
     local hw, hh = pw / 2, ph / 2
-    -- cc.printdebug("  - parent content size: width = %0.2f, height = %0.2f", pw, ph)
+    cc.printdebug("  - parent content size: width = %0.2f, height = %0.2f", pw, ph)
 
     -- local cx, cy = 0, 0
     local cx     = hw - pw * pap.x
@@ -70,7 +77,7 @@ function WidgetComponent:align(target)
     local ptop    = cy + hh
     local pbottom = cy - hh
 
-    if parent.__type__ == "cc.Scene" then
+    if parent.__type == "cc.Scene" then
         local rect = _glview:getVisibleRect()
         pleft   = rect.x
         pright  = pleft + rect.width
@@ -95,22 +102,22 @@ function WidgetComponent:align(target)
 
     -- calc offsets
     local left = props._left
-    if not props._isAbsLeft then
+    if left and not props._isAbsLeft then
         left = left * pw
     end
 
     local right = props._right
-    if not props._isAbsRight then
+    if right and not props._isAbsRight then
         right = right * pw
     end
 
     local top = props._top
-    if not props._isAbsTop then
+    if top and not props._isAbsTop then
         top = top * ph
     end
 
     local bottom = props._bottom
-    if not props._isAbsBottom then
+    if bottom and not props._isAbsBottom then
         bottom = bottom * ph
     end
 

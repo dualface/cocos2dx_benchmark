@@ -44,8 +44,6 @@ local connectNode = function(objs, parentId, refs)
                 name, parent.__type, parentId)
         end
 
-        child.__parent = table_makeweak({parent})
-
         parent:addChild(child)
         __children[#__children + 1] = child
     end
