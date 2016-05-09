@@ -9,6 +9,12 @@ local ccrect = cc.rect
 local ComponentBase = cc.import(".ComponentBase")
 local AnimationComponent = cc.class("cc.Animation", ComponentBase)
 
+local _LOOP_NORMAL = 1
+local _LOOP_LOOP   = 2
+AnimationComponent.LOOP_NORMAL = _LOOP_NORMAL
+AnimationComponent.LOOP_LOOP   = _LOOP_LOOP
+
+
 local _animationCache = cc.AnimationCache:getInstance()
 
 local function _createAnimation(uuid, assets)
@@ -31,6 +37,7 @@ local function _createAnimation(uuid, assets)
     end
 
     _animationCache:addAnimation(animation, uuid)
+    animation.loop = clip.wrapMode
     return animation
 end
 
@@ -39,14 +46,21 @@ function AnimationComponent:ctor(props, assets)
     self.props = props
     self._animations = {}
     for _, clipaval in ipairs(self.props._clips) do
-        local animation = _createAnimation(clipaval.__uuid__, assets)
+        local animation, clip = _createAnimation(clipaval.__uuid__, assets)
         animation:retain()
         self._animations[#self._animations + 1] = animation
     end
 end
 
 function AnimationComponent:start(target)
+    if self.props.playOnLoad then
+        self:play(target)
+    end
+end
+
+function AnimationComponent:play(target, callback)
     if not target.components or not target.components["cc.Sprite"] then
+        cc.printwarn("[Animation] invalid target %s", target.__type)
         return
     end
 
@@ -55,7 +69,13 @@ function AnimationComponent:start(target)
 
     for _, animation in ipairs(self._animations) do
         local animate = cc.Animate:create(animation)
-        sprite:runAction(cc.RepeatForever:create(animate))
+        if animation.loop == _LOOP_LOOP then
+            sprite:runAction(cc.RepeatForever:create(animate))
+        elseif callback then
+            sprite:runAction(cc.Sequence:create({animate, cc.CallFunc:create(callback)}))
+        else
+            sprite:runAction(animate)
+        end
     end
 end
 

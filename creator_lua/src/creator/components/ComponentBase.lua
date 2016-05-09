@@ -1,6 +1,10 @@
 
 local ComponentBase = cc.class("cc.ComponentBase")
 
+function ComponentBase:ctor()
+    self.__type = self.class.__cname
+end
+
 function ComponentBase:onLoad(target)
 end
 

@@ -14,8 +14,6 @@ local _connect = Connector.connect
 local _assert = assert
 local _error = error
 
-local _director = cc.Director:getInstance()
-
 function Assets:ctor(base)
     self.base = base or ""
     if self.base ~= "" and string.sub(self.base, -1) ~= "." then
@@ -38,38 +36,12 @@ function Assets:createScene(url)
     return self:createAsset(asset)
 end
 
-local function _track(prefab)
-    local scene = _director:getRunningScene()
-    if scene and scene._asset then
-        scene._asset:track(prefab)
-    else
-        local name = prefab.name or ""
-        if name then
-            name = "'" .. name .. "': "
-        end
-        cc.printwarn("[Assets] prefab %s%s not tracking", name, prefab.__type)
-    end
-end
-
 function Assets:createPrefab(url)
     local uuid = self.prefabs[url]
     _assert(uuid, string.format("[Assets] not found uuid for prefab '%s'", url))
     local prefab = self:createAsset(self:getAsset(uuid))
-    prefab.node._asset = prefab
-
-    -- let scene tracking prefab
-    local scene = _director:getRunningScene()
-    if scene and scene._asset then
-        _track(prefab)
-    else
-        prefab.node:registerScriptHandler(function(event)
-            if event ~= "enter" then return end
-            _track(prefab)
-            prefab.node:unregisterScriptHandler()
-        end)
-    end
-
-    return prefab
+    prefab.node:trackComponents()
+    return prefab.node
 end
 
 function Assets:createAsset(asset)
@@ -133,9 +105,11 @@ function Assets:_addComponents(obj, asset, refs)
     PrefabProtocol.apply(obj)
     for _, componentAsset in ipairs(asset._components) do
         local component = self:_createObject(componentAsset)
-        obj:addComponent(component)
-        if cc.DEBUG >= DEBUG_VERBOSE then
-            cc.printdebug("[Assets]   - bind component %s -> %s%s[%s]", componentAsset.__type__, name, obj.__type, obj.__id)
+        if component then
+            obj:addComponent(component)
+            if cc.DEBUG >= DEBUG_VERBOSE then
+                cc.printdebug("[Assets]   - bind component %s -> %s%s[%s]", componentAsset.__type__, name, obj.__type, obj.__id)
+            end
         end
     end
 end

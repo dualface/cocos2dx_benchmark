@@ -1,4 +1,6 @@
 
+local table_remove = table.remove
+
 local PrefabAsset = cc.import(".PrefabAsset")
 local SceneAsset = cc.class("cc.SceneAsset", PrefabAsset)
 
@@ -14,6 +16,30 @@ _findTrackingObjects = function(tracking, obj)
 
     -- add obj
     tracking[#tracking + 1] = obj
+end
+
+local _createComponentsHash
+_createComponentsHash = function(hash, obj)
+    if obj.__children then
+        for _, child in ipairs(obj.__children) do
+            _createComponentsHash(hash, child)
+        end
+    end
+
+    if not obj.components then return end
+    hash[obj] = true
+end
+
+local _removeTrackingObjects
+_removeTrackingObjects = function(tracking, obj)
+    local hash = {}
+    _createComponentsHash(hash, obj)
+
+    for index = #tracking, 1, -1 do
+        if hash[tracking[index]] then
+            table_remove(tracking, index)
+        end
+    end
 end
 
 function SceneAsset:run()
@@ -48,6 +74,11 @@ function SceneAsset:track(prefab)
         self._tracking = table.makeweak({})
     end
     _findTrackingObjects(self._tracking, prefab)
+end
+
+function SceneAsset:untrack(prefab)
+    if not self._tracking then return end
+    _removeTrackingObjects(self._tracking, prefab)
 end
 
 function SceneAsset:_setNode(node)
@@ -126,7 +157,7 @@ function SceneAsset:_update(dt)
     local count = #tracking
     for index = 1, count do
         local obj = tracking[index]
-        if obj.__updateCall then
+        if obj and obj.__updateCall then
             obj.__updateCall(dt)
         end
     end

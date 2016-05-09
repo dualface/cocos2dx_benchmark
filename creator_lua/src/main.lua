@@ -6,6 +6,8 @@ print = release_print
 
 require "cocos.init"
 
+local ShipAI = cc.import("logic.ShipAI")
+
 cc.DEBUG = cc.DEBUG_INFO
 -- cc.DEBUG = cc.DEBUG_VERBOSE
 cc.DEBUG_DISABLE_DUMP_TRACEBACK = true
@@ -28,10 +30,13 @@ local function main()
     local creator = require "creator.init"
     local assets = creator.getAssets()
 
-    -- local url = "Scene/TestAnchorPointScene.fire"
-    local url = "Scene/BattleScene.fire"
+    -- local url = "Scene/TestAnchorPointScene"
+    local url = "Scene/BattleScene"
     local scene = assets:createScene(url)
     scene:run()
+
+    local ship = creator.find(scene, "MyShip")
+    ship:addComponent(ShipAI.new())
 
     _cleanmem()
 end

@@ -9,6 +9,7 @@ creator.SceneAsset = cc.import(".assets.SceneAsset")
 creator.PrefabAsset = cc.import(".assets.PrefabAsset")
 
 -- component
+creator.ComponentBase      = cc.import(".components.ComponentBase")
 creator.CanvasComponent    = cc.import(".components.CanvasComponent")
 creator.SpriteComponent    = cc.import(".components.SpriteComponent")
 creator.LabelComponent     = cc.import(".components.LabelComponent")
@@ -31,6 +32,18 @@ function creator.getAssets()
         _assets = Assets.new()
     end
     return _assets
+end
+
+function creator.find(obj, name)
+    if obj.name == name then
+        return obj
+    end
+
+    if not obj.__children then return end
+    for _, child in ipairs(obj.__children) do
+        local ret = creator.find(child, name)
+        if ret then return ret end
+    end
 end
 
 function creator.dumpSceneHierarchy(obj, id, hierarchy, lookup)
