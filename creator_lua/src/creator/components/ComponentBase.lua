@@ -1,14 +1,16 @@
 
 local ComponentBase = cc.class("cc.ComponentBase")
 
-function ComponentBase:bind(target)
-    cc.printwarn("%s:bind() - not override bind() method", tostring(self.class.__cname))
+function ComponentBase:onLoad(target)
 end
 
-function ComponentBase:onEnter(target)
+function ComponentBase:start(target)
 end
 
-function ComponentBase:onExit(target)
+function ComponentBase:stop(target)
+end
+
+function ComponentBase:onDestroy(target)
 end
 
 return ComponentBase

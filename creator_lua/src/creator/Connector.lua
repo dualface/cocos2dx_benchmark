@@ -9,7 +9,7 @@ local connector = {}
 connector["cc.SceneAsset"] = function(objs, parentId, refs)
     local parent = objs[parentId]
     local id = refs[parentId]["scene"]["__id__"]
-    parent.node = objs[id]
+    parent:_setNode(objs[id])
     parent.__children = table_makeweak({objs[id]})
 end
 

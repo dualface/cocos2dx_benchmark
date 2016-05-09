@@ -6,38 +6,34 @@ print = release_print
 
 require "cocos.init"
 
--- cc.DEBUG = cc.DEBUG_WARN
-cc.DEBUG = cc.DEBUG_VERBOSE
+cc.DEBUG = cc.DEBUG_INFO
+-- cc.DEBUG = cc.DEBUG_VERBOSE
 cc.DEBUG_DISABLE_DUMP_TRACEBACK = true
 cc.CREATOR_DISABLE_NODE_WRAPPER = false
+
+local function _cleanmem()
+    for i = 1, 6 do
+        collectgarbage()
+    end
+
+    cc.printinfo("[MEM] used: %d KB", math.ceil(collectgarbage("count")))
+end
 
 local function main()
     local director = cc.Director:getInstance()
     director:setDisplayStats(true)
 
+    _cleanmem()
+
     local creator = require "creator.init"
     local assets = creator.getAssets()
-    local scene = assets:createScene("Scene/TestAnchorPointScene.fire")
-    -- local scene = assets:createScene("Scene/BattleScene.fire")
 
-    print("")
-    print("--- Scene Graph ---")
-    creator.dumpSceneHierarchy(scene)
-    print("")
+    -- local url = "Scene/TestAnchorPointScene.fire"
+    local url = "Scene/BattleScene.fire"
+    local scene = assets:createScene(url)
     scene:run()
 
-    local canvas = scene:getCanvasNode()
-
-    for i = 1, 1 do
-        local ship = assets:createPrefab("Prefab/Ship.prefab")
-        canvas:addChild(ship.node)
-
-        ship.node:setPosition(-100, 0)
-
-        ship:addComponent(creator.create("cc.Widget", {
-            _alignFlags = creator.WidgetComponent.ALIGN_CENTER
-        }))
-    end
+    _cleanmem()
 end
 
 xpcall(main, __G__TRACKBACK__)

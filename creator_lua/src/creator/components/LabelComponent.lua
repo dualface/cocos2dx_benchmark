@@ -7,11 +7,15 @@ function LabelComponent:ctor(label)
     self.node = label
 end
 
-function LabelComponent:bind(target)
+function LabelComponent:onLoad(target)
     local node = self.node
     target:addChild(node)
     node:setAnchorPoint(target:getAnchorPoint())
     node:setColor(target:getColor())
+end
+
+function LabelComponent:onDestroy(target)
+    self.node = nil
 end
 
 return LabelComponent

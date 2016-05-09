@@ -9,7 +9,7 @@ function CanvasComponent:ctor(props)
     self.fitWidth = props._fitWidth
 end
 
-function CanvasComponent:bind(target)
+function CanvasComponent:onLoad(target)
     local view = cc.Director:getInstance():getOpenGLView()
     local framesize = view:getFrameSize()
 

@@ -13,7 +13,7 @@ local _animationCache = cc.AnimationCache:getInstance()
 
 local function _createAnimation(uuid, assets)
     local animation = _animationCache:getAnimation(uuid)
-    if animation then return end
+    if animation then return animation end
 
     if cc.DEBUG >= DEBUG_VERBOSE then
         cc.printdebug("[Assets]   - [Animation] create animation %s", uuid)
@@ -31,17 +31,21 @@ local function _createAnimation(uuid, assets)
     end
 
     _animationCache:addAnimation(animation, uuid)
+    return animation
 end
 
 function AnimationComponent:ctor(props, assets)
     AnimationComponent.super.ctor(self)
     self.props = props
+    self._animations = {}
     for _, clipaval in ipairs(self.props._clips) do
-        _createAnimation(clipaval.__uuid__, assets)
+        local animation = _createAnimation(clipaval.__uuid__, assets)
+        animation:retain()
+        self._animations[#self._animations + 1] = animation
     end
 end
 
-function AnimationComponent:bind(target)
+function AnimationComponent:start(target)
     if not target.components or not target.components["cc.Sprite"] then
         return
     end
@@ -49,12 +53,17 @@ function AnimationComponent:bind(target)
     local spriteComponent = target.components["cc.Sprite"]
     local sprite = spriteComponent.node
 
-    for _, clipaval in ipairs(self.props._clips) do
-        local uuid = clipaval.__uuid__
-        local animation = _animationCache:getAnimation(uuid)
+    for _, animation in ipairs(self._animations) do
         local animate = cc.Animate:create(animation)
         sprite:runAction(cc.RepeatForever:create(animate))
     end
+end
+
+function AnimationComponent:onDestroy(target)
+    for _, animation in ipairs(self._animations) do
+        animation:release()
+    end
+    self._animations = nil
 end
 
 return AnimationComponent

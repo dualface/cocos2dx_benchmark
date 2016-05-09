@@ -7,11 +7,15 @@ function SpriteComponent:ctor(sprite)
     self.node = sprite
 end
 
-function SpriteComponent:bind(target)
+function SpriteComponent:onLoad(target)
     local node = self.node
     target:addChild(node)
     node:setAnchorPoint(target:getAnchorPoint())
     node:setColor(target:getColor())
+end
+
+function SpriteComponent:onDestroy(target)
+    self.node = nil
 end
 
 return SpriteComponent

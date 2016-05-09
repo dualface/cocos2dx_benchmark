@@ -6,12 +6,15 @@ local Assets = cc.class("cc.creator.Assets")
 
 local Factory = cc.import(".Factory")
 local Connector = cc.import(".Connector")
+local PrefabProtocol = cc.import(".assets.PrefabProtocol")
 
 local _create = Factory.create
 local _connect = Connector.connect
 
 local _assert = assert
 local _error = error
+
+local _director = cc.Director:getInstance()
 
 function Assets:ctor(base)
     self.base = base or ""
@@ -35,10 +38,38 @@ function Assets:createScene(url)
     return self:createAsset(asset)
 end
 
+local function _track(prefab)
+    local scene = _director:getRunningScene()
+    if scene and scene._asset then
+        scene._asset:track(prefab)
+    else
+        local name = prefab.name or ""
+        if name then
+            name = "'" .. name .. "': "
+        end
+        cc.printwarn("[Assets] prefab %s%s not tracking", name, prefab.__type)
+    end
+end
+
 function Assets:createPrefab(url)
     local uuid = self.prefabs[url]
     _assert(uuid, string.format("[Assets] not found uuid for prefab '%s'", url))
-    return self:createAsset(self:getAsset(uuid))
+    local prefab = self:createAsset(self:getAsset(uuid))
+    prefab.node._asset = prefab
+
+    -- let scene tracking prefab
+    local scene = _director:getRunningScene()
+    if scene and scene._asset then
+        _track(prefab)
+    else
+        prefab.node:registerScriptHandler(function(event)
+            if event ~= "enter" then return end
+            _track(prefab)
+            prefab.node:unregisterScriptHandler()
+        end)
+    end
+
+    return prefab
 end
 
 function Assets:createAsset(asset)
@@ -46,14 +77,17 @@ function Assets:createAsset(asset)
 
     local objs = {}
     local refs = asset.__js_array__
-    for id, val in ipairs(refs) do
-        if not objs[id] then
-            objs[id] = self:_createObject(val, id, refs)
-        end
+    local count = #refs
+    local val
+    for id = count, 1, -1 do
+        val = refs[id]
+        objs[id] = self:_createObject(val, id, refs)
     end
 
-    for id, obj in ipairs(objs) do
-        self:_bindComponent(obj, refs[id], refs)
+    local obj
+    for id = count, 1, -1 do
+        obj = objs[id]
+        self:_addComponents(obj, refs[id], refs)
         _connect(obj.__type, objs, id, refs)
     end
 
@@ -87,7 +121,7 @@ function Assets:_createObject(asset, id, refs)
     end
 end
 
-function Assets:_bindComponent(obj, asset, refs)
+function Assets:_addComponents(obj, asset, refs)
     if not asset._components then return end
 
     local name
@@ -96,14 +130,13 @@ function Assets:_bindComponent(obj, asset, refs)
         if name ~= "" then name = "'" .. name .. "': " end
     end
 
-    obj.components = {}
+    PrefabProtocol.apply(obj)
     for _, componentAsset in ipairs(asset._components) do
         local component = self:_createObject(componentAsset)
-        obj.components[componentAsset.__type__] = component
+        obj:addComponent(component)
         if cc.DEBUG >= DEBUG_VERBOSE then
             cc.printdebug("[Assets]   - bind component %s -> %s%s[%s]", componentAsset.__type__, name, obj.__type, obj.__id)
         end
-        component:bind(obj)
     end
 end
 

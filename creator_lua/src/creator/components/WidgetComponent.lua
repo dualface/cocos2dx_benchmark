@@ -34,11 +34,8 @@ function WidgetComponent:ctor(props)
     end
 end
 
-function WidgetComponent:bind(target)
+function WidgetComponent:start(target)
     self:align(target)
-end
-
-function WidgetComponent:onEnter(target)
 end
 
 function WidgetComponent:align(target)
@@ -47,13 +44,13 @@ function WidgetComponent:align(target)
         if name ~= "" then
             name = "'" .. name .. "': "
         end
-        cc.printdebug("[Assets]   - [Widget] align %s%s[%s]", name, target.__type, target.__id)
+        -- cc.printdebug("[Assets]   - [Widget] align %s%s[%s]", name, target.__type, target.__id)
     end
 
     if self.props._alignFlags == 0 then return end
 
     local props  = self.props
-    local flags  = props._alignFlags
+    local flags  = props._alignFlags or props.align
     if target.node then target = target.node end
     local parent = target:getParent()
     if not parent then return end
@@ -63,7 +60,7 @@ function WidgetComponent:align(target)
         if parentName then
             parentName = "'" .. parentName .. "': "
         end
-        cc.printdebug("[Assets]   - [Widget] parent is %s%s[%s]", parentName, parent.__type, parent.__id)
+        -- cc.printdebug("[Assets]   - [Widget] parent is %s%s[%s]", parentName, parent.__type, parent.__id)
     end
 
     -- get parent content size
@@ -107,22 +104,22 @@ function WidgetComponent:align(target)
     -- cc.printdebug("  - target content size: width = %0.2f, height = %0.2f", w, h)
 
     -- calc offsets
-    local left = props._left
+    local left = props._left or props.left
     if left and not props._isAbsLeft then
         left = left * pw
     end
 
-    local right = props._right
+    local right = props._right or props.right
     if right and not props._isAbsRight then
         right = right * pw
     end
 
-    local top = props._top
+    local top = props._top or props.top
     if top and not props._isAbsTop then
         top = top * ph
     end
 
-    local bottom = props._bottom
+    local bottom = props._bottom or props.bottom
     if bottom and not props._isAbsBottom then
         bottom = bottom * ph
     end
@@ -150,7 +147,7 @@ function WidgetComponent:align(target)
         y = pbottom + bottom + h * ap.y
     end
 
-    -- cc.printdebug("  - target pos: x = %0.2f, y = %0.2f", x, y)
+    -- cc.printdebug("[Assets]   - [Widget] set target pos: %0.2f, %0.2f", x, y)
     target:setPosition(x, y)
 end
 
