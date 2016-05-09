@@ -192,6 +192,11 @@ mkdir(outdir)
 -- convert settings.js to settings.lua
 local contents = readfile(builddir .. "/src/settings.js")
 local settings = json.parse(string.gsub(contents, "_CCSettings[ ]*=[ ]*{", "{"))
+if settings.debug then
+    print("STOP: do not export project with DEBUG mode")
+    os.exit(1)
+end
+
 local scenes  = {}
 
 for _, val in pairs(settings.scenes) do
