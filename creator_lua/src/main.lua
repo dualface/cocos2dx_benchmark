@@ -6,7 +6,7 @@ print = release_print
 
 require "cocos.init"
 
-cc.DEBUG = cc.DEBUG_VERBOSE
+cc.DEBUG = cc.DEBUG_INFO
 cc.DEBUG_DISABLE_DUMP_TRACEBACK = true
 cc.CREATOR_DISABLE_NODE_WRAPPER = false
 
@@ -15,9 +15,9 @@ local function main()
     director:setDisplayStats(true)
 
     local creator = require "creator.init"
-    creator.loadAssetsDb()
-
-    local scene = creator.createScene("db://assets/Scene/BattleScene.fire")
+    local assets = creator.loadAssets()
+    -- local scene = assets:createScene("db://assets/Scene/TestAnchorPointScene.fire")
+    local scene = assets:createScene("db://assets/Scene/BattleScene.fire")
 
     print("")
     print("--- Scene Graph ---")

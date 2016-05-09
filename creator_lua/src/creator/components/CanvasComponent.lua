@@ -4,7 +4,9 @@ local CanvasComponent = cc.class("cc.Canvas", ComponentBase)
 
 function CanvasComponent:ctor(props)
     CanvasComponent.super.ctor(self)
-    self.props = props
+    self.designResolution = props._designResolution
+    self.fitHeight = props._fitHeight
+    self.fitWidth = props._fitWidth
 end
 
 function CanvasComponent:bind(target)
@@ -12,11 +14,11 @@ function CanvasComponent:bind(target)
     local framesize = view:getFrameSize()
 
     local rsize = {
-        width = self.props._designResolution.width,
-        height = self.props._designResolution.height
+        width = self.designResolution.width,
+        height = self.designResolution.height
     }
-    local fitHeight = self.props._fitHeight
-    local fitWidth = self.props._fitWidth
+    local fitHeight = self.fitHeight
+    local fitWidth = self.fitWidth
 
     local scaleX = framesize.width / rsize.width
     local scaleY = framesize.height / rsize.height
@@ -37,7 +39,7 @@ function CanvasComponent:bind(target)
     target:setPosition(rsize.width / 2, rsize.height / 2)
     target.contentSize = rsize
 
-    cc.printinfo("[CanvasComponent] Design Resolution Size: %0.2f x %0.2f", rsize.width, rsize.height)
+    cc.printdebug("[CanvasComponent] Design Resolution Size: %0.2f x %0.2f", rsize.width, rsize.height)
 end
 
 return CanvasComponent

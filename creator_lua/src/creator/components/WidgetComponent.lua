@@ -33,30 +33,30 @@ function WidgetComponent:onEnter(target)
 end
 
 function WidgetComponent:align(target)
-    cc.printinfo("[WidgetComponent] align target %s [%s] %s",
-            target.__type__, target.__id__, target:getName())
+    cc.printdebug("[WidgetComponent] align target %s [%s] %s",
+            target.__type, target.__id, target:getName())
 
     if self.props._alignFlags == 0
-            or not target.parentref
-            or not target.parentref[1] then
+            or not target.__parent
+            or not target.__parent[1] then
         return
     end
 
     local props  = self.props
     local flags  = props._alignFlags
-    local parent = target.parentref[1]
+    local parent = target.__parent[1]
 
     -- get parent content size
     local pap    = parent:getAnchorPoint()
     local pw     = parent.contentSize.width
     local ph     = parent.contentSize.height
     local hw, hh = pw / 2, ph / 2
-    -- cc.printinfo("  parent content size: width = %0.2f, height = %0.2f", pw, ph)
+    cc.printdebug("  - parent content size: width = %0.2f, height = %0.2f", pw, ph)
 
     -- local cx, cy = 0, 0
     local cx     = hw - pw * pap.x
     local cy     = hh - ph * pap.y
-    -- cc.printinfo("  parent cetner: x = %0.2f, y = %0.2f", cx, cy)
+    cc.printdebug("  - parent cetner: x = %0.2f, y = %0.2f", cx, cy)
 
     local pleft   = cx - hw
     local pright  = cx + hw
@@ -84,7 +84,7 @@ function WidgetComponent:align(target)
     local w    = target.contentSize.width * sx
     local h    = target.contentSize.height * sy
     local x, y = target:getPosition()
-    -- cc.printinfo("  target content size: width = %0.2f, height = %0.2f", w, h)
+    cc.printdebug("  - target content size: width = %0.2f, height = %0.2f", w, h)
 
     -- calc offsets
     local left = props._left
@@ -130,7 +130,7 @@ function WidgetComponent:align(target)
         y = pbottom + bottom + h * ap.y
     end
 
-    -- cc.printinfo("  target pos: x = %0.2f, y = %0.2f", x, y)
+    cc.printdebug("  - target pos: x = %0.2f, y = %0.2f", x, y)
     target:setPosition(x, y)
 end
 

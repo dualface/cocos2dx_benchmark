@@ -8,7 +8,10 @@ function LabelComponent:ctor(label)
 end
 
 function LabelComponent:bind(target)
-    target:addChild(self.node)
+    local node = self.node
+    target:addChild(node)
+    node:setAnchorPoint(target:getAnchorPoint())
+    node:setColor(target:getColor())
 end
 
 return LabelComponent

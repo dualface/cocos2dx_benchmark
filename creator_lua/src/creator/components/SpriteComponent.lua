@@ -8,7 +8,10 @@ function SpriteComponent:ctor(sprite)
 end
 
 function SpriteComponent:bind(target)
-    target:addChild(self.node)
+    local node = self.node
+    target:addChild(node)
+    node:setAnchorPoint(target:getAnchorPoint())
+    node:setColor(target:getColor())
 end
 
 return SpriteComponent
