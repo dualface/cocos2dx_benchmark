@@ -1,6 +1,11 @@
 #!/bin/bash
 
-cd ./simulator/mac/creator_lua-desktop.app/Contents/Resources/
+if [ ! -d "runtime/mac/creator_lua-desktop.app/Contents/Resources" ]; then
+    echo "not found runtime"
+    exit
+fi
+
+cd ./runtime/mac/creator_lua-desktop.app/Contents/Resources/
 
 if [ ! -d "res" ]; then
     exit
