@@ -53,8 +53,8 @@ function Assets:createAsset(asset)
     end
 
     for id, obj in ipairs(objs) do
-        _connect(obj.__type, objs, id, refs)
         self:_bindComponent(obj, refs[id], refs)
+        _connect(obj.__type, objs, id, refs)
     end
 
     return objs[1]
