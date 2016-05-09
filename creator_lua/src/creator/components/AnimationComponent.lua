@@ -1,4 +1,7 @@
 
+local cc = cc
+local DEBUG_VERBOSE = cc.DEBUG_VERBOSE
+
 local ccp = cc.p
 local ccsize = cc.size
 local ccrect = cc.rect
@@ -11,6 +14,10 @@ local _animationCache = cc.AnimationCache:getInstance()
 local function _createAnimation(uuid, assets)
     local animation = _animationCache:getAnimation(uuid)
     if animation then return end
+
+    if cc.DEBUG >= DEBUG_VERBOSE then
+        cc.printdebug("[Assets]   - [Animation] create animation %s", uuid)
+    end
 
     local clip = assets:getAsset(uuid)
     local delay = 1.0 / clip.sample / clip.speed

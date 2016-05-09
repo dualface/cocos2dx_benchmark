@@ -1,8 +1,14 @@
 
+local cc = cc
+local DEBUG_VERBOSE = cc.DEBUG_VERBOSE
+
 local Assets = cc.class("cc.creator.Assets")
 
-local Factory = cc.import(".filters.Factory")
-local Connector = cc.import(".filters.Connector")
+local Factory = cc.import(".Factory")
+local Connector = cc.import(".Connector")
+
+local _create = Factory.create
+local _connect = Connector.connect
 
 local _assert = assert
 local _error = error
@@ -29,6 +35,12 @@ function Assets:createScene(url)
     return self:createAsset(asset)
 end
 
+function Assets:createPrefab(url)
+    local uuid = self.prefabs[url]
+    _assert(uuid, string.format("[Assets] not found uuid for prefab '%s'", url))
+    return self:createAsset(self:getAsset(uuid))
+end
+
 function Assets:createAsset(asset)
     assert(asset and asset.__type__ == "__js_array__", string.format("Assets:createAsset() - invalid asset"));
 
@@ -41,8 +53,8 @@ function Assets:createAsset(asset)
     end
 
     for id, obj in ipairs(objs) do
+        _connect(obj.__type, objs, id, refs)
         self:_bindComponent(obj, refs[id], refs)
-        self:_connectObjects(objs, id, refs)
     end
 
     return objs[1]
@@ -50,51 +62,49 @@ end
 
 function Assets:getSceneUUID(url)
     local uuid = self.scenes[url]
-    _assert(uuid, string.format("creator.Assets:getSceneUUID() - not found uuid for scene '%s'", url))
+    _assert(uuid, string.format("[Assets] not found uuid for scene %s", url))
     return uuid
 end
 
 function Assets:getAsset(uuid)
     local asset = self.assets[uuid]
-    _assert(asset, string.format("creator.Assets:getAsset() - not found asset for uuid '%s'", uuid))
+    _assert(asset, string.format("[Assets] not found asset for uuid %s", uuid))
     return asset
 end
 
 function Assets:getFile(uuid)
     local file = self.files[uuid]
-    _assert(file, string.format("creator.Assets:getFile() - not found file for uuid '%s'", uuid))
+    _assert(file, string.format("[Assets] not found file for uuid %s", uuid))
     return file
 end
 
 function Assets:_createObject(asset, id, refs)
     local objtype = asset.__type__
-    local factory = Factory[objtype]
-    if not factory then
-        cc.printwarn("Assets:_createObject() - not support create type '%s'", objtype)
-        return nil
+    local obj = _create(objtype, asset, id, self)
+    if obj then
+        obj.__id = id
+        return obj
     end
-
-    cc.printdebug("[Assets] create object %s[%s]", objtype, tostring(id or ""))
-    local obj = factory(asset, self)
-    obj.__id = id
-    return obj
 end
 
 function Assets:_bindComponent(obj, asset, refs)
     if not asset._components then return end
 
+    local name
+    if cc.DEBUG >= DEBUG_VERBOSE then
+        name = obj.name or ""
+        if name ~= "" then name = "'" .. name .. "': " end
+    end
+
     obj.components = {}
     for _, componentAsset in ipairs(asset._components) do
         local component = self:_createObject(componentAsset)
         obj.components[componentAsset.__type__] = component
+        if cc.DEBUG >= DEBUG_VERBOSE then
+            cc.printdebug("[Assets]   - bind component %s -> %s%s[%s]", componentAsset.__type__, name, obj.__type, obj.__id)
+        end
         component:bind(obj)
     end
-end
-
-function Assets:_connectObjects(objs, parentId, refs)
-    local connector = Connector[refs[parentId].__type__]
-    if not connector then return end
-    connector(objs, parentId, refs)
 end
 
 return Assets

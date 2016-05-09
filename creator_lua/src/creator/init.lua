@@ -20,7 +20,14 @@ function creator.dumpSceneHierarchy(obj, id, hierarchy, lookup)
     if lookup[id] then return end
 
     local indent = string.rep("  ", hierarchy)
-    local parts = {indent, obj.__type, "[", id, "]"}
+    local parts = {indent}
+    if obj.name ~= "" then
+        parts[#parts + 1] = "'" .. obj.name .. "': "
+    end
+    parts[#parts + 1] = obj.__type
+    if id then
+        parts[#parts + 1] = "[" .. id .. "]"
+    end
 
     if obj.components then
         local c = {}

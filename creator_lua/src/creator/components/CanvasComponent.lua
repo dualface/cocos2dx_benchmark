@@ -39,7 +39,7 @@ function CanvasComponent:bind(target)
     target:setPosition(rsize.width / 2, rsize.height / 2)
     target.contentSize = rsize
 
-    cc.printdebug("[CanvasComponent] Design Resolution Size: %0.2f x %0.2f", rsize.width, rsize.height)
+    cc.printdebug("[Assets]   - [Canvas] Design Resolution: %0.2f x %0.2f", rsize.width, rsize.height)
 end
 
 return CanvasComponent
