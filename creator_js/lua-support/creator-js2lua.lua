@@ -192,33 +192,51 @@ mkdir(outdir)
 -- convert settings.js to settings.lua
 local contents = readfile(builddir .. "/src/settings.js")
 local settings = json.parse(string.gsub(contents, "_CCSettings[ ]*=[ ]*{", "{"))
+local isdebug = settings.debug
 dumpToLuaFile(outdir .. "/src/assets/settings.lua", "settings", settings)
 
 -- step 2
 -- load all json files form res/import, write to import.lua
 local rawAssets = settings.rawAssets
-local assetsdb = {}
-local filesdb = {}
+local assets  = {}
+local files   = {}
+local prefabs = {}
+
+local function isPrefab(asset)
+    return asset.__type__ == "__js_array__"
+        and asset.__js_array__[1].__type__ == "cc.Prefab"
+end
+
+local function getRefUrl(ref)
+    if type(ref) ~= "table" then return ref end
+    return ref.url or ref[1]
+end
+
+
 for _, key in pairs({"assets", "internal"}) do
     if rawAssets[key] then
-        for uuid, asset in pairs(rawAssets[key]) do
-            if asset.raw == false then
-                assetsdb[uuid] = loadAssets(builddir, uuid)
+        for uuid, ref in pairs(rawAssets[key]) do
+            local url = getRefUrl(ref)
+            if type(ref) ~= "table" or ref.raw then
+                -- raw asset
+                files[uuid] = "raw-" .. key .. "/" .. url
             else
-                if key == "internal" then
-                    filesdb[uuid] = "raw-internal/" .. asset.url
-                else
-                    filesdb[uuid] = "raw-assets/" .. asset.url
+                local asset = loadAssets(builddir, uuid)
+                assets[uuid] = asset
+                if isPrefab(asset) then
+                    prefabs[url] = uuid
                 end
             end
         end
     end
 end
-dumpToLuaFile(outdir .. "/src/assets/assetsdb.lua", "assetsdb", assetsdb)
-dumpToLuaFile(outdir .. "/src/assets/filesdb.lua", "filesdb", filesdb)
+
+dumpToLuaFile(outdir .. "/src/assets/assets.lua", "assets", assets)
+dumpToLuaFile(outdir .. "/src/assets/files.lua", "files", files)
+dumpToLuaFile(outdir .. "/src/assets/prefabs.lua", "prefabs", prefabs)
 
 -- step 3
 -- copy all raw asset files
-for _, filename in pairs(filesdb) do
+for _, filename in pairs(files) do
     copyfile(builddir .. "/res/" .. filename, outdir .. "/res/" .. filename)
 end
