@@ -197,13 +197,19 @@ if settings.debug then
     os.exit(1)
 end
 
-local scenes  = {}
-
-for _, val in pairs(settings.scenes) do
-    scenes[val.url] = val.uuid
+local function stripDbPrefix(url)
+    if string.sub(url, 1, 12) == "db://assets/" then
+        url = string.sub(url, 13)
+    end
+    return url
 end
 
-scenes["__launchSceneUrl"] = settings.launchScene
+local scenes  = {}
+for _, val in pairs(settings.scenes) do
+    scenes[stripDbPrefix(val.url)] = val.uuid
+end
+
+scenes["__launchSceneUrl"] = stripDbPrefix(settings.launchScene)
 dumpToLuaFile(outdir .. "/src/assets/scenes.lua", "scenes", scenes)
 
 -- step 2
