@@ -58,14 +58,20 @@ function WidgetComponent:align(target)
     local parent = target:getParent()
     if not parent then return end
 
-    print(parent.__type, parent.__id)
+    if cc.DEBUG >= DEBUG_VERBOSE then
+        local parentName = parent.name or ""
+        if parentName then
+            parentName = "'" .. parentName .. "': "
+        end
+        cc.printdebug("[Assets]   - [Widget] parent is %s%s[%s]", parentName, parent.__type, parent.__id)
+    end
 
     -- get parent content size
     local pap    = parent:getAnchorPoint()
     local pw     = parent.contentSize.width
     local ph     = parent.contentSize.height
     local hw, hh = pw / 2, ph / 2
-    cc.printdebug("  - parent content size: width = %0.2f, height = %0.2f", pw, ph)
+    -- cc.printdebug("  - parent content size: width = %0.2f, height = %0.2f", pw, ph)
 
     -- local cx, cy = 0, 0
     local cx     = hw - pw * pap.x
