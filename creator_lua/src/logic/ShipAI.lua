@@ -8,7 +8,7 @@ local ShipAI = cc.class("ShipAI", creator.ComponentBase)
 function ShipAI:onLoad(target)
     self._bullets = {}
     self._lastFire = 0
-    self._fireInterval = 0.3
+    self._fireInterval = 0.1
     self._speed = 20.0
 end
 

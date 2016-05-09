@@ -122,6 +122,8 @@ function SceneAsset:_onEnter()
             component:start(obj)
         end
     end
+
+    self._time = 0
 end
 
 function SceneAsset:_onExit()
@@ -151,6 +153,12 @@ function SceneAsset:_onCleanup()
 end
 
 function SceneAsset:_update(dt)
+    self._time = self._time + dt
+    if self._time >= 3.0 then
+        cc.printinfo("[Scene] tracking object count: %d", #self._tracking)
+        self._time = 0
+    end
+
     local tracking = self._tracking
     if not tracking then return end
 
