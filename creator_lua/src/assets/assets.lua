@@ -1,5 +1,5 @@
 
-local assetsdb = {
+local assets = {
     ["0325257e-1804-47fd-9213-bc43cf88da6c"] = {
         ["__type__"] = "cc.SpriteFrame",
         ["content"] = {
@@ -200,16 +200,16 @@ local assetsdb = {
                         ["__id__"] = 3,
                     },
                     [2] = {
-                        ["__id__"] = 6,
+                        ["__id__"] = 4,
                     },
                     [3] = {
-                        ["__id__"] = 8,
+                        ["__id__"] = 5,
                     },
                     [4] = {
-                        ["__id__"] = 10,
+                        ["__id__"] = 6,
                     },
                     [5] = {
-                        ["__id__"] = 12,
+                        ["__id__"] = 7,
                     },
                 },
                 ["_color"] = {
@@ -266,10 +266,47 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 4,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = false,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 2,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "5b331ee3-d62c-4765-b43a-efdb91bb481d",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 3,
+                        },
                     },
                     [2] = {
-                        ["__id__"] = 5,
+                        ["__type__"] = "cc.Animation",
+                        ["_clips"] = {
+                            [1] = {
+                                ["__uuid__"] = "8d19dfd8-620d-46ad-ac5c-49463d19db2e",
+                            },
+                        },
+                        ["_defaultClip"] = {
+                            ["__uuid__"] = "8d19dfd8-620d-46ad-ac5c-49463d19db2e",
+                        },
+                        ["_enabled"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 3,
+                        },
+                        ["playOnLoad"] = true,
                     },
                 },
                 ["_contentSize"] = {
@@ -301,49 +338,6 @@ local assetsdb = {
                 ["_tag"] = -1,
             },
             [4] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = false,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 2,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "5b331ee3-d62c-4765-b43a-efdb91bb481d",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 3,
-                },
-            },
-            [5] = {
-                ["__type__"] = "cc.Animation",
-                ["_clips"] = {
-                    [1] = {
-                        ["__uuid__"] = "8d19dfd8-620d-46ad-ac5c-49463d19db2e",
-                    },
-                },
-                ["_defaultClip"] = {
-                    ["__uuid__"] = "8d19dfd8-620d-46ad-ac5c-49463d19db2e",
-                },
-                ["_enabled"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["node"] = {
-                    ["__id__"] = 3,
-                },
-                ["playOnLoad"] = true,
-            },
-            [6] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -363,7 +357,29 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 7,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = false,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 2,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "22a2f143-47db-4f79-8c13-fd141b7d8d29",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 4,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -394,32 +410,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [7] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = false,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 2,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "22a2f143-47db-4f79-8c13-fd141b7d8d29",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 6,
-                },
-            },
-            [8] = {
+            [5] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -439,7 +430,29 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 9,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = false,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 2,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "73ddc5be-12b0-49aa-814d-7bde7d7e6fcd",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 5,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -470,32 +483,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [9] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = false,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 2,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "73ddc5be-12b0-49aa-814d-7bde7d7e6fcd",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 8,
-                },
-            },
-            [10] = {
+            [6] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -515,7 +503,29 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 11,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = false,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 2,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "d4bec6fb-0383-4067-bcb7-15761e864021",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 6,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -546,32 +556,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [11] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = false,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 2,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "d4bec6fb-0383-4067-bcb7-15761e864021",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 10,
-                },
-            },
-            [12] = {
+            [7] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -591,10 +576,47 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 13,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = false,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 2,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "193f9a9d-d236-4174-a9d9-0a3801342cc7",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 7,
+                        },
                     },
                     [2] = {
-                        ["__id__"] = 14,
+                        ["__type__"] = "cc.Animation",
+                        ["_clips"] = {
+                            [1] = {
+                                ["__uuid__"] = "92378ee1-8c25-4f7e-98fe-d77ae6cb3268",
+                            },
+                        },
+                        ["_defaultClip"] = {
+                            ["__uuid__"] = "92378ee1-8c25-4f7e-98fe-d77ae6cb3268",
+                        },
+                        ["_enabled"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 7,
+                        },
+                        ["playOnLoad"] = true,
                     },
                 },
                 ["_contentSize"] = {
@@ -624,49 +646,6 @@ local assetsdb = {
                 ["_skewX"] = 0,
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
-            },
-            [13] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = false,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 2,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "193f9a9d-d236-4174-a9d9-0a3801342cc7",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 12,
-                },
-            },
-            [14] = {
-                ["__type__"] = "cc.Animation",
-                ["_clips"] = {
-                    [1] = {
-                        ["__uuid__"] = "92378ee1-8c25-4f7e-98fe-d77ae6cb3268",
-                    },
-                },
-                ["_defaultClip"] = {
-                    ["__uuid__"] = "92378ee1-8c25-4f7e-98fe-d77ae6cb3268",
-                },
-                ["_enabled"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["node"] = {
-                    ["__id__"] = 12,
-                },
-                ["playOnLoad"] = true,
             },
         },
         ["__type__"] = "__js_array__",
@@ -947,7 +926,20 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 65,
+                        ["__type__"] = "cc.Canvas",
+                        ["_designResolution"] = {
+                            ["__type__"] = "cc.Size",
+                            ["height"] = 640,
+                            ["width"] = 960,
+                        },
+                        ["_enabled"] = true,
+                        ["_fitHeight"] = true,
+                        ["_fitWidth"] = false,
+                        ["_name"] = "",
+                        ["_objFlags"] = 1835008,
+                        ["node"] = {
+                            ["__id__"] = 3,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -993,22 +985,22 @@ local assetsdb = {
                         ["__id__"] = 5,
                     },
                     [2] = {
-                        ["__id__"] = 7,
+                        ["__id__"] = 6,
                     },
                     [3] = {
-                        ["__id__"] = 10,
+                        ["__id__"] = 7,
                     },
                     [4] = {
-                        ["__id__"] = 12,
+                        ["__id__"] = 8,
                     },
                     [5] = {
-                        ["__id__"] = 25,
+                        ["__id__"] = 14,
                     },
                     [6] = {
-                        ["__id__"] = 38,
+                        ["__id__"] = 20,
                     },
                     [7] = {
-                        ["__id__"] = 51,
+                        ["__id__"] = 26,
                     },
                 },
                 ["_color"] = {
@@ -1020,7 +1012,25 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 64,
+                        ["__type__"] = "cc.Widget",
+                        ["_alignFlags"] = 12,
+                        ["_bottom"] = 0,
+                        ["_enabled"] = true,
+                        ["_isAbsBottom"] = true,
+                        ["_isAbsLeft"] = true,
+                        ["_isAbsRight"] = true,
+                        ["_isAbsTop"] = true,
+                        ["_left"] = 0,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_originalHeight"] = 0,
+                        ["_originalWidth"] = 0,
+                        ["_right"] = 0,
+                        ["_top"] = 0,
+                        ["isAlignOnce"] = false,
+                        ["node"] = {
+                            ["__id__"] = 4,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -1071,7 +1081,29 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 6,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = false,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 2,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "8506b260-6e39-4782-904a-331f33d7ca8b",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 5,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -1103,31 +1135,6 @@ local assetsdb = {
                 ["_tag"] = -1,
             },
             [6] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = false,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 2,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "8506b260-6e39-4782-904a-331f33d7ca8b",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 5,
-                },
-            },
-            [7] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -1147,10 +1154,43 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 8,
+                        ["_N$horizontalAlign"] = 1,
+                        ["_N$overflow"] = 0,
+                        ["_N$string"] = "Hello\nWorld",
+                        ["_N$verticalAlign"] = 1,
+                        ["__type__"] = "cc.Label",
+                        ["_enableWrapText"] = true,
+                        ["_enabled"] = true,
+                        ["_fontSize"] = 80,
+                        ["_isSystemFontUsed"] = true,
+                        ["_lineHeight"] = 80,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_useOriginalSize"] = false,
+                        ["node"] = {
+                            ["__id__"] = 6,
+                        },
                     },
                     [2] = {
-                        ["__id__"] = 9,
+                        ["__type__"] = "cc.Widget",
+                        ["_alignFlags"] = 12,
+                        ["_bottom"] = 20,
+                        ["_enabled"] = true,
+                        ["_isAbsBottom"] = true,
+                        ["_isAbsLeft"] = true,
+                        ["_isAbsRight"] = true,
+                        ["_isAbsTop"] = true,
+                        ["_left"] = 20,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_originalHeight"] = 0,
+                        ["_originalWidth"] = 0,
+                        ["_right"] = 0,
+                        ["_top"] = 0,
+                        ["isAlignOnce"] = false,
+                        ["node"] = {
+                            ["__id__"] = 6,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -1181,46 +1221,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [8] = {
-                ["_N$horizontalAlign"] = 1,
-                ["_N$overflow"] = 0,
-                ["_N$string"] = "Hello\nWorld",
-                ["_N$verticalAlign"] = 1,
-                ["__type__"] = "cc.Label",
-                ["_enableWrapText"] = true,
-                ["_enabled"] = true,
-                ["_fontSize"] = 80,
-                ["_isSystemFontUsed"] = true,
-                ["_lineHeight"] = 80,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_useOriginalSize"] = false,
-                ["node"] = {
-                    ["__id__"] = 7,
-                },
-            },
-            [9] = {
-                ["__type__"] = "cc.Widget",
-                ["_alignFlags"] = 12,
-                ["_bottom"] = 20,
-                ["_enabled"] = true,
-                ["_isAbsBottom"] = true,
-                ["_isAbsLeft"] = true,
-                ["_isAbsRight"] = true,
-                ["_isAbsTop"] = true,
-                ["_left"] = 20,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_originalHeight"] = 0,
-                ["_originalWidth"] = 0,
-                ["_right"] = 0,
-                ["_top"] = 0,
-                ["isAlignOnce"] = false,
-                ["node"] = {
-                    ["__id__"] = 7,
-                },
-            },
-            [10] = {
+            [7] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -1240,7 +1241,22 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 11,
+                        ["_N$horizontalAlign"] = 1,
+                        ["_N$overflow"] = 0,
+                        ["_N$string"] = "show me the money",
+                        ["_N$verticalAlign"] = 1,
+                        ["__type__"] = "cc.Label",
+                        ["_enableWrapText"] = true,
+                        ["_enabled"] = true,
+                        ["_fontSize"] = 32,
+                        ["_isSystemFontUsed"] = true,
+                        ["_lineHeight"] = 32,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_useOriginalSize"] = false,
+                        ["node"] = {
+                            ["__id__"] = 7,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -1271,25 +1287,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [11] = {
-                ["_N$horizontalAlign"] = 1,
-                ["_N$overflow"] = 0,
-                ["_N$string"] = "show me the money",
-                ["_N$verticalAlign"] = 1,
-                ["__type__"] = "cc.Label",
-                ["_enableWrapText"] = true,
-                ["_enabled"] = true,
-                ["_fontSize"] = 32,
-                ["_isSystemFontUsed"] = true,
-                ["_lineHeight"] = 32,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_useOriginalSize"] = false,
-                ["node"] = {
-                    ["__id__"] = 10,
-                },
-            },
-            [12] = {
+            [8] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -1300,19 +1298,19 @@ local assetsdb = {
                 ["_cascadeOpacityEnabled"] = true,
                 ["_children"] = {
                     [1] = {
-                        ["__id__"] = 13,
+                        ["__id__"] = 9,
                     },
                     [2] = {
-                        ["__id__"] = 16,
+                        ["__id__"] = 10,
                     },
                     [3] = {
-                        ["__id__"] = 18,
+                        ["__id__"] = 11,
                     },
                     [4] = {
-                        ["__id__"] = 20,
+                        ["__id__"] = 12,
                     },
                     [5] = {
-                        ["__id__"] = 22,
+                        ["__id__"] = 13,
                     },
                 },
                 ["_color"] = {
@@ -1352,6 +1350,316 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
+            [9] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = false,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 2,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "5b331ee3-d62c-4765-b43a-efdb91bb481d",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 9,
+                        },
+                    },
+                    [2] = {
+                        ["__type__"] = "cc.Animation",
+                        ["_clips"] = {
+                            [1] = {
+                                ["__uuid__"] = "8d19dfd8-620d-46ad-ac5c-49463d19db2e",
+                            },
+                        },
+                        ["_defaultClip"] = {
+                            ["__uuid__"] = "8d19dfd8-620d-46ad-ac5c-49463d19db2e",
+                        },
+                        ["_enabled"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 9,
+                        },
+                        ["playOnLoad"] = true,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 16,
+                    ["width"] = 92,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "Wave",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 8,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = -35,
+                    ["y"] = -37,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 0.5,
+                ["_scaleY"] = 0.5,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [10] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = false,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 2,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "22a2f143-47db-4f79-8c13-fd141b7d8d29",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 10,
+                        },
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 96,
+                    ["width"] = 100,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "EnemyShip01",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 8,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [11] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = false,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 2,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "73ddc5be-12b0-49aa-814d-7bde7d7e6fcd",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 11,
+                        },
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 4,
+                    ["width"] = 48,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "ObjectHpOutline",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 8,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 50,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [12] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = false,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 2,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "d4bec6fb-0383-4067-bcb7-15761e864021",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 12,
+                        },
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 4,
+                    ["width"] = 48,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "EnemyHp",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 8,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 50,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
             [13] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
@@ -1372,335 +1680,47 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 14,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = false,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 2,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "193f9a9d-d236-4174-a9d9-0a3801342cc7",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 13,
+                        },
                     },
                     [2] = {
-                        ["__id__"] = 15,
-                    },
-                },
-                ["_contentSize"] = {
-                    ["__type__"] = "cc.Size",
-                    ["height"] = 16,
-                    ["width"] = 92,
-                },
-                ["_globalZOrder"] = 0,
-                ["_localZOrder"] = 0,
-                ["_name"] = "Wave",
-                ["_objFlags"] = 0,
-                ["_opacity"] = 255,
-                ["_opacityModifyRGB"] = false,
-                ["_parent"] = {
-                    ["__id__"] = 12,
-                },
-                ["_position"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = -35,
-                    ["y"] = -37,
-                },
-                ["_reorderChildDirty"] = false,
-                ["_rotationX"] = 0,
-                ["_rotationY"] = 0,
-                ["_scaleX"] = 0.5,
-                ["_scaleY"] = 0.5,
-                ["_skewX"] = 0,
-                ["_skewY"] = 0,
-                ["_tag"] = -1,
-            },
-            [14] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = false,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 2,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "5b331ee3-d62c-4765-b43a-efdb91bb481d",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 13,
-                },
-            },
-            [15] = {
-                ["__type__"] = "cc.Animation",
-                ["_clips"] = {
-                    [1] = {
-                        ["__uuid__"] = "8d19dfd8-620d-46ad-ac5c-49463d19db2e",
-                    },
-                },
-                ["_defaultClip"] = {
-                    ["__uuid__"] = "8d19dfd8-620d-46ad-ac5c-49463d19db2e",
-                },
-                ["_enabled"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["node"] = {
-                    ["__id__"] = 13,
-                },
-                ["playOnLoad"] = true,
-            },
-            [16] = {
-                ["__type__"] = "cc.Node",
-                ["_active"] = true,
-                ["_anchorPoint"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0.5,
-                    ["y"] = 0.5,
-                },
-                ["_cascadeOpacityEnabled"] = true,
-                ["_children"] = {
-                },
-                ["_color"] = {
-                    ["__type__"] = "cc.Color",
-                    ["a"] = 255,
-                    ["b"] = 255,
-                    ["g"] = 255,
-                    ["r"] = 255,
-                },
-                ["_components"] = {
-                    [1] = {
-                        ["__id__"] = 17,
-                    },
-                },
-                ["_contentSize"] = {
-                    ["__type__"] = "cc.Size",
-                    ["height"] = 96,
-                    ["width"] = 100,
-                },
-                ["_globalZOrder"] = 0,
-                ["_localZOrder"] = 0,
-                ["_name"] = "EnemyShip01",
-                ["_objFlags"] = 0,
-                ["_opacity"] = 255,
-                ["_opacityModifyRGB"] = false,
-                ["_parent"] = {
-                    ["__id__"] = 12,
-                },
-                ["_position"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_reorderChildDirty"] = false,
-                ["_rotationX"] = 0,
-                ["_rotationY"] = 0,
-                ["_scaleX"] = 1,
-                ["_scaleY"] = 1,
-                ["_skewX"] = 0,
-                ["_skewY"] = 0,
-                ["_tag"] = -1,
-            },
-            [17] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = false,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 2,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "22a2f143-47db-4f79-8c13-fd141b7d8d29",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 16,
-                },
-            },
-            [18] = {
-                ["__type__"] = "cc.Node",
-                ["_active"] = true,
-                ["_anchorPoint"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0.5,
-                    ["y"] = 0.5,
-                },
-                ["_cascadeOpacityEnabled"] = true,
-                ["_children"] = {
-                },
-                ["_color"] = {
-                    ["__type__"] = "cc.Color",
-                    ["a"] = 255,
-                    ["b"] = 255,
-                    ["g"] = 255,
-                    ["r"] = 255,
-                },
-                ["_components"] = {
-                    [1] = {
-                        ["__id__"] = 19,
-                    },
-                },
-                ["_contentSize"] = {
-                    ["__type__"] = "cc.Size",
-                    ["height"] = 4,
-                    ["width"] = 48,
-                },
-                ["_globalZOrder"] = 0,
-                ["_localZOrder"] = 0,
-                ["_name"] = "ObjectHpOutline",
-                ["_objFlags"] = 0,
-                ["_opacity"] = 255,
-                ["_opacityModifyRGB"] = false,
-                ["_parent"] = {
-                    ["__id__"] = 12,
-                },
-                ["_position"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 50,
-                },
-                ["_reorderChildDirty"] = false,
-                ["_rotationX"] = 0,
-                ["_rotationY"] = 0,
-                ["_scaleX"] = 1,
-                ["_scaleY"] = 1,
-                ["_skewX"] = 0,
-                ["_skewY"] = 0,
-                ["_tag"] = -1,
-            },
-            [19] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = false,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 2,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "73ddc5be-12b0-49aa-814d-7bde7d7e6fcd",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 18,
-                },
-            },
-            [20] = {
-                ["__type__"] = "cc.Node",
-                ["_active"] = true,
-                ["_anchorPoint"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0.5,
-                    ["y"] = 0.5,
-                },
-                ["_cascadeOpacityEnabled"] = true,
-                ["_children"] = {
-                },
-                ["_color"] = {
-                    ["__type__"] = "cc.Color",
-                    ["a"] = 255,
-                    ["b"] = 255,
-                    ["g"] = 255,
-                    ["r"] = 255,
-                },
-                ["_components"] = {
-                    [1] = {
-                        ["__id__"] = 21,
-                    },
-                },
-                ["_contentSize"] = {
-                    ["__type__"] = "cc.Size",
-                    ["height"] = 4,
-                    ["width"] = 48,
-                },
-                ["_globalZOrder"] = 0,
-                ["_localZOrder"] = 0,
-                ["_name"] = "EnemyHp",
-                ["_objFlags"] = 0,
-                ["_opacity"] = 255,
-                ["_opacityModifyRGB"] = false,
-                ["_parent"] = {
-                    ["__id__"] = 12,
-                },
-                ["_position"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 50,
-                },
-                ["_reorderChildDirty"] = false,
-                ["_rotationX"] = 0,
-                ["_rotationY"] = 0,
-                ["_scaleX"] = 1,
-                ["_scaleY"] = 1,
-                ["_skewX"] = 0,
-                ["_skewY"] = 0,
-                ["_tag"] = -1,
-            },
-            [21] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = false,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 2,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "d4bec6fb-0383-4067-bcb7-15761e864021",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 20,
-                },
-            },
-            [22] = {
-                ["__type__"] = "cc.Node",
-                ["_active"] = true,
-                ["_anchorPoint"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0.5,
-                    ["y"] = 0.5,
-                },
-                ["_cascadeOpacityEnabled"] = true,
-                ["_children"] = {
-                },
-                ["_color"] = {
-                    ["__type__"] = "cc.Color",
-                    ["a"] = 255,
-                    ["b"] = 255,
-                    ["g"] = 255,
-                    ["r"] = 255,
-                },
-                ["_components"] = {
-                    [1] = {
-                        ["__id__"] = 23,
-                    },
-                    [2] = {
-                        ["__id__"] = 24,
+                        ["__type__"] = "cc.Animation",
+                        ["_clips"] = {
+                            [1] = {
+                                ["__uuid__"] = "92378ee1-8c25-4f7e-98fe-d77ae6cb3268",
+                            },
+                        },
+                        ["_defaultClip"] = {
+                            ["__uuid__"] = "92378ee1-8c25-4f7e-98fe-d77ae6cb3268",
+                        },
+                        ["_enabled"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 13,
+                        },
+                        ["playOnLoad"] = true,
                     },
                 },
                 ["_contentSize"] = {
@@ -1715,7 +1735,7 @@ local assetsdb = {
                 ["_opacity"] = 180,
                 ["_opacityModifyRGB"] = false,
                 ["_parent"] = {
-                    ["__id__"] = 12,
+                    ["__id__"] = 8,
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
@@ -1731,50 +1751,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [23] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = false,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 2,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "193f9a9d-d236-4174-a9d9-0a3801342cc7",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 22,
-                },
-            },
-            [24] = {
-                ["__type__"] = "cc.Animation",
-                ["_clips"] = {
-                    [1] = {
-                        ["__uuid__"] = "92378ee1-8c25-4f7e-98fe-d77ae6cb3268",
-                    },
-                },
-                ["_defaultClip"] = {
-                    ["__uuid__"] = "92378ee1-8c25-4f7e-98fe-d77ae6cb3268",
-                },
-                ["_enabled"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["node"] = {
-                    ["__id__"] = 22,
-                },
-                ["playOnLoad"] = true,
-            },
-            [25] = {
+            [14] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -1785,19 +1762,19 @@ local assetsdb = {
                 ["_cascadeOpacityEnabled"] = true,
                 ["_children"] = {
                     [1] = {
-                        ["__id__"] = 26,
+                        ["__id__"] = 15,
                     },
                     [2] = {
-                        ["__id__"] = 29,
+                        ["__id__"] = 16,
                     },
                     [3] = {
-                        ["__id__"] = 31,
+                        ["__id__"] = 17,
                     },
                     [4] = {
-                        ["__id__"] = 33,
+                        ["__id__"] = 18,
                     },
                     [5] = {
-                        ["__id__"] = 35,
+                        ["__id__"] = 19,
                     },
                 },
                 ["_color"] = {
@@ -1837,7 +1814,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [26] = {
+            [15] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -1857,10 +1834,47 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 27,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = false,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 2,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "5b331ee3-d62c-4765-b43a-efdb91bb481d",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 15,
+                        },
                     },
                     [2] = {
-                        ["__id__"] = 28,
+                        ["__type__"] = "cc.Animation",
+                        ["_clips"] = {
+                            [1] = {
+                                ["__uuid__"] = "8d19dfd8-620d-46ad-ac5c-49463d19db2e",
+                            },
+                        },
+                        ["_defaultClip"] = {
+                            ["__uuid__"] = "8d19dfd8-620d-46ad-ac5c-49463d19db2e",
+                        },
+                        ["_enabled"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 15,
+                        },
+                        ["playOnLoad"] = true,
                     },
                 },
                 ["_contentSize"] = {
@@ -1875,7 +1889,7 @@ local assetsdb = {
                 ["_opacity"] = 255,
                 ["_opacityModifyRGB"] = false,
                 ["_parent"] = {
-                    ["__id__"] = 25,
+                    ["__id__"] = 14,
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
@@ -1891,50 +1905,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [27] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = false,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 2,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "5b331ee3-d62c-4765-b43a-efdb91bb481d",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 26,
-                },
-            },
-            [28] = {
-                ["__type__"] = "cc.Animation",
-                ["_clips"] = {
-                    [1] = {
-                        ["__uuid__"] = "8d19dfd8-620d-46ad-ac5c-49463d19db2e",
-                    },
-                },
-                ["_defaultClip"] = {
-                    ["__uuid__"] = "8d19dfd8-620d-46ad-ac5c-49463d19db2e",
-                },
-                ["_enabled"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["node"] = {
-                    ["__id__"] = 26,
-                },
-                ["playOnLoad"] = true,
-            },
-            [29] = {
+            [16] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -1954,7 +1925,29 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 30,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = false,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 2,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "22a2f143-47db-4f79-8c13-fd141b7d8d29",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 16,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -1969,7 +1962,7 @@ local assetsdb = {
                 ["_opacity"] = 255,
                 ["_opacityModifyRGB"] = false,
                 ["_parent"] = {
-                    ["__id__"] = 25,
+                    ["__id__"] = 14,
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
@@ -1985,32 +1978,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [30] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = false,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 2,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "22a2f143-47db-4f79-8c13-fd141b7d8d29",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 29,
-                },
-            },
-            [31] = {
+            [17] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -2030,7 +1998,29 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 32,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = false,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 2,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "73ddc5be-12b0-49aa-814d-7bde7d7e6fcd",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 17,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -2045,7 +2035,7 @@ local assetsdb = {
                 ["_opacity"] = 255,
                 ["_opacityModifyRGB"] = false,
                 ["_parent"] = {
-                    ["__id__"] = 25,
+                    ["__id__"] = 14,
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
@@ -2061,32 +2051,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [32] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = false,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 2,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "73ddc5be-12b0-49aa-814d-7bde7d7e6fcd",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 31,
-                },
-            },
-            [33] = {
+            [18] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -2106,7 +2071,29 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 34,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = false,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 2,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "d4bec6fb-0383-4067-bcb7-15761e864021",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 18,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -2121,7 +2108,7 @@ local assetsdb = {
                 ["_opacity"] = 255,
                 ["_opacityModifyRGB"] = false,
                 ["_parent"] = {
-                    ["__id__"] = 25,
+                    ["__id__"] = 14,
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
@@ -2137,32 +2124,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [34] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = false,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 2,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "d4bec6fb-0383-4067-bcb7-15761e864021",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 33,
-                },
-            },
-            [35] = {
+            [19] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -2182,10 +2144,47 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 36,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = false,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 2,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "193f9a9d-d236-4174-a9d9-0a3801342cc7",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 19,
+                        },
                     },
                     [2] = {
-                        ["__id__"] = 37,
+                        ["__type__"] = "cc.Animation",
+                        ["_clips"] = {
+                            [1] = {
+                                ["__uuid__"] = "92378ee1-8c25-4f7e-98fe-d77ae6cb3268",
+                            },
+                        },
+                        ["_defaultClip"] = {
+                            ["__uuid__"] = "92378ee1-8c25-4f7e-98fe-d77ae6cb3268",
+                        },
+                        ["_enabled"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 19,
+                        },
+                        ["playOnLoad"] = true,
                     },
                 },
                 ["_contentSize"] = {
@@ -2200,7 +2199,7 @@ local assetsdb = {
                 ["_opacity"] = 180,
                 ["_opacityModifyRGB"] = false,
                 ["_parent"] = {
-                    ["__id__"] = 25,
+                    ["__id__"] = 14,
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
@@ -2216,50 +2215,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [36] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = false,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 2,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "193f9a9d-d236-4174-a9d9-0a3801342cc7",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 35,
-                },
-            },
-            [37] = {
-                ["__type__"] = "cc.Animation",
-                ["_clips"] = {
-                    [1] = {
-                        ["__uuid__"] = "92378ee1-8c25-4f7e-98fe-d77ae6cb3268",
-                    },
-                },
-                ["_defaultClip"] = {
-                    ["__uuid__"] = "92378ee1-8c25-4f7e-98fe-d77ae6cb3268",
-                },
-                ["_enabled"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["node"] = {
-                    ["__id__"] = 35,
-                },
-                ["playOnLoad"] = true,
-            },
-            [38] = {
+            [20] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -2270,19 +2226,19 @@ local assetsdb = {
                 ["_cascadeOpacityEnabled"] = true,
                 ["_children"] = {
                     [1] = {
-                        ["__id__"] = 39,
+                        ["__id__"] = 21,
                     },
                     [2] = {
-                        ["__id__"] = 42,
+                        ["__id__"] = 22,
                     },
                     [3] = {
-                        ["__id__"] = 44,
+                        ["__id__"] = 23,
                     },
                     [4] = {
-                        ["__id__"] = 46,
+                        ["__id__"] = 24,
                     },
                     [5] = {
-                        ["__id__"] = 48,
+                        ["__id__"] = 25,
                     },
                 },
                 ["_color"] = {
@@ -2322,7 +2278,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [39] = {
+            [21] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -2342,10 +2298,47 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 40,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = false,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 2,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "5b331ee3-d62c-4765-b43a-efdb91bb481d",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 21,
+                        },
                     },
                     [2] = {
-                        ["__id__"] = 41,
+                        ["__type__"] = "cc.Animation",
+                        ["_clips"] = {
+                            [1] = {
+                                ["__uuid__"] = "8d19dfd8-620d-46ad-ac5c-49463d19db2e",
+                            },
+                        },
+                        ["_defaultClip"] = {
+                            ["__uuid__"] = "8d19dfd8-620d-46ad-ac5c-49463d19db2e",
+                        },
+                        ["_enabled"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 21,
+                        },
+                        ["playOnLoad"] = true,
                     },
                 },
                 ["_contentSize"] = {
@@ -2360,7 +2353,7 @@ local assetsdb = {
                 ["_opacity"] = 255,
                 ["_opacityModifyRGB"] = false,
                 ["_parent"] = {
-                    ["__id__"] = 38,
+                    ["__id__"] = 20,
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
@@ -2376,50 +2369,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [40] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = false,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 2,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "5b331ee3-d62c-4765-b43a-efdb91bb481d",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 39,
-                },
-            },
-            [41] = {
-                ["__type__"] = "cc.Animation",
-                ["_clips"] = {
-                    [1] = {
-                        ["__uuid__"] = "8d19dfd8-620d-46ad-ac5c-49463d19db2e",
-                    },
-                },
-                ["_defaultClip"] = {
-                    ["__uuid__"] = "8d19dfd8-620d-46ad-ac5c-49463d19db2e",
-                },
-                ["_enabled"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["node"] = {
-                    ["__id__"] = 39,
-                },
-                ["playOnLoad"] = true,
-            },
-            [42] = {
+            [22] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -2439,7 +2389,29 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 43,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = false,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 2,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "22a2f143-47db-4f79-8c13-fd141b7d8d29",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 22,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -2454,7 +2426,7 @@ local assetsdb = {
                 ["_opacity"] = 255,
                 ["_opacityModifyRGB"] = false,
                 ["_parent"] = {
-                    ["__id__"] = 38,
+                    ["__id__"] = 20,
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
@@ -2470,32 +2442,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [43] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = false,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 2,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "22a2f143-47db-4f79-8c13-fd141b7d8d29",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 42,
-                },
-            },
-            [44] = {
+            [23] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -2515,7 +2462,29 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 45,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = false,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 2,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "73ddc5be-12b0-49aa-814d-7bde7d7e6fcd",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 23,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -2530,7 +2499,7 @@ local assetsdb = {
                 ["_opacity"] = 255,
                 ["_opacityModifyRGB"] = false,
                 ["_parent"] = {
-                    ["__id__"] = 38,
+                    ["__id__"] = 20,
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
@@ -2546,32 +2515,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [45] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = false,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 2,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "73ddc5be-12b0-49aa-814d-7bde7d7e6fcd",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 44,
-                },
-            },
-            [46] = {
+            [24] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -2591,7 +2535,29 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 47,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = false,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 2,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "d4bec6fb-0383-4067-bcb7-15761e864021",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 24,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -2606,7 +2572,7 @@ local assetsdb = {
                 ["_opacity"] = 255,
                 ["_opacityModifyRGB"] = false,
                 ["_parent"] = {
-                    ["__id__"] = 38,
+                    ["__id__"] = 20,
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
@@ -2622,32 +2588,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [47] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = false,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 2,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "d4bec6fb-0383-4067-bcb7-15761e864021",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 46,
-                },
-            },
-            [48] = {
+            [25] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -2667,10 +2608,47 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 49,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = false,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 2,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "193f9a9d-d236-4174-a9d9-0a3801342cc7",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 25,
+                        },
                     },
                     [2] = {
-                        ["__id__"] = 50,
+                        ["__type__"] = "cc.Animation",
+                        ["_clips"] = {
+                            [1] = {
+                                ["__uuid__"] = "92378ee1-8c25-4f7e-98fe-d77ae6cb3268",
+                            },
+                        },
+                        ["_defaultClip"] = {
+                            ["__uuid__"] = "92378ee1-8c25-4f7e-98fe-d77ae6cb3268",
+                        },
+                        ["_enabled"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 25,
+                        },
+                        ["playOnLoad"] = true,
                     },
                 },
                 ["_contentSize"] = {
@@ -2685,7 +2663,7 @@ local assetsdb = {
                 ["_opacity"] = 180,
                 ["_opacityModifyRGB"] = false,
                 ["_parent"] = {
-                    ["__id__"] = 38,
+                    ["__id__"] = 20,
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
@@ -2701,50 +2679,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [49] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = false,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 2,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "193f9a9d-d236-4174-a9d9-0a3801342cc7",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 48,
-                },
-            },
-            [50] = {
-                ["__type__"] = "cc.Animation",
-                ["_clips"] = {
-                    [1] = {
-                        ["__uuid__"] = "92378ee1-8c25-4f7e-98fe-d77ae6cb3268",
-                    },
-                },
-                ["_defaultClip"] = {
-                    ["__uuid__"] = "92378ee1-8c25-4f7e-98fe-d77ae6cb3268",
-                },
-                ["_enabled"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["node"] = {
-                    ["__id__"] = 48,
-                },
-                ["playOnLoad"] = true,
-            },
-            [51] = {
+            [26] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -2755,19 +2690,19 @@ local assetsdb = {
                 ["_cascadeOpacityEnabled"] = true,
                 ["_children"] = {
                     [1] = {
-                        ["__id__"] = 52,
+                        ["__id__"] = 27,
                     },
                     [2] = {
-                        ["__id__"] = 55,
+                        ["__id__"] = 28,
                     },
                     [3] = {
-                        ["__id__"] = 57,
+                        ["__id__"] = 29,
                     },
                     [4] = {
-                        ["__id__"] = 59,
+                        ["__id__"] = 30,
                     },
                     [5] = {
-                        ["__id__"] = 61,
+                        ["__id__"] = 31,
                     },
                 },
                 ["_color"] = {
@@ -2807,7 +2742,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [52] = {
+            [27] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -2827,10 +2762,47 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 53,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = false,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 2,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "5b331ee3-d62c-4765-b43a-efdb91bb481d",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 27,
+                        },
                     },
                     [2] = {
-                        ["__id__"] = 54,
+                        ["__type__"] = "cc.Animation",
+                        ["_clips"] = {
+                            [1] = {
+                                ["__uuid__"] = "8d19dfd8-620d-46ad-ac5c-49463d19db2e",
+                            },
+                        },
+                        ["_defaultClip"] = {
+                            ["__uuid__"] = "8d19dfd8-620d-46ad-ac5c-49463d19db2e",
+                        },
+                        ["_enabled"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 27,
+                        },
+                        ["playOnLoad"] = true,
                     },
                 },
                 ["_contentSize"] = {
@@ -2845,7 +2817,7 @@ local assetsdb = {
                 ["_opacity"] = 255,
                 ["_opacityModifyRGB"] = false,
                 ["_parent"] = {
-                    ["__id__"] = 51,
+                    ["__id__"] = 26,
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
@@ -2861,50 +2833,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [53] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = false,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 2,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "5b331ee3-d62c-4765-b43a-efdb91bb481d",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 52,
-                },
-            },
-            [54] = {
-                ["__type__"] = "cc.Animation",
-                ["_clips"] = {
-                    [1] = {
-                        ["__uuid__"] = "8d19dfd8-620d-46ad-ac5c-49463d19db2e",
-                    },
-                },
-                ["_defaultClip"] = {
-                    ["__uuid__"] = "8d19dfd8-620d-46ad-ac5c-49463d19db2e",
-                },
-                ["_enabled"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["node"] = {
-                    ["__id__"] = 52,
-                },
-                ["playOnLoad"] = true,
-            },
-            [55] = {
+            [28] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -2924,7 +2853,29 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 56,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = false,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 2,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "22a2f143-47db-4f79-8c13-fd141b7d8d29",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 28,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -2939,7 +2890,7 @@ local assetsdb = {
                 ["_opacity"] = 255,
                 ["_opacityModifyRGB"] = false,
                 ["_parent"] = {
-                    ["__id__"] = 51,
+                    ["__id__"] = 26,
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
@@ -2955,32 +2906,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [56] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = false,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 2,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "22a2f143-47db-4f79-8c13-fd141b7d8d29",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 55,
-                },
-            },
-            [57] = {
+            [29] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -3000,7 +2926,29 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 58,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = false,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 2,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "73ddc5be-12b0-49aa-814d-7bde7d7e6fcd",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 29,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -3015,7 +2963,7 @@ local assetsdb = {
                 ["_opacity"] = 255,
                 ["_opacityModifyRGB"] = false,
                 ["_parent"] = {
-                    ["__id__"] = 51,
+                    ["__id__"] = 26,
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
@@ -3031,32 +2979,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [58] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = false,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 2,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "73ddc5be-12b0-49aa-814d-7bde7d7e6fcd",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 57,
-                },
-            },
-            [59] = {
+            [30] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -3076,7 +2999,29 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 60,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = false,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 2,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "d4bec6fb-0383-4067-bcb7-15761e864021",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 30,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -3091,7 +3036,7 @@ local assetsdb = {
                 ["_opacity"] = 255,
                 ["_opacityModifyRGB"] = false,
                 ["_parent"] = {
-                    ["__id__"] = 51,
+                    ["__id__"] = 26,
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
@@ -3107,32 +3052,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [60] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = false,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 2,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "d4bec6fb-0383-4067-bcb7-15761e864021",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 59,
-                },
-            },
-            [61] = {
+            [31] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -3152,10 +3072,47 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 62,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = false,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 2,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "193f9a9d-d236-4174-a9d9-0a3801342cc7",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 31,
+                        },
                     },
                     [2] = {
-                        ["__id__"] = 63,
+                        ["__type__"] = "cc.Animation",
+                        ["_clips"] = {
+                            [1] = {
+                                ["__uuid__"] = "92378ee1-8c25-4f7e-98fe-d77ae6cb3268",
+                            },
+                        },
+                        ["_defaultClip"] = {
+                            ["__uuid__"] = "92378ee1-8c25-4f7e-98fe-d77ae6cb3268",
+                        },
+                        ["_enabled"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 31,
+                        },
+                        ["playOnLoad"] = true,
                     },
                 },
                 ["_contentSize"] = {
@@ -3170,7 +3127,7 @@ local assetsdb = {
                 ["_opacity"] = 180,
                 ["_opacityModifyRGB"] = false,
                 ["_parent"] = {
-                    ["__id__"] = 51,
+                    ["__id__"] = 26,
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
@@ -3185,86 +3142,6 @@ local assetsdb = {
                 ["_skewX"] = 0,
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
-            },
-            [62] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = false,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 2,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "193f9a9d-d236-4174-a9d9-0a3801342cc7",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 61,
-                },
-            },
-            [63] = {
-                ["__type__"] = "cc.Animation",
-                ["_clips"] = {
-                    [1] = {
-                        ["__uuid__"] = "92378ee1-8c25-4f7e-98fe-d77ae6cb3268",
-                    },
-                },
-                ["_defaultClip"] = {
-                    ["__uuid__"] = "92378ee1-8c25-4f7e-98fe-d77ae6cb3268",
-                },
-                ["_enabled"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["node"] = {
-                    ["__id__"] = 61,
-                },
-                ["playOnLoad"] = true,
-            },
-            [64] = {
-                ["__type__"] = "cc.Widget",
-                ["_alignFlags"] = 12,
-                ["_bottom"] = 0,
-                ["_enabled"] = true,
-                ["_isAbsBottom"] = true,
-                ["_isAbsLeft"] = true,
-                ["_isAbsRight"] = true,
-                ["_isAbsTop"] = true,
-                ["_left"] = 0,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_originalHeight"] = 0,
-                ["_originalWidth"] = 0,
-                ["_right"] = 0,
-                ["_top"] = 0,
-                ["isAlignOnce"] = false,
-                ["node"] = {
-                    ["__id__"] = 4,
-                },
-            },
-            [65] = {
-                ["__type__"] = "cc.Canvas",
-                ["_designResolution"] = {
-                    ["__type__"] = "cc.Size",
-                    ["height"] = 640,
-                    ["width"] = 960,
-                },
-                ["_enabled"] = true,
-                ["_fitHeight"] = true,
-                ["_fitWidth"] = false,
-                ["_name"] = "",
-                ["_objFlags"] = 1835008,
-                ["node"] = {
-                    ["__id__"] = 3,
-                },
             },
         },
         ["__type__"] = "__js_array__",
@@ -4523,6 +4400,98 @@ local assetsdb = {
             ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
         },
     },
+    ["8bf974dd-ac3c-465f-9e65-2fe1d62f41a3"] = {
+        ["__js_array__"] = {
+            [1] = {
+                ["__type__"] = "cc.Prefab",
+                ["_name"] = "star",
+                ["_objFlags"] = 0,
+                ["data"] = {
+                    ["__id__"] = 2,
+                },
+            },
+            [2] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 1,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 2,
+                        },
+                    },
+                    [2] = {
+                        ["__type__"] = "c1673lCJllDtr1H2lYWZCxz",
+                        ["_enabled"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 2,
+                        },
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 30,
+                    ["width"] = 32,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "star",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 125,
+                    ["y"] = 223,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+        },
+        ["__type__"] = "__js_array__",
+    },
     ["8c3515bc-2460-4780-875b-e327d157bc6e"] = {
         ["__type__"] = "cc.SpriteFrame",
         ["content"] = {
@@ -4922,6 +4891,346 @@ local assetsdb = {
             ["rotated"] = 1,
             ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
         },
+    },
+    ["9a19ee30-3d17-4fe1-881a-6a7494753d15"] = {
+        ["__js_array__"] = {
+            [1] = {
+                ["__type__"] = "cc.SceneAsset",
+                ["_name"] = "MainScene",
+                ["_objFlags"] = 0,
+                ["scene"] = {
+                    ["__id__"] = 2,
+                },
+            },
+            [2] = {
+                ["__type__"] = "cc.Scene",
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                    [1] = {
+                        ["__id__"] = 3,
+                    },
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 0,
+                    ["width"] = 0,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [3] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                    [1] = {
+                        ["__id__"] = 4,
+                    },
+                    [2] = {
+                        ["__id__"] = 5,
+                    },
+                    [3] = {
+                        ["__id__"] = 6,
+                    },
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__type__"] = "cc.Canvas",
+                        ["_designResolution"] = {
+                            ["__type__"] = "cc.Size",
+                            ["height"] = 640,
+                            ["width"] = 960,
+                        },
+                        ["_enabled"] = true,
+                        ["_fitHeight"] = true,
+                        ["_fitWidth"] = false,
+                        ["_name"] = "",
+                        ["_objFlags"] = 1835008,
+                        ["node"] = {
+                            ["__id__"] = 3,
+                        },
+                    },
+                    [2] = {
+                        ["__type__"] = "b5fccNtmYZGN5AYotAZP3NM",
+                        ["_enabled"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 3,
+                        },
+                        ["starPrefab"] = {
+                            ["__uuid__"] = "8bf974dd-ac3c-465f-9e65-2fe1d62f41a3",
+                        },
+                        ["starsLabel"] = {
+                            ["__id__"] = 7,
+                        },
+                        ["starsLayer"] = {
+                            ["__id__"] = 4,
+                        },
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 640,
+                    ["width"] = 960,
+                },
+                ["_globalZOrder"] = 0,
+                ["_id"] = "cf38ab37OxIB4a9/2RfPLcn",
+                ["_localZOrder"] = 0,
+                ["_name"] = "Canvas",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 2,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 480,
+                    ["y"] = 320,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [4] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 0,
+                    ["width"] = 0,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "starsLayer",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 3,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [5] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 0,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "a23235d1-15db-4b95-8439-a2e005bfff91",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 5,
+                        },
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 40,
+                    ["width"] = 200,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "labelBackground",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 200,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 3,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [6] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 0,
+                    ["g"] = 0,
+                    ["r"] = 0,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__id__"] = 7,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 40,
+                    ["width"] = 72.02,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "starsCountLabel",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_parent"] = {
+                    ["__id__"] = 3,
+                },
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0,
+                    ["y"] = 0,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+            [7] = {
+                ["_N$horizontalAlign"] = 1,
+                ["_N$overflow"] = 0,
+                ["_N$string"] = "0 stars",
+                ["_N$verticalAlign"] = 1,
+                ["__type__"] = "cc.Label",
+                ["_enableWrapText"] = true,
+                ["_enabled"] = true,
+                ["_fontSize"] = 24,
+                ["_isSystemFontUsed"] = true,
+                ["_lineHeight"] = 40,
+                ["_name"] = "",
+                ["_objFlags"] = 0,
+                ["_useOriginalSize"] = false,
+                ["node"] = {
+                    ["__id__"] = 6,
+                },
+            },
+        },
+        ["__type__"] = "__js_array__",
     },
     ["9a6e2c5c-1be9-4e60-a514-6ac5a806089a"] = {
         ["__type__"] = "cc.SpriteAtlas",
@@ -5469,6 +5778,28 @@ local assetsdb = {
             },
             ["rotated"] = 1,
             ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
+        },
+    },
+    ["a23235d1-15db-4b95-8439-a2e005bfff91"] = {
+        ["__type__"] = "cc.SpriteFrame",
+        ["content"] = {
+            ["name"] = "default_sprite_splash",
+            ["offset"] = {
+                [1] = 0,
+                [2] = 0,
+            },
+            ["originalSize"] = {
+                [1] = 2,
+                [2] = 2,
+            },
+            ["rect"] = {
+                [1] = 0,
+                [2] = 0,
+                [3] = 2,
+                [4] = 2,
+            },
+            ["rotated"] = 0,
+            ["texture"] = "0275e94c-56a7-410f-bd1a-fc7483f7d14a",
         },
     },
     ["a35b95b8-08c9-4e7f-a075-39c271d4e285"] = {
@@ -6068,28 +6399,28 @@ local assetsdb = {
                         ["__id__"] = 4,
                     },
                     [2] = {
-                        ["__id__"] = 7,
+                        ["__id__"] = 5,
                     },
                     [3] = {
-                        ["__id__"] = 10,
+                        ["__id__"] = 6,
                     },
                     [4] = {
-                        ["__id__"] = 13,
+                        ["__id__"] = 7,
                     },
                     [5] = {
-                        ["__id__"] = 16,
+                        ["__id__"] = 8,
                     },
                     [6] = {
-                        ["__id__"] = 22,
+                        ["__id__"] = 10,
                     },
                     [7] = {
-                        ["__id__"] = 28,
+                        ["__id__"] = 12,
                     },
                     [8] = {
-                        ["__id__"] = 37,
+                        ["__id__"] = 15,
                     },
                     [9] = {
-                        ["__id__"] = 58,
+                        ["__id__"] = 22,
                     },
                 },
                 ["_color"] = {
@@ -6101,7 +6432,20 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 76,
+                        ["__type__"] = "cc.Canvas",
+                        ["_designResolution"] = {
+                            ["__type__"] = "cc.Size",
+                            ["height"] = 640,
+                            ["width"] = 960,
+                        },
+                        ["_enabled"] = true,
+                        ["_fitHeight"] = true,
+                        ["_fitWidth"] = false,
+                        ["_name"] = "",
+                        ["_objFlags"] = 1835008,
+                        ["node"] = {
+                            ["__id__"] = 3,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -6153,10 +6497,50 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 5,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 1,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 4,
+                        },
                     },
                     [2] = {
-                        ["__id__"] = 6,
+                        ["__type__"] = "cc.Widget",
+                        ["_alignFlags"] = 9,
+                        ["_bottom"] = 0,
+                        ["_enabled"] = true,
+                        ["_isAbsBottom"] = true,
+                        ["_isAbsLeft"] = true,
+                        ["_isAbsRight"] = true,
+                        ["_isAbsTop"] = true,
+                        ["_left"] = 0,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_originalHeight"] = 200,
+                        ["_originalWidth"] = 0,
+                        ["_right"] = 0,
+                        ["_top"] = 0,
+                        ["isAlignOnce"] = false,
+                        ["node"] = {
+                            ["__id__"] = 4,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -6188,52 +6572,6 @@ local assetsdb = {
                 ["_tag"] = -1,
             },
             [5] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 1,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 4,
-                },
-            },
-            [6] = {
-                ["__type__"] = "cc.Widget",
-                ["_alignFlags"] = 9,
-                ["_bottom"] = 0,
-                ["_enabled"] = true,
-                ["_isAbsBottom"] = true,
-                ["_isAbsLeft"] = true,
-                ["_isAbsRight"] = true,
-                ["_isAbsTop"] = true,
-                ["_left"] = 0,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_originalHeight"] = 200,
-                ["_originalWidth"] = 0,
-                ["_right"] = 0,
-                ["_top"] = 0,
-                ["isAlignOnce"] = false,
-                ["node"] = {
-                    ["__id__"] = 4,
-                },
-            },
-            [7] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -6253,10 +6591,50 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 8,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 1,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 5,
+                        },
                     },
                     [2] = {
-                        ["__id__"] = 9,
+                        ["__type__"] = "cc.Widget",
+                        ["_alignFlags"] = 12,
+                        ["_bottom"] = 0,
+                        ["_enabled"] = true,
+                        ["_isAbsBottom"] = true,
+                        ["_isAbsLeft"] = true,
+                        ["_isAbsRight"] = true,
+                        ["_isAbsTop"] = true,
+                        ["_left"] = 0,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_originalHeight"] = 200,
+                        ["_originalWidth"] = 0,
+                        ["_right"] = 0,
+                        ["_top"] = 271,
+                        ["isAlignOnce"] = false,
+                        ["node"] = {
+                            ["__id__"] = 5,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -6287,53 +6665,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [8] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 1,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 7,
-                },
-            },
-            [9] = {
-                ["__type__"] = "cc.Widget",
-                ["_alignFlags"] = 12,
-                ["_bottom"] = 0,
-                ["_enabled"] = true,
-                ["_isAbsBottom"] = true,
-                ["_isAbsLeft"] = true,
-                ["_isAbsRight"] = true,
-                ["_isAbsTop"] = true,
-                ["_left"] = 0,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_originalHeight"] = 200,
-                ["_originalWidth"] = 0,
-                ["_right"] = 0,
-                ["_top"] = 271,
-                ["isAlignOnce"] = false,
-                ["node"] = {
-                    ["__id__"] = 7,
-                },
-            },
-            [10] = {
+            [6] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -6353,10 +6685,50 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 11,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 1,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 6,
+                        },
                     },
                     [2] = {
-                        ["__id__"] = 12,
+                        ["__type__"] = "cc.Widget",
+                        ["_alignFlags"] = 36,
+                        ["_bottom"] = 0,
+                        ["_enabled"] = true,
+                        ["_isAbsBottom"] = true,
+                        ["_isAbsLeft"] = true,
+                        ["_isAbsRight"] = true,
+                        ["_isAbsTop"] = true,
+                        ["_left"] = 0,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_originalHeight"] = 200,
+                        ["_originalWidth"] = 0,
+                        ["_right"] = 0,
+                        ["_top"] = 271,
+                        ["isAlignOnce"] = false,
+                        ["node"] = {
+                            ["__id__"] = 6,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -6387,53 +6759,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [11] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 1,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 10,
-                },
-            },
-            [12] = {
-                ["__type__"] = "cc.Widget",
-                ["_alignFlags"] = 36,
-                ["_bottom"] = 0,
-                ["_enabled"] = true,
-                ["_isAbsBottom"] = true,
-                ["_isAbsLeft"] = true,
-                ["_isAbsRight"] = true,
-                ["_isAbsTop"] = true,
-                ["_left"] = 0,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_originalHeight"] = 200,
-                ["_originalWidth"] = 0,
-                ["_right"] = 0,
-                ["_top"] = 271,
-                ["isAlignOnce"] = false,
-                ["node"] = {
-                    ["__id__"] = 10,
-                },
-            },
-            [13] = {
+            [7] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -6453,10 +6779,50 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 14,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 1,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 7,
+                        },
                     },
                     [2] = {
-                        ["__id__"] = 15,
+                        ["__type__"] = "cc.Widget",
+                        ["_alignFlags"] = 33,
+                        ["_bottom"] = 440,
+                        ["_enabled"] = true,
+                        ["_isAbsBottom"] = true,
+                        ["_isAbsLeft"] = true,
+                        ["_isAbsRight"] = true,
+                        ["_isAbsTop"] = true,
+                        ["_left"] = 0,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_originalHeight"] = 200,
+                        ["_originalWidth"] = 0,
+                        ["_right"] = 0,
+                        ["_top"] = 0,
+                        ["isAlignOnce"] = false,
+                        ["node"] = {
+                            ["__id__"] = 7,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -6487,53 +6853,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [14] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 1,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 13,
-                },
-            },
-            [15] = {
-                ["__type__"] = "cc.Widget",
-                ["_alignFlags"] = 33,
-                ["_bottom"] = 440,
-                ["_enabled"] = true,
-                ["_isAbsBottom"] = true,
-                ["_isAbsLeft"] = true,
-                ["_isAbsRight"] = true,
-                ["_isAbsTop"] = true,
-                ["_left"] = 0,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_originalHeight"] = 200,
-                ["_originalWidth"] = 0,
-                ["_right"] = 0,
-                ["_top"] = 0,
-                ["isAlignOnce"] = false,
-                ["node"] = {
-                    ["__id__"] = 13,
-                },
-            },
-            [16] = {
+            [8] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -6544,7 +6864,7 @@ local assetsdb = {
                 ["_cascadeOpacityEnabled"] = true,
                 ["_children"] = {
                     [1] = {
-                        ["__id__"] = 17,
+                        ["__id__"] = 9,
                     },
                 },
                 ["_color"] = {
@@ -6556,10 +6876,50 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 20,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 1,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 8,
+                        },
                     },
                     [2] = {
-                        ["__id__"] = 21,
+                        ["__type__"] = "cc.Widget",
+                        ["_alignFlags"] = 20,
+                        ["_bottom"] = 0,
+                        ["_enabled"] = true,
+                        ["_isAbsBottom"] = true,
+                        ["_isAbsLeft"] = true,
+                        ["_isAbsRight"] = true,
+                        ["_isAbsTop"] = true,
+                        ["_left"] = 0,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_originalHeight"] = 200,
+                        ["_originalWidth"] = 0,
+                        ["_right"] = 0,
+                        ["_top"] = 271,
+                        ["isAlignOnce"] = false,
+                        ["node"] = {
+                            ["__id__"] = 8,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -6590,7 +6950,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [17] = {
+            [9] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -6610,10 +6970,50 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 18,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 0,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 9,
+                        },
                     },
                     [2] = {
-                        ["__id__"] = 19,
+                        ["__type__"] = "cc.Widget",
+                        ["_alignFlags"] = 20,
+                        ["_bottom"] = 20,
+                        ["_enabled"] = true,
+                        ["_isAbsBottom"] = true,
+                        ["_isAbsLeft"] = true,
+                        ["_isAbsRight"] = true,
+                        ["_isAbsTop"] = true,
+                        ["_left"] = 0,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_originalHeight"] = 200,
+                        ["_originalWidth"] = 0,
+                        ["_right"] = 0,
+                        ["_top"] = -40,
+                        ["isAlignOnce"] = false,
+                        ["node"] = {
+                            ["__id__"] = 9,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -6628,7 +7028,7 @@ local assetsdb = {
                 ["_opacity"] = 255,
                 ["_opacityModifyRGB"] = false,
                 ["_parent"] = {
-                    ["__id__"] = 16,
+                    ["__id__"] = 8,
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
@@ -6644,99 +7044,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [18] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 0,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 17,
-                },
-            },
-            [19] = {
-                ["__type__"] = "cc.Widget",
-                ["_alignFlags"] = 20,
-                ["_bottom"] = 20,
-                ["_enabled"] = true,
-                ["_isAbsBottom"] = true,
-                ["_isAbsLeft"] = true,
-                ["_isAbsRight"] = true,
-                ["_isAbsTop"] = true,
-                ["_left"] = 0,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_originalHeight"] = 200,
-                ["_originalWidth"] = 0,
-                ["_right"] = 0,
-                ["_top"] = -40,
-                ["isAlignOnce"] = false,
-                ["node"] = {
-                    ["__id__"] = 17,
-                },
-            },
-            [20] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 1,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 16,
-                },
-            },
-            [21] = {
-                ["__type__"] = "cc.Widget",
-                ["_alignFlags"] = 20,
-                ["_bottom"] = 0,
-                ["_enabled"] = true,
-                ["_isAbsBottom"] = true,
-                ["_isAbsLeft"] = true,
-                ["_isAbsRight"] = true,
-                ["_isAbsTop"] = true,
-                ["_left"] = 0,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_originalHeight"] = 200,
-                ["_originalWidth"] = 0,
-                ["_right"] = 0,
-                ["_top"] = 271,
-                ["isAlignOnce"] = false,
-                ["node"] = {
-                    ["__id__"] = 16,
-                },
-            },
-            [22] = {
+            [10] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -6747,7 +7055,7 @@ local assetsdb = {
                 ["_cascadeOpacityEnabled"] = true,
                 ["_children"] = {
                     [1] = {
-                        ["__id__"] = 23,
+                        ["__id__"] = 11,
                     },
                 },
                 ["_color"] = {
@@ -6759,10 +7067,50 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 26,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 1,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 10,
+                        },
                     },
                     [2] = {
-                        ["__id__"] = 27,
+                        ["__type__"] = "cc.Widget",
+                        ["_alignFlags"] = 34,
+                        ["_bottom"] = 0,
+                        ["_enabled"] = true,
+                        ["_isAbsBottom"] = true,
+                        ["_isAbsLeft"] = true,
+                        ["_isAbsRight"] = true,
+                        ["_isAbsTop"] = true,
+                        ["_left"] = 0,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_originalHeight"] = 200,
+                        ["_originalWidth"] = 0,
+                        ["_right"] = 0,
+                        ["_top"] = 271,
+                        ["isAlignOnce"] = false,
+                        ["node"] = {
+                            ["__id__"] = 10,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -6793,7 +7141,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [23] = {
+            [11] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -6813,10 +7161,50 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 24,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 1,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 11,
+                        },
                     },
                     [2] = {
-                        ["__id__"] = 25,
+                        ["__type__"] = "cc.Widget",
+                        ["_alignFlags"] = 17,
+                        ["_bottom"] = 0,
+                        ["_enabled"] = true,
+                        ["_isAbsBottom"] = true,
+                        ["_isAbsLeft"] = true,
+                        ["_isAbsRight"] = true,
+                        ["_isAbsTop"] = true,
+                        ["_left"] = 0,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_originalHeight"] = 200,
+                        ["_originalWidth"] = 200,
+                        ["_right"] = 280,
+                        ["_top"] = 0,
+                        ["isAlignOnce"] = false,
+                        ["node"] = {
+                            ["__id__"] = 11,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -6831,7 +7219,7 @@ local assetsdb = {
                 ["_opacity"] = 255,
                 ["_opacityModifyRGB"] = false,
                 ["_parent"] = {
-                    ["__id__"] = 22,
+                    ["__id__"] = 10,
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
@@ -6847,99 +7235,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [24] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 1,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 23,
-                },
-            },
-            [25] = {
-                ["__type__"] = "cc.Widget",
-                ["_alignFlags"] = 17,
-                ["_bottom"] = 0,
-                ["_enabled"] = true,
-                ["_isAbsBottom"] = true,
-                ["_isAbsLeft"] = true,
-                ["_isAbsRight"] = true,
-                ["_isAbsTop"] = true,
-                ["_left"] = 0,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_originalHeight"] = 200,
-                ["_originalWidth"] = 200,
-                ["_right"] = 280,
-                ["_top"] = 0,
-                ["isAlignOnce"] = false,
-                ["node"] = {
-                    ["__id__"] = 23,
-                },
-            },
-            [26] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 1,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 22,
-                },
-            },
-            [27] = {
-                ["__type__"] = "cc.Widget",
-                ["_alignFlags"] = 34,
-                ["_bottom"] = 0,
-                ["_enabled"] = true,
-                ["_isAbsBottom"] = true,
-                ["_isAbsLeft"] = true,
-                ["_isAbsRight"] = true,
-                ["_isAbsTop"] = true,
-                ["_left"] = 0,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_originalHeight"] = 200,
-                ["_originalWidth"] = 0,
-                ["_right"] = 0,
-                ["_top"] = 271,
-                ["isAlignOnce"] = false,
-                ["node"] = {
-                    ["__id__"] = 22,
-                },
-            },
-            [28] = {
+            [12] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -6950,7 +7246,7 @@ local assetsdb = {
                 ["_cascadeOpacityEnabled"] = true,
                 ["_children"] = {
                     [1] = {
-                        ["__id__"] = 29,
+                        ["__id__"] = 13,
                     },
                 },
                 ["_color"] = {
@@ -6962,10 +7258,50 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 35,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 1,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 12,
+                        },
                     },
                     [2] = {
-                        ["__id__"] = 36,
+                        ["__type__"] = "cc.Widget",
+                        ["_alignFlags"] = 18,
+                        ["_bottom"] = 0,
+                        ["_enabled"] = true,
+                        ["_isAbsBottom"] = true,
+                        ["_isAbsLeft"] = true,
+                        ["_isAbsRight"] = true,
+                        ["_isAbsTop"] = true,
+                        ["_left"] = 0,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_originalHeight"] = 200,
+                        ["_originalWidth"] = 0,
+                        ["_right"] = 0,
+                        ["_top"] = 271,
+                        ["isAlignOnce"] = false,
+                        ["node"] = {
+                            ["__id__"] = 12,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -6996,7 +7332,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [29] = {
+            [13] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -7007,7 +7343,7 @@ local assetsdb = {
                 ["_cascadeOpacityEnabled"] = true,
                 ["_children"] = {
                     [1] = {
-                        ["__id__"] = 30,
+                        ["__id__"] = 14,
                     },
                 },
                 ["_color"] = {
@@ -7019,10 +7355,50 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 33,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 1,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 13,
+                        },
                     },
                     [2] = {
-                        ["__id__"] = 34,
+                        ["__type__"] = "cc.Widget",
+                        ["_alignFlags"] = 33,
+                        ["_bottom"] = 0,
+                        ["_enabled"] = true,
+                        ["_isAbsBottom"] = true,
+                        ["_isAbsLeft"] = true,
+                        ["_isAbsRight"] = true,
+                        ["_isAbsTop"] = true,
+                        ["_left"] = 0,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_originalHeight"] = 200,
+                        ["_originalWidth"] = 200,
+                        ["_right"] = 0,
+                        ["_top"] = 0,
+                        ["isAlignOnce"] = false,
+                        ["node"] = {
+                            ["__id__"] = 13,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -7037,7 +7413,7 @@ local assetsdb = {
                 ["_opacity"] = 255,
                 ["_opacityModifyRGB"] = false,
                 ["_parent"] = {
-                    ["__id__"] = 28,
+                    ["__id__"] = 12,
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
@@ -7053,7 +7429,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [30] = {
+            [14] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -7073,10 +7449,50 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 31,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 1,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 14,
+                        },
                     },
                     [2] = {
-                        ["__id__"] = 32,
+                        ["__type__"] = "cc.Widget",
+                        ["_alignFlags"] = 18,
+                        ["_bottom"] = 0,
+                        ["_enabled"] = true,
+                        ["_isAbsBottom"] = true,
+                        ["_isAbsLeft"] = true,
+                        ["_isAbsRight"] = true,
+                        ["_isAbsTop"] = true,
+                        ["_left"] = 0,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_originalHeight"] = 0,
+                        ["_originalWidth"] = 0,
+                        ["_right"] = 0,
+                        ["_top"] = 30,
+                        ["isAlignOnce"] = false,
+                        ["node"] = {
+                            ["__id__"] = 14,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -7091,7 +7507,7 @@ local assetsdb = {
                 ["_opacity"] = 255,
                 ["_opacityModifyRGB"] = false,
                 ["_parent"] = {
-                    ["__id__"] = 29,
+                    ["__id__"] = 13,
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
@@ -7107,145 +7523,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [31] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 1,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 30,
-                },
-            },
-            [32] = {
-                ["__type__"] = "cc.Widget",
-                ["_alignFlags"] = 18,
-                ["_bottom"] = 0,
-                ["_enabled"] = true,
-                ["_isAbsBottom"] = true,
-                ["_isAbsLeft"] = true,
-                ["_isAbsRight"] = true,
-                ["_isAbsTop"] = true,
-                ["_left"] = 0,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_originalHeight"] = 0,
-                ["_originalWidth"] = 0,
-                ["_right"] = 0,
-                ["_top"] = 30,
-                ["isAlignOnce"] = false,
-                ["node"] = {
-                    ["__id__"] = 30,
-                },
-            },
-            [33] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 1,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 29,
-                },
-            },
-            [34] = {
-                ["__type__"] = "cc.Widget",
-                ["_alignFlags"] = 33,
-                ["_bottom"] = 0,
-                ["_enabled"] = true,
-                ["_isAbsBottom"] = true,
-                ["_isAbsLeft"] = true,
-                ["_isAbsRight"] = true,
-                ["_isAbsTop"] = true,
-                ["_left"] = 0,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_originalHeight"] = 200,
-                ["_originalWidth"] = 200,
-                ["_right"] = 0,
-                ["_top"] = 0,
-                ["isAlignOnce"] = false,
-                ["node"] = {
-                    ["__id__"] = 29,
-                },
-            },
-            [35] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 1,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 28,
-                },
-            },
-            [36] = {
-                ["__type__"] = "cc.Widget",
-                ["_alignFlags"] = 18,
-                ["_bottom"] = 0,
-                ["_enabled"] = true,
-                ["_isAbsBottom"] = true,
-                ["_isAbsLeft"] = true,
-                ["_isAbsRight"] = true,
-                ["_isAbsTop"] = true,
-                ["_left"] = 0,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_originalHeight"] = 200,
-                ["_originalWidth"] = 0,
-                ["_right"] = 0,
-                ["_top"] = 271,
-                ["isAlignOnce"] = false,
-                ["node"] = {
-                    ["__id__"] = 28,
-                },
-            },
-            [37] = {
+            [15] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -7256,7 +7534,7 @@ local assetsdb = {
                 ["_cascadeOpacityEnabled"] = true,
                 ["_children"] = {
                     [1] = {
-                        ["__id__"] = 38,
+                        ["__id__"] = 16,
                     },
                 },
                 ["_color"] = {
@@ -7268,10 +7546,50 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 56,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 1,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 15,
+                        },
                     },
                     [2] = {
-                        ["__id__"] = 57,
+                        ["__type__"] = "cc.Widget",
+                        ["_alignFlags"] = 17,
+                        ["_bottom"] = 0,
+                        ["_enabled"] = true,
+                        ["_isAbsBottom"] = true,
+                        ["_isAbsLeft"] = true,
+                        ["_isAbsRight"] = true,
+                        ["_isAbsTop"] = true,
+                        ["_left"] = 0,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_originalHeight"] = 200,
+                        ["_originalWidth"] = 0,
+                        ["_right"] = 0,
+                        ["_top"] = 0,
+                        ["isAlignOnce"] = false,
+                        ["node"] = {
+                            ["__id__"] = 15,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -7302,7 +7620,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [38] = {
+            [16] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -7313,19 +7631,19 @@ local assetsdb = {
                 ["_cascadeOpacityEnabled"] = true,
                 ["_children"] = {
                     [1] = {
-                        ["__id__"] = 39,
+                        ["__id__"] = 17,
                     },
                     [2] = {
-                        ["__id__"] = 42,
+                        ["__id__"] = 18,
                     },
                     [3] = {
-                        ["__id__"] = 45,
+                        ["__id__"] = 19,
                     },
                     [4] = {
-                        ["__id__"] = 48,
+                        ["__id__"] = 20,
                     },
                     [5] = {
-                        ["__id__"] = 51,
+                        ["__id__"] = 21,
                     },
                 },
                 ["_color"] = {
@@ -7337,10 +7655,50 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 54,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 1,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 16,
+                        },
                     },
                     [2] = {
-                        ["__id__"] = 55,
+                        ["__type__"] = "cc.Widget",
+                        ["_alignFlags"] = 12,
+                        ["_bottom"] = 0,
+                        ["_enabled"] = true,
+                        ["_isAbsBottom"] = true,
+                        ["_isAbsLeft"] = true,
+                        ["_isAbsRight"] = true,
+                        ["_isAbsTop"] = true,
+                        ["_left"] = 0,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_originalHeight"] = 200,
+                        ["_originalWidth"] = 0,
+                        ["_right"] = 0,
+                        ["_top"] = 271,
+                        ["isAlignOnce"] = false,
+                        ["node"] = {
+                            ["__id__"] = 16,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -7355,7 +7713,7 @@ local assetsdb = {
                 ["_opacity"] = 255,
                 ["_opacityModifyRGB"] = false,
                 ["_parent"] = {
-                    ["__id__"] = 37,
+                    ["__id__"] = 15,
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
@@ -7371,7 +7729,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [39] = {
+            [17] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -7391,10 +7749,50 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 40,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 1,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 17,
+                        },
                     },
                     [2] = {
-                        ["__id__"] = 41,
+                        ["__type__"] = "cc.Widget",
+                        ["_alignFlags"] = 33,
+                        ["_bottom"] = 0,
+                        ["_enabled"] = true,
+                        ["_isAbsBottom"] = true,
+                        ["_isAbsLeft"] = true,
+                        ["_isAbsRight"] = true,
+                        ["_isAbsTop"] = true,
+                        ["_left"] = 0,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_originalHeight"] = 0,
+                        ["_originalWidth"] = 0,
+                        ["_right"] = 0,
+                        ["_top"] = 0,
+                        ["isAlignOnce"] = false,
+                        ["node"] = {
+                            ["__id__"] = 17,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -7409,7 +7807,7 @@ local assetsdb = {
                 ["_opacity"] = 255,
                 ["_opacityModifyRGB"] = false,
                 ["_parent"] = {
-                    ["__id__"] = 38,
+                    ["__id__"] = 16,
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
@@ -7425,53 +7823,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [40] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 1,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 39,
-                },
-            },
-            [41] = {
-                ["__type__"] = "cc.Widget",
-                ["_alignFlags"] = 33,
-                ["_bottom"] = 0,
-                ["_enabled"] = true,
-                ["_isAbsBottom"] = true,
-                ["_isAbsLeft"] = true,
-                ["_isAbsRight"] = true,
-                ["_isAbsTop"] = true,
-                ["_left"] = 0,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_originalHeight"] = 0,
-                ["_originalWidth"] = 0,
-                ["_right"] = 0,
-                ["_top"] = 0,
-                ["isAlignOnce"] = false,
-                ["node"] = {
-                    ["__id__"] = 39,
-                },
-            },
-            [42] = {
+            [18] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -7491,10 +7843,50 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 43,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 1,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 18,
+                        },
                     },
                     [2] = {
-                        ["__id__"] = 44,
+                        ["__type__"] = "cc.Widget",
+                        ["_alignFlags"] = 12,
+                        ["_bottom"] = 0,
+                        ["_enabled"] = true,
+                        ["_isAbsBottom"] = true,
+                        ["_isAbsLeft"] = true,
+                        ["_isAbsRight"] = true,
+                        ["_isAbsTop"] = true,
+                        ["_left"] = 0,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_originalHeight"] = 0,
+                        ["_originalWidth"] = 0,
+                        ["_right"] = 145,
+                        ["_top"] = 141,
+                        ["isAlignOnce"] = false,
+                        ["node"] = {
+                            ["__id__"] = 18,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -7509,7 +7901,7 @@ local assetsdb = {
                 ["_opacity"] = 255,
                 ["_opacityModifyRGB"] = false,
                 ["_parent"] = {
-                    ["__id__"] = 38,
+                    ["__id__"] = 16,
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
@@ -7525,53 +7917,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [43] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 1,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 42,
-                },
-            },
-            [44] = {
-                ["__type__"] = "cc.Widget",
-                ["_alignFlags"] = 12,
-                ["_bottom"] = 0,
-                ["_enabled"] = true,
-                ["_isAbsBottom"] = true,
-                ["_isAbsLeft"] = true,
-                ["_isAbsRight"] = true,
-                ["_isAbsTop"] = true,
-                ["_left"] = 0,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_originalHeight"] = 0,
-                ["_originalWidth"] = 0,
-                ["_right"] = 145,
-                ["_top"] = 141,
-                ["isAlignOnce"] = false,
-                ["node"] = {
-                    ["__id__"] = 42,
-                },
-            },
-            [45] = {
+            [19] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -7591,10 +7937,50 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 46,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 1,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 19,
+                        },
                     },
                     [2] = {
-                        ["__id__"] = 47,
+                        ["__type__"] = "cc.Widget",
+                        ["_alignFlags"] = 36,
+                        ["_bottom"] = 0,
+                        ["_enabled"] = true,
+                        ["_isAbsBottom"] = true,
+                        ["_isAbsLeft"] = true,
+                        ["_isAbsRight"] = true,
+                        ["_isAbsTop"] = true,
+                        ["_left"] = 0,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_originalHeight"] = 0,
+                        ["_originalWidth"] = 0,
+                        ["_right"] = 0,
+                        ["_top"] = 0,
+                        ["isAlignOnce"] = false,
+                        ["node"] = {
+                            ["__id__"] = 19,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -7609,7 +7995,7 @@ local assetsdb = {
                 ["_opacity"] = 255,
                 ["_opacityModifyRGB"] = false,
                 ["_parent"] = {
-                    ["__id__"] = 38,
+                    ["__id__"] = 16,
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
@@ -7625,53 +8011,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [46] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 1,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 45,
-                },
-            },
-            [47] = {
-                ["__type__"] = "cc.Widget",
-                ["_alignFlags"] = 36,
-                ["_bottom"] = 0,
-                ["_enabled"] = true,
-                ["_isAbsBottom"] = true,
-                ["_isAbsLeft"] = true,
-                ["_isAbsRight"] = true,
-                ["_isAbsTop"] = true,
-                ["_left"] = 0,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_originalHeight"] = 0,
-                ["_originalWidth"] = 0,
-                ["_right"] = 0,
-                ["_top"] = 0,
-                ["isAlignOnce"] = false,
-                ["node"] = {
-                    ["__id__"] = 45,
-                },
-            },
-            [48] = {
+            [20] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -7691,10 +8031,50 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 49,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 1,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 20,
+                        },
                     },
                     [2] = {
-                        ["__id__"] = 50,
+                        ["__type__"] = "cc.Widget",
+                        ["_alignFlags"] = 9,
+                        ["_bottom"] = 0,
+                        ["_enabled"] = true,
+                        ["_isAbsBottom"] = true,
+                        ["_isAbsLeft"] = true,
+                        ["_isAbsRight"] = true,
+                        ["_isAbsTop"] = true,
+                        ["_left"] = 0,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_originalHeight"] = 0,
+                        ["_originalWidth"] = 0,
+                        ["_right"] = 154,
+                        ["_top"] = 0,
+                        ["isAlignOnce"] = false,
+                        ["node"] = {
+                            ["__id__"] = 20,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -7709,7 +8089,7 @@ local assetsdb = {
                 ["_opacity"] = 255,
                 ["_opacityModifyRGB"] = false,
                 ["_parent"] = {
-                    ["__id__"] = 38,
+                    ["__id__"] = 16,
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
@@ -7725,53 +8105,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [49] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 1,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 48,
-                },
-            },
-            [50] = {
-                ["__type__"] = "cc.Widget",
-                ["_alignFlags"] = 9,
-                ["_bottom"] = 0,
-                ["_enabled"] = true,
-                ["_isAbsBottom"] = true,
-                ["_isAbsLeft"] = true,
-                ["_isAbsRight"] = true,
-                ["_isAbsTop"] = true,
-                ["_left"] = 0,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_originalHeight"] = 0,
-                ["_originalWidth"] = 0,
-                ["_right"] = 154,
-                ["_top"] = 0,
-                ["isAlignOnce"] = false,
-                ["node"] = {
-                    ["__id__"] = 48,
-                },
-            },
-            [51] = {
+            [21] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -7791,10 +8125,50 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 52,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 1,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 21,
+                        },
                     },
                     [2] = {
-                        ["__id__"] = 53,
+                        ["__type__"] = "cc.Widget",
+                        ["_alignFlags"] = 18,
+                        ["_bottom"] = 0,
+                        ["_enabled"] = true,
+                        ["_isAbsBottom"] = true,
+                        ["_isAbsLeft"] = true,
+                        ["_isAbsRight"] = true,
+                        ["_isAbsTop"] = true,
+                        ["_left"] = 0,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_originalHeight"] = 0,
+                        ["_originalWidth"] = 0,
+                        ["_right"] = 0,
+                        ["_top"] = 0,
+                        ["isAlignOnce"] = false,
+                        ["node"] = {
+                            ["__id__"] = 21,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -7809,7 +8183,7 @@ local assetsdb = {
                 ["_opacity"] = 255,
                 ["_opacityModifyRGB"] = false,
                 ["_parent"] = {
-                    ["__id__"] = 38,
+                    ["__id__"] = 16,
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
@@ -7825,145 +8199,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [52] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 1,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 51,
-                },
-            },
-            [53] = {
-                ["__type__"] = "cc.Widget",
-                ["_alignFlags"] = 18,
-                ["_bottom"] = 0,
-                ["_enabled"] = true,
-                ["_isAbsBottom"] = true,
-                ["_isAbsLeft"] = true,
-                ["_isAbsRight"] = true,
-                ["_isAbsTop"] = true,
-                ["_left"] = 0,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_originalHeight"] = 0,
-                ["_originalWidth"] = 0,
-                ["_right"] = 0,
-                ["_top"] = 0,
-                ["isAlignOnce"] = false,
-                ["node"] = {
-                    ["__id__"] = 51,
-                },
-            },
-            [54] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 1,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 38,
-                },
-            },
-            [55] = {
-                ["__type__"] = "cc.Widget",
-                ["_alignFlags"] = 12,
-                ["_bottom"] = 0,
-                ["_enabled"] = true,
-                ["_isAbsBottom"] = true,
-                ["_isAbsLeft"] = true,
-                ["_isAbsRight"] = true,
-                ["_isAbsTop"] = true,
-                ["_left"] = 0,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_originalHeight"] = 200,
-                ["_originalWidth"] = 0,
-                ["_right"] = 0,
-                ["_top"] = 271,
-                ["isAlignOnce"] = false,
-                ["node"] = {
-                    ["__id__"] = 38,
-                },
-            },
-            [56] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 1,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 37,
-                },
-            },
-            [57] = {
-                ["__type__"] = "cc.Widget",
-                ["_alignFlags"] = 17,
-                ["_bottom"] = 0,
-                ["_enabled"] = true,
-                ["_isAbsBottom"] = true,
-                ["_isAbsLeft"] = true,
-                ["_isAbsRight"] = true,
-                ["_isAbsTop"] = true,
-                ["_left"] = 0,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_originalHeight"] = 200,
-                ["_originalWidth"] = 0,
-                ["_right"] = 0,
-                ["_top"] = 0,
-                ["isAlignOnce"] = false,
-                ["node"] = {
-                    ["__id__"] = 37,
-                },
-            },
-            [58] = {
+            [22] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -7974,19 +8210,19 @@ local assetsdb = {
                 ["_cascadeOpacityEnabled"] = true,
                 ["_children"] = {
                     [1] = {
-                        ["__id__"] = 59,
+                        ["__id__"] = 23,
                     },
                     [2] = {
-                        ["__id__"] = 62,
+                        ["__id__"] = 24,
                     },
                     [3] = {
-                        ["__id__"] = 65,
+                        ["__id__"] = 25,
                     },
                     [4] = {
-                        ["__id__"] = 68,
+                        ["__id__"] = 26,
                     },
                     [5] = {
-                        ["__id__"] = 71,
+                        ["__id__"] = 27,
                     },
                 },
                 ["_color"] = {
@@ -7998,10 +8234,50 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 74,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 1,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 22,
+                        },
                     },
                     [2] = {
-                        ["__id__"] = 75,
+                        ["__type__"] = "cc.Widget",
+                        ["_alignFlags"] = 10,
+                        ["_bottom"] = 0,
+                        ["_enabled"] = true,
+                        ["_isAbsBottom"] = true,
+                        ["_isAbsLeft"] = true,
+                        ["_isAbsRight"] = true,
+                        ["_isAbsTop"] = true,
+                        ["_left"] = 0,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_originalHeight"] = 200,
+                        ["_originalWidth"] = 0,
+                        ["_right"] = 0,
+                        ["_top"] = 271,
+                        ["isAlignOnce"] = false,
+                        ["node"] = {
+                            ["__id__"] = 22,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -8032,7 +8308,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [59] = {
+            [23] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -8052,10 +8328,50 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 60,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 1,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 23,
+                        },
                     },
                     [2] = {
-                        ["__id__"] = 61,
+                        ["__type__"] = "cc.Widget",
+                        ["_alignFlags"] = 33,
+                        ["_bottom"] = 0,
+                        ["_enabled"] = true,
+                        ["_isAbsBottom"] = true,
+                        ["_isAbsLeft"] = true,
+                        ["_isAbsRight"] = true,
+                        ["_isAbsTop"] = true,
+                        ["_left"] = 0,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_originalHeight"] = 0,
+                        ["_originalWidth"] = 0,
+                        ["_right"] = 0,
+                        ["_top"] = 0,
+                        ["isAlignOnce"] = false,
+                        ["node"] = {
+                            ["__id__"] = 23,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -8070,7 +8386,7 @@ local assetsdb = {
                 ["_opacity"] = 255,
                 ["_opacityModifyRGB"] = false,
                 ["_parent"] = {
-                    ["__id__"] = 58,
+                    ["__id__"] = 22,
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
@@ -8086,53 +8402,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [60] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 1,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 59,
-                },
-            },
-            [61] = {
-                ["__type__"] = "cc.Widget",
-                ["_alignFlags"] = 33,
-                ["_bottom"] = 0,
-                ["_enabled"] = true,
-                ["_isAbsBottom"] = true,
-                ["_isAbsLeft"] = true,
-                ["_isAbsRight"] = true,
-                ["_isAbsTop"] = true,
-                ["_left"] = 0,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_originalHeight"] = 0,
-                ["_originalWidth"] = 0,
-                ["_right"] = 0,
-                ["_top"] = 0,
-                ["isAlignOnce"] = false,
-                ["node"] = {
-                    ["__id__"] = 59,
-                },
-            },
-            [62] = {
+            [24] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -8152,10 +8422,50 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 63,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 1,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 24,
+                        },
                     },
                     [2] = {
-                        ["__id__"] = 64,
+                        ["__type__"] = "cc.Widget",
+                        ["_alignFlags"] = 12,
+                        ["_bottom"] = 0,
+                        ["_enabled"] = true,
+                        ["_isAbsBottom"] = true,
+                        ["_isAbsLeft"] = true,
+                        ["_isAbsRight"] = true,
+                        ["_isAbsTop"] = true,
+                        ["_left"] = 0,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_originalHeight"] = 0,
+                        ["_originalWidth"] = 0,
+                        ["_right"] = 145,
+                        ["_top"] = 141,
+                        ["isAlignOnce"] = false,
+                        ["node"] = {
+                            ["__id__"] = 24,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -8170,7 +8480,7 @@ local assetsdb = {
                 ["_opacity"] = 255,
                 ["_opacityModifyRGB"] = false,
                 ["_parent"] = {
-                    ["__id__"] = 58,
+                    ["__id__"] = 22,
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
@@ -8186,53 +8496,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [63] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 1,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 62,
-                },
-            },
-            [64] = {
-                ["__type__"] = "cc.Widget",
-                ["_alignFlags"] = 12,
-                ["_bottom"] = 0,
-                ["_enabled"] = true,
-                ["_isAbsBottom"] = true,
-                ["_isAbsLeft"] = true,
-                ["_isAbsRight"] = true,
-                ["_isAbsTop"] = true,
-                ["_left"] = 0,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_originalHeight"] = 0,
-                ["_originalWidth"] = 0,
-                ["_right"] = 145,
-                ["_top"] = 141,
-                ["isAlignOnce"] = false,
-                ["node"] = {
-                    ["__id__"] = 62,
-                },
-            },
-            [65] = {
+            [25] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -8252,10 +8516,50 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 66,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 1,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 25,
+                        },
                     },
                     [2] = {
-                        ["__id__"] = 67,
+                        ["__type__"] = "cc.Widget",
+                        ["_alignFlags"] = 36,
+                        ["_bottom"] = 0,
+                        ["_enabled"] = true,
+                        ["_isAbsBottom"] = true,
+                        ["_isAbsLeft"] = true,
+                        ["_isAbsRight"] = true,
+                        ["_isAbsTop"] = true,
+                        ["_left"] = 0,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_originalHeight"] = 0,
+                        ["_originalWidth"] = 0,
+                        ["_right"] = 0,
+                        ["_top"] = 0,
+                        ["isAlignOnce"] = false,
+                        ["node"] = {
+                            ["__id__"] = 25,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -8270,7 +8574,7 @@ local assetsdb = {
                 ["_opacity"] = 255,
                 ["_opacityModifyRGB"] = false,
                 ["_parent"] = {
-                    ["__id__"] = 58,
+                    ["__id__"] = 22,
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
@@ -8286,53 +8590,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [66] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 1,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 65,
-                },
-            },
-            [67] = {
-                ["__type__"] = "cc.Widget",
-                ["_alignFlags"] = 36,
-                ["_bottom"] = 0,
-                ["_enabled"] = true,
-                ["_isAbsBottom"] = true,
-                ["_isAbsLeft"] = true,
-                ["_isAbsRight"] = true,
-                ["_isAbsTop"] = true,
-                ["_left"] = 0,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_originalHeight"] = 0,
-                ["_originalWidth"] = 0,
-                ["_right"] = 0,
-                ["_top"] = 0,
-                ["isAlignOnce"] = false,
-                ["node"] = {
-                    ["__id__"] = 65,
-                },
-            },
-            [68] = {
+            [26] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -8352,10 +8610,50 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 69,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 1,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 26,
+                        },
                     },
                     [2] = {
-                        ["__id__"] = 70,
+                        ["__type__"] = "cc.Widget",
+                        ["_alignFlags"] = 9,
+                        ["_bottom"] = 0,
+                        ["_enabled"] = true,
+                        ["_isAbsBottom"] = true,
+                        ["_isAbsLeft"] = true,
+                        ["_isAbsRight"] = true,
+                        ["_isAbsTop"] = true,
+                        ["_left"] = 0,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_originalHeight"] = 0,
+                        ["_originalWidth"] = 0,
+                        ["_right"] = 154,
+                        ["_top"] = 0,
+                        ["isAlignOnce"] = false,
+                        ["node"] = {
+                            ["__id__"] = 26,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -8370,7 +8668,7 @@ local assetsdb = {
                 ["_opacity"] = 255,
                 ["_opacityModifyRGB"] = false,
                 ["_parent"] = {
-                    ["__id__"] = 58,
+                    ["__id__"] = 22,
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
@@ -8386,53 +8684,7 @@ local assetsdb = {
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
             },
-            [69] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 1,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 68,
-                },
-            },
-            [70] = {
-                ["__type__"] = "cc.Widget",
-                ["_alignFlags"] = 9,
-                ["_bottom"] = 0,
-                ["_enabled"] = true,
-                ["_isAbsBottom"] = true,
-                ["_isAbsLeft"] = true,
-                ["_isAbsRight"] = true,
-                ["_isAbsTop"] = true,
-                ["_left"] = 0,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_originalHeight"] = 0,
-                ["_originalWidth"] = 0,
-                ["_right"] = 154,
-                ["_top"] = 0,
-                ["isAlignOnce"] = false,
-                ["node"] = {
-                    ["__id__"] = 68,
-                },
-            },
-            [71] = {
+            [27] = {
                 ["__type__"] = "cc.Node",
                 ["_active"] = true,
                 ["_anchorPoint"] = {
@@ -8452,10 +8704,50 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 72,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 1,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 27,
+                        },
                     },
                     [2] = {
-                        ["__id__"] = 73,
+                        ["__type__"] = "cc.Widget",
+                        ["_alignFlags"] = 18,
+                        ["_bottom"] = 0,
+                        ["_enabled"] = true,
+                        ["_isAbsBottom"] = true,
+                        ["_isAbsLeft"] = true,
+                        ["_isAbsRight"] = true,
+                        ["_isAbsTop"] = true,
+                        ["_left"] = 0,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_originalHeight"] = 0,
+                        ["_originalWidth"] = 0,
+                        ["_right"] = 0,
+                        ["_top"] = 0,
+                        ["isAlignOnce"] = false,
+                        ["node"] = {
+                            ["__id__"] = 27,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -8470,7 +8762,7 @@ local assetsdb = {
                 ["_opacity"] = 255,
                 ["_opacityModifyRGB"] = false,
                 ["_parent"] = {
-                    ["__id__"] = 58,
+                    ["__id__"] = 22,
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
@@ -8485,114 +8777,6 @@ local assetsdb = {
                 ["_skewX"] = 0,
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
-            },
-            [72] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 1,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "19234774-2b4c-4f39-9c80-5e966a6e73e3",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 71,
-                },
-            },
-            [73] = {
-                ["__type__"] = "cc.Widget",
-                ["_alignFlags"] = 18,
-                ["_bottom"] = 0,
-                ["_enabled"] = true,
-                ["_isAbsBottom"] = true,
-                ["_isAbsLeft"] = true,
-                ["_isAbsRight"] = true,
-                ["_isAbsTop"] = true,
-                ["_left"] = 0,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_originalHeight"] = 0,
-                ["_originalWidth"] = 0,
-                ["_right"] = 0,
-                ["_top"] = 0,
-                ["isAlignOnce"] = false,
-                ["node"] = {
-                    ["__id__"] = 71,
-                },
-            },
-            [74] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 1,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "c756bb24-dccc-4449-8430-6faa806b31e8",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 58,
-                },
-            },
-            [75] = {
-                ["__type__"] = "cc.Widget",
-                ["_alignFlags"] = 10,
-                ["_bottom"] = 0,
-                ["_enabled"] = true,
-                ["_isAbsBottom"] = true,
-                ["_isAbsLeft"] = true,
-                ["_isAbsRight"] = true,
-                ["_isAbsTop"] = true,
-                ["_left"] = 0,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_originalHeight"] = 200,
-                ["_originalWidth"] = 0,
-                ["_right"] = 0,
-                ["_top"] = 271,
-                ["isAlignOnce"] = false,
-                ["node"] = {
-                    ["__id__"] = 58,
-                },
-            },
-            [76] = {
-                ["__type__"] = "cc.Canvas",
-                ["_designResolution"] = {
-                    ["__type__"] = "cc.Size",
-                    ["height"] = 640,
-                    ["width"] = 960,
-                },
-                ["_enabled"] = true,
-                ["_fitHeight"] = true,
-                ["_fitWidth"] = false,
-                ["_name"] = "",
-                ["_objFlags"] = 1835008,
-                ["node"] = {
-                    ["__id__"] = 3,
-                },
             },
         },
         ["__type__"] = "__js_array__",
@@ -8803,7 +8987,29 @@ local assetsdb = {
                 },
                 ["_components"] = {
                     [1] = {
-                        ["__id__"] = 3,
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 1,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "8506b260-6e39-4782-904a-331f33d7ca8b",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 2,
+                        },
                     },
                 },
                 ["_contentSize"] = {
@@ -8830,31 +9036,6 @@ local assetsdb = {
                 ["_skewX"] = 0,
                 ["_skewY"] = 0,
                 ["_tag"] = -1,
-            },
-            [3] = {
-                ["__type__"] = "cc.Sprite",
-                ["_dstBlendFactor"] = 771,
-                ["_enabled"] = true,
-                ["_fillCenter"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
-                },
-                ["_fillRange"] = 0,
-                ["_fillStart"] = 0,
-                ["_fillType"] = 0,
-                ["_isTrimmedMode"] = true,
-                ["_name"] = "",
-                ["_objFlags"] = 0,
-                ["_sizeMode"] = 1,
-                ["_spriteFrame"] = {
-                    ["__uuid__"] = "8506b260-6e39-4782-904a-331f33d7ca8b",
-                },
-                ["_srcBlendFactor"] = 770,
-                ["_type"] = 0,
-                ["node"] = {
-                    ["__id__"] = 2,
-                },
             },
         },
         ["__type__"] = "__js_array__",
@@ -9015,4 +9196,4 @@ local assetsdb = {
     },
 }
 
-return assetsdb
+return assets
