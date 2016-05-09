@@ -197,19 +197,22 @@ if settings.debug then
     os.exit(1)
 end
 
-local function stripDbPrefix(url)
+local function stripSceneUrl(url)
     if string.sub(url, 1, 12) == "db://assets/" then
         url = string.sub(url, 13)
+    end
+    if string.sub(url, -5) == ".fire" then
+        url = string.sub(url, 1, -6)
     end
     return url
 end
 
 local scenes  = {}
 for _, val in pairs(settings.scenes) do
-    scenes[stripDbPrefix(val.url)] = val.uuid
+    scenes[stripSceneUrl(val.url)] = val.uuid
 end
 
-scenes["__launchSceneUrl"] = stripDbPrefix(settings.launchScene)
+scenes["__launchSceneUrl"] = stripSceneUrl(settings.launchScene)
 dumpToLuaFile(outdir .. "/src/assets/scenes.lua", "scenes", scenes)
 
 -- step 2
@@ -222,6 +225,16 @@ local prefabs = {}
 local function isPrefab(asset)
     return asset.__type__ == "__js_array__"
         and asset.__js_array__[1].__type__ == "cc.Prefab"
+end
+
+local function stripPrefabUrl(url)
+    if string.sub(url, 1, 12) == "db://assets/" then
+        url = string.sub(url, 13)
+    end
+    if string.sub(url, -7) == ".prefab" then
+        url = string.sub(url, 1, -8)
+    end
+    return url
 end
 
 local function getRefUrl(ref)
@@ -240,7 +253,7 @@ for _, key in pairs({"assets", "internal"}) do
                 local asset = loadAssets(builddir, uuid)
                 assets[uuid] = asset
                 if isPrefab(asset) then
-                    prefabs[url] = uuid
+                    prefabs[stripPrefabUrl(url)] = uuid
                 end
             end
         end
