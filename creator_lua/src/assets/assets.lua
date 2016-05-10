@@ -220,6 +220,18 @@ local assets = {
                     ["r"] = 255,
                 },
                 ["_components"] = {
+                    [1] = {
+                        ["__type__"] = "70f2bGvo4dBJrus4YDn4XDa",
+                        ["_enabled"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["bulletPrefab"] = {
+                            ["__uuid__"] = "312048ac-cab4-409f-807b-4d2d653e71bf",
+                        },
+                        ["node"] = {
+                            ["__id__"] = 2,
+                        },
+                    },
                 },
                 ["_contentSize"] = {
                     ["__type__"] = "cc.Size",
@@ -934,11 +946,23 @@ local assets = {
                         },
                         ["_enabled"] = true,
                         ["_fitHeight"] = true,
-                        ["_fitWidth"] = false,
+                        ["_fitWidth"] = true,
                         ["_name"] = "",
                         ["_objFlags"] = 1835008,
                         ["node"] = {
                             ["__id__"] = 3,
+                        },
+                    },
+                    [2] = {
+                        ["__type__"] = "d6021CL93pPIL8nRQ53eHEO",
+                        ["_enabled"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 3,
+                        },
+                        ["shipPrefab"] = {
+                            ["__uuid__"] = "1176f35c-4145-43ee-846c-48c8329f64ec",
                         },
                     },
                 },
@@ -1243,6 +1267,18 @@ local assets = {
                     ["r"] = 255,
                 },
                 ["_components"] = {
+                    [1] = {
+                        ["__type__"] = "70f2bGvo4dBJrus4YDn4XDa",
+                        ["_enabled"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["bulletPrefab"] = {
+                            ["__uuid__"] = "312048ac-cab4-409f-807b-4d2d653e71bf",
+                        },
+                        ["node"] = {
+                            ["__id__"] = 7,
+                        },
+                    },
                 },
                 ["_contentSize"] = {
                     ["__type__"] = "cc.Size",
@@ -1260,8 +1296,8 @@ local assets = {
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
-                    ["x"] = 296,
-                    ["y"] = 377,
+                    ["x"] = 242,
+                    ["y"] = 373,
                 },
                 ["_reorderChildDirty"] = false,
                 ["_rotationX"] = 0,
@@ -1880,6 +1916,15 @@ local assets = {
                         },
                         ["playOnLoad"] = false,
                     },
+                    [3] = {
+                        ["__type__"] = "1c331BKMU9GrLOZYdHgU77g",
+                        ["_enabled"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 2,
+                        },
+                    },
                 },
                 ["_contentSize"] = {
                     ["__type__"] = "cc.Size",
@@ -1959,6 +2004,22 @@ local assets = {
                         },
                         ["_srcBlendFactor"] = 770,
                         ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 2,
+                        },
+                    },
+                    [2] = {
+                        ["__type__"] = "b1386cjbkZPmbhd6eTUv1/r",
+                        ["_enabled"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["boomPrefab"] = {
+                            ["__uuid__"] = "2a951c8d-70f8-4b62-8970-bc653fda47bb",
+                        },
+                        ["g"] = -1000,
+                        ["hittime"] = 0,
+                        ["hitx"] = 0,
+                        ["hity"] = 0,
                         ["node"] = {
                             ["__id__"] = 2,
                         },
@@ -8298,7 +8359,7 @@ local assets = {
         ["events"] = {
             [1] = {
                 ["frame"] = 0.85,
-                ["func"] = "complete",
+                ["func"] = "playdone",
                 ["params"] = {
                 },
             },

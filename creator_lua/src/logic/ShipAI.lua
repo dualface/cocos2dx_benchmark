@@ -19,7 +19,7 @@ function ShipAI:update(target, dt)
     x = x + self._speed * dt
     target:setPositionX(x)
 
-    if (self._speed < 0 and x < 200) or (self._speed > 0 and x > 1000) then
+    if (self._speed < 0 and x < -400) or (self._speed > 0 and x > 400) then
         self._speed = -self._speed
     end
 

@@ -122,7 +122,7 @@ local _M = {}
 function _M.create(objtype, asset, id, assets)
     local create = factory[objtype]
     if not create then
-        cc.printwarn("[Assets] not supported type '%s'", tostring(objtype))
+        -- cc.printwarn("[Assets] not supported type '%s'", tostring(objtype))
         return nil
     end
     if cc.DEBUG >= DEBUG_VERBOSE then
