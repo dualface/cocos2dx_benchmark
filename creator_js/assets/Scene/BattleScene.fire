@@ -350,7 +350,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "Ship",
+    "_name": "MyShip",
     "_objFlags": 0,
     "_opacity": 255,
     "_color": {
@@ -976,7 +976,7 @@
       "width": 960,
       "height": 640
     },
-    "_fitWidth": false,
+    "_fitWidth": true,
     "_fitHeight": true
   },
   {
