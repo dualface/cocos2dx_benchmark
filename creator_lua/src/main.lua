@@ -41,7 +41,7 @@ local function main()
     local parent = ship:getParent()
     local x, y = ship:getPosition()
 
-    for i = 1, 150 do
+    for i = 1, 300 do
         local moreship = assets:createPrefab("resources/Ship")
         moreship:addComponent(ShipAI.new())
         local ny = y + math.random(-30, 30)

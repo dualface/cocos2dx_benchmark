@@ -3,6 +3,8 @@ local creator = cc.import("creator.init")
 
 local CannonBall01AI = cc.class("CannonBall01AI", creator.ComponentBase)
 
+local setpos = cc.Node.setPosition
+
 function CannonBall01AI:start(target)
     self.hittime = target.hittime
     self.hitx    = target.hitx
@@ -28,7 +30,7 @@ function CannonBall01AI:update(target, dt)
 
     local x = self.x + time * self.ox
     local y = self.y + time * self.oy + self.g * time * time / 2
-    target:setPosition(x, y)
+    setpos(target, x, y)
 
     if time >= self.hittime then
         self.over = true

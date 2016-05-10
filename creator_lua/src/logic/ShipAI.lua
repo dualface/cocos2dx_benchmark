@@ -6,7 +6,6 @@ local CannonBall01AI = cc.import(".CannonBall01AI")
 local ShipAI = cc.class("ShipAI", creator.ComponentBase)
 
 function ShipAI:onLoad(target)
-    self._bullets = {}
     self._lastFire = math.random(0, 20) / 10
     self._fireInterval = math.random(8, 25) / 10
     self._speed = math.random(50, 300) / 10
@@ -39,8 +38,6 @@ function ShipAI:update(target, dt)
         bullet:setPosition(x, y)
         bullet:setLocalZOrder(1000)
         target:getParent():addChild(bullet)
-
-        self._bullets[#self._bullets + 1] = bullet
     else
         self._lastFire = self._lastFire - dt
     end
