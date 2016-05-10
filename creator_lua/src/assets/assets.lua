@@ -870,12 +870,6 @@ local assets = {
                     [1] = {
                         ["__id__"] = 3,
                     },
-                    [2] = {
-                        ["__id__"] = 13,
-                    },
-                    [3] = {
-                        ["__id__"] = 14,
-                    },
                 },
                 ["_color"] = {
                     ["__type__"] = "cc.Color",
@@ -1116,8 +1110,8 @@ local assets = {
                 },
                 ["_position"] = {
                     ["__type__"] = "cc.Vec2",
-                    ["x"] = 0,
-                    ["y"] = 0,
+                    ["x"] = -226,
+                    ["y"] = 1,
                 },
                 ["_reorderChildDirty"] = false,
                 ["_rotationX"] = 0,
@@ -1669,172 +1663,6 @@ local assets = {
                     ["__type__"] = "cc.Vec2",
                     ["x"] = 0,
                     ["y"] = -37,
-                },
-                ["_reorderChildDirty"] = false,
-                ["_rotationX"] = 0,
-                ["_rotationY"] = 0,
-                ["_scaleX"] = 1,
-                ["_scaleY"] = 1,
-                ["_skewX"] = 0,
-                ["_skewY"] = 0,
-                ["_tag"] = -1,
-            },
-            [13] = {
-                ["__type__"] = "cc.Node",
-                ["_active"] = true,
-                ["_anchorPoint"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0.5,
-                    ["y"] = 0.5,
-                },
-                ["_cascadeOpacityEnabled"] = true,
-                ["_children"] = {
-                },
-                ["_color"] = {
-                    ["__type__"] = "cc.Color",
-                    ["a"] = 255,
-                    ["b"] = 255,
-                    ["g"] = 255,
-                    ["r"] = 255,
-                },
-                ["_components"] = {
-                    [1] = {
-                        ["__type__"] = "cc.Sprite",
-                        ["_dstBlendFactor"] = 771,
-                        ["_enabled"] = true,
-                        ["_fillCenter"] = {
-                            ["__type__"] = "cc.Vec2",
-                            ["x"] = 0,
-                            ["y"] = 0,
-                        },
-                        ["_fillRange"] = 0,
-                        ["_fillStart"] = 0,
-                        ["_fillType"] = 0,
-                        ["_isTrimmedMode"] = true,
-                        ["_name"] = "",
-                        ["_objFlags"] = 0,
-                        ["_sizeMode"] = 1,
-                        ["_spriteFrame"] = {
-                            ["__uuid__"] = "89fd1cce-7a09-4691-84bc-f9c505c9e21b",
-                        },
-                        ["_srcBlendFactor"] = 770,
-                        ["_type"] = 0,
-                        ["node"] = {
-                            ["__id__"] = 13,
-                        },
-                    },
-                },
-                ["_contentSize"] = {
-                    ["__type__"] = "cc.Size",
-                    ["height"] = 12,
-                    ["width"] = 12,
-                },
-                ["_globalZOrder"] = 0,
-                ["_id"] = "914dcFCEEtF96j42oZ8qe9g",
-                ["_localZOrder"] = 0,
-                ["_name"] = "CannonBall01",
-                ["_objFlags"] = 0,
-                ["_opacity"] = 255,
-                ["_opacityModifyRGB"] = false,
-                ["_parent"] = {
-                    ["__id__"] = 2,
-                },
-                ["_position"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = -44,
-                    ["y"] = 156,
-                },
-                ["_reorderChildDirty"] = false,
-                ["_rotationX"] = 0,
-                ["_rotationY"] = 0,
-                ["_scaleX"] = 1,
-                ["_scaleY"] = 1,
-                ["_skewX"] = 0,
-                ["_skewY"] = 0,
-                ["_tag"] = -1,
-            },
-            [14] = {
-                ["__type__"] = "cc.Node",
-                ["_active"] = true,
-                ["_anchorPoint"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 0.5,
-                    ["y"] = 0,
-                },
-                ["_cascadeOpacityEnabled"] = true,
-                ["_children"] = {
-                },
-                ["_color"] = {
-                    ["__type__"] = "cc.Color",
-                    ["a"] = 255,
-                    ["b"] = 255,
-                    ["g"] = 255,
-                    ["r"] = 255,
-                },
-                ["_components"] = {
-                    [1] = {
-                        ["__type__"] = "cc.Sprite",
-                        ["_dstBlendFactor"] = 771,
-                        ["_enabled"] = true,
-                        ["_fillCenter"] = {
-                            ["__type__"] = "cc.Vec2",
-                            ["x"] = 0,
-                            ["y"] = 0,
-                        },
-                        ["_fillRange"] = 0,
-                        ["_fillStart"] = 0,
-                        ["_fillType"] = 0,
-                        ["_isTrimmedMode"] = false,
-                        ["_name"] = "",
-                        ["_objFlags"] = 0,
-                        ["_sizeMode"] = 2,
-                        ["_spriteFrame"] = {
-                            ["__uuid__"] = "460c9fe4-542e-4b50-92a6-2bab193453f0",
-                        },
-                        ["_srcBlendFactor"] = 770,
-                        ["_type"] = 0,
-                        ["node"] = {
-                            ["__id__"] = 14,
-                        },
-                    },
-                    [2] = {
-                        ["__type__"] = "cc.Animation",
-                        ["_clips"] = {
-                            [1] = {
-                                ["__uuid__"] = "fd37c717-1357-4065-8040-466e57b8b06a",
-                            },
-                        },
-                        ["_defaultClip"] = {
-                            ["__uuid__"] = "fd37c717-1357-4065-8040-466e57b8b06a",
-                        },
-                        ["_enabled"] = true,
-                        ["_name"] = "",
-                        ["_objFlags"] = 0,
-                        ["node"] = {
-                            ["__id__"] = 14,
-                        },
-                        ["playOnLoad"] = true,
-                    },
-                },
-                ["_contentSize"] = {
-                    ["__type__"] = "cc.Size",
-                    ["height"] = 52,
-                    ["width"] = 56,
-                },
-                ["_globalZOrder"] = 0,
-                ["_id"] = "e9193qUZt5OdY9PjaPttq2S",
-                ["_localZOrder"] = 0,
-                ["_name"] = "CannonBoom0001",
-                ["_objFlags"] = 0,
-                ["_opacity"] = 255,
-                ["_opacityModifyRGB"] = false,
-                ["_parent"] = {
-                    ["__id__"] = 2,
-                },
-                ["_position"] = {
-                    ["__type__"] = "cc.Vec2",
-                    ["x"] = 434,
-                    ["y"] = 89,
                 },
                 ["_reorderChildDirty"] = false,
                 ["_rotationX"] = 0,
@@ -4688,6 +4516,107 @@ local assets = {
             ["texture"] = "0275e94c-56a7-410f-bd1a-fc7483f7d14a",
         },
     },
+    ["a235110d-cb57-4d04-a556-571bf797e0cc"] = {
+        ["__js_array__"] = {
+            [1] = {
+                ["__type__"] = "cc.Prefab",
+                ["_name"] = "IncreaseHp",
+                ["_objFlags"] = 0,
+                ["data"] = {
+                    ["__id__"] = 2,
+                },
+            },
+            [2] = {
+                ["__type__"] = "cc.Node",
+                ["_active"] = true,
+                ["_anchorPoint"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 0.5,
+                    ["y"] = 0.5,
+                },
+                ["_cascadeOpacityEnabled"] = true,
+                ["_children"] = {
+                },
+                ["_color"] = {
+                    ["__type__"] = "cc.Color",
+                    ["a"] = 255,
+                    ["b"] = 255,
+                    ["g"] = 255,
+                    ["r"] = 255,
+                },
+                ["_components"] = {
+                    [1] = {
+                        ["__type__"] = "cc.Sprite",
+                        ["_dstBlendFactor"] = 771,
+                        ["_enabled"] = true,
+                        ["_fillCenter"] = {
+                            ["__type__"] = "cc.Vec2",
+                            ["x"] = 0,
+                            ["y"] = 0,
+                        },
+                        ["_fillRange"] = 0,
+                        ["_fillStart"] = 0,
+                        ["_fillType"] = 0,
+                        ["_isTrimmedMode"] = false,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["_sizeMode"] = 2,
+                        ["_spriteFrame"] = {
+                            ["__uuid__"] = "56c9e70d-60a3-4a2e-937c-bae6b0f764e4",
+                        },
+                        ["_srcBlendFactor"] = 770,
+                        ["_type"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 2,
+                        },
+                    },
+                    [2] = {
+                        ["__type__"] = "cc.Animation",
+                        ["_clips"] = {
+                            [1] = {
+                                ["__uuid__"] = "c0c3a914-41e3-4e5e-99f8-1ac4793b38b1",
+                            },
+                        },
+                        ["_defaultClip"] = {
+                            ["__uuid__"] = "c0c3a914-41e3-4e5e-99f8-1ac4793b38b1",
+                        },
+                        ["_enabled"] = true,
+                        ["_name"] = "",
+                        ["_objFlags"] = 0,
+                        ["node"] = {
+                            ["__id__"] = 2,
+                        },
+                        ["playOnLoad"] = true,
+                    },
+                },
+                ["_contentSize"] = {
+                    ["__type__"] = "cc.Size",
+                    ["height"] = 90,
+                    ["width"] = 72,
+                },
+                ["_globalZOrder"] = 0,
+                ["_localZOrder"] = 0,
+                ["_name"] = "IncreaseHp",
+                ["_objFlags"] = 0,
+                ["_opacity"] = 255,
+                ["_opacityModifyRGB"] = false,
+                ["_position"] = {
+                    ["__type__"] = "cc.Vec2",
+                    ["x"] = 88,
+                    ["y"] = -151,
+                },
+                ["_reorderChildDirty"] = false,
+                ["_rotationX"] = 0,
+                ["_rotationY"] = 0,
+                ["_scaleX"] = 1,
+                ["_scaleY"] = 1,
+                ["_skewX"] = 0,
+                ["_skewY"] = 0,
+                ["_tag"] = -1,
+            },
+        },
+        ["__type__"] = "__js_array__",
+    },
     ["a35b95b8-08c9-4e7f-a075-39c271d4e285"] = {
         ["__type__"] = "cc.SpriteFrame",
         ["content"] = {
@@ -4907,6 +4836,193 @@ local assets = {
             ["rotated"] = 1,
             ["texture"] = "64044f48-5480-477b-a000-81332e37b8fd",
         },
+    },
+    ["c0c3a914-41e3-4e5e-99f8-1ac4793b38b1"] = {
+        ["__type__"] = "cc.AnimationClip",
+        ["_duration"] = 0.7,
+        ["_name"] = "IncreaseHp",
+        ["_objFlags"] = 0,
+        ["curveData"] = {
+            ["comps"] = {
+                ["cc.Sprite"] = {
+                    ["spriteFrame"] = {
+                        [1] = {
+                            ["frame"] = 0,
+                            ["value"] = {
+                                ["__uuid__"] = "56c9e70d-60a3-4a2e-937c-bae6b0f764e4",
+                            },
+                        },
+                        [2] = {
+                            ["frame"] = 0.025,
+                            ["value"] = {
+                                ["__uuid__"] = "fcf72fad-22ad-4cc9-abcc-d23882905339",
+                            },
+                        },
+                        [3] = {
+                            ["frame"] = 0.05,
+                            ["value"] = {
+                                ["__uuid__"] = "8bdb7171-42a2-4fa9-ae09-2ecf28201286",
+                            },
+                        },
+                        [4] = {
+                            ["frame"] = 0.075,
+                            ["value"] = {
+                                ["__uuid__"] = "a5177baa-6ce4-4021-9b3b-bbed6a1616d5",
+                            },
+                        },
+                        [5] = {
+                            ["frame"] = 0.1,
+                            ["value"] = {
+                                ["__uuid__"] = "c27e0e73-d717-4308-8d1c-b3561f98321a",
+                            },
+                        },
+                        [6] = {
+                            ["frame"] = 0.125,
+                            ["value"] = {
+                                ["__uuid__"] = "6643344c-d8f9-40d2-9e0c-1bb0cfe3ba2c",
+                            },
+                        },
+                        [7] = {
+                            ["frame"] = 0.15,
+                            ["value"] = {
+                                ["__uuid__"] = "713ccf60-de0f-4edc-b692-a115e31c151f",
+                            },
+                        },
+                        [8] = {
+                            ["frame"] = 0.175,
+                            ["value"] = {
+                                ["__uuid__"] = "d0725108-28a5-4bcf-98aa-6718f85c257f",
+                            },
+                        },
+                        [9] = {
+                            ["frame"] = 0.2,
+                            ["value"] = {
+                                ["__uuid__"] = "1f3de62e-4a93-401c-867e-28c4c014315d",
+                            },
+                        },
+                        [10] = {
+                            ["frame"] = 0.225,
+                            ["value"] = {
+                                ["__uuid__"] = "9df8c79e-2667-49f3-ae87-985ceaa8f38a",
+                            },
+                        },
+                        [11] = {
+                            ["frame"] = 0.25,
+                            ["value"] = {
+                                ["__uuid__"] = "c0c707d5-f30f-4cf0-aa1f-731ce8d408cf",
+                            },
+                        },
+                        [12] = {
+                            ["frame"] = 0.275,
+                            ["value"] = {
+                                ["__uuid__"] = "37774c07-029e-470f-9114-e5a5be58f2b3",
+                            },
+                        },
+                        [13] = {
+                            ["frame"] = 0.3,
+                            ["value"] = {
+                                ["__uuid__"] = "682ec328-4b50-4e35-9ae8-7f5a45a5d527",
+                            },
+                        },
+                        [14] = {
+                            ["frame"] = 0.325,
+                            ["value"] = {
+                                ["__uuid__"] = "e06097dd-77b5-4a5f-b1f0-a5c90a3822f8",
+                            },
+                        },
+                        [15] = {
+                            ["frame"] = 0.35,
+                            ["value"] = {
+                                ["__uuid__"] = "9bd1dc45-61ad-4665-9b3e-d00bf8190a79",
+                            },
+                        },
+                        [16] = {
+                            ["frame"] = 0.375,
+                            ["value"] = {
+                                ["__uuid__"] = "106260a3-9f30-4137-92d2-23abb8f11190",
+                            },
+                        },
+                        [17] = {
+                            ["frame"] = 0.4,
+                            ["value"] = {
+                                ["__uuid__"] = "c9aabfdb-7aa0-4131-9314-8204edce058c",
+                            },
+                        },
+                        [18] = {
+                            ["frame"] = 0.425,
+                            ["value"] = {
+                                ["__uuid__"] = "41de235d-b11a-4ed0-8c01-aa511865507b",
+                            },
+                        },
+                        [19] = {
+                            ["frame"] = 0.45,
+                            ["value"] = {
+                                ["__uuid__"] = "0325257e-1804-47fd-9213-bc43cf88da6c",
+                            },
+                        },
+                        [20] = {
+                            ["frame"] = 0.475,
+                            ["value"] = {
+                                ["__uuid__"] = "3d197b06-7847-4fcd-a778-19eef841dc4f",
+                            },
+                        },
+                        [21] = {
+                            ["frame"] = 0.5,
+                            ["value"] = {
+                                ["__uuid__"] = "fdd7745e-ff9e-4b30-b45b-d87368d52c2a",
+                            },
+                        },
+                        [22] = {
+                            ["frame"] = 0.525,
+                            ["value"] = {
+                                ["__uuid__"] = "f791b3ee-0480-44ba-83ad-d24644b99d02",
+                            },
+                        },
+                        [23] = {
+                            ["frame"] = 0.55,
+                            ["value"] = {
+                                ["__uuid__"] = "2816c3dd-573d-481f-b039-4017dfe6dc83",
+                            },
+                        },
+                        [24] = {
+                            ["frame"] = 0.575,
+                            ["value"] = {
+                                ["__uuid__"] = "f8ddba0e-93f0-4bf0-afc7-a7d43ad29330",
+                            },
+                        },
+                        [25] = {
+                            ["frame"] = 0.6,
+                            ["value"] = {
+                                ["__uuid__"] = "70acc76a-aebc-4ca4-b0b4-05dd45632096",
+                            },
+                        },
+                        [26] = {
+                            ["frame"] = 0.625,
+                            ["value"] = {
+                                ["__uuid__"] = "76929835-9657-4f8e-ac6b-ea223f0a6c80",
+                            },
+                        },
+                        [27] = {
+                            ["frame"] = 0.65,
+                            ["value"] = {
+                                ["__uuid__"] = "27878e89-ab92-48da-8346-5bf42a0b7cde",
+                            },
+                        },
+                        [28] = {
+                            ["frame"] = 0.675,
+                            ["value"] = {
+                                ["__uuid__"] = "34ed707b-4dbc-4212-be7d-1cc8d6349a9f",
+                            },
+                        },
+                    },
+                },
+            },
+        },
+        ["events"] = {
+        },
+        ["sample"] = 40,
+        ["speed"] = 1,
+        ["wrapMode"] = 2,
     },
     ["c0c707d5-f30f-4cf0-aa1f-731ce8d408cf"] = {
         ["__type__"] = "cc.SpriteFrame",

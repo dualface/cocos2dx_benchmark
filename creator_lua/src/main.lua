@@ -38,6 +38,18 @@ local function main()
     local ship = creator.find(scene, "MyShip")
     ship:addComponent(ShipAI.new())
 
+    local parent = ship:getParent()
+    local x, y = ship:getPosition()
+
+    for i = 1, 150 do
+        local moreship = assets:createPrefab("resources/Ship")
+        moreship:addComponent(ShipAI.new())
+        local ny = y + math.random(-30, 30)
+        moreship:setPosition(math.random(200, 1000), ny)
+        moreship:setLocalZOrder(y - ny)
+        parent:addChild(moreship)
+    end
+
     _cleanmem()
 end
 

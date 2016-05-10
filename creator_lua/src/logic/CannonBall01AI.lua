@@ -38,8 +38,9 @@ end
 
 function CannonBall01AI:boom(target, x, y)
     local assets = creator.getAssets()
-    local boom = assets:createPrefab("Prefab/CannonBoom0001")
+    local boom = assets:createPrefab("resources/CannonBoom0001")
     boom:setPosition(x, y)
+    boom:setLocalZOrder(2000)
     boom:trackComponents()
 
     local animation = boom:getComponent("cc.Animation")

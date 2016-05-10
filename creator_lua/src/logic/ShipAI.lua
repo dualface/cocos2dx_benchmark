@@ -7,9 +7,12 @@ local ShipAI = cc.class("ShipAI", creator.ComponentBase)
 
 function ShipAI:onLoad(target)
     self._bullets = {}
-    self._lastFire = 0
-    self._fireInterval = 0.1
-    self._speed = 20.0
+    self._lastFire = math.random(0, 20) / 10
+    self._fireInterval = math.random(8, 25) / 10
+    self._speed = math.random(50, 300) / 10
+    if math.random(1, 100) % 2 == 0 then
+        self._speed = -self._speed
+    end
 end
 
 function ShipAI:update(target, dt)
@@ -17,26 +20,30 @@ function ShipAI:update(target, dt)
     x = x + self._speed * dt
     target:setPositionX(x)
 
+    if (self._speed < 0 and x < 200) or (self._speed > 0 and x > 1000) then
+        self._speed = -self._speed
+    end
+
     if self._lastFire <= 0 then
+        self._fireInterval = math.random(8, 25) / 10
         self._lastFire = self._fireInterval
 
         local assets = creator.getAssets()
-        local bullet = assets:createPrefab("Prefab/CannonBall01")
-        bullet.hittime = math.random(75, 85) / 100
-        bullet.hitx = x + math.random(-100, 150)
-        bullet.hity = y - math.random(50, 90)
+        local bullet = assets:createPrefab("resources/CannonBall01")
+        bullet.hittime = math.random(75, 135) / 100
+        bullet.hitx = x + math.random(-200, 200)
+        bullet.hity = y - math.random(50, 200)
         bullet:addComponent(CannonBall01AI.new())
         bullet:trackComponents()
 
         bullet:setPosition(x, y)
+        bullet:setLocalZOrder(1000)
         target:getParent():addChild(bullet)
 
         self._bullets[#self._bullets + 1] = bullet
     else
         self._lastFire = self._lastFire - dt
     end
-
-
 end
 
 return ShipAI
