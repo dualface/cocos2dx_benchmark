@@ -1,7 +1,7 @@
 
 -- Convert Creator JS project to Lua
 
-local json = require "json_pure_lua"
+local json = require "cjson"
 local dumpval = require "dumpval"
 
 local _error = error
@@ -148,7 +148,7 @@ local function loadAssets(builddir, uuid)
     local pattern = "%s/res/import/%s/%s.json"
     local path = string.format(pattern, builddir, string.sub(uuid, 1, 2), uuid)
     local contents = readfile(path)
-    local val = json.parse(contents)
+    local val = json.decode(contents)
     removeNullFromJson(val)
     convertId(val)
 
@@ -171,6 +171,12 @@ local function dumpToLuaFile(filename, varname, var)
     contents = table.concat(lines, "\n")
     writefile(filename, contents)
     validateLuaFile(filename)
+
+    contents = json.encode(var)
+    if string.sub(filename, -4) == ".lua" then
+        filename = string.sub(filename, 1, -5) .. ".json"
+    end
+    writefile(filename, contents)
 end
 
 ----
@@ -191,7 +197,8 @@ mkdir(outdir)
 -- step 1
 -- convert settings.js to settings.lua
 local contents = readfile(builddir .. "/src/settings.js")
-local settings = json.parse(string.gsub(contents, "_CCSettings[ ]*=[ ]*{", "{"))
+contents = string.gsub(contents, "_CCSettings[ ]*=[ ]*{", "{")
+local settings = json.decode(contents)
 if settings.debug then
     print("STOP: do not export project with DEBUG mode")
     os.exit(1)
