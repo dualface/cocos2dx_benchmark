@@ -94,7 +94,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 30
+        "__id__": 31
+      },
+      {
+        "__id__": 32
       }
     ],
     "_prefab": null
@@ -156,7 +159,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 29
+        "__id__": 30
       }
     ],
     "_prefab": null
@@ -347,7 +350,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "MyShip",
+    "_name": "Ship",
     "_objFlags": 0,
     "_opacity": 255,
     "_color": {
@@ -394,8 +397,8 @@
     "_scaleY": 1,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": 296,
-      "y": 377
+      "x": 242,
+      "y": 373
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -404,11 +407,15 @@
     "_tag": -1,
     "_opacityModifyRGB": false,
     "_reorderChildDirty": false,
-    "_id": "5f58eszey5A64xG11GIFNYc",
+    "_id": "1a12cVD5YpGY5zGKuFxrMpq",
     "_active": true,
-    "_components": [],
+    "_components": [
+      {
+        "__id__": 28
+      }
+    ],
     "_prefab": {
-      "__id__": 28
+      "__id__": 29
     }
   },
   {
@@ -454,7 +461,7 @@
     "_tag": -1,
     "_opacityModifyRGB": false,
     "_reorderChildDirty": false,
-    "_id": "2c3d4ev2fNO/q6reZeJSk4f",
+    "_id": "4c6f3oUfzBMjrnaHR6yV9+K",
     "_active": true,
     "_components": [
       {
@@ -522,7 +529,7 @@
     "asset": {
       "__uuid__": "1176f35c-4145-43ee-846c-48c8329f64ec"
     },
-    "fileId": "921ed2m46dAQIiQY2HGBbCB"
+    "fileId": "05bc7bUgdpEaqhMtTjO7WsY"
   },
   {
     "__type__": "cc.Node",
@@ -567,7 +574,7 @@
     "_tag": -1,
     "_opacityModifyRGB": false,
     "_reorderChildDirty": false,
-    "_id": "eb6c7rZCi5C/4JVraRJvTZe",
+    "_id": "7b1eaKh6FlIv5T9N8qnZLfq",
     "_active": true,
     "_components": [
       {
@@ -614,7 +621,7 @@
     "asset": {
       "__uuid__": "1176f35c-4145-43ee-846c-48c8329f64ec"
     },
-    "fileId": "09ba8mZ0Z5O9ZItZQY/QJbS"
+    "fileId": "6abf03h25hENIScKt2oK2qw"
   },
   {
     "__type__": "cc.Node",
@@ -659,7 +666,7 @@
     "_tag": -1,
     "_opacityModifyRGB": false,
     "_reorderChildDirty": false,
-    "_id": "077586FyzdCnovGpG7ES1ZJ",
+    "_id": "02ad4t802JAPLI4bC0R5zZT",
     "_active": true,
     "_components": [
       {
@@ -706,7 +713,7 @@
     "asset": {
       "__uuid__": "1176f35c-4145-43ee-846c-48c8329f64ec"
     },
-    "fileId": "8054aIc5bhLqroKn9eaGzWa"
+    "fileId": "8e274zd4x9LVYWn2prG5w+d"
   },
   {
     "__type__": "cc.Node",
@@ -751,7 +758,7 @@
     "_tag": -1,
     "_opacityModifyRGB": false,
     "_reorderChildDirty": false,
-    "_id": "c73d6XdMV5LyqOnUTopSMzK",
+    "_id": "67b36WZKCNHobDpDFVpBFoM",
     "_active": true,
     "_components": [
       {
@@ -798,7 +805,7 @@
     "asset": {
       "__uuid__": "1176f35c-4145-43ee-846c-48c8329f64ec"
     },
-    "fileId": "73f3d+DgNVBppMOcSx65C8G"
+    "fileId": "174a0DSC/1KiZhDy8MH97cs"
   },
   {
     "__type__": "cc.Node",
@@ -843,7 +850,7 @@
     "_tag": -1,
     "_opacityModifyRGB": false,
     "_reorderChildDirty": false,
-    "_id": "9ea768Q5nlLbpIOeWRBTv9g",
+    "_id": "a6d9aUwChxC/pznJEaTnFgH",
     "_active": true,
     "_components": [
       {
@@ -911,7 +918,19 @@
     "asset": {
       "__uuid__": "1176f35c-4145-43ee-846c-48c8329f64ec"
     },
-    "fileId": "d9528qtMQhIlawoM24+IVqi"
+    "fileId": "3f1f6gpwkhKwoIAG4vDeS8Z"
+  },
+  {
+    "__type__": "70f2bGvo4dBJrus4YDn4XDa",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 10
+    },
+    "_enabled": true,
+    "bulletPrefab": {
+      "__uuid__": "312048ac-cab4-409f-807b-4d2d653e71bf"
+    }
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -921,7 +940,7 @@
     "asset": {
       "__uuid__": "1176f35c-4145-43ee-846c-48c8329f64ec"
     },
-    "fileId": "6c92b+MIwVIrKu7KVh4UnMQ"
+    "fileId": "36fc6zjXSZGAbqh7y0PuCFW"
   },
   {
     "__type__": "cc.Widget",
@@ -959,5 +978,17 @@
     },
     "_fitWidth": false,
     "_fitHeight": true
+  },
+  {
+    "__type__": "d6021CL93pPIL8nRQ53eHEO",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "shipPrefab": {
+      "__uuid__": "1176f35c-4145-43ee-846c-48c8329f64ec"
+    }
   }
 ]

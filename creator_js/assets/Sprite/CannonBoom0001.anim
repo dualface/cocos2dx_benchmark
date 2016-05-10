@@ -125,7 +125,7 @@
   "events": [
     {
       "frame": 0.85,
-      "func": "complete",
+      "func": "playdone",
       "params": []
     }
   ]
