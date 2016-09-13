@@ -14,11 +14,12 @@ class Game {
         document.body.appendChild(this.countLabel);
 
         var self = this;
-        document.body.style.cssText = 'cursor: pointer;';
-        document.body.addEventListener('touchstart', function(event) {
+        var view = this.director.getRenderer().view;
+        view.style.cssText = 'cursor: pointer;';
+        view.addEventListener('touchstart', function(event) {
             self.addStars(self.starsCountOffset);
         }, false );
-        document.body.addEventListener('click', function(event) {
+        view.addEventListener('click', function(event) {
             self.addStars(self.starsCountOffset);
         }, false );
     }
