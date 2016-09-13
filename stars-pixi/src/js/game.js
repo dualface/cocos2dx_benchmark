@@ -40,10 +40,11 @@ class Game {
 
         this.offsetCount = 60;
         this.offsets = [];
-        for (var i = 0; i < 60; i++) {
+        var roundStep = 360 / this.offsetCount;
+        for (var i = 0; i < this.offsetCount; i++) {
             this.offsets[i] = {
-                x: Math.sin(i * 6 * Math.PI / 180) * 4,
-                y: Math.cos(i * 6 * Math.PI / 180) * 4
+                x: Math.sin(i * roundStep * Math.PI / 180) * 4,
+                y: Math.cos(i * roundStep * Math.PI / 180) * 4
             };
         }
 
@@ -76,28 +77,29 @@ class Game {
 
     update(dt) {
         var count = this.stars.length;
+        var offsetCount = this.offsetCount;
+        var star, pos, offset;
+
         for (var i = 0; i < count; i++) {
-            this.updateStar(this.stars[i]);
+            star = this.stars[i];
+
+            pos = star.pos;
+            offset = this.offsets[pos.i];
+
+            pos.i++;
+            pos.i %= offsetCount;
+            pos.o += pos.oi;
+            if (pos.o > 1) {
+                pos.o = 1;
+                pos.oi = -pos.oi;
+            } else if (pos.o < 0) {
+                pos.o = 0;
+                pos.oi = -pos.oi;
+            }
+
+            star.position.set(pos.x + offset.x, pos.y + offset.y);
+            star.alpha = pos.o;
         }
-    }
-
-    updateStar(star) {
-        var pos = star.pos;
-        var offset = this.offsets[pos.i];
-
-        pos.i++;
-        pos.i %= this.offsetCount;
-        pos.o += pos.oi;
-        if (pos.o > 1) {
-            pos.o = 1;
-            pos.oi = -pos.oi;
-        } else if (pos.o < 0) {
-            pos.o = 0;
-            pos.oi = -pos.oi;
-        }
-
-        star.position.set(pos.x + offset.x, pos.y + offset.y);
-        star.alpha = pos.o;
     }
 }
 
